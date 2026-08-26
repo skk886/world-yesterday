@@ -1,0 +1,38 @@
+---
+import { categoryLabels, type NewsItem } from "../lib/schema";
+type Props = { item: NewsItem };
+const { item } = Astro.props;
+const category = categoryLabels[item.category];
+const sourceTypeLabel = { primary: "一手来源", "independent-media": "独立媒体", "state-media": "国家媒体" } as const;
+---
+
+<article class="news-card" data-category={item.category} data-verification={item.verificationStatus}>
+  <div class="news-card__index">{String(item.rank).padStart(2, "0")}</div>
+  <section class="news-card__column" lang="zh-CN">
+    <div class="news-card__eyebrow">
+      <span>{category.zh}</span>
+      <span class:list={["status-pill", item.verificationStatus === "verified" ? "status-pill--verified" : "status-pill--pending"]}>{item.verificationStatus === "verified" ? "已核验" : "待核实"}</span>
+    </div>
+    <h3>{item.titles.zh}</h3>
+    <p class="news-card__summary">{item.summaries.zh}</p>
+    <p class="news-card__why"><strong>为何重要</strong><br />{item.whyItMatters.zh}</p>
+    {item.pendingReason && <p class="news-card__pending">待核实：{item.pendingReason.zh}</p>}
+  </section>
+  <section class="news-card__column" lang="en">
+    <div class="news-card__eyebrow"><span>{category.en}</span><span>{item.regions.join(" · ")}</span></div>
+    <h3>{item.titles.en}</h3>
+    <p class="news-card__summary">{item.summaries.en}</p>
+    <p class="news-card__why"><strong>Why it matters</strong><br />{item.whyItMatters.en}</p>
+    {item.pendingReason && <p class="news-card__pending">Pending: {item.pendingReason.en}</p>}
+  </section>
+  <div class="news-card__sources">
+    <span>原题：{item.originalTitle}</span>
+    {item.sources.map((source) => (
+      <>
+        <a class="source-link" href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a>
+        <span class="source-type">{sourceTypeLabel[source.type]}</span>
+      </>
+    ))}
+    <time datetime={item.updatedAt}>核验 {new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }).format(new Date(item.updatedAt))}</time>
+  </div>
+</article>

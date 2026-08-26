@@ -1,0 +1,17 @@
+---
+type Props = { expectedDate: string; latestDate?: string; generatedAt?: string; missingDates?: string[] };
+const { expectedDate, latestDate, generatedAt, missingDates = [] } = Astro.props;
+const isCurrent = latestDate === expectedDate;
+const generatedLabel = generatedAt
+  ? new Intl.DateTimeFormat("zh-CN", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Shanghai" }).format(new Date(generatedAt))
+  : "尚未生成";
+---
+
+<div class="status-strip" data-state={isCurrent ? "current" : "stale"} role="status">
+  <span class="status-strip__mark" aria-hidden="true"></span>
+  <div>
+    <strong>{isCurrent ? "已更新至最近完整日" : "当前不是最近完整日"}</strong>
+    <span class="status-strip__detail">{latestDate ? ` · 当前 ${latestDate}` : " · 暂无正式日报"}{missingDates.length ? ` · 待补 ${missingDates.length} 期` : ""}</span>
+  </div>
+  <div class="status-strip__date">目标 {expectedDate} · 实际更新 {generatedLabel}</div>
+</div>

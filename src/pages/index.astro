@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import StatusStrip from "../components/StatusStrip.astro";
+import EditionView from "../components/EditionView.astro";
+import EmptyState from "../components/EmptyState.astro";
+import { getMissingEditionDates, getSiteFreshness, loadEditions } from "../lib/data";
+const editions = loadEditions();
+const latest = editions[0];
+const freshness = getSiteFreshness(editions);
+const missingDates = getMissingEditionDates(editions);
+const demoMode = process.env.DEMO_CONTENT === "true";
+---
+<BaseLayout current="latest">
+  {demoMode && <div class="demo-banner">版面检查模式 · DEMO CONTENT · 不会进入正式构建</div>}
+  <StatusStrip expectedDate={freshness.expectedDate} latestDate={freshness.latestDate} generatedAt={latest?.generatedAt} missingDates={missingDates} />
+  {latest ? <EditionView edition={latest} /> : <EmptyState expectedDate={freshness.expectedDate} />}
+</BaseLayout>

@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "domain": "reuters.com",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "business", "technology", "society", "health", "climate"],
+      "feeds": []
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "domain": "apnews.com",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "business", "technology", "science", "society", "health", "climate", "culture-sports"],
+      "feeds": []
+    },
+    {
+      "id": "bbc",
+      "name": "BBC News",
+      "domain": "bbc.com",
+      "aliases": ["bbc.co.uk"],
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "technology", "science", "society", "health", "climate"],
+      "feeds": [
+        "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "https://feeds.bbci.co.uk/news/technology/rss.xml",
+        "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+      ]
+    },
+    {
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "domain": "dw.com",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "business", "society", "climate"],
+      "feeds": ["https://rss.dw.com/rdf/rss-en-top"]
+    },
+    {
+      "id": "france24",
+      "name": "France 24",
+      "domain": "france24.com",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "business", "society", "climate"],
+      "feeds": ["https://www.france24.com/en/rss"]
+    },
+    {
+      "id": "al-jazeera",
+      "name": "Al Jazeera",
+      "domain": "aljazeera.com",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "business", "society", "climate"],
+      "feeds": ["https://www.aljazeera.com/xml/rss/all.xml"]
+    },
+    {
+      "id": "nhk",
+      "name": "NHK",
+      "domain": "nhk.or.jp",
+      "aliases": [],
+      "tier": "B",
+      "type": "independent-media",
+      "language": "ja",
+      "categories": ["world", "technology", "science", "society"],
+      "feeds": ["https://www3.nhk.or.jp/rss/news/cat0.xml"]
+    },
+    {
+      "id": "cna",
+      "name": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "business", "technology", "society"],
+      "feeds": ["https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml"]
+    },
+    {
+      "id": "abc-au",
+      "name": "ABC News Australia",
+      "domain": "abc.net.au",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "science", "society", "health", "climate"],
+      "feeds": ["https://www.abc.net.au/news/feed/51120/rss.xml"]
+    },
+    {
+      "id": "cbc",
+      "name": "CBC News",
+      "domain": "cbc.ca",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "business", "technology", "science", "society", "health", "climate"],
+      "feeds": ["https://www.cbc.ca/cmlink/rss-world"]
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "domain": "ft.com",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "business", "technology", "climate"],
+      "feeds": []
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "domain": "bloomberg.com",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["world", "business", "technology", "climate"],
+      "feeds": []
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "domain": "nature.com",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["science", "health", "climate", "technology"],
+      "feeds": ["https://www.nature.com/nature.rss"]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "domain": "science.org",
+      "tier": "B",
+      "type": "independent-media",
+      "language": "en",
+      "categories": ["science", "health", "climate", "technology"],
+      "feeds": ["https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"]
+    },
+    {
+      "id": "un-news",
+      "name": "UN News",
+      "domain": "news.un.org",
+      "tier": "A",
+      "type": "primary",
+      "language": "en",
+      "categories": ["world", "society", "health", "climate"],
+      "feeds": ["https://news.un.org/feed/subscribe/en/news/all/rss.xml"]
+    },
+    {
+      "id": "who",
+      "name": "World Health Organization",
+      "domain": "who.int",
+      "tier": "A",
+      "type": "primary",
+      "language": "en",
+      "categories": ["health", "science", "society"],
+      "feeds": ["https://www.who.int/rss-feeds/news-english.xml"]
+    },
+    {
+      "id": "nasa",
+      "name": "NASA",
+      "domain": "nasa.gov",
+      "tier": "A",
+      "type": "primary",
+      "language": "en",
+      "categories": ["science", "technology", "climate"],
+      "feeds": ["https://www.nasa.gov/feed/"]
+    },
+    {
+      "id": "esa",
+      "name": "European Space Agency",
+      "domain": "esa.int",
+      "tier": "A",
+      "type": "primary",
+      "language": "en",
+      "categories": ["science", "technology", "climate"],
+      "feeds": ["https://www.esa.int/rssfeed/Our_Activities"]
+    },
+    {
+      "id": "imf",
+      "name": "International Monetary Fund",
+      "domain": "imf.org",
+      "tier": "A",
+      "type": "primary",
+      "language": "en",
+      "categories": ["business", "world", "society"],
+      "feeds": ["https://www.imf.org/en/News/RSS?Language=ENG"]
+    },
+    {
+      "id": "world-bank",
+      "name": "World Bank",
+      "domain": "worldbank.org",
+      "tier": "A",
+      "type": "primary",
+      "language": "en",
+      "categories": ["business", "world", "society", "climate"],
+      "feeds": []
+    },
+    {
+      "id": "oecd",
+      "name": "OECD",
+      "domain": "oecd.org",
+      "tier": "A",
+      "type": "primary",
+      "language": "en",
+      "categories": ["business", "world", "society", "climate"],
+      "feeds": []
+    },
+    {
+      "id": "eu-commission",
+      "name": "European Commission",
+      "domain": "ec.europa.eu",
+      "tier": "A",
+      "type": "primary",
+      "language": "en",
+      "categories": ["world", "business", "technology", "society", "health", "climate"],
+      "feeds": []
+    },
+    {
+      "id": "us-sec",
+      "name": "U.S. Securities and Exchange Commission",
+      "domain": "sec.gov",
+      "tier": "A",
+      "type": "primary",
+      "language": "en",
+      "categories": ["business", "technology", "society"],
+      "feeds": []
+    },
+    {
+      "id": "xinhua",
+      "name": "Xinhua News Agency",
+      "domain": "news.cn",
+      "tier": "B",
+      "type": "state-media",
+      "language": "zh",
+      "categories": ["world", "business", "technology", "science", "society", "health", "climate", "culture-sports"],
+      "feeds": []
+    },
+    {
+      "id": "tass",
+      "name": "TASS",
+      "domain": "tass.com",
+      "tier": "B",
+      "type": "state-media",
+      "language": "en",
+      "categories": ["world", "business", "technology", "science", "society"],
+      "feeds": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+name: Collect daily candidates
+
+on:
+  schedule:
+    # 02:30 Asia/Shanghai. GitHub schedules use UTC and may start late.
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Asia/Shanghai date to collect (YYYY-MM-DD); blank means yesterday"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-candidate-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Collect allowlisted candidates
+        env:
+          REQUESTED_DATE: ${{ inputs.date }}
+        run: |
+          if [ -n "$REQUESTED_DATE" ]; then
+            npm run collect -- --date "$REQUESTED_DATE"
+          else
+            npm run collect
+          fi
+      - run: npm run validate
+      - name: Commit snapshot when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw
+          if git diff --cached --quiet; then
+            echo "No candidate snapshot changes."
+          else
+            SNAPSHOT_DATE=$(git diff --cached --name-only | sed -n 's#data/raw/\([0-9-]*\)\.json#\1#p' | head -n 1)
+            git commit -m "data: collect candidates ${SNAPSHOT_DATE:-manual}"
+            git push
+          fi
+

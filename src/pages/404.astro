@@ -1,0 +1,5 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="页面不存在 · 昨日世界"><section class="empty-state"><div><p class="edition-hero__kicker">404</p><h1>这一页没有进入今天的版面。</h1></div><div class="empty-state__copy"><p>日期可能尚未补齐，或链接已经失效。</p><p><a href={base}>返回最新一期</a></p></div></section></BaseLayout>

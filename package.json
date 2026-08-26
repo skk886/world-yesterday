@@ -1,0 +1,32 @@
+{
+  "name": "world-yesterday",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run validate && astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "collect": "tsx scripts/collect.ts",
+    "validate": "tsx scripts/validate.ts",
+    "controller": "tsx scripts/controller.ts",
+    "controller:dry": "tsx scripts/controller.ts --dry-run",
+    "demo": "cross-env DEMO_CONTENT=true astro dev"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.10",
+    "astro": "^7.2.7",
+    "cross-env": "^10.1.0",
+    "fast-xml-parser": "^5.3.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "vitest": "^4.1.11"
+  }
+}

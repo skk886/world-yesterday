@@ -1,0 +1,11 @@
+---
+const expectedDate = Astro.props.expectedDate as string;
+---
+<section class="empty-state">
+  <div><p class="edition-hero__kicker">Awaiting first edition</p><h1>候选可以自动抵达，判断要等证据齐全。</h1></div>
+  <div class="empty-state__copy">
+    <p>网站骨架已经就绪，但还没有通过核验的正式日报。当前目标内容日期是 <strong>{expectedDate}</strong>。</p>
+    <p>电脑开机联网后，补更控制器会优先处理最近一个完整日；未通过来源规则的内容不会为了凑数而发布。</p>
+    <p>本机检查命令：<code>npm run controller:dry</code></p>
+  </div>
+</section>

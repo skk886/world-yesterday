@@ -1,0 +1,9 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import EditionView from "../components/EditionView.astro";
+import { loadEditions } from "../lib/data";
+export const getStaticPaths = (() => loadEditions().map((edition) => ({ params: { date: edition.date }, props: { edition } }))) satisfies GetStaticPaths;
+const { edition } = Astro.props;
+---
+<BaseLayout title={`${edition.date} · 昨日世界`} current="archive"><EditionView edition={edition} /></BaseLayout>

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "siteName": "昨日世界 / World Yesterday",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-26T04:20:00Z",
+  "timezone": "Asia/Shanghai",
+  "status": "partial",
+  "items": [
+    {
+      "id": "demo-verified-science",
+      "category": "science",
+      "rank": 1,
+      "titles": { "zh": "版面测试：一手科学公告如何出现在双语头条中", "en": "Layout test: how a primary science announcement appears in the bilingual lead" },
+      "originalTitle": "Layout test: primary science announcement",
+      "summaries": {
+        "zh": "这是一条明确标注的版面测试内容，用于检查长标题、中文正文、来源标签和双栏对齐，不代表真实新闻，也不会进入正式网站构建或日期归档。",
+        "en": "This clearly marked synthetic entry is used to inspect long headlines, English body copy, source labels, and alignment across the bilingual columns. It is not a real news report and is loaded only when the local demonstration flag is enabled."
+      },
+      "whyItMatters": { "zh": "真实日报需要在信息密度与长时间阅读的舒适度之间取得平衡。", "en": "A real daily edition must balance information density with comfort during sustained reading." },
+      "sources": [{ "name": "NASA", "url": "https://www.nasa.gov/", "domain": "nasa.gov", "type": "primary", "language": "en", "publishedAt": "2026-08-25T02:00:00Z" }],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-25T02:00:00Z",
+      "updatedAt": "2026-08-26T04:20:00Z",
+      "regions": ["Global"],
+      "impactScore": 91
+    },
+    {
+      "id": "demo-pending-world",
+      "category": "world",
+      "rank": 2,
+      "titles": { "zh": "版面测试：证据不足的事件被移入待核实观察区", "en": "Layout test: an under-corroborated event moves to the pending observations section" },
+      "originalTitle": "Layout test: pending observation",
+      "summaries": {
+        "zh": "第二条演示内容用于检查待核实状态、原因提示、较长英文标题和跨地区标签。正式流程不会把这类内容混入已经完成交叉核验的排行榜。",
+        "en": "The second synthetic entry checks the pending state, its explanation, a longer English headline, and cross-regional labels. In production, an observation like this remains visually separate and never enters the verified impact ranking until its evidence meets the publication rule."
+      },
+      "whyItMatters": { "zh": "把不确定性直接展示给读者，是网站可靠性设计的一部分。", "en": "Showing uncertainty directly is part of the site's reliability design." },
+      "sources": [{ "name": "BBC News", "url": "https://www.bbc.com/news", "domain": "bbc.com", "type": "independent-media", "language": "en", "publishedAt": "2026-08-25T06:00:00Z" }],
+      "verificationStatus": "pending",
+      "pendingReason": { "zh": "尚缺第二个独立白名单来源，当前只作为观察项。", "en": "A second independent allowlisted source is still missing, so this remains an observation." },
+      "publishedAt": "2026-08-25T06:00:00Z",
+      "updatedAt": "2026-08-26T04:20:00Z",
+      "regions": ["Europe", "Asia"],
+      "impactScore": 63
+    }
+  ],
+  "metrics": {
+    "candidateCount": 8,
+    "pagesOpened": 3,
+    "searchGroups": 2,
+    "verifiedCount": 1,
+    "pendingCount": 1,
+    "rejectedCount": 6,
+    "tokenUsage": { "measured": false, "candidateJudgment": 0, "verification": 0, "bilingualGeneration": 0, "contentChecks": 0, "repairReserve": 0, "input": 0, "output": 0, "total": 0 }
+  }
+}
