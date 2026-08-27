@@ -98,7 +98,6 @@ function runCodex(prompt: string, schemaPath: string, outputPath: string, eventP
     throw new Error(`Unsupported CODEX_REASONING_EFFORT: ${reasoningEffort}`);
   }
   const args = [
-    "--search",
     // Daily news generation is self-contained. Loading third-party plugins can
     // trigger marketplace upgrades and add unrelated context/token overhead.
     "--disable", "plugins",
