@@ -216,7 +216,9 @@ export function stripNullObjectFields(value: unknown): unknown {
 
 function buildPrompt(date: string, rawPath: string): string {
   const template = fs.readFileSync(path.join(root, "automation/EDITOR_PROMPT.md"), "utf8");
-  return template.replaceAll("{{DATE}}", date).replaceAll("{{RAW_PATH}}", path.relative(root, rawPath).replace(/\\/g, "/"));
+  const registry = fs.readFileSync(path.join(root, "config/sources.json"), "utf8");
+  const snapshot = fs.readFileSync(rawPath, "utf8");
+  return `${template.replaceAll("{{DATE}}", date)}\n\n<allowlist_registry>\n${registry}\n</allowlist_registry>\n\n<raw_snapshot>\n${snapshot}\n</raw_snapshot>\n`;
 }
 
 function writeMonthlyUsage(date: string): string {
