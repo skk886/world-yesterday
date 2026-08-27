@@ -18,7 +18,7 @@ const href = (route: string) => `${base}${route.replace(/^\//, "")}`;
     <div class="archive-grid">
       {editions.map((edition) => {
         const date = formatEditionDate(edition.date);
-        return <a class="archive-card" href={href(`${edition.date}/`)}><time datetime={edition.date}>{edition.date}</time><h2>{date.zh}</h2><p>{edition.items.length} 个事件 · {edition.metrics.verifiedCount} 已核验 · {edition.metrics.pendingCount} 待核实</p></a>;
+        return <a class="archive-card" href={href(`${edition.date}/`)}><time datetime={edition.date}>{edition.date}</time><h2>{date.zh}</h2><p>{edition.items.length} 个事件 · {edition.metrics.verifiedCount} 已核验 · {edition.metrics.pendingCount} 白名单单源</p></a>;
       })}
     </div>
   ) : <EmptyState expectedDate="尚无归档" />}

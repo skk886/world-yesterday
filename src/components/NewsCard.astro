@@ -12,19 +12,19 @@ const primarySource = item.sources[0];
   <section class="news-card__column" lang="zh-CN">
     <div class="news-card__eyebrow">
       <span>{category.zh}</span>
-      <span class:list={["status-pill", item.verificationStatus === "verified" ? "status-pill--verified" : "status-pill--pending"]}>{item.verificationStatus === "verified" ? "已核验" : "待核实"}</span>
+      <span class:list={["status-pill", item.verificationStatus === "verified" ? "status-pill--verified" : "status-pill--pending"]}>{item.verificationStatus === "verified" ? "已核验" : "白名单单源"}</span>
     </div>
     <h3>{item.titles.zh}</h3>
     <p class="news-card__summary">{item.summaries.zh}</p>
     <p class="news-card__why"><strong>为何重要</strong><br />{item.whyItMatters.zh}</p>
-    {item.pendingReason && <p class="news-card__pending">待核实：{item.pendingReason.zh}</p>}
+    {item.pendingReason && <p class="news-card__pending">尚缺佐证：{item.pendingReason.zh}</p>}
   </section>
   <section class="news-card__column" lang="en">
     <div class="news-card__eyebrow"><span>{category.en}</span><span>{item.regions.join(" · ")}</span></div>
     <h3>{item.titles.en}</h3>
     <p class="news-card__summary">{item.summaries.en}</p>
     <p class="news-card__why"><strong>Why it matters</strong><br />{item.whyItMatters.en}</p>
-    {item.pendingReason && <p class="news-card__pending">Pending: {item.pendingReason.en}</p>}
+    {item.pendingReason && <p class="news-card__pending">Missing corroboration: {item.pendingReason.en}</p>}
   </section>
   <div class="news-card__references">
     <div class="original-headline">

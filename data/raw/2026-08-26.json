@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "date": "2026-08-26",
   "timezone": "Asia/Shanghai",
-  "collectedAt": "2026-08-27T05:58:35.968Z",
+  "collectedAt": "2026-08-27T07:21:25.194Z",
   "window": {
     "start": "2026-08-25T16:00:00.000Z",
     "end": "2026-08-26T15:59:59.999Z"
@@ -29,23 +29,43 @@
       "preliminaryScore": 85
     },
     {
-      "id": "f7eb76f5c8a408c5",
-      "title": "Xbox boss 'thinking about affordability' of next-gen console",
-      "url": "https://www.bbc.co.uk/news/articles/c17jlngexy9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c17jlngexy9o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
+      "id": "887097f45ca5709d",
+      "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
+      "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T15:38:49.000Z",
-      "description": "In an exclusive interview with the BBC, Asha Sharma also discusses giving gamers digital versions of games they own.",
+      "publishedAt": "2026-08-26T00:06:20.000Z",
+      "description": "In a statement to TechCrunch about Malone's departure, OpenAI said it had \"recently reorganized\" its \"infrastructure organization to support the scale and pace of our work.\"",
       "discovery": "rss",
       "categoryHints": [
         "technology"
       ],
       "topic": "digital-infrastructure",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "b69b4dcf308e9074",
+      "title": "Radar makes podcasts searchable — and usable by AI agents",
+      "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:47:28.000Z",
+      "description": "Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
       "preliminaryScore": 85
     },
     {
@@ -69,18 +89,18 @@
       "preliminaryScore": 84
     },
     {
-      "id": "ca5b23124772c98d",
-      "title": "Trump officials threaten Kennedy Center demolition if court blocks renovations",
-      "url": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
+      "id": "e10f32cf819d5eb7",
+      "title": "Court blocks Trump FCC order that could flood broadcast TV with more election ads",
+      "url": "https://arstechnica.com/tech-policy/2026/08/court-blocks-trump-fcc-order-that-could-flood-broadcast-tv-with-more-election-ads/",
+      "canonicalUrl": "https://arstechnica.com/tech-policy/2026/08/court-blocks-trump-fcc-order-that-could-flood-broadcast-tv-with-more-election-ads",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T15:42:45.000Z",
-      "description": "The justice department has also asked for Trump's name to be put back on the building after it was removed in June following a court order.",
+      "publishedAt": "2026-08-26T15:45:07.000Z",
+      "description": "Republicans demanded that parties and fundraising committees be given lowest ad rates.",
       "discovery": "rss",
       "categoryHints": [
         "society"
@@ -89,18 +109,18 @@
       "preliminaryScore": 85
     },
     {
-      "id": "54c904b05054eb16",
-      "title": "From tariffs to French: Trump’s trade war with Canada takes a cultural turn",
-      "url": "https://www.france24.com/en/video/20260826-from-tariffs-to-french-trump-s-trade-war-with-canada-takes-a-cultural-turn",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-from-tariffs-to-french-trump-s-trade-war-with-canada-takes-a-cultural-turn",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
+      "id": "bbf7dcda6d831711",
+      "title": "Micron, the trillion-dollar memory company, refused to replace a crucial drive for current market value until Reddit got mad",
+      "url": "https://www.pcgamer.com/hardware/storage/micron-the-trillion-dollar-memory-company-refused-to-replace-a-crucial-drive-for-current-market-value-until-reddit-got-mad/",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/storage/micron-the-trillion-dollar-memory-company-refused-to-replace-a-crucial-drive-for-current-market-value-until-reddit-got-mad",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T15:00:40.000Z",
-      "description": "A trade war between Canada and the United States is escalating. Canada has announced retaliatory tariffs ranging from 15% to 50% on about $20 billion worth of American goods, after new 50% US tariffs on Canadian products took effect Saturday. But the tit-for-tat over goods has also taken on a cultural and linguistic dimension.",
+      "publishedAt": "2026-08-26T15:10:18.000Z",
+      "description": "'Pushing back actually worked.'",
       "discovery": "rss",
       "categoryHints": [
         "business"
@@ -163,10 +183,50 @@
       "description": "Britain’s royal family posted a video on social media Wednesday of the band of the Buckingham Palace guards playing Dolly Parton’s “9 to 5”, in tribute to the American country music legend who passed away Tuesday aged 80.",
       "discovery": "rss",
       "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "e581f6f8933f00f2",
+      "title": "Ubisoft debuts Player Council platform to expand early game development feedback",
+      "url": "https://www.gamedeveloper.com/business/ubisoft-debuts-player-council-platform-to-expand-early-game-development-feedback",
+      "canonicalUrl": "https://www.gamedeveloper.com/business/ubisoft-debuts-player-council-platform-to-expand-early-game-development-feedback",
+      "sourceId": "game-developer",
+      "sourceName": "Game Developer",
+      "domain": "gamedeveloper.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:50:50.000Z",
+      "description": "Player Council members will be invited to test 'early concepts, prototypes, and live experiences.'",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "game-development",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "012d665033f50cf7",
+      "title": "V&A workers to strike over pay and conditions",
+      "url": "https://www.bbc.co.uk/news/articles/cyvzynlv442o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cyvzynlv442o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T13:50:11.000Z",
+      "description": "Workers at three Victoria and Albert museum sites are due to strike and further staff plan to work to rule.",
+      "discovery": "rss",
+      "categoryHints": [
         "culture-sports"
       ],
       "topic": "culture-sports",
-      "preliminaryScore": 85
+      "preliminaryScore": 83
     },
     {
       "id": "c115a7f71c21705a",
@@ -189,24 +249,44 @@
       "preliminaryScore": 85
     },
     {
-      "id": "68f33cc9f776f412",
-      "title": "Gamescom 2026 highlights gaming industry's strength, AI challenges",
-      "url": "https://www.dw.com/en/gamescom-2026-highlights-gaming-industry-s-strength-ai-challenges/a-78502849?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/gamescom-2026-highlights-gaming-industry-s-strength-ai-challenges/a-78502849?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
+      "id": "d2a2fb21adc8408d",
+      "title": "Smaller reactors bring nuclear power closer to fulfilling its promise",
+      "url": "https://www.nature.com/articles/d41586-026-02506-4",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02506-4",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T11:15:00.000Z",
-      "description": "Gamescom 2026 opens in Cologne as the global gaming industry continues to grow. But rising hardware costs, AI concerns and slowing user growth all pose challenges.",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02506-4 Shadowed by past disasters, nuclear engineers are developing different types of reactor, fuel, coolant and material that could help to make fission the zero-carbon energy technology of choice.",
       "discovery": "rss",
       "categoryHints": [
         "technology"
       ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "4626e26be997b91f",
+      "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
+      "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:00:00.000Z",
+      "description": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
       "topic": "artificial-intelligence",
-      "preliminaryScore": 81
+      "preliminaryScore": 84
     },
     {
       "id": "58dfb62807996aed",
@@ -229,38 +309,38 @@
       "preliminaryScore": 84
     },
     {
-      "id": "6f65c6fb9563c8d9",
-      "title": "Zambia after the polls: A test for democracy in Africa",
-      "url": "https://www.dw.com/en/zambia-after-the-polls-a-test-for-democracy-in-africa/a-78509362?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/zambia-after-the-polls-a-test-for-democracy-in-africa/a-78509362?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
+      "id": "ca5b23124772c98d",
+      "title": "Trump officials threaten Kennedy Center demolition if court blocks renovations",
+      "url": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T11:47:00.000Z",
-      "description": "Zambia's democratic institutions are under scrutiny, as the opposition continues to dispute the election results and courts remain closed. Weeks after the election, Zambia’s election story might be far from over.",
+      "publishedAt": "2026-08-26T15:42:45.000Z",
+      "description": "The justice department has also asked for Trump's name to be put back on the building after it was removed in June following a court order.",
       "discovery": "rss",
       "categoryHints": [
         "society"
       ],
       "topic": "public-policy",
-      "preliminaryScore": 81
+      "preliminaryScore": 85
     },
     {
-      "id": "f6c026255420c8b5",
-      "title": "Dolly Parton, queen of country music, dies at 80",
-      "url": "https://www.france24.com/en/video/20260826-dolly-parton-queen-of-country-music-dies-at-80",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-dolly-parton-queen-of-country-music-dies-at-80",
+      "id": "54c904b05054eb16",
+      "title": "From tariffs to French: Trump’s trade war with Canada takes a cultural turn",
+      "url": "https://www.france24.com/en/video/20260826-from-tariffs-to-french-trump-s-trade-war-with-canada-takes-a-cultural-turn",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-from-tariffs-to-french-trump-s-trade-war-with-canada-takes-a-cultural-turn",
       "sourceId": "france24",
       "sourceName": "France 24",
       "domain": "france24.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T14:59:28.000Z",
-      "description": "Dolly Parton was around six when she wrote her first song: \"Little Tiny Tasseltop,\" an ⁠ode to her corncob doll with ​corn-silk hair. Her mother stored it preciously in a shoebox. Parton never stopped making music after that. The irrepressible country music singer, songwriter and actress whose charisma, heartfelt lyrics and ​business acumen captured the public's imagination for nearly six decades, died on Tuesday aged 80, her family said in a statement.",
+      "publishedAt": "2026-08-26T15:00:40.000Z",
+      "description": "A trade war between Canada and the United States is escalating. Canada has announced retaliatory tariffs ranging from 15% to 50% on about $20 billion worth of American goods, after new 50% US tariffs on Canadian products took effect Saturday. But the tit-for-tat over goods has also taken on a cultural and linguistic dimension.",
       "discovery": "rss",
       "categoryHints": [
         "business"
@@ -309,6 +389,46 @@
       "preliminaryScore": 84
     },
     {
+      "id": "8cfdf5e84f25892d",
+      "title": "Two women accuse former Fat White Family member Saul Adamczewski of physical and emotional abuse",
+      "url": "https://www.theguardian.com/music/2026/aug/26/two-women-accuse-former-fat-white-family-member-saul-adamczweski-physical-emotional-abuse",
+      "canonicalUrl": "https://www.theguardian.com/music/2026/aug/26/two-women-accuse-former-fat-white-family-member-saul-adamczweski-physical-emotional-abuse",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:42:15.000Z",
+      "description": "Insecure Men singer has now been dropped by his record label and had tour dates cancelled after two women shared allegations about his behaviour Saul Adamczewski of Insecure Men and formerly of Fat White Family has been dropped by his record label and had tour dates cancelled after two women shared allegations of physical and emotional abuse against the musician. One woman said that the pair had a short relationship that resulted in a pregnancy, after which, she alleged, Adamczewski “made it his duty to make me suffer. He has been violent, pushed me, thrown glass bottles at me, showered me with beer […] insulted me, taken my passport from me, stolen my money and more, all while I had our baby.” Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "f7eb76f5c8a408c5",
+      "title": "Xbox boss 'thinking about affordability' of next-gen console",
+      "url": "https://www.bbc.co.uk/news/articles/c17jlngexy9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c17jlngexy9o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:38:49.000Z",
+      "description": "In an exclusive interview with the BBC, Asha Sharma also discusses giving gamers digital versions of games they own.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 85
+    },
+    {
       "id": "38f0a3364b2b40c6",
       "title": "Reports: UEFA backs off FIFA boycott threat",
       "url": "https://www.dw.com/en/reports-uefa-backs-off-fifa-boycott-threat/a-78511519?maca=en-rss-en-top-1022-rdf",
@@ -329,30 +449,30 @@
       "preliminaryScore": 83
     },
     {
-      "id": "311daf30090cbc59",
-      "title": "This extremely successful author polarizes German readers",
-      "url": "https://www.dw.com/en/this-extremely-successful-author-polarizes-german-readers/a-78500452?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/this-extremely-successful-author-polarizes-german-readers/a-78500452?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
+      "id": "12eebc023eeb488f",
+      "title": "Maura Higgins to fill Cilla Black's shoes as host of Blind Date reboot",
+      "url": "https://www.bbc.co.uk/news/articles/c3v4knr4xn0o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c3v4knr4xn0o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T15:18:00.000Z",
-      "description": "She's young and she says what she thinks: Caroline Wahl is topping Germany's bestseller lists with her novels. But she has also faced public backlash.",
+      "publishedAt": "2026-08-26T15:29:53.000Z",
+      "description": "The Love Island and Traitors US TV personality will host a reboot of the popular dating show.",
       "discovery": "rss",
       "categoryHints": [
         "world"
       ],
       "topic": "general",
-      "preliminaryScore": 84
+      "preliminaryScore": 85
     },
     {
-      "id": "188aa6b25d6ca746",
-      "title": "Plasma-jet movie is astronomy’s summer blockbuster",
-      "url": "https://www.nature.com/articles/d41586-026-02522-4",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02522-4",
+      "id": "c228b19e5d5cfca8",
+      "title": "Vaporization trick enables ‘tandem’ solar cells to be made at lower temperatures",
+      "url": "https://www.nature.com/articles/d41586-026-02469-6",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02469-6",
       "sourceId": "nature",
       "sourceName": "Nature",
       "domain": "nature.com",
@@ -360,47 +480,67 @@
       "sourceTier": "B",
       "language": "en",
       "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02522-4 Just 116 images exist of the active galaxy 3C 345 — but an AI-driven algorithm has created a highly detailed video of the plasma jets blasted from its centre.",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02469-6 A clever approach for evaporating a compound used to make perovskite semiconductors tackles a vexing challenge in scaling up next-generation solar cells.",
       "discovery": "rss",
       "categoryHints": [
         "technology"
       ],
-      "topic": "artificial-intelligence",
+      "topic": "energy-materials",
       "preliminaryScore": 72
     },
     {
-      "id": "23999dfa7e9fe8e5",
-      "title": "NASA Begins Moon Mission Plume-Surface Interaction Tests",
-      "url": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests/",
-      "canonicalUrl": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "nasa.gov",
-      "sourceType": "primary",
-      "sourceTier": "A",
+      "id": "a64cb1c3f2fc6fe4",
+      "title": "Bill Gates wants to see a robot tax and &#8216;Human Reserved&#8217; jobs to mitigate harms from AI",
+      "url": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T13:58:04.000Z",
-      "description": "EDITOR’S NOTE: This story, originally published in December, was revised Aug. 26, 2026 with an update on a new phase of testing, including video from a recent test run and new images. To help NASA and commercial partners better understand the science of lunar landings, specifically the hazards that may occur when a lander’s engine [&#8230;]",
+      "publishedAt": "2026-08-26T14:37:01.000Z",
+      "description": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "9d5c27ebac0bd5b4",
+      "title": "15,000 years of solar wind in four hours? A Seattle company gives it a go.",
+      "url": "https://arstechnica.com/space/2026/08/15000-years-of-solar-wind-in-four-hours-a-seattle-company-gives-it-a-go/",
+      "canonicalUrl": "https://arstechnica.com/space/2026/08/15000-years-of-solar-wind-in-four-hours-a-seattle-company-gives-it-a-go",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:14:52.000Z",
+      "description": "\"We're living in this world of scarcity with the Moon.\"",
       "discovery": "rss",
       "categoryHints": [
         "science"
       ],
       "topic": "aerospace",
-      "preliminaryScore": 83
+      "preliminaryScore": 84
     },
     {
-      "id": "5e5606b51cf0b71e",
-      "title": "Moscow confirms visit of CIA Director John Ratcliffe",
-      "url": "https://www.dw.com/en/moscow-confirms-visit-of-cia-director-john-ratcliffe/a-78508645?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/moscow-confirms-visit-of-cia-director-john-ratcliffe/a-78508645?maca=en-rss-en-top-1022-rdf",
+      "id": "6f65c6fb9563c8d9",
+      "title": "Zambia after the polls: A test for democracy in Africa",
+      "url": "https://www.dw.com/en/zambia-after-the-polls-a-test-for-democracy-in-africa/a-78509362?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/zambia-after-the-polls-a-test-for-democracy-in-africa/a-78509362?maca=en-rss-en-top-1022-rdf",
       "sourceId": "dw",
       "sourceName": "Deutsche Welle",
       "domain": "dw.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T11:24:00.000Z",
-      "description": "The Russian government said that spy chief John Ratcliffe held talks with counterparts, but not President Vladimir Putin, on his Moscow trip.",
+      "publishedAt": "2026-08-26T11:47:00.000Z",
+      "description": "Zambia's democratic institutions are under scrutiny, as the opposition continues to dispute the election results and courts remain closed. Weeks after the election, Zambia’s election story might be far from over.",
       "discovery": "rss",
       "categoryHints": [
         "society"
@@ -409,24 +549,24 @@
       "preliminaryScore": 81
     },
     {
-      "id": "bde50bd0ab66a16e",
-      "title": "Libyan who was cleared after Lockerbie bombing trial dies aged 70",
-      "url": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
+      "id": "5d6a07a5357604f1",
+      "title": "Here's the Star Wars Zero Company release time for your region",
+      "url": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-release-date-launch-times/",
+      "canonicalUrl": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-release-date-launch-times",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T08:01:56.000Z",
-      "description": "A Facebook post by Libyan Airlines announced the death of Al Amin Khalifah Fhimah and expressed the company's condolences to his family.",
+      "publishedAt": "2026-08-26T13:37:14.000Z",
+      "description": "Get the band together and battle through the Clone Wars.",
       "discovery": "rss",
       "categoryHints": [
         "business"
       ],
       "topic": "economy-finance",
-      "preliminaryScore": 78
+      "preliminaryScore": 83
     },
     {
       "id": "bf4e058514e1622c",
@@ -469,50 +609,71 @@
       "preliminaryScore": 82
     },
     {
-      "id": "a3c1bdeebc352432",
-      "title": "Heart, hope and a steely determination: Dolly Parton's musical legacy",
-      "url": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:32:11.000Z",
-      "description": "BBC music correspondent Mark Savage looks back on the legacy of the \"irreplaceable\" late singer.",
-      "discovery": "rss",
-      "categoryHints": [
-        "culture-sports"
-      ],
-      "topic": "culture-sports",
-      "preliminaryScore": 81
-    },
-    {
-      "id": "16621941788a426f",
-      "title": "Tornado wreaks havoc in village in southwestern France",
-      "url": "https://www.france24.com/en/video/20260826-tornado-wreaks-havoc-in-village-in-southwestern-france",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-tornado-wreaks-havoc-in-village-in-southwestern-france",
+      "id": "f6c026255420c8b5",
+      "title": "Dolly Parton, queen of country music, dies at 80",
+      "url": "https://www.france24.com/en/video/20260826-dolly-parton-queen-of-country-music-dies-at-80",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-dolly-parton-queen-of-country-music-dies-at-80",
       "sourceId": "france24",
       "sourceName": "France 24",
       "domain": "france24.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T15:17:21.000Z",
-      "description": "A tornado swept through a village in the Aude ​region of southwestern France late on Monday, destroying homes and injuring dozens, authorities said, describing it as a rare and traumatic event. Around 300 of the 500 houses in the ​village of ‌Pomas have been damaged, officials said, adding that 100 of ⁠the damaged ones may no longer be safe to live in.",
+      "publishedAt": "2026-08-26T14:59:28.000Z",
+      "description": "Dolly Parton was around six when she wrote her first song: \"Little Tiny Tasseltop,\" an ⁠ode to her corncob doll with ​corn-silk hair. Her mother stored it preciously in a shoebox. Parton never stopped making music after that. The irrepressible country music singer, songwriter and actress whose charisma, heartfelt lyrics and ​business acumen captured the public's imagination for nearly six decades, died on Tuesday aged 80, her family said in a statement.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "b6d58ac351215d99",
+      "title": "Elden Ring plays much better than I'd expected on Switch 2, but it isn't without its flaws",
+      "url": "https://www.eurogamer.net/elden-ring-tarnished-edition-switch-2-impressions-performance",
+      "canonicalUrl": "https://www.eurogamer.net/elden-ring-tarnished-edition-switch-2-impressions-performance",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:00:00.000Z",
+      "description": "The power of the Nintendo Switch 2 definitely knows its bounds, but that hasn't stopped Nintendo and its fellow publishers from trying to push the handheld device to its limits by porting some of the more demanding and gargantuan of games to the console. The release of Elden Ring : Tarnished Edition is one example of that ambition. I've only been able to spend about ten hours with it so far, which saw me clearing out Weeping Peninsula, Stormveil Castle, and Liurnia of the Lakes before moving onto the treacherous place that is Caelid. This means I'm yet to explore the portion of the game whose performance I'm most curious about &ndash; the DLC's Realm of Shadow &ndash; but more on that shortly. (This is your spoiler warning for the DLC's ending, as I'll be discussing that below.) Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "e521ba2ad91fe70d",
+      "title": "Volvo’s cars will warn one another about hazards in the road",
+      "url": "https://www.theverge.com/transportation/985070/volvo-connected-safety-hazard-alert-animal-cyclist",
+      "canonicalUrl": "https://www.theverge.com/transportation/985070/volvo-connected-safety-hazard-alert-animal-cyclist",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:28:14.000Z",
+      "updatedAt": "2026-08-26T15:28:14.000Z",
+      "description": "Volvo is updating three of its electric vehicles with new hazard alerts to warn drivers when there are animals or vulnerable road users ahead. The new connected safety features are based on Volvo's cars talking to one another, as opposed to crowdsourced alert systems used by popular navigation tools like Google Maps and Waze. The [&#8230;]",
       "discovery": "rss",
       "categoryHints": [
         "world"
       ],
       "topic": "general",
-      "preliminaryScore": 84
+      "preliminaryScore": 85
     },
     {
-      "id": "d2a2fb21adc8408d",
-      "title": "Smaller reactors bring nuclear power closer to fulfilling its promise",
-      "url": "https://www.nature.com/articles/d41586-026-02506-4",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02506-4",
+      "id": "948768f3f65c0409",
+      "title": "A raft of start-up firms is betting on nuclear fusion",
+      "url": "https://www.nature.com/articles/d41586-026-02511-7",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02511-7",
       "sourceId": "nature",
       "sourceName": "Nature",
       "domain": "nature.com",
@@ -520,27 +681,47 @@
       "sourceTier": "B",
       "language": "en",
       "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02506-4 Shadowed by past disasters, nuclear engineers are developing different types of reactor, fuel, coolant and material that could help to make fission the zero-carbon energy technology of choice.",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02511-7 The phenomenon that makes stars shine and hydrogen bombs explode has yet to be reliably tamed for energy generation. But that isn’t stopping companies from trying.",
       "discovery": "rss",
       "categoryHints": [
         "technology"
       ],
-      "topic": "digital-infrastructure",
+      "topic": "energy-materials",
       "preliminaryScore": 72
     },
     {
-      "id": "33ae32c67083a1c9",
-      "title": "Contractor to Civil Servant: NASA Welcomes Jeret Howard",
-      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jeret-howard/",
-      "canonicalUrl": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jeret-howard",
+      "id": "34c855ce504c5202",
+      "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
+      "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:19:29.000Z",
+      "description": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "23999dfa7e9fe8e5",
+      "title": "NASA Begins Moon Mission Plume-Surface Interaction Tests",
+      "url": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests/",
+      "canonicalUrl": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests",
       "sourceId": "nasa",
       "sourceName": "NASA",
       "domain": "nasa.gov",
       "sourceType": "primary",
       "sourceTier": "A",
       "language": "en",
-      "publishedAt": "2026-08-26T13:32:28.000Z",
-      "description": "At 17, Jeret Howard raised his right hand to serve his country as a United States Army combat medic in Iraq. This past summer, he raised his right hand again at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Hired as a civil servant under the agency&#8217;s workforce directive to restore core competencies by [&#8230;]",
+      "publishedAt": "2026-08-26T13:58:04.000Z",
+      "description": "EDITOR’S NOTE: This story, originally published in December, was revised Aug. 26, 2026 with an update on a new phase of testing, including video from a recent test run and new images. To help NASA and commercial partners better understand the science of lunar landings, specifically the hazards that may occur when a lander’s engine [&#8230;]",
       "discovery": "rss",
       "categoryHints": [
         "science"
@@ -549,44 +730,44 @@
       "preliminaryScore": 83
     },
     {
-      "id": "76b0a63e57bdaca4",
-      "title": "South Africa’s ‘registration law’ for scientists could be a template for the world — if the nation gets it right",
-      "url": "https://www.nature.com/articles/d41586-026-02568-4",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02568-4",
-      "sourceId": "nature",
-      "sourceName": "Nature",
-      "domain": "nature.com",
+      "id": "5e5606b51cf0b71e",
+      "title": "Moscow confirms visit of CIA Director John Ratcliffe",
+      "url": "https://www.dw.com/en/moscow-confirms-visit-of-cia-director-john-ratcliffe/a-78508645?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/moscow-confirms-visit-of-cia-director-john-ratcliffe/a-78508645?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02568-4 The plan to force some scientists to register with a professional body could protect people and the environment, but the current version lacks clarity.",
+      "publishedAt": "2026-08-26T11:24:00.000Z",
+      "description": "The Russian government said that spy chief John Ratcliffe held talks with counterparts, but not President Vladimir Putin, on his Moscow trip.",
       "discovery": "rss",
       "categoryHints": [
         "society"
       ],
       "topic": "public-policy",
-      "preliminaryScore": 72
+      "preliminaryScore": 81
     },
     {
-      "id": "4fc813a0afe2ea6e",
-      "title": "The 46 companies scrambling to commercialize fusion for energy",
-      "url": "https://www.nature.com/articles/d41586-026-02513-5",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02513-5",
-      "sourceId": "nature",
-      "sourceName": "Nature",
-      "domain": "nature.com",
+      "id": "f0f8aad3ebe0474d",
+      "title": "Stream Hatchet Rebrands to Creator Marketing Data From GameSquare",
+      "url": "https://variety.com/2026/gaming/news/stream-hatchet-rebrand-creator-marketing-gamesquare-1236842946/",
+      "canonicalUrl": "https://variety.com/2026/gaming/news/stream-hatchet-rebrand-creator-marketing-gamesquare-1236842946",
+      "sourceId": "variety",
+      "sourceName": "Variety",
+      "domain": "variety.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02513-5 Whether the billions of dollars of investment will lead to an inexhaustible source of clean electrical power is not yet known.",
-      "discovery": "rss",
+      "publishedAt": "2026-08-26T12:15:00.000Z",
+      "description": "Discovered through GDELT global coverage.",
+      "discovery": "gdelt",
       "categoryHints": [
         "business"
       ],
       "topic": "economy-finance",
-      "preliminaryScore": 72
+      "preliminaryScore": 78
     },
     {
       "id": "43a3fdcefbc8a0fd",
@@ -629,50 +810,71 @@
       "preliminaryScore": 82
     },
     {
-      "id": "5ece6a92a66b2afe",
-      "title": "US country music legend Dolly Parton dies, aged 80",
-      "url": "https://www.france24.com/en/video/20260826-us-country-music-legend-dolly-parton-dies-aged-80",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-us-country-music-legend-dolly-parton-dies-aged-80",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:40:15.000Z",
-      "description": "Dolly Parton was one of the rare celebrities that transcended divides in the United States. The country music legend and actress died, aged 80, on August 25.",
-      "discovery": "rss",
-      "categoryHints": [
-        "culture-sports"
-      ],
-      "topic": "culture-sports",
-      "preliminaryScore": 66
-    },
-    {
-      "id": "bf6a8196ac93f6ba",
-      "title": "Island could protect 30% of waters in marine plan",
-      "url": "https://www.bbc.co.uk/news/articles/c4gr0dd5r3po?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c4gr0dd5r3po?at_campaign=rss&at_medium=RSS",
+      "id": "239617b96d1b8b7a",
+      "title": "How Dolly Parton helped the world - from children's books to supporting Covid vaccine",
+      "url": "https://www.bbc.co.uk/news/articles/c24j39jqy2go?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c24j39jqy2go?at_campaign=rss&at_medium=RSS",
       "sourceId": "bbc",
       "sourceName": "BBC News",
       "domain": "bbc.co.uk",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T15:00:52.000Z",
-      "description": "The proposal would give added protection to about 50 sq miles (128.8 sq km) of sea around Sark.",
+      "publishedAt": "2026-08-26T12:11:43.000Z",
+      "description": "The late singer-songwriter's charity causes were as eclectic as her music, but she had a personal connection to each one.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "5e0a4262b3261bdb",
+      "title": "State of Decay 3 lives on after studio's separation from Xbox, with a closed beta promised for this year",
+      "url": "https://www.eurogamer.net/state-of-decay-3-lives-on-after-studios-separation-from-xbox-with-a-closed-beta-promised-for-this-year",
+      "canonicalUrl": "https://www.eurogamer.net/state-of-decay-3-lives-on-after-studios-separation-from-xbox-with-a-closed-beta-promised-for-this-year",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:45:30.000Z",
+      "description": "Undead Labs has announced that a closed State of Decay 3 beta is coming sometime in 2026, weeks after the studio separated from Xbox. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "d5dd7f4e56f93670",
+      "title": "Here's how to watch the Future Games Show at Gamescom 2026",
+      "url": "https://www.pcgamer.com/gaming-industry/heres-how-to-watch-the-future-games-show-at-gamescom-2026/",
+      "canonicalUrl": "https://www.pcgamer.com/gaming-industry/heres-how-to-watch-the-future-games-show-at-gamescom-2026",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-25T16:51:09.000Z",
+      "updatedAt": "2026-08-26T18:50:23.000Z",
+      "description": "This year's showcase will be hosted by the dynamic zombie-killing duo of Nick Apostolides and Angela Sant'Albano.",
       "discovery": "rss",
       "categoryHints": [
         "world"
       ],
       "topic": "general",
-      "preliminaryScore": 84
+      "preliminaryScore": 85
     },
     {
-      "id": "c228b19e5d5cfca8",
-      "title": "Vaporization trick enables ‘tandem’ solar cells to be made at lower temperatures",
-      "url": "https://www.nature.com/articles/d41586-026-02469-6",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02469-6",
+      "id": "d9876c4ecda85a42",
+      "title": "Harnessing nuclear power for a clean-energy future",
+      "url": "https://www.nature.com/articles/d41586-026-02505-5",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02505-5",
       "sourceId": "nature",
       "sourceName": "Nature",
       "domain": "nature.com",
@@ -680,73 +882,93 @@
       "sourceTier": "B",
       "language": "en",
       "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02469-6 A clever approach for evaporating a compound used to make perovskite semiconductors tackles a vexing challenge in scaling up next-generation solar cells.",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02505-5 Generating electricity using fission has a chequered past. New approaches such as smaller reactors could transform the technology into a more nimble source of always-on, carbon-free power.",
       "discovery": "rss",
       "categoryHints": [
         "technology"
       ],
-      "topic": "energy-materials",
+      "topic": "digital-infrastructure",
       "preliminaryScore": 72
     },
     {
-      "id": "3fc237a17ac2c758",
-      "title": "MTG-I2 ready for launch",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
-      "canonicalUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
-      "sourceId": "esa",
-      "sourceName": "European Space Agency",
-      "domain": "esa.int",
-      "sourceType": "primary",
-      "sourceTier": "A",
+      "id": "a7865b683f7d9810",
+      "title": "Robot brain builders are pushing out of their GPT-2 era",
+      "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T11:00:00.000Z",
-      "description": "Video: 00:00:31 The Meteosat Third Generation -Imager2 (MTG-I2) satellite, is ready for launch on board an Ariane 6 &nbsp;launcher from Europe’s Spaceport in French Guiana. Lift off is scheduled for 27 August 2026 at 22:10 CEST (17:10 local time). MTG-I2 is part of the MTG constellation for Eumetsat – two are already in orbit. It will produce images for weather forecasting in Europe in unprecedented detail. This mission provides completely new data products and capabilities for European weather services, especially suited to short-term forecasting of severe weather events.",
+      "publishedAt": "2026-08-26T13:30:00.000Z",
+      "description": "Robot bodies are waiting for their AI brains to catch up.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "219d6a80f6bd026e",
+      "title": "Psychiatry’s diagnostic bible is finally getting a biological upgrade",
+      "url": "https://arstechnica.com/health/2026/08/psychiatrys-diagnostic-bible-is-finally-getting-a-biological-upgrade/",
+      "canonicalUrl": "https://arstechnica.com/health/2026/08/psychiatrys-diagnostic-bible-is-finally-getting-a-biological-upgrade",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T13:53:32.000Z",
+      "description": "Biology is coming to psychiatry’s diagnostic manual, even as reliable biomarkers remain rare.",
       "discovery": "rss",
       "categoryHints": [
         "science"
       ],
-      "topic": "aerospace",
-      "preliminaryScore": 81
+      "topic": "life-sciences",
+      "preliminaryScore": 83
     },
     {
-      "id": "492b2510845ed17e",
-      "title": "Surge in families renting puts more children at risk of housing insecurity",
-      "url": "https://www.abc.net.au/news/2026-08-27/more-children-are-growing-up-in-rental-housing/107082682",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-27/more-children-are-growing-up-in-rental-housing/107082682",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
+      "id": "1a014e54b2125a2b",
+      "title": "Roblox applies restrictions to games featuring \"reward-driven media feeds\" available in Roblox Kids and Select",
+      "url": "https://www.gamesindustry.biz/roblox-applies-restrictions-to-games-featuring-reward-driven-media-feeds-available-in-roblox-kids-and-select",
+      "canonicalUrl": "https://www.gamesindustry.biz/roblox-applies-restrictions-to-games-featuring-reward-driven-media-feeds-available-in-roblox-kids-and-select",
+      "sourceId": "gamesindustry",
+      "sourceName": "GamesIndustry.biz",
+      "domain": "gamesindustry.biz",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T15:15:43.000Z",
-      "description": "There has been a 20 per cent jump in Australian children growing up in rental households this century, with this group facing an average of six moves by aged 14, according to a new research paper.",
+      "publishedAt": "2026-08-26T08:10:26.000Z",
+      "description": "Roblox has introduced a policy to prevent children from accessing \"reward-driven media feeds\" in games available in Roblox Kids and Select. Read more",
       "discovery": "rss",
       "categoryHints": [
         "society"
       ],
       "topic": "public-policy",
-      "preliminaryScore": 69
+      "preliminaryScore": 78
     },
     {
-      "id": "a02432863aab57c3",
-      "title": "Why a Christian group is suing the Dutch government for West Bank trade ban",
-      "url": "https://www.aljazeera.com/news/2026/8/26/why-a-christian-group-is-suing-the-dutch-government-for-west-bank-trade-ban?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/8/26/why-a-christian-group-is-suing-the-dutch-government-for-west-bank-trade-ban?traffic_source=rss",
-      "sourceId": "al-jazeera",
-      "sourceName": "Al Jazeera",
-      "domain": "aljazeera.com",
+      "id": "bde50bd0ab66a16e",
+      "title": "Libyan who was cleared after Lockerbie bombing trial dies aged 70",
+      "url": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T14:59:22.000Z",
-      "description": "The Israeli Product Centre says it has not been given enough time to sell off its stock.",
+      "publishedAt": "2026-08-26T08:01:56.000Z",
+      "description": "A Facebook post by Libyan Airlines announced the death of Al Amin Khalifah Fhimah and expressed the company's condolences to his family.",
       "discovery": "rss",
       "categoryHints": [
         "business"
       ],
       "topic": "economy-finance",
-      "preliminaryScore": 68
+      "preliminaryScore": 78
     },
     {
       "id": "8b8eb769a4634d11",
@@ -789,38 +1011,58 @@
       "preliminaryScore": 81
     },
     {
-      "id": "f72c65299a15e05b",
-      "title": "Watch Nashville fans lay flowers in tribute to Dolly Parton",
-      "url": "https://www.bbc.co.uk/news/videos/cx2zm89zd99o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cx2zm89zd99o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
+      "id": "9870fd52be92e972",
+      "title": "How Dolly Parton's glamorous career transcended stereotypes – video obituary",
+      "url": "https://www.theguardian.com/music/video/2026/aug/26/dolly-parton-glamorous-career-transcended-stereotypes-video-obituary",
+      "canonicalUrl": "https://www.theguardian.com/music/video/2026/aug/26/dolly-parton-glamorous-career-transcended-stereotypes-video-obituary",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T06:37:30.000Z",
-      "description": "The BBC's Helena Humphrey is outside the Country Music Hall of Fame where fans gathered to mourn Dolly Parton.",
+      "publishedAt": "2026-08-26T11:48:56.000Z",
+      "description": "Dolly Parton was one of the greatest singer-songwriters in country music and a pioneer for women throughout her career. The Guardian US's deputy arts editor Owen Myers reflects on a career and legacy whose impact transcends generations Dolly Parton dies aged 80 after cancer diagnosis Celebrity tributes pour in for Dolly Parton: ‘a gift to the world’ Continue reading...",
       "discovery": "rss",
       "categoryHints": [
-        "culture-sports"
+        "entertainment"
       ],
-      "topic": "culture-sports",
-      "preliminaryScore": 63
+      "topic": "music-entertainment",
+      "preliminaryScore": 82
     },
     {
-      "id": "1875250a7a04ad4b",
-      "title": "Turkey says dissolution of Kurdish-led group crucial for Syrian stability",
-      "url": "https://www.france24.com/en/video/20260826-turkey-says-dissolution-of-kurdish-led-group-crucial-for-syrian-stability",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-turkey-says-dissolution-of-kurdish-led-group-crucial-for-syrian-stability",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
+      "id": "68f33cc9f776f412",
+      "title": "Gamescom 2026 highlights gaming industry's strength, AI challenges",
+      "url": "https://www.dw.com/en/gamescom-2026-highlights-gaming-industry-s-strength-ai-challenges/a-78502849?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/gamescom-2026-highlights-gaming-industry-s-strength-ai-challenges/a-78502849?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T14:56:59.000Z",
-      "description": "Turkey on Wednesday said the dissolution of the Kurdish-led Syrian Democratic Forces (SDF) marked a key step towards strengthening state authority and achieving lasting stability in Syria. Turkey has long regarded the SDF as an extension of the outlawed Kurdistan Workers' Party (PKK), which waged an insurgency against the Turkish state for decades. FRANCE 24's Jasper Mortimer reports from Ankara, Turkey.",
+      "publishedAt": "2026-08-26T11:15:00.000Z",
+      "description": "Gamescom 2026 opens in Cologne as the global gaming industry continues to grow. But rising hardware costs, AI concerns and slowing user growth all pose challenges.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-industry",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "311daf30090cbc59",
+      "title": "This extremely successful author polarizes German readers",
+      "url": "https://www.dw.com/en/this-extremely-successful-author-polarizes-german-readers/a-78500452?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/this-extremely-successful-author-polarizes-german-readers/a-78500452?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:18:00.000Z",
+      "description": "She's young and she says what she thinks: Caroline Wahl is topping Germany's bestseller lists with her novels. But she has also faced public backlash.",
       "discovery": "rss",
       "categoryHints": [
         "world"
@@ -829,10 +1071,10 @@
       "preliminaryScore": 84
     },
     {
-      "id": "948768f3f65c0409",
-      "title": "A raft of start-up firms is betting on nuclear fusion",
-      "url": "https://www.nature.com/articles/d41586-026-02511-7",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02511-7",
+      "id": "3e791f60b27545d5",
+      "title": "The best-managed industrial waste in history",
+      "url": "https://www.nature.com/articles/d41586-026-02508-2",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02508-2",
       "sourceId": "nature",
       "sourceName": "Nature",
       "domain": "nature.com",
@@ -840,7 +1082,7 @@
       "sourceTier": "B",
       "language": "en",
       "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02511-7 The phenomenon that makes stars shine and hydrogen bombs explode has yet to be reliably tamed for energy generation. But that isn’t stopping companies from trying.",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02508-2 Expanded use of nuclear energy will protect the environment even without fresh options for waste disposal.",
       "discovery": "rss",
       "categoryHints": [
         "technology"
@@ -849,64 +1091,84 @@
       "preliminaryScore": 72
     },
     {
-      "id": "f0ccc9d26ce9d7aa",
-      "title": "Second spacewalk completed for Sophie Adenot",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
-      "canonicalUrl": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
-      "sourceId": "esa",
-      "sourceName": "European Space Agency",
-      "domain": "esa.int",
+      "id": "87c12d2e343bd9ef",
+      "title": "QueryStory wants you to believe what AI is telling you",
+      "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T13:00:00.000Z",
+      "description": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "33ae32c67083a1c9",
+      "title": "Contractor to Civil Servant: NASA Welcomes Jeret Howard",
+      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jeret-howard/",
+      "canonicalUrl": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jeret-howard",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
       "sourceType": "primary",
       "sourceTier": "A",
       "language": "en",
-      "publishedAt": "2026-08-26T08:40:00.000Z",
-      "description": "ESA astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed US EVA-98 at 20:57 CEST on Tuesday 25 August. It was Sophie’s second spacewalk, and the 32nd conducted by a European astronaut.&nbsp;&nbsp;&nbsp;",
+      "publishedAt": "2026-08-26T13:32:28.000Z",
+      "description": "At 17, Jeret Howard raised his right hand to serve his country as a United States Army combat medic in Iraq. This past summer, he raised his right hand again at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Hired as a civil servant under the agency&#8217;s workforce directive to restore core competencies by [&#8230;]",
       "discovery": "rss",
       "categoryHints": [
         "science"
       ],
       "topic": "aerospace",
-      "preliminaryScore": 79
+      "preliminaryScore": 83
     },
     {
-      "id": "d5e68d9162240439",
-      "title": "Tech Life",
-      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyb?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/sounds/play/w3ct8jyb?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
+      "id": "76b0a63e57bdaca4",
+      "title": "South Africa’s ‘registration law’ for scientists could be a template for the world — if the nation gets it right",
+      "url": "https://www.nature.com/articles/d41586-026-02568-4",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02568-4",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-25T20:00:00.000Z",
-      "description": "The government agency that's encouraging high-risk and high-reward research.",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02568-4 The plan to force some scientists to register with a professional body could protect people and the environment, but the current version lacks clarity.",
       "discovery": "rss",
       "categoryHints": [
         "society"
       ],
       "topic": "public-policy",
-      "preliminaryScore": 68
+      "preliminaryScore": 72
     },
     {
-      "id": "4aed8ccd306f62fc",
-      "title": "Israel extends campaign against UNRWA to advance West Bank annexation",
-      "url": "https://www.aljazeera.com/news/2026/8/26/israel-extends-campaign-against-unrwa-to-advance-west-bank-annexation?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/8/26/israel-extends-campaign-against-unrwa-to-advance-west-bank-annexation?traffic_source=rss",
-      "sourceId": "al-jazeera",
-      "sourceName": "Al Jazeera",
-      "domain": "aljazeera.com",
+      "id": "dd03b728ae007a89",
+      "title": "Executives from EA and Tencent to speak alongside Netflix, Sony, and Disney at FT Business of Entertainment summit",
+      "url": "https://www.gamesindustry.biz/executives-from-ea-and-tencent-to-speak-alongside-netflix-sony-and-disney-at-ft-business-of-entertainment-summit",
+      "canonicalUrl": "https://www.gamesindustry.biz/executives-from-ea-and-tencent-to-speak-alongside-netflix-sony-and-disney-at-ft-business-of-entertainment-summit",
+      "sourceId": "gamesindustry",
+      "sourceName": "GamesIndustry.biz",
+      "domain": "gamesindustry.biz",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T14:42:36.000Z",
-      "description": "Raid on UNRWA centre exposes Israel&#039;s strategic push to erase refugee rights, seal West Bank annexation, analysts say.",
+      "publishedAt": "2026-08-26T05:56:36.000Z",
+      "description": "The Financial Times has unveiled the C-suite line-up for its upcoming Business of Entertainment Summit in LA in September, with games industry speakers from EA and Tencent Games joining a roster which includes executives from linear media firms including Netflix, Sony Pictures, NBCUniversal and UFC/WWE parent TKO Group. GamesIndustry.biz is a promotional partner for the event alongside our parent company IGNE Entertainment. Read more",
       "discovery": "rss",
       "categoryHints": [
         "business"
       ],
       "topic": "economy-finance",
-      "preliminaryScore": 68
+      "preliminaryScore": 77
     },
     {
       "id": "11b06ac93ad5c365",
@@ -949,70 +1211,150 @@
       "preliminaryScore": 80
     },
     {
-      "id": "8b9e86cc329437a8",
-      "title": "China: Dissident artist jailed for satirical Mao sculptures",
-      "url": "https://www.dw.com/en/china-dissident-artist-jailed-for-satirical-mao-sculptures/a-78502724?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/china-dissident-artist-jailed-for-satirical-mao-sculptures/a-78502724?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
+      "id": "a3c1bdeebc352432",
+      "title": "Heart, hope and a steely determination: Dolly Parton's musical legacy",
+      "url": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T03:46:00.000Z",
-      "description": "Sculptor Gao Zhen was charged under China's \"Law on the Protection ⁠of Heroes ​and Martyrs.\" His supporters have called for his immediate release.",
+      "publishedAt": "2026-08-26T11:32:11.000Z",
+      "description": "BBC music correspondent Mark Savage looks back on the legacy of the \"irreplaceable\" late singer.",
       "discovery": "rss",
       "categoryHints": [
-        "culture-sports"
+        "entertainment"
       ],
-      "topic": "culture-sports",
-      "preliminaryScore": 61
+      "topic": "music-entertainment",
+      "preliminaryScore": 81
     },
     {
-      "id": "083b2b7397f89a10",
-      "title": "Gang attack in Haiti: Anger mounts over police failures",
-      "url": "https://www.france24.com/en/video/20260826-gang-attack-in-haiti-anger-mounts-over-police-failures",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-gang-attack-in-haiti-anger-mounts-over-police-failures",
+      "id": "32e1bca6f814bf43",
+      "title": "The story for Witcher 3: Songs of the Past was actually written  \"years ago\", according to Fool's Theory CEO",
+      "url": "https://www.eurogamer.net/witcher-3-songs-of-the-past-story-written-years-ago-interview",
+      "canonicalUrl": "https://www.eurogamer.net/witcher-3-songs-of-the-past-story-written-years-ago-interview",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T10:27:37.000Z",
+      "description": "Last night, CD Projekt Red showed off the first footage we've seen for The Witcher 3 expansion, Songs of the Past - new content for the game launching some 11 years after the base game was released. The expansion takes us to a new location, Letten, a bucolic country very far from the conflicts and politics that dominate the rest of the continent Geralt calls home. But all is not as it seems in Letten - shortly after Geralt's arrival, his friend Dandelion goes missing, and what starts as a simple search for a missing bard quickly becomes a job worthy of a Witcher. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "16621941788a426f",
+      "title": "Tornado wreaks havoc in village in southwestern France",
+      "url": "https://www.france24.com/en/video/20260826-tornado-wreaks-havoc-in-village-in-southwestern-france",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-tornado-wreaks-havoc-in-village-in-southwestern-france",
       "sourceId": "france24",
       "sourceName": "France 24",
       "domain": "france24.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T14:55:31.000Z",
-      "description": "At least 47 people were killed and more than 50 others kidnapped after armed men attacked a once-peaceful community near Haiti’s capital earlier this week, the United Nations said Tuesday. It is believed to be one of the largest mass kidnappings in Haiti in recent years, and one gang leader is threatening to kill the hostages if authorities kill any gang members as they try to secure the community nestled in the hills above Port-au-Prince. Sunday’s attack on Kenscoff pierced the belief that security in the troubled Caribbean country was improving. Journalist Harold Isaac reports from Port-au-Prince, Haiti.",
+      "publishedAt": "2026-08-26T15:17:21.000Z",
+      "description": "A tornado swept through a village in the Aude ​region of southwestern France late on Monday, destroying homes and injuring dozens, authorities said, describing it as a rare and traumatic event. Around 300 of the 500 houses in the ​village of ‌Pomas have been damaged, officials said, adding that 100 of ⁠the damaged ones may no longer be safe to live in.",
       "discovery": "rss",
       "categoryHints": [
         "world"
       ],
-      "topic": "conflict-security",
+      "topic": "general",
       "preliminaryScore": 84
     },
     {
-      "id": "d9876c4ecda85a42",
-      "title": "Harnessing nuclear power for a clean-energy future",
-      "url": "https://www.nature.com/articles/d41586-026-02505-5",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02505-5",
-      "sourceId": "nature",
-      "sourceName": "Nature",
-      "domain": "nature.com",
+      "id": "12d8363e38e3cc75",
+      "title": "A new stamp on cyberfraud prevention",
+      "url": "https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/08/25/1140914/a-new-stamp-on-cyberfraud-prevention",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "domain": "technologyreview.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02505-5 Generating electricity using fission has a chequered past. New approaches such as smaller reactors could transform the technology into a more nimble source of always-on, carbon-free power.",
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "description": "For Rupert Young ’95, SM ’95, his career in data science and cybersecurity began when his grandfather gifted him thousands of stamps: He built intricate databases to catalogue them, displaying the “precise eye” for detail and nuance that his MIT application essay said would make him a good engineer. Young is now chief product officer&#8230;",
       "discovery": "rss",
       "categoryHints": [
         "technology"
       ],
       "topic": "digital-infrastructure",
-      "preliminaryScore": 72
+      "preliminaryScore": 69
     },
     {
-      "id": "e73a45f754cd935b",
-      "title": "Highest-ever ocean temperatures recorded as El Niño intensifies",
-      "url": "https://www.nature.com/articles/d41586-026-02681-4",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02681-4",
+      "id": "b6920185a5e7fa72",
+      "title": "Arga Labs is building a better way to train enterprise AI agents",
+      "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:55:28.000Z",
+      "description": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "3fc237a17ac2c758",
+      "title": "MTG-I2 ready for launch",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
+      "canonicalUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
+      "sourceId": "esa",
+      "sourceName": "European Space Agency",
+      "domain": "esa.int",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:00:00.000Z",
+      "description": "Video: 00:00:31 The Meteosat Third Generation -Imager2 (MTG-I2) satellite, is ready for launch on board an Ariane 6 &nbsp;launcher from Europe’s Spaceport in French Guiana. Lift off is scheduled for 27 August 2026 at 22:10 CEST (17:10 local time). MTG-I2 is part of the MTG constellation for Eumetsat – two are already in orbit. It will produce images for weather forecasting in Europe in unprecedented detail. This mission provides completely new data products and capabilities for European weather services, especially suited to short-term forecasting of severe weather events.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "c0505a0d780f8e6a",
+      "title": "Trump administration threatens to demolish Kennedy Center if $250m renovation not done",
+      "url": "https://www.theguardian.com/us-news/2026/aug/25/trump-kennedy-center-demolish",
+      "canonicalUrl": "https://www.theguardian.com/us-news/2026/aug/25/trump-kennedy-center-demolish",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-25T23:15:01.000Z",
+      "description": "US president’s lawyers in court filing say Washington arts complex must undergo repairs or risk demolition The John F Kennedy Center for the Performing Arts could be demolished if repairs are not carried out, the Trump administration warned in a court filing on Monday. Lawyers for the US president said the national arts complex in Washington DC must undergo a $250m renovation or risk facing the wrecking ball. Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 71
+    },
+    {
+      "id": "4fc813a0afe2ea6e",
+      "title": "The 46 companies scrambling to commercialize fusion for energy",
+      "url": "https://www.nature.com/articles/d41586-026-02513-5",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02513-5",
       "sourceId": "nature",
       "sourceName": "Nature",
       "domain": "nature.com",
@@ -1020,53 +1362,13 @@
       "sourceTier": "B",
       "language": "en",
       "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02681-4 Why extreme temperatures are expected to weaken ocean carbon sinks — plus, how mitochondrial injections could treat vision loss.",
-      "discovery": "rss",
-      "categoryHints": [
-        "science"
-      ],
-      "topic": "earth-science",
-      "preliminaryScore": 72
-    },
-    {
-      "id": "b483d5fd42e8020c",
-      "title": "Mawlid festivities cancelled in Ethiopia's Tigray region over fears of drone strikes",
-      "url": "https://www.france24.com/en/video/20260826-mawlid-festivities-cancelled-in-ethiopia-s-tigray-region-over-fears-of-drone-strikes",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-mawlid-festivities-cancelled-in-ethiopia-s-tigray-region-over-fears-of-drone-strikes",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:06:38.000Z",
-      "description": "In Ethiopia, festivities marking Mawlid, the Muslim holiday celebrating the birth of the Prophet Mohammed, have been cancelled at the last minute over fears of drone strikes. The cancellation comes just days after another major Tigrayan festival, Ashenda, was also called off at the last minute for the same reason. Drone strikes hit northern Ethiopia in recent days, as tensions between the Tigray People’s Liberation Front and the Ethiopian government continue to escalate. FRANCE 24's Tom Canetti reports from Addis Ababa, Ethiopia.",
-      "discovery": "rss",
-      "categoryHints": [
-        "society"
-      ],
-      "topic": "public-policy",
-      "preliminaryScore": 66
-    },
-    {
-      "id": "0858d1bac160c50f",
-      "title": "Meta to pay $23 billion to settle teen social media addiction cases",
-      "url": "https://www.abc.net.au/news/2026-08-27/meta-settlement-on-harm-to-teens/107082748",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-27/meta-settlement-on-harm-to-teens/107082748",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:01:05.000Z",
-      "description": "Meta has agreed to a wide-ranging deal settling all claims in US federal and state courts, which alleged the company's platforms harmed children.",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02513-5 Whether the billions of dollars of investment will lead to an inexhaustible source of clean electrical power is not yet known.",
       "discovery": "rss",
       "categoryHints": [
         "business"
       ],
       "topic": "economy-finance",
-      "preliminaryScore": 68
+      "preliminaryScore": 72
     },
     {
       "id": "da0887133af75ec2",
@@ -1109,18 +1411,58 @@
       "preliminaryScore": 76
     },
     {
-      "id": "0d3fa8a966b50e69",
-      "title": "Saxony-Anhalt: an AfD stronghold in Germany's east",
-      "url": "https://www.dw.com/en/saxony-anhalt-an-afd-stronghold-in-germany-s-east/a-78482588?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/saxony-anhalt-an-afd-stronghold-in-germany-s-east/a-78482588?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
+      "id": "96b4f3d977c80249",
+      "title": "Clive Barker’s Hellraiser: Revival – a game so grotesque it scares its own director",
+      "url": "https://www.theguardian.com/games/2026/aug/26/clive-barkers-hellraiser-revival",
+      "canonicalUrl": "https://www.theguardian.com/games/2026/aug/26/clive-barkers-hellraiser-revival",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T14:24:00.000Z",
-      "description": "Saxony-Anhalt is a structurally weak, predominantly rural state. Could it become the first German state to be governed by the far-right AfD?",
+      "publishedAt": "2026-08-26T09:00:40.000Z",
+      "description": "With oversight from Clive Barker himself, and a role reprisal as Pinhead from actor Doug Bradley, Revival aims to introduce new audiences to the discomfort of Hellraiser If a horror game gives its own director a physical reaction, it’s probably doing something right. While researching the images people find hardest to look at, game director Emil Esov discovered he has trypophobia – a fear of clusters of small holes. Rather than tone the scary images down, he fed them straight into Clive Barker’s Hellraiser: Revival. The forthcoming first-person action-horror game drops players into a new story in Barker’s universe. Aidan Lynch must use the Genesis Configuration puzzle box to rescue his girlfriend from the Labyrinth as Pinhead, his Cenobites and a cult close in. But Revival is not built around jump scares. The team at Mad Head Games began with one question: what should players feel? The answer was discomfort. Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "1cde1355c00a4abe",
+      "title": "The highlights of Gamescom Opening Night Live 2026",
+      "url": "https://www.gamesindustry.biz/the-highlights-of-gamescom-opening-night-live-2026",
+      "canonicalUrl": "https://www.gamesindustry.biz/the-highlights-of-gamescom-opening-night-live-2026",
+      "sourceId": "gamesindustry",
+      "sourceName": "GamesIndustry.biz",
+      "domain": "gamesindustry.biz",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-25T23:23:11.000Z",
+      "description": "GamesIndustry.biz was at Gamescom Opening Night Live on Tuesday night, the eighth instalment of the digital showcase. The hall was packed, without an empty seat in sight, and there were plenty of gaming celebrities in attendance: Xbox head Asha Sharma could be seen near the front, gamely forming an 'X' with her arms as the camera panned over her. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 71
+    },
+    {
+      "id": "dd9b10308640c688",
+      "title": "Rupert Grint to return to Harry Potter in Broadway play",
+      "url": "https://www.bbc.co.uk/news/articles/c20vmp1v3rdo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c20vmp1v3rdo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:14:24.000Z",
+      "description": "Grint, now 38, will play his character as an adult in the Harry Potter spin-off play in New York.",
       "discovery": "rss",
       "categoryHints": [
         "world"
@@ -1129,84 +1471,284 @@
       "preliminaryScore": 84
     },
     {
-      "id": "3e791f60b27545d5",
-      "title": "The best-managed industrial waste in history",
-      "url": "https://www.nature.com/articles/d41586-026-02508-2",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02508-2",
-      "sourceId": "nature",
-      "sourceName": "Nature",
-      "domain": "nature.com",
+      "id": "76f4917aa840d8e1",
+      "title": "AgeLab research inspires an A I startup",
+      "url": "https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/08/25/1140917/agelab-research-inspires-an-a-i-startup",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "domain": "technologyreview.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02508-2 Expanded use of nuclear energy will protect the environment even without fresh options for waste disposal.",
+      "publishedAt": "2026-08-25T21:00:00.000Z",
+      "description": "When Don Yansen ’63 arrived at the MIT AgeLab for a study on technology in care­giving for older adults, he didn’t plan to launch another company. But when he heard participants talk about how hard modern devices can be to use, he decided to develop an alternative. Yansen, a serial entrepreneur who retired to care for&#8230;",
       "discovery": "rss",
       "categoryHints": [
         "technology"
       ],
-      "topic": "energy-materials",
-      "preliminaryScore": 72
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 69
     },
     {
-      "id": "9667ed7bca080b0d",
-      "title": "Using nuclear waste to power space missions",
-      "url": "https://www.nature.com/articles/d41586-026-02514-4",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02514-4",
-      "sourceId": "nature",
-      "sourceName": "Nature",
-      "domain": "nature.com",
+      "id": "70cfae434a2689a3",
+      "title": "AI is 'just a plagiarism machine that makes people lose their jobs' in the eyes of The Talos Principle 3's writers",
+      "url": "https://www.pcgamer.com/games/puzzle/ai-is-just-a-plagiarism-machine-that-makes-people-lose-their-jobs-in-the-eyes-of-the-talos-principle-3s-writers/",
+      "canonicalUrl": "https://www.pcgamer.com/games/puzzle/ai-is-just-a-plagiarism-machine-that-makes-people-lose-their-jobs-in-the-eyes-of-the-talos-principle-3s-writers",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02514-4 Researchers plan to use radioactive isotopes to power systems on a future Mars rover.",
+      "publishedAt": "2026-08-26T12:48:10.000Z",
+      "description": "\"They're basically incredibly intelligent versions of the autocorrect.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "f0ccc9d26ce9d7aa",
+      "title": "Second spacewalk completed for Sophie Adenot",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
+      "canonicalUrl": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
+      "sourceId": "esa",
+      "sourceName": "European Space Agency",
+      "domain": "esa.int",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T08:40:00.000Z",
+      "description": "ESA astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed US EVA-98 at 20:57 CEST on Tuesday 25 August. It was Sophie’s second spacewalk, and the 32nd conducted by a European astronaut.&nbsp;&nbsp;&nbsp;",
       "discovery": "rss",
       "categoryHints": [
         "science"
       ],
       "topic": "aerospace",
-      "preliminaryScore": 72
+      "preliminaryScore": 79
     },
     {
-      "id": "3d0f04a1e727d2f4",
-      "title": "Bodies found on S Korean holiday island as missing persons scandal deepens",
-      "url": "https://www.bbc.co.uk/news/articles/cwyz9gjw9n9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cwyz9gjw9n9o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
+      "id": "492b2510845ed17e",
+      "title": "Surge in families renting puts more children at risk of housing insecurity",
+      "url": "https://www.abc.net.au/news/2026-08-27/more-children-are-growing-up-in-rental-housing/107082682",
+      "canonicalUrl": "https://www.abc.net.au/news/2026-08-27/more-children-are-growing-up-in-rental-housing/107082682",
+      "sourceId": "abc-au",
+      "sourceName": "ABC News Australia",
+      "domain": "abc.net.au",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T07:01:45.000Z",
-      "description": "A police sergeant has been arrested following accusations that he lied to victims' families and prematurely closed missing persons cases.",
+      "publishedAt": "2026-08-26T15:15:43.000Z",
+      "description": "There has been a 20 per cent jump in Australian children growing up in rental households this century, with this group facing an average of six moves by aged 14, according to a new research paper.",
       "discovery": "rss",
       "categoryHints": [
         "society"
       ],
       "topic": "public-policy",
-      "preliminaryScore": 63
+      "preliminaryScore": 69
     },
     {
-      "id": "ad0fbb1695dd70d8",
-      "title": "Frankfurt Airport worker dies after malaria infection",
-      "url": "https://www.dw.com/en/frankfurt-airport-worker-dies-after-malaria-infection/a-78512056?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/frankfurt-airport-worker-dies-after-malaria-infection/a-78512056?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
+      "id": "cada204c544a0413",
+      "title": "Dolly Parton dies aged 80 – researchers celebrate her contributions to science",
+      "url": "https://www.nature.com/articles/d41586-026-02676-1",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02676-1",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T14:13:00.000Z",
-      "description": "An unusual cluster of malaria cases at Frankfurt Airport infected six employees, one fatally. It is thought to have been caused by a mosquito brought in on an aircraft.",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02676-1 The country singer was an advocate for vaccines, public health, literacy and marginalized communities.",
       "discovery": "rss",
       "categoryHints": [
         "health"
       ],
       "topic": "health-medicine",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "a0ea2a62f156b8e5",
+      "title": "Humankind 2 announced, coming 2027, and promises climate change and \"a new take on historical strategy\"",
+      "url": "https://www.eurogamer.net/humankind-2-announced-coming-2027-and-promises-climate-change-and-a-new-take-on-historical-strategy",
+      "canonicalUrl": "https://www.eurogamer.net/humankind-2-announced-coming-2027-and-promises-climate-change-and-a-new-take-on-historical-strategy",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-25T18:15:20.000Z",
+      "description": "Amplitude has announced Humankind 2, a sequel to the quietly popular Civ-like 4X game Humankind, during the Gamescom Opening Night Live pre show this evening. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "427794417e62210c",
+      "title": "‘We met Princess Margaret and she was paralytic!’ My wild life onboard the Adam and the Ants Antmania rollercoaster",
+      "url": "https://www.theguardian.com/music/2026/aug/26/adam-and-the-ants-antmania-rollercoaster-marco-pirroni",
+      "canonicalUrl": "https://www.theguardian.com/music/2026/aug/26/adam-and-the-ants-antmania-rollercoaster-marco-pirroni",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T04:00:34.000Z",
+      "description": "With their twangy sound, madcap outfits, lusty yodelling and pirouetting pirate frontman, the band became global superstars almost overnight. But, as their guitarist Marco Pirroni recalls, the thrill ride soon hit the buffers ‘The essence of pop is, one, brilliant fucking songs – and the rest is sex, subversion, style and humour. And that was us .” So Adam Ant told me in 1995, describing the reconstructed Adam and the Ants, which formed in early 1980 with the arrival of guitarist/songwriter Marco Pirroni, who was sitting next to him. “We’re responsible for bringing back dressing up, going mad and screaming your head off.” “That’s it!” grins Pirroni when I remind him of this, as we sit in the shabby-chic lounge of London’s 21Soho venue. Back then, I didn’t tell them I was 15 in 1980, forever sprinting across dancefloors pretending to be Adam Ant, chiffon scarves tied to knees, limbs flailing like a whirling Cossack. Pirroni hears this today and laughs. “That’s what it’s all about,” he hoots. “When I was 13, watching Bowie, Roxy, T Rex, you just go, ‘I wanna do that.’ It’s exciting, sexy, about looking good, Top of the Pops. I can’t imagine anyone saying, ‘Wow, I desperately want to ",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "bf41625053a662d2",
+      "title": "Gears of War: E-Day somehow feels exactly like a direct continuation of the original Xbox 360 trilogy, for better and for worse",
+      "url": "https://www.eurogamer.net/gears-of-war-eday-preview",
+      "canonicalUrl": "https://www.eurogamer.net/gears-of-war-eday-preview",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-25T20:00:00.000Z",
+      "description": "Marcus Fenix says something gruffly, his squad laughs, then a horde of Locust enemies rushes the team. The hulking figure of Marcus roadie-runs towards the nearest hip-high bit of cover, slams his muscly shoulder into the concrete, and starts laying down suppressing fire with his Lancer machine gun. Enemy bodies fall apart in meaty chunks, blood spatters on the stone floor. A grey-skinned drone breaks through the defensive line and levels his Gnasher at you, finger on the trigger. Fenix revs the chainsaw on his Lancer, and cleaves through the warm flesh of this vagrant body in a sluice of wet viscera. I cannot tell if it is 2026, or 2008. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
       "preliminaryScore": 68
+    },
+    {
+      "id": "67f13750aebb315c",
+      "title": "Metro 2039 devs say the ongoing war in Ukraine has changed how they write morality: 'The franchise's very nature is getting too close to reality'",
+      "url": "https://www.pcgamer.com/games/fps/metro-2039-devs-say-the-ongoing-war-in-ukraine-has-changed-how-they-write-morality-the-franchises-very-nature-is-getting-too-close-to-reality/",
+      "canonicalUrl": "https://www.pcgamer.com/games/fps/metro-2039-devs-say-the-ongoing-war-in-ukraine-has-changed-how-they-write-morality-the-franchises-very-nature-is-getting-too-close-to-reality",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:12:56.000Z",
+      "description": "\"Our team has been living in a state of war for the last four and a half years.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "65ce400ce66267c4",
+      "title": "World humanoid robot games show runners breaking records, bursting into flames",
+      "url": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
+      "canonicalUrl": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-25T20:59:03.000Z",
+      "description": "Record-breaking robot races are less substantial than household chore challenges.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "6ad10b3b8b66971f",
+      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
+      "url": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "domain": "technologyreview.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:10:00.000Z",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids&#8217; use of technology was once a subcurrent, it has become a raging flood. Countries around the world are banning children from&#8230;",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "e73a45f754cd935b",
+      "title": "Highest-ever ocean temperatures recorded as El Niño intensifies",
+      "url": "https://www.nature.com/articles/d41586-026-02681-4",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02681-4",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02681-4 Why extreme temperatures are expected to weaken ocean carbon sinks — plus, how mitochondrial injections could treat vision loss.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "earth-science",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "b483d5fd42e8020c",
+      "title": "Mawlid festivities cancelled in Ethiopia's Tigray region over fears of drone strikes",
+      "url": "https://www.france24.com/en/video/20260826-mawlid-festivities-cancelled-in-ethiopia-s-tigray-region-over-fears-of-drone-strikes",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-mawlid-festivities-cancelled-in-ethiopia-s-tigray-region-over-fears-of-drone-strikes",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:06:38.000Z",
+      "description": "In Ethiopia, festivities marking Mawlid, the Muslim holiday celebrating the birth of the Prophet Mohammed, have been cancelled at the last minute over fears of drone strikes. The cancellation comes just days after another major Tigrayan festival, Ashenda, was also called off at the last minute for the same reason. Drone strikes hit northern Ethiopia in recent days, as tensions between the Tigray People’s Liberation Front and the Ethiopian government continue to escalate. FRANCE 24's Tom Canetti reports from Addis Ababa, Ethiopia.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "ca266c1987e52c84",
+      "title": "Five highlights from nuclear-power research",
+      "url": "https://www.nature.com/articles/d41586-026-02512-6",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02512-6",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02512-6 Advanced materials, cancer risk analysis and other developments from recent studies.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 72
     },
     {
       "id": "62fea6dbf88129ba",
@@ -1229,340 +1771,45 @@
       "preliminaryScore": 66
     },
     {
-      "id": "d546964f6c00123d",
-      "title": "Red Sea nations step up maritime cooperation as regional threats grow",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168211",
-      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168211",
-      "sourceId": "un-news",
-      "sourceName": "UN News",
-      "domain": "news.un.org",
-      "sourceType": "primary",
-      "sourceTier": "A",
+      "id": "fc1cea0b75ab2cb2",
+      "title": "Dolly Parton’s peerless career turned country music cliches inside out | Alexis Petridis",
+      "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-music-career",
+      "canonicalUrl": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-music-career",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T12:00:00.000Z",
-      "description": "From piracy and migrant smuggling to disruptions affecting global shipping routes, countries bordering one of the world’s busiest waterways are seeking closer cooperation to stay ahead of fast-evolving maritime threats.",
+      "publishedAt": "2026-08-25T18:07:47.000Z",
+      "description": "Beneath the wig and rhinestones, Parton was the genius behind strings of classic songs from Jolene to I Will Always Love You that continue to inspire new artists Dolly Parton, US country star, actor and philanthropist, dies aged 80 Dolly Parton’s family say goodbye to their aunt, sister, grandmother - video Share your tributes and memories of Dolly Parton In December 1977, Dolly Parton submitted to an interview with ABC Television’s Barbara Walters, much against her friends’ advice. Walters was not noted for her deep love and understanding of country music. She was a notoriously tough cookie, a Boston-born, Sarah Lawrence-educated journalist who had battled scarcely believable sexism to become the first female co-host of an American news programme. The month before she met Parton, she had interviewed Anwar Sadat and Menachem Begin while they were working out the terms of the Egypt-Israel peace treaty. It was all a very long way from Parton’s world, and the interview has something of the anthropological exercise about it. Walters looks aghast as Parton shows her around her tour bus, her collection of wigs and her “hand-washable and wrinkle-free” stage outfits (“you really like this?",
       "discovery": "rss",
       "categoryHints": [
-        "world"
+        "entertainment"
       ],
-      "topic": "general",
-      "preliminaryScore": 82
-    },
-    {
-      "id": "c531949d2fae7da0",
-      "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
-      "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
-      "canonicalUrl": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "nasa.gov",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-25T22:28:34.000Z",
-      "description": "NASA’s Deep Space Network facility in California is marking the addition of a brand new 34-meter-wide (114-foot-wide) radio frequency antenna to the agency’s deep space communications and navigation system. The network uses giant dish antennas located at three global facilities to support more than 40 spacecraft exploring the solar system and interstellar space. The new [&#8230;]",
-      "discovery": "rss",
-      "categoryHints": [
-        "science"
-      ],
-      "topic": "aerospace",
-      "preliminaryScore": 70
-    },
-    {
-      "id": "8314c63edf5c1e80",
-      "title": "Explainer: UN peace operations work to create, preserve peace",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168210",
-      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168210",
-      "sourceId": "un-news",
-      "sourceName": "UN News",
-      "domain": "news.un.org",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-26T12:00:00.000Z",
-      "description": "Supporting the first democratic elections after brutal civil wars in Mozambique and Cambodia. Disarming thousands of child soldiers in Sierra Leone. Helping to secure Namibia’s independence from South Africa. These are some of the contributions of UN operations around the world to help countries transition from conflict to lasting peace.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "conflict-security",
-      "preliminaryScore": 82
-    },
-    {
-      "id": "4d29514eb454b1cf",
-      "title": "NASA Invites Media to LunaRecycle Challenge Finale Event in Alabama",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama/",
-      "canonicalUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "nasa.gov",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-25T20:20:58.000Z",
-      "description": "NASA will announce the winners of the final phase of its LunaRecycle Challenge on Friday, Aug. 28, at The University of Alabama (UA) Lee Styslinger College of Engineering in Tuscaloosa, Alabama. Launched in 2024, the challenge incentivizes the invention of new recycling systems that could support non-metabolic waste management efforts for future lunar missions. Media [&#8230;]",
-      "discovery": "rss",
-      "categoryHints": [
-        "science"
-      ],
-      "topic": "aerospace",
-      "preliminaryScore": 69
-    },
-    {
-      "id": "f3a10e5ec4c9854a",
-      "title": "Security Council LIVE: Rising tensions in Gaza, West Bank",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168204",
-      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168204",
-      "sourceId": "un-news",
-      "sourceName": "UN News",
-      "domain": "news.un.org",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-26T12:00:00.000Z",
-      "description": "Amid illegal Israeli settlement surges, continued attacks in Gaza and the West Bank alongside tensions throughout Occupied Palestinian Territory, the Security Council discussed the latest developments on Wednesday, with the UN Special Envoy stressing that “human dignity must be at the centre of all efforts” to overcome the current fragile ceasefire and continued suffering. UN News app users can follow here.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "conflict-security",
-      "preliminaryScore": 82
-    },
-    {
-      "id": "0e7f6bfbe5483089",
-      "title": "NASA Ames’ Contributions to Roman’s Mission",
-      "url": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission/",
-      "canonicalUrl": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "nasa.gov",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-25T19:44:55.000Z",
-      "description": "Set to launch on Sunday, Aug. 30, NASA’s Nancy Grace Roman Space Telescope will empower astronomers to explore vast regions of the cosmos and settle essential questions in the areas of dark energy, dark matter, planets outside our solar system, and the formation and growth of galaxies over cosmic time. Key contributions to Roman’s mission [&#8230;]",
-      "discovery": "rss",
-      "categoryHints": [
-        "science"
-      ],
-      "topic": "aerospace",
+      "topic": "film-television",
       "preliminaryScore": 67
     },
     {
-      "id": "941c446abd234d6a",
-      "title": "Two mobile phone shop employees arrested over scheme to compromise Singpass accounts",
-      "url": "https://www.channelnewsasia.com/singapore/two-man-arrested-compromise-singpass-accounts-police-6343146",
-      "canonicalUrl": "https://www.channelnewsasia.com/singapore/two-man-arrested-compromise-singpass-accounts-police-6343146",
-      "sourceId": "cna",
-      "sourceName": "Channel NewsAsia",
-      "domain": "channelnewsasia.com",
+      "id": "e50675b5254b331f",
+      "title": "The Switch 2’s $50 price increase is happening next week",
+      "url": "https://www.theverge.com/gadgets/984331/switch-2-price-increase-psa",
+      "canonicalUrl": "https://www.theverge.com/gadgets/984331/switch-2-price-increase-psa",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T15:59:01.000Z",
-      "description": "Both suspects, aged 25 and 47, are Malaysian.",
+      "publishedAt": "2026-08-26T18:00:00.000Z",
+      "updatedAt": "2026-08-25T18:25:35.000Z",
+      "description": "This is a friendly reminder that the Nintendo Switch 2 will jump in price by $50 starting on September 1st. That’s next Tuesday! The company gave plenty of notice, but the time has finally come. The base 256GB model that ships without a game will go from $449.99 to $499.99. Nintendo recently announced two bundles [&#8230;]",
       "discovery": "rss",
       "categoryHints": [
-        "world"
+        "games"
       ],
-      "topic": "general",
-      "preliminaryScore": 69
-    },
-    {
-      "id": "0d579d16c0729c3f",
-      "title": "LIVE: Real Madrid vs Real Sociedad – La Liga",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/8/26/live-real-madrid-vs-sociedad-la-liga?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/sports/liveblog/2026/8/26/live-real-madrid-vs-sociedad-la-liga?traffic_source=rss",
-      "sourceId": "al-jazeera",
-      "sourceName": "Al Jazeera",
-      "domain": "aljazeera.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:52:53.000Z",
-      "description": "Live coverage and text updates from our commentary stream as Mbappe and Bellingham lead the line for Mourinho&#039;s side.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
-      "preliminaryScore": 69
-    },
-    {
-      "id": "5077f133d4012622",
-      "title": "Inquest opens into death of ex-Cambridge professor Jason Arday",
-      "url": "https://www.abc.net.au/news/2026-08-27/jason-arday-inquest-opens/107082894",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-27/jason-arday-inquest-opens/107082894",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:38:57.000Z",
-      "description": "The opening of the inquest comes a day before the UK release of his memoir, and weeks after the Cambridge University professor's sudden death after an intense media frenzy.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
-      "preliminaryScore": 69
-    },
-    {
-      "id": "dbfd63f5db9b16a8",
-      "title": "Kremlin says CIA head met Russian intelligence officials, but not Putin",
-      "url": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss",
-      "sourceId": "al-jazeera",
-      "sourceName": "Al Jazeera",
-      "domain": "aljazeera.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:30:24.000Z",
-      "description": "CIA&#039;s Ratcliffe has met with Russian intel officials in Moscow, but not President Putin; Kremlin calls talks &#039;positive&#039;.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
-      "preliminaryScore": 68
-    },
-    {
-      "id": "183407c461365eab",
-      "title": "Prince Harry and Meghan arrive back in UK",
-      "url": "https://www.abc.net.au/news/2026-08-26/prince-harry-and-megan-arrive-back-in-uk-with-family/107082698",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-26/prince-harry-and-megan-arrive-back-in-uk-with-family/107082698",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T13:40:42.000Z",
-      "description": "Prince Harry and his wife Meghan arrive back in the UK with their two children, six years after they moved their lives to California amid simmering tensions within the royal family.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
-      "preliminaryScore": 68
-    },
-    {
-      "id": "48a569bad6d6d83a",
-      "title": "Ukraine awards Elon Musk Order of Freedom for Starlink support",
-      "url": "https://www.abc.net.au/news/2026-08-26/zelenskyy-awards-elon-musk-medal-for-starlink-access/107082694",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-26/zelenskyy-awards-elon-musk-medal-for-starlink-access/107082694",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T13:10:02.000Z",
-      "description": "Ukrainian President Volodymyr Zelenskyy has awarded Elon Musk the Order of Freedom, one of Ukraine's highest state honours.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
+      "topic": "games-release",
       "preliminaryScore": 67
-    },
-    {
-      "id": "e2dfd2b04d8f8d99",
-      "title": "理响中国｜文献里的党史密码 ： 关键关口 ， 何以掌握战略主动 ？- 思客",
-      "url": "https://www.news.cn/sikepro/20260826/8d729cb890aa4282b147b71a215524fa/c.html",
-      "canonicalUrl": "https://www.news.cn/sikepro/20260826/8d729cb890aa4282b147b71a215524fa/c.html",
-      "sourceId": "xinhua",
-      "sourceName": "Xinhua News Agency",
-      "domain": "news.cn",
-      "sourceType": "state-media",
-      "sourceTier": "B",
-      "language": "zh",
-      "publishedAt": "2026-08-26T08:15:00.000Z",
-      "description": "",
-      "discovery": "gdelt",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
-      "preliminaryScore": 65
-    },
-    {
-      "id": "ff8ad21c30dcaa80",
-      "title": "LIV Golf lays off majority of staff as PIF funding ends",
-      "url": "https://www.channelnewsasia.com/sport/liv-golf-lays-majority-staff-pif-funding-ends-6343201",
-      "canonicalUrl": "https://www.channelnewsasia.com/sport/liv-golf-lays-majority-staff-pif-funding-ends-6343201",
-      "sourceId": "cna",
-      "sourceName": "Channel NewsAsia",
-      "domain": "channelnewsasia.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:57:11.000Z",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
-      "preliminaryScore": 64
-    },
-    {
-      "id": "7f0dcbe0a0c25357",
-      "title": "Briton Brennan takes second Vuelta stage win, Pogacar in control",
-      "url": "https://www.channelnewsasia.com/sport/briton-brennan-takes-second-vuelta-stage-win-pogacar-in-control-6343186",
-      "canonicalUrl": "https://www.channelnewsasia.com/sport/briton-brennan-takes-second-vuelta-stage-win-pogacar-in-control-6343186",
-      "sourceId": "cna",
-      "sourceName": "Channel NewsAsia",
-      "domain": "channelnewsasia.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:49:12.000Z",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
-      "preliminaryScore": 64
-    },
-    {
-      "id": "85f937b40ee01b13",
-      "title": "Europe&#039;s Solheim Cup captain Nordqvist announces playing retirement",
-      "url": "https://www.channelnewsasia.com/sport/europes-solheim-cup-captain-nordqvist-announces-playing-retirement-6343176",
-      "canonicalUrl": "https://www.channelnewsasia.com/sport/europes-solheim-cup-captain-nordqvist-announces-playing-retirement-6343176",
-      "sourceId": "cna",
-      "sourceName": "Channel NewsAsia",
-      "domain": "channelnewsasia.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:47:32.000Z",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
-      "preliminaryScore": 64
-    },
-    {
-      "id": "d38e1525cf2e95cd",
-      "title": "Meta agrees to pay $18 billion to settle US lawsuits over children&#039;s social media addiction",
-      "url": "https://www.channelnewsasia.com/business/meta-agrees-pay-18-billion-settle-us-lawsuits-over-childrens-social-media-addiction-6343111",
-      "canonicalUrl": "https://www.channelnewsasia.com/business/meta-agrees-pay-18-billion-settle-us-lawsuits-over-childrens-social-media-addiction-6343111",
-      "sourceId": "cna",
-      "sourceName": "Channel NewsAsia",
-      "domain": "channelnewsasia.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:21:05.000Z",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
-      "preliminaryScore": 64
     }
   ],
   "sourceResults": [
@@ -1582,9 +1829,19 @@
       "count": 0
     },
     {
+      "sourceId": "ars-technica",
+      "status": "ok",
+      "count": 12
+    },
+    {
       "sourceId": "bbc",
       "status": "ok",
-      "count": 30
+      "count": 45
+    },
+    {
+      "sourceId": "billboard",
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "bloomberg",
@@ -1603,9 +1860,14 @@
       "count": 0
     },
     {
+      "sourceId": "deadline",
+      "status": "empty",
+      "count": 0
+    },
+    {
       "sourceId": "dw",
       "status": "ok",
-      "count": 14
+      "count": 13
     },
     {
       "sourceId": "esa",
@@ -1618,9 +1880,14 @@
       "count": 0
     },
     {
+      "sourceId": "eurogamer",
+      "status": "ok",
+      "count": 18
+    },
+    {
       "sourceId": "france24",
       "status": "ok",
-      "count": 11
+      "count": 9
     },
     {
       "sourceId": "ft",
@@ -1628,10 +1895,40 @@
       "count": 0
     },
     {
+      "sourceId": "game-developer",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "sourceId": "gamesindustry",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "sourceId": "hollywood-reporter",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "ieee-spectrum",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "sourceId": "ign",
+      "status": "empty",
+      "count": 0
+    },
+    {
       "sourceId": "imf",
       "status": "failed",
       "count": 0,
       "error": "https://www.imf.org/en/News/RSS?Language=ENG: 403 Forbidden"
+    },
+    {
+      "sourceId": "mit-technology-review",
+      "status": "ok",
+      "count": 9
     },
     {
       "sourceId": "nasa",
@@ -1654,6 +1951,21 @@
       "count": 0
     },
     {
+      "sourceId": "pc-gamer",
+      "status": "ok",
+      "count": 31
+    },
+    {
+      "sourceId": "polygon",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "rest-of-world",
+      "status": "ok",
+      "count": 1
+    },
+    {
       "sourceId": "reuters",
       "status": "no-feed",
       "count": 0
@@ -1669,6 +1981,21 @@
       "count": 0
     },
     {
+      "sourceId": "techcrunch",
+      "status": "ok",
+      "count": 13
+    },
+    {
+      "sourceId": "the-guardian",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "sourceId": "the-verge",
+      "status": "ok",
+      "count": 2
+    },
+    {
       "sourceId": "un-news",
       "status": "ok",
       "count": 6
@@ -1676,6 +2003,11 @@
     {
       "sourceId": "us-sec",
       "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "variety",
+      "status": "empty",
       "count": 0
     },
     {
@@ -1695,6 +2027,6 @@
     }
   ],
   "notes": [
-    "Merged and deduplicated 90 candidates from the previous snapshot."
+    "Merged and deduplicated 84 candidates from the previous snapshot."
   ]
 }

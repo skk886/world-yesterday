@@ -1,38 +1,143 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "month": "2026-08",
-  "generatedAt": "2026-08-27T06:09:10.157Z",
+  "generatedAt": "2026-08-27T08:08:39.447Z",
   "totals": {
     "editions": 1,
-    "candidates": 78,
+    "candidates": 45,
     "pagesOpened": 0,
     "searchGroups": 0,
-    "verified": 8,
-    "pending": 5,
-    "rejected": 65,
-    "tokens": 51876,
-    "measuredEditions": 1
+    "verified": 7,
+    "pending": 15,
+    "rejected": 23,
+    "tokens": 158046,
+    "currentEditionTokens": 47481,
+    "measuredRuns": 3,
+    "runs": 4
   },
   "editions": [
     {
       "date": "2026-08-26",
       "status": "partial",
-      "candidateCount": 78,
+      "candidateCount": 45,
       "pagesOpened": 0,
       "searchGroups": 0,
-      "verifiedCount": 8,
-      "pendingCount": 5,
-      "rejectedCount": 65,
+      "verifiedCount": 7,
+      "pendingCount": 15,
+      "rejectedCount": 23,
       "tokenUsage": {
         "measured": true,
-        "candidateJudgment": 6485,
-        "verification": 25938,
-        "bilingualGeneration": 12969,
-        "contentChecks": 6484,
+        "candidateJudgment": 5935,
+        "verification": 23741,
+        "bilingualGeneration": 11870,
+        "contentChecks": 5935,
         "repairReserve": 0,
-        "input": 39509,
-        "output": 12367,
-        "total": 51876
+        "input": 32702,
+        "output": 14779,
+        "total": 47481
+      }
+    }
+  ],
+  "runs": [
+    {
+      "runId": "2026-08-26-legacy-1",
+      "date": "2026-08-26",
+      "completedAt": "2026-08-27T06:09:10.157Z",
+      "outcome": "published",
+      "metrics": {
+        "candidateCount": 78,
+        "pagesOpened": 0,
+        "searchGroups": 0,
+        "verifiedCount": 8,
+        "pendingCount": 5,
+        "rejectedCount": 65,
+        "tokenUsage": {
+          "measured": true,
+          "candidateJudgment": 6485,
+          "verification": 25938,
+          "bilingualGeneration": 12969,
+          "contentChecks": 6484,
+          "repairReserve": 0,
+          "input": 39509,
+          "output": 12367,
+          "total": 51876
+        }
+      }
+    },
+    {
+      "runId": "2026-08-26-2026-08-27T07:25:32.294Z",
+      "date": "2026-08-26",
+      "completedAt": "2026-08-27T07:30:37.828Z",
+      "outcome": "failed",
+      "metrics": {
+        "candidateCount": 90,
+        "pagesOpened": 0,
+        "searchGroups": 0,
+        "verifiedCount": 8,
+        "pendingCount": 5,
+        "rejectedCount": 77,
+        "tokenUsage": {
+          "measured": true,
+          "candidateJudgment": 7336,
+          "verification": 29345,
+          "bilingualGeneration": 14672,
+          "contentChecks": 7336,
+          "repairReserve": 0,
+          "input": 45895,
+          "output": 12794,
+          "total": 58689
+        }
+      },
+      "failureReason": "npm run build exited 1. "
+    },
+    {
+      "runId": "2026-08-26-2026-08-27T07:35:58.393Z",
+      "date": "2026-08-26",
+      "completedAt": "2026-08-27T07:35:58.412Z",
+      "outcome": "validated",
+      "metrics": {
+        "candidateCount": 90,
+        "pagesOpened": 0,
+        "searchGroups": 0,
+        "verifiedCount": 8,
+        "pendingCount": 5,
+        "rejectedCount": 77,
+        "tokenUsage": {
+          "measured": false,
+          "candidateJudgment": 0,
+          "verification": 0,
+          "bilingualGeneration": 0,
+          "contentChecks": 0,
+          "repairReserve": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "runId": "2026-08-26-2026-08-27T08:02:47.084Z",
+      "date": "2026-08-26",
+      "completedAt": "2026-08-27T08:08:39.446Z",
+      "outcome": "validated",
+      "metrics": {
+        "candidateCount": 45,
+        "pagesOpened": 0,
+        "searchGroups": 0,
+        "verifiedCount": 7,
+        "pendingCount": 15,
+        "rejectedCount": 23,
+        "tokenUsage": {
+          "measured": true,
+          "candidateJudgment": 5935,
+          "verification": 23741,
+          "bilingualGeneration": 11870,
+          "contentChecks": 5935,
+          "repairReserve": 0,
+          "input": 32702,
+          "output": 14779,
+          "total": 47481
+        }
       }
     }
   ]

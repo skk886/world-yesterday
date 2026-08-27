@@ -13,7 +13,7 @@ const pending = edition.items.filter((item) => item.verificationStatus === "pend
 <header class="edition-hero">
   <div><p class="edition-hero__kicker">Daily edition · {edition.status === "complete" ? "完整期" : "部分发布"}</p><h1>{dateLabel.zh}</h1></div>
   <div class="edition-hero__right">
-    <p lang="en"><strong>{dateLabel.en}</strong><br />{edition.items.length} events · {verified.length} verified · {pending.length} pending</p>
+    <p lang="en"><strong>{dateLabel.en}</strong><br />{edition.items.length} events · {verified.length} verified · {pending.length} single-source</p>
     <p>按北京时间整理昨日发布或实质更新的全球新闻。热度用于发现，来源与交叉核验决定是否发布。</p>
   </div>
 </header>
@@ -31,7 +31,7 @@ const pending = edition.items.filter((item) => item.verificationStatus === "pend
 </section>
 {pending.length > 0 && (
   <section aria-labelledby="pending-heading">
-    <div class="section-heading"><h2 id="pending-heading">待核实观察</h2><p>Pending · not part of the verified ranking</p></div>
+    <div class="section-heading"><h2 id="pending-heading">白名单单源</h2><p>Allowlisted single-source · not cross-verified</p></div>
     <div class="news-list">{pending.map((item) => <NewsCard item={item} />)}</div>
   </section>
 )}

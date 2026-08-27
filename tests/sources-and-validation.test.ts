@@ -6,7 +6,7 @@ import fs from "node:fs";
 
 function editionWithOneItem(): Edition {
   return editionSchema.parse({
-    schemaVersion: 2,
+    schemaVersion: 3,
     siteName: "昨日世界 / World Yesterday",
     date: "2026-08-25",
     generatedAt: "2026-08-26T04:00:00Z",
@@ -45,9 +45,28 @@ function editionWithOneItem(): Edition {
 describe("allowlist and semantic publishing gate", () => {
   it("allows registered subdomains and rejects unknown sites", () => {
     const sources = loadSourceRegistry();
+    expect(sources).toHaveLength(42);
+    expect(sources.filter((source) => source.feeds.length > 0)).toHaveLength(32);
+    expect(sources.every((source) => source.homepage.startsWith("https://"))).toBe(true);
     expect(findAllowedSource("https://science.nasa.gov/story", sources)?.id).toBe("nasa");
     expect(isAllowedUrl("https://random-blog.invalid/story", sources)).toBe(false);
     expect(findAllowedSource("https://tass.com/story", sources)?.type).toBe("state-media");
+  });
+
+  it("does not treat sister publications as independent verification", () => {
+    const edition = editionWithOneItem();
+    edition.items[0].category = "entertainment";
+    edition.items[0].topic = "film-television";
+    edition.items[0].subjectOrganization = null;
+    edition.items[0].sources = [
+      { name: "Variety", url: "https://variety.com/2026/film/news/example-123/", domain: "variety.com", type: "independent-media", language: "en", publishedAt: "2026-08-25T02:00:00Z" },
+      { name: "Deadline", url: "https://deadline.com/2026/08/example-123/", domain: "deadline.com", type: "independent-media", language: "en", publishedAt: "2026-08-25T03:00:00Z" }
+    ];
+    edition.metrics.candidateCount = 2;
+    edition.metrics.rejectedCount = 1;
+    const result = validateEditionSemantics(edition);
+    expect(result.valid).toBe(false);
+    expect(result.errors.join(" ")).toContain("two independent publisher groups");
   });
 
   it("accepts a primary source that proves its own announcement", () => {
@@ -62,9 +81,9 @@ describe("allowlist and semantic publishing gate", () => {
     expect(result.errors.join(" ")).toContain("outside the allowlist");
   });
 
-  it("enforces the five-item pending ceiling", () => {
+  it("enforces the fifteen-item allowlisted single-source ceiling", () => {
     const edition = editionWithOneItem();
-    edition.items = Array.from({ length: 6 }, (_, index) => ({
+    edition.items = Array.from({ length: 16 }, (_, index) => ({
       ...structuredClone(edition.items[0]),
       id: `pending-event-${index + 1}`,
       rank: index + 1,
@@ -72,10 +91,10 @@ describe("allowlist and semantic publishing gate", () => {
       pendingReason: { zh: "仍缺少第二个独立来源。", en: "A second independent source is still missing." }
     }));
     edition.metrics.verifiedCount = 0;
-    edition.metrics.pendingCount = 5;
+    edition.metrics.pendingCount = 15;
     const result = validateEditionSemantics(edition);
     expect(result.valid).toBe(false);
-    expect(result.errors.join(" ")).toContain("Pending items exceed limit: 6/5");
+    expect(result.errors.join(" ")).toContain("Single-source items exceed limit: 16/15");
   });
 
   it("keeps the local visual fixture within the publication rules", () => {
@@ -94,5 +113,19 @@ describe("allowlist and semantic publishing gate", () => {
       }], sourceResults: [], notes: []
     });
     expect(validateRawSnapshotSemantics(raw).valid).toBe(false);
+  });
+
+  it("keeps an item first published yesterday even when it was updated the next day", () => {
+    const raw = rawSnapshotSchema.parse({
+      schemaVersion: 1, date: "2026-08-25", timezone: "Asia/Shanghai", collectedAt: "2026-08-26T12:00:00Z",
+      window: { start: "2026-08-24T16:00:00Z", end: "2026-08-25T15:59:59.999Z" },
+      candidates: [{
+        id: "candidate-2", title: "Primary announcement", url: "https://www.nasa.gov/test", canonicalUrl: "https://www.nasa.gov/test",
+        sourceId: "nasa", sourceName: "NASA", domain: "nasa.gov", sourceType: "primary", sourceTier: "A", language: "en",
+        publishedAt: "2026-08-25T02:00:00Z", updatedAt: "2026-08-26T18:00:00Z", discovery: "rss",
+        categoryHints: ["science"], topic: "aerospace", preliminaryScore: 50
+      }], sourceResults: [], notes: []
+    });
+    expect(validateRawSnapshotSemantics(raw)).toEqual({ valid: true, errors: [] });
   });
 });

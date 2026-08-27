@@ -3,33 +3,42 @@ import { z } from "zod";
 export const categories = [
   "world",
   "technology",
+  "ai",
   "science",
   "society",
   "business",
   "health",
   "climate",
+  "entertainment",
+  "games",
   "culture-sports"
 ] as const;
 
 export const categoryLabels: Record<(typeof categories)[number], { zh: string; en: string }> = {
   world: { zh: "国际", en: "World" },
   technology: { zh: "科技", en: "Technology" },
+  ai: { zh: "AI", en: "AI" },
   science: { zh: "科学", en: "Science" },
   society: { zh: "社会", en: "Society" },
   business: { zh: "财经", en: "Business" },
   health: { zh: "健康", en: "Health" },
   climate: { zh: "气候", en: "Climate" },
+  entertainment: { zh: "娱乐", en: "Entertainment" },
+  games: { zh: "游戏", en: "Games" },
   "culture-sports": { zh: "文化体育", en: "Culture & Sports" }
 };
 
 export const categoryTargets: Record<(typeof categories)[number], number> = {
-  world: 7,
-  technology: 6,
-  science: 5,
-  society: 4,
-  business: 3,
+  world: 5,
+  technology: 3,
+  ai: 3,
+  science: 4,
+  society: 3,
+  business: 2,
   health: 2,
   climate: 2,
+  entertainment: 3,
+  games: 2,
   "culture-sports": 1
 };
 
@@ -45,6 +54,12 @@ export const topics = [
   "economy-finance",
   "conflict-security",
   "public-policy",
+  "film-television",
+  "music-entertainment",
+  "games-industry",
+  "game-development",
+  "games-release",
+  "esports",
   "culture-sports",
   "general"
 ] as const;
@@ -119,13 +134,13 @@ export const editionMetricsSchema = z.object({
   pagesOpened: z.number().int().min(0).max(60),
   searchGroups: z.number().int().min(0).max(16),
   verifiedCount: z.number().int().min(0),
-  pendingCount: z.number().int().min(0).max(5),
+  pendingCount: z.number().int().min(0).max(15),
   rejectedCount: z.number().int().min(0),
   tokenUsage: tokenUsageSchema
 });
 
 export const editionSchema = z.object({
-  schemaVersion: z.literal(2),
+  schemaVersion: z.literal(3),
   siteName: z.literal("昨日世界 / World Yesterday"),
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   generatedAt: z.string().datetime({ offset: true }),

@@ -4,8 +4,14 @@ import type { Category, RawCandidate } from "../../src/lib/schema";
 export type ArticleClassification = { category: Category; topic: RawCandidate["topic"] };
 
 const topicRules: Array<{ topic: RawCandidate["topic"]; category: Category; patterns: RegExp[] }> = [
+  { topic: "esports", category: "games", patterns: [/\besports?\b/i, /competitive gaming/i, /gaming tournament/i] },
+  { topic: "game-development", category: "games", patterns: [/game develop/i, /game engine/i, /game studio/i, /video game developer/i] },
+  { topic: "games-release", category: "games", patterns: [/video game release/i, /game launch/i, /console launch/i, /playstation/i, /\bxbox\b/i, /nintendo/i, /steam game/i] },
+  { topic: "games-industry", category: "games", patterns: [/video game/i, /gaming industr/i, /game publisher/i, /game platform/i, /gaming company/i] },
+  { topic: "artificial-intelligence", category: "ai", patterns: [/artificial intelligence/i, /generative ai/i, /\bai\b/i, /machine learning/i, /large language model/i, /chatbot/i, /deepfake/i, /neural network/i] },
+  { topic: "film-television", category: "entertainment", patterns: [/\bfilms?\b/i, /\bmovies?\b/i, /television/i, /streaming series/i, /box office/i, /cinema/i, /\bactors?\b/i, /\bactress(?:es)?\b/i, /\bfilm director\b/i, /\bfilmmaker\b/i, /emmy/i, /oscar/i] },
+  { topic: "music-entertainment", category: "entertainment", patterns: [/\bmusic\b/i, /singer/i, /songwriter/i, /album/i, /concert/i, /grammy/i, /record label/i, /entertainment industr/i] },
   { topic: "aerospace", category: "science", patterns: [/\bnasa\b/i, /\besa\b/i, /spacecraft/i, /space telescope/i, /\bastronaut/i, /\borbit/i, /\blunar/i, /\bmoon\b/i, /\bmars\b/i, /\basteroid/i, /rocket launch/i, /space mission/i, /satellite launch/i] },
-  { topic: "artificial-intelligence", category: "technology", patterns: [/artificial intelligence/i, /\bai\b/i, /machine learning/i, /large language model/i, /chatbot/i, /deepfake/i] },
   { topic: "health-medicine", category: "health", patterns: [/health/i, /medical/i, /medicine/i, /disease/i, /virus/i, /vaccine/i, /cancer/i, /malaria/i, /hospital/i, /patient/i, /outbreak/i, /infection/i] },
   { topic: "climate-environment", category: "climate", patterns: [/climate/i, /global warming/i, /greenhouse/i, /carbon emission/i, /extreme heat/i, /wildfire/i, /drought/i, /flood/i, /biodiversity/i, /pollution/i] },
   { topic: "earth-science", category: "science", patterns: [/earthquake/i, /volcan/i, /geolog/i, /ocean temperature/i, /sea level/i, /atmospher/i, /meteorolog/i, /palaeontolog/i, /paleontolog/i] },
@@ -14,7 +20,7 @@ const topicRules: Array<{ topic: RawCandidate["topic"]; category: Category; patt
   { topic: "digital-infrastructure", category: "technology", patterns: [/cyber/i, /software/i, /computer/i, /internet/i, /data cent/i, /digital/i, /robot/i, /quantum comput/i, /chipmaker/i, /technology/i] },
   { topic: "economy-finance", category: "business", patterns: [/econom/i, /inflation/i, /interest rate/i, /trade deal/i, /tariff/i, /market/i, /bank/i, /investment/i, /company/i, /business/i, /stock/i] },
   { topic: "conflict-security", category: "world", patterns: [/\bwar\b/i, /attack/i, /military/i, /missile/i, /ceasefire/i, /conflict/i, /\bsecurity\b/i, /hostage/i, /sanction/i, /diplomat/i] },
-  { topic: "culture-sports", category: "culture-sports", patterns: [/sport/i, /football/i, /soccer/i, /olympic/i, /tennis/i, /film/i, /music/i, /museum/i, /artist/i, /literature/i, /culture/i] },
+  { topic: "culture-sports", category: "culture-sports", patterns: [/sport/i, /football/i, /soccer/i, /olympic/i, /tennis/i, /museum/i, /visual art/i, /literature/i, /book prize/i, /cultural heritage/i] },
   { topic: "public-policy", category: "society", patterns: [/election/i, /government/i, /court/i, /law\b/i, /policy/i, /school/i, /housing/i, /rental/i, /insecurity/i, /migration/i, /protest/i, /rights/i, /police/i, /parliament/i] }
 ];
 
@@ -27,6 +33,46 @@ export function classifyArticle(title: string, description = ""): ArticleClassif
   });
   if (best) return { category: best.rule.category, topic: best.rule.topic };
   return { category: "world", topic: "general" };
+}
+
+const universalExclusions = [
+  /\bsponsored\b/i,
+  /brand studio/i,
+  /partner content/i,
+  /press release/i,
+  /\bbuying guide\b/i,
+  /\bgift guide\b/i,
+  /\bleaks?\b/i
+];
+
+const leisureExclusions = [
+  /\breview\b/i,
+  /buying guide/i,
+  /gift guide/i,
+  /best .* (games?|movies?|shows?|albums?)/i,
+  /\bdeals?\b/i,
+  /discount/i,
+  /pre-?order/i,
+  /watch .* trailer/i,
+  /new trailer/i,
+  /rumou?r/i,
+  /\bleaks?\b/i,
+  /\breportedly\b/i,
+  /reportedly planning/i,
+  /could be coming/i
+];
+
+export function isExcludedCandidate(
+  entry: { title: string; description?: string; url: string },
+  classification = classifyArticle(entry.title, entry.description)
+): boolean {
+  const text = `${entry.title} ${entry.description ?? ""}`.normalize("NFKC");
+  const pathname = new URL(entry.url).pathname.toLowerCase();
+  if (["/sponsor/", "/sponsored/", "/brand-studio/", "/press-releases/"].some((part) => pathname.includes(part))) return true;
+  if (universalExclusions.some((pattern) => pattern.test(text))) return true;
+  if (/\breview\b/i.test(entry.title)) return true;
+  return ["entertainment", "games"].includes(classification.category)
+    && leisureExclusions.some((pattern) => pattern.test(text));
 }
 
 const trackingParameters = new Set([

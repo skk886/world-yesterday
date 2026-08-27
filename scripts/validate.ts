@@ -3,7 +3,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { categoryTargets, editionSchema, rawSnapshotSchema, type Edition, type RawSnapshot } from "../src/lib/schema";
 import { dateIsInShanghaiDay } from "../src/lib/dates";
-import { findAllowedSource, loadSourceRegistry, normalizeDomain } from "./lib/sources";
+import { findAllowedSource, loadSourceRegistry, normalizeDomain, sourceIndependenceKey } from "./lib/sources";
 import { compareEditorialRank, computeImportanceScore, diversityErrors, normalizeOrganizationId } from "./lib/editorial";
 
 export type ValidationResult = { valid: boolean; errors: string[] };
@@ -20,7 +20,7 @@ export function validateEditionSemantics(edition: Edition): ValidationResult {
   const pending = edition.items.filter((item) => item.verificationStatus === "pending");
   const verified = edition.items.filter((item) => item.verificationStatus === "verified");
 
-  if (pending.length > 5) errors.push(`Pending items exceed limit: ${pending.length}/5.`);
+  if (pending.length > 15) errors.push(`Single-source items exceed limit: ${pending.length}/15.`);
   if (edition.metrics.pendingCount !== pending.length) errors.push("metrics.pendingCount does not match items.");
   if (edition.metrics.verifiedCount !== verified.length) errors.push("metrics.verifiedCount does not match items.");
   if (edition.metrics.rejectedCount !== Math.max(0, edition.metrics.candidateCount - edition.items.length)) errors.push("metrics.rejectedCount does not match candidates minus published items.");
@@ -29,7 +29,7 @@ export function validateEditionSemantics(edition: Edition): ValidationResult {
   if (pending.length && verified.length && Math.min(...pending.map((item) => item.rank)) <= Math.max(...verified.map((item) => item.rank))) {
     errors.push("Pending observations must rank after every verified item.");
   }
-  for (const category of ["business", "health", "climate", "culture-sports"] as const) {
+  for (const category of ["ai", "business", "health", "climate", "entertainment", "games", "culture-sports"] as const) {
     const count = edition.items.filter((item) => item.category === category).length;
     if (count > categoryTargets[category]) errors.push(`${category} exceeds its target; transferred vacancies may only go to world, technology, science, or society.`);
   }
@@ -56,7 +56,7 @@ export function validateEditionSemantics(edition: Edition): ValidationResult {
     const englishWords = wordCount(item.summaries.en);
     if (englishWords < 35 || englishWords > 130) errors.push(`${item.id}: English summary should be 35-130 words.`);
 
-    const uniqueDomains = new Set<string>();
+    const independentGroups = new Set<string>();
     let primaryCount = 0;
     let hasDateEvidence = false;
     let hasIndependent = false;
@@ -70,20 +70,25 @@ export function validateEditionSemantics(edition: Edition): ValidationResult {
       const actualDomain = normalizeDomain(new URL(citation.url).hostname);
       if (normalizeDomain(citation.domain) !== actualDomain) errors.push(`${item.id}: citation domain does not match URL: ${citation.domain}.`);
       if (citation.type !== source.type) errors.push(`${item.id}: source type mismatch for ${citation.url}.`);
-      uniqueDomains.add(source.domain);
+      const independenceKey = sourceIndependenceKey(citation.url, sources);
+      if (independenceKey) independentGroups.add(independenceKey);
       if (source.type === "primary") primaryCount += 1;
       if (source.type === "independent-media") hasIndependent = true;
-      if (dateIsInShanghaiDay(citation.updatedAt ?? citation.publishedAt, edition.date)) hasDateEvidence = true;
+      if (dateIsInShanghaiDay(citation.publishedAt, edition.date)
+        || Boolean(citation.updatedAt && dateIsInShanghaiDay(citation.updatedAt, edition.date))) hasDateEvidence = true;
     }
     if (!hasDateEvidence) errors.push(`${item.id}: no source was published or materially updated on ${edition.date}.`);
-    if (item.verificationStatus === "verified" && uniqueDomains.size < 2 && primaryCount < 1) {
-      errors.push(`${item.id}: verified item needs two independent domains or one primary source.`);
+    if (item.verificationStatus === "verified" && independentGroups.size < 2 && primaryCount < 1) {
+      errors.push(`${item.id}: verified item needs two independent publisher groups or one primary source.`);
     }
     if (item.verificationStatus === "verified" && item.sources.every((source) => source.type === "state-media")) {
       errors.push(`${item.id}: state-media-only evidence cannot be verified.`);
     }
     if (item.verificationStatus === "verified" && item.sources.some((source) => source.type === "state-media") && !hasIndependent && primaryCount === 0) {
       errors.push(`${item.id}: a state-media claim needs independent or primary corroboration.`);
+    }
+    if (item.verificationStatus === "pending" && !hasIndependent && primaryCount === 0) {
+      errors.push(`${item.id}: a single-source item needs at least one independent-media or primary source.`);
     }
   }
 
@@ -111,7 +116,8 @@ export function validateRawSnapshotSemantics(snapshot: RawSnapshot): ValidationR
     if (normalizeDomain(candidate.domain) !== normalizeDomain(new URL(candidate.canonicalUrl).hostname)) {
       errors.push(`${candidate.id}: raw candidate domain does not match canonicalUrl.`);
     }
-    if (!dateIsInShanghaiDay(candidate.updatedAt ?? candidate.publishedAt, snapshot.date)) {
+    if (!dateIsInShanghaiDay(candidate.publishedAt, snapshot.date)
+      && !(candidate.updatedAt && dateIsInShanghaiDay(candidate.updatedAt, snapshot.date))) {
       errors.push(`${candidate.id}: raw candidate is outside ${snapshot.date}.`);
     }
   }

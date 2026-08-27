@@ -85,7 +85,7 @@ describe("catch-up ordering", () => {
       impactScore: 0
     });
     const edition = editionSchema.parse({
-      schemaVersion: 2,
+      schemaVersion: 3,
       siteName: "昨日世界 / World Yesterday",
       date: "2026-08-25",
       generatedAt: "2026-08-26T04:00:00Z",

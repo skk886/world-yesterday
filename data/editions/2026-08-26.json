@@ -1,98 +1,73 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "siteName": "昨日世界 / World Yesterday",
   "date": "2026-08-26",
-  "generatedAt": "2026-08-27T13:59:00+08:00",
+  "generatedAt": "2026-08-27T15:21:25+08:00",
   "timezone": "Asia/Shanghai",
   "status": "partial",
   "items": [
     {
-      "id": "nepal-tibet-deadly-flash-floods",
-      "category": "climate",
+      "id": "africa-decade-health-workforce-plan",
+      "category": "health",
       "rank": 1,
       "titles": {
-        "zh": "尼泊尔—西藏边境暴发致命山洪，多地村庄受毁",
-        "en": "Deadly flash floods devastate communities along the Nepal–Tibet border"
+        "zh": "非洲公布十年卫生人力与系统强化计划",
+        "en": "African Countries Set Decade-Long Health Workforce Goal"
       },
-      "originalTitle": "Deadly flash flood wipes away villages in Nepal, Tibet",
+      "originalTitle": "More health workers, stronger systems: Africa’s new ambitious goal",
       "summaries": {
-        "zh": "尼泊尔与中国西藏交界地区遭遇严重山洪，村庄和交通设施受毁，造成大量人员死亡或失联。多家媒体称恶劣条件阻碍直升机救援，联合国机构已部署紧急援助。",
-        "en": "Severe flash flooding struck the Himalayan border region between Nepal and China, destroying communities, disrupting travel and leaving many people dead or missing. Reports differ substantially on the early casualty count, so no precise total is stated here. Deutsche Welle, ABC News Australia and France 24 independently described the disaster, while UN News reported that United Nations agencies were deploying emergency assistance."
+        "zh": "面对到2035年可能短缺逾六百万名卫生专业人员的局面，非洲国家卫生部长在亚的斯亚贝巴会议上宣布一项十年计划，目标是扩大队伍并增强卫生系统韧性。",
+        "en": "African countries announced a decade-long effort to expand their health workforce and strengthen health systems during a meeting of health ministers in Addis Ababa. The initiative responds to a projected regional shortage of more than six million health professionals by 2035. The UN report directly documents the plan’s announcement and the scale of the workforce gap it is intended to address."
       },
       "whyItMatters": {
-        "zh": "灾区地形险峻且游客众多，失联规模与受阻的救援行动可能进一步加重人员损失。",
-        "en": "Difficult terrain, large numbers of missing travellers and obstructed rescue operations could substantially increase the disaster’s human toll."
+        "zh": "若人力缺口持续扩大，基本医疗、疫情应对和长期公共卫生建设都将受到制约。",
+        "en": "A widening workforce gap would constrain basic care, outbreak response and long-term public-health capacity."
       },
       "sources": [
         {
-          "name": "Deutsche Welle",
-          "url": "https://www.dw.com/en/deadly-flash-flood-wipes-away-villages-in-nepal-tibet/a-78505576?maca=en-rss-en-top-1022-rdf",
-          "domain": "dw.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T17:44:00+08:00"
-        },
-        {
-          "name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-26/australian-missing-in-nepal-flood/107082672",
-          "domain": "abc.net.au",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T19:33:20+08:00"
-        },
-        {
           "name": "UN News",
-          "url": "https://news.un.org/feed/view/en/story/2026/08/1168208",
+          "url": "https://news.un.org/feed/view/en/story/2026/08/1168207",
           "domain": "news.un.org",
           "type": "primary",
           "language": "en",
           "publishedAt": "2026-08-26T20:00:00+08:00"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/video/20260826-hundreds-missing-in-nepal-catastrophic-flash-floods",
-          "domain": "france24.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T23:01:42+08:00"
         }
       ],
       "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T17:44:00+08:00",
-      "updatedAt": "2026-08-26T23:01:42+08:00",
+      "eventAt": "2026-08-26T20:00:00+08:00",
+      "publishedAt": "2026-08-26T20:00:00+08:00",
+      "updatedAt": "2026-08-26T20:00:00+08:00",
       "regions": [
-        "Nepal",
-        "China",
-        "South Asia",
-        "East Asia"
+        "Africa",
+        "Ethiopia"
       ],
-      "topic": "climate-environment",
+      "topic": "health-medicine",
       "subjectOrganization": null,
       "importanceFactors": {
-        "impactBreadth": 76,
-        "consequenceSeverity": 91,
-        "systemicSignificance": 66,
-        "independentCoverage": 88,
-        "yesterdayNovelty": 92
+        "impactBreadth": 91,
+        "consequenceSeverity": 84,
+        "systemicSignificance": 88,
+        "independentCoverage": 45,
+        "yesterdayNovelty": 78
       },
-      "impactScore": 81
+      "impactScore": 80
     },
     {
-      "id": "cia-director-moscow-talks",
+      "id": "cia-director-moscow-visit",
       "category": "world",
       "rank": 2,
       "titles": {
-        "zh": "美国中央情报局局长赴莫斯科，与俄情报官员会谈",
-        "en": "CIA director holds talks with Russian intelligence officials in Moscow"
+        "zh": "美国中情局局长访问莫斯科并与俄方情报官员会谈",
+        "en": "CIA Director Visits Moscow for Talks With Russian Intelligence"
       },
       "originalTitle": "Moscow confirms visit of CIA Director John Ratcliffe",
       "summaries": {
-        "zh": "俄罗斯方面确认，美国中央情报局局长约翰·拉特克利夫访问莫斯科并与俄情报部门会谈，但未会见普京。议题尚未公开，此行正值乌克兰战争升级及美伊外交受挫之际。",
-        "en": "Russia confirmed that CIA Director John Ratcliffe visited Moscow and met Russian intelligence counterparts, though not President Vladimir Putin. The subjects discussed were not disclosed. Deutsche Welle, Al Jazeera and France 24 independently reported the visit, described as the first known trip to the Russian capital by a serving US intelligence chief since 2021, amid heightened tensions over Ukraine and stalled US-Iran diplomacy."
+        "zh": "俄罗斯方面确认，美国中央情报局局长约翰·拉特克利夫访问莫斯科并与俄方情报机构代表会谈，但未见总统普京。会谈内容尚未公开，此行是2021年以来已知首次同级访问。",
+        "en": "Russia confirmed that CIA Director John Ratcliffe visited Moscow and held talks with Russian intelligence counterparts, without meeting President Vladimir Putin. The agenda was not disclosed. France 24 and Deutsche Welle independently reported the visit, described as the first known trip to the Russian capital by a US intelligence chief since 2021, amid escalating international security tensions."
       },
       "whyItMatters": {
-        "zh": "在多条安全危机同时升温之际，美俄情报高层直接接触可能影响危机管控与秘密外交。",
-        "en": "Direct intelligence contact between Washington and Moscow could shape crisis management and back-channel diplomacy during several escalating security disputes."
+        "zh": "在安全关系紧张之际恢复高级别情报接触，可能影响危机沟通与外交斡旋。",
+        "en": "High-level intelligence contact during heightened tensions could affect crisis communication and diplomatic efforts."
       },
       "sources": [
         {
@@ -102,14 +77,6 @@
           "type": "independent-media",
           "language": "en",
           "publishedAt": "2026-08-26T19:24:00+08:00"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T22:30:24+08:00"
         },
         {
           "name": "France 24",
@@ -124,8 +91,8 @@
       "publishedAt": "2026-08-26T19:24:00+08:00",
       "updatedAt": "2026-08-26T23:41:43+08:00",
       "regions": [
-        "United States",
         "Russia",
+        "United States",
         "Europe"
       ],
       "topic": "conflict-security",
@@ -134,86 +101,84 @@
         "name": "Central Intelligence Agency"
       },
       "importanceFactors": {
-        "impactBreadth": 72,
-        "consequenceSeverity": 76,
-        "systemicSignificance": 83,
-        "independentCoverage": 82,
-        "yesterdayNovelty": 87
+        "impactBreadth": 78,
+        "consequenceSeverity": 75,
+        "systemicSignificance": 82,
+        "independentCoverage": 78,
+        "yesterdayNovelty": 91
       },
-      "impactScore": 78
+      "impactScore": 79
     },
     {
-      "id": "meta-teen-addiction-lawsuit-settlement",
-      "category": "business",
+      "id": "nepal-china-border-deadly-floods",
+      "category": "climate",
       "rank": 3,
       "titles": {
-        "zh": "Meta同意和解美国青少年社交媒体伤害诉讼",
-        "en": "Meta agrees to settle US lawsuits alleging social-media harm to children"
+        "zh": "尼泊尔与中国边境洪灾造成死亡和大范围破坏",
+        "en": "Deadly Floods Devastate Nepal-China Border Communities"
       },
-      "originalTitle": "Meta to pay $23 billion to settle teen social media addiction cases",
+      "originalTitle": "Deadly floods cause widespread destruction in China, Nepal",
       "summaries": {
-        "zh": "两家媒体均称Meta已同意全面和解美国联邦及州法院中有关旗下平台伤害儿童的诉讼，但快照所列金额分别为230亿美元和180亿美元，故本刊不采用具体数额。",
-        "en": "ABC News Australia and Channel NewsAsia both reported that Meta agreed to a broad settlement of US federal and state lawsuits alleging that its platforms harmed children. Their snapshot records give conflicting totals—$23 billion and $18 billion—so this edition does not state a settlement amount. The agreement itself is independently corroborated, while its precise financial terms remain unresolved by the supplied evidence."
+        "zh": "尼泊尔与中国边境地区遭遇严重洪灾，至少数十人死亡，数百人一度失联，泥石流冲毁村庄并阻断交通。联合国机构称救援和紧急援助已经展开。",
+        "en": "Severe flooding along the Nepal-China border killed dozens, swept through villages and left hundreds of tourists, workers and residents initially out of contact. Transport was disrupted as mud and debris buried buildings and triggered searches for survivors. UN agencies separately reported widespread destruction and mounting death tolls in both countries, saying emergency assistance had begun to deploy."
       },
       "whyItMatters": {
-        "zh": "大范围和解可能重塑社交平台对未成年人风险的法律责任、产品设计与合规成本。",
-        "en": "A settlement spanning many child-harm claims could reshape platform liability, youth-safety design and compliance costs across the social-media industry."
+        "zh": "灾害跨越国境并造成大规模失联，救援能力和区域交通面临持续压力。",
+        "en": "The cross-border scale and large number of missing people create prolonged rescue and regional transport risks."
       },
       "sources": [
         {
-          "name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-27/meta-settlement-on-harm-to-teens/107082748",
-          "domain": "abc.net.au",
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260826-hundreds-missing-in-nepal-catastrophic-flash-floods",
+          "domain": "france24.com",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T22:01:05+08:00"
+          "publishedAt": "2026-08-26T23:01:42+08:00"
         },
         {
-          "name": "Channel NewsAsia",
-          "url": "https://www.channelnewsasia.com/business/meta-agrees-pay-18-billion-settle-us-lawsuits-over-childrens-social-media-addiction-6343111",
-          "domain": "channelnewsasia.com",
-          "type": "independent-media",
+          "name": "UN News",
+          "url": "https://news.un.org/feed/view/en/story/2026/08/1168208",
+          "domain": "news.un.org",
+          "type": "primary",
           "language": "en",
-          "publishedAt": "2026-08-26T23:21:05+08:00"
+          "publishedAt": "2026-08-26T20:00:00+08:00"
         }
       ],
       "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T22:01:05+08:00",
-      "updatedAt": "2026-08-26T23:21:05+08:00",
+      "publishedAt": "2026-08-26T20:00:00+08:00",
+      "updatedAt": "2026-08-26T23:01:42+08:00",
       "regions": [
-        "United States",
-        "North America"
+        "Nepal",
+        "China",
+        "Asia"
       ],
-      "topic": "economy-finance",
-      "subjectOrganization": {
-        "id": "meta",
-        "name": "Meta"
-      },
+      "topic": "climate-environment",
+      "subjectOrganization": null,
       "importanceFactors": {
-        "impactBreadth": 79,
-        "consequenceSeverity": 71,
-        "systemicSignificance": 82,
-        "independentCoverage": 72,
-        "yesterdayNovelty": 91
+        "impactBreadth": 74,
+        "consequenceSeverity": 91,
+        "systemicSignificance": 65,
+        "independentCoverage": 76,
+        "yesterdayNovelty": 92
       },
-      "impactScore": 78
+      "impactScore": 79
     },
     {
-      "id": "unccd-restoration-flagships",
+      "id": "un-land-restoration-flagships",
       "category": "climate",
       "rank": 4,
       "titles": {
-        "zh": "联合国防治荒漠化公约公布三项土地恢复旗舰项目",
-        "en": "UNCCD names three restoration flagships as land degradation threatens billions"
+        "zh": "联合国公布三项土地恢复旗舰项目",
+        "en": "UN Highlights Three Land-Restoration Flagships"
       },
       "originalTitle": "Land models sprout as degradation threatens billions of livelihoods",
       "summaries": {
-        "zh": "联合国防治荒漠化公约负责人宣布三项“世界恢复旗舰”获奖项目，并警告全球约四成土地面临退化和干旱，威胁逾三十亿人的生计。该行动由联合国一手来源直接确认。",
-        "en": "The head of the UN Convention to Combat Desertification announced three winners of its World Restoration Flagships awards while warning that land degradation and drought affect roughly 40 percent of the world’s land and threaten more than three billion livelihoods. UN News directly documents the UN body’s announcement. The snapshot does not provide details about the individual projects, so the brief limits itself to the award action and stated global context."
+        "zh": "联合国防治荒漠化公约公布三项世界恢复旗舰项目，展示受损土地修复模式。该机构称，全球约四成土地正受退化与干旱影响，超过三十亿人的生计面临威胁。",
+        "en": "The UN Convention to Combat Desertification announced three winners of its World Restoration Flagships awards, highlighting approaches to restoring degraded land. The organization said degradation and drought currently affect about 40 percent of the world’s land and threaten the livelihoods of more than three billion people. The primary-source announcement establishes both the selections and the environmental context behind them."
       },
       "whyItMatters": {
-        "zh": "扩大可复制的土地恢复模式，关系到粮食安全、水资源、气候韧性和数十亿人的收入来源。",
-        "en": "Scalable restoration models matter for food security, water supplies, climate resilience and the livelihoods of billions of people."
+        "zh": "土地退化直接影响粮食、水资源和数十亿人的收入，成熟修复模式具有跨地区价值。",
+        "en": "Land degradation affects food, water and livelihoods, making scalable restoration models globally significant."
       },
       "sources": [
         {
@@ -226,6 +191,7 @@
         }
       ],
       "verificationStatus": "verified",
+      "eventAt": "2026-08-26T20:00:00+08:00",
       "publishedAt": "2026-08-26T20:00:00+08:00",
       "updatedAt": "2026-08-26T20:00:00+08:00",
       "regions": [
@@ -233,141 +199,36 @@
       ],
       "topic": "climate-environment",
       "subjectOrganization": {
-        "id": "unccd",
-        "name": "United Nations Convention to Combat Desertification"
+        "id": "un-convention-to-combat-desertification",
+        "name": "UN Convention to Combat Desertification"
       },
       "importanceFactors": {
-        "impactBreadth": 91,
-        "consequenceSeverity": 78,
-        "systemicSignificance": 76,
-        "independentCoverage": 20,
-        "yesterdayNovelty": 73
+        "impactBreadth": 92,
+        "consequenceSeverity": 81,
+        "systemicSignificance": 79,
+        "independentCoverage": 42,
+        "yesterdayNovelty": 70
       },
-      "impactScore": 72
-    },
-    {
-      "id": "un-security-council-gaza-west-bank",
-      "category": "world",
-      "rank": 5,
-      "titles": {
-        "zh": "联合国安理会讨论加沙与约旦河西岸紧张局势",
-        "en": "UN Security Council examines rising tensions in Gaza and the West Bank"
-      },
-      "originalTitle": "Security Council LIVE: Rising tensions in Gaza, West Bank",
-      "summaries": {
-        "zh": "联合国安全理事会就加沙与约旦河西岸的袭击、定居点扩张及脆弱停火举行会议。联合国特使呼吁将人的尊严置于应对持续苦难和缓和局势的核心位置。",
-        "en": "The United Nations Security Council met to discuss continued attacks, expanding Israeli settlements and rising tensions across Gaza, the West Bank and the wider Occupied Palestinian Territory. UN News reported that the organization’s special envoy urged parties to place human dignity at the centre of efforts to preserve a fragile ceasefire and address continuing suffering. The primary source directly establishes that the Council meeting occurred."
-      },
-      "whyItMatters": {
-        "zh": "安理会的讨论反映停火仍极不稳定，并可能影响国际调停、援助通道与外交施压。",
-        "en": "The Council’s deliberations can influence diplomatic pressure, humanitarian access and international efforts to prevent the fragile ceasefire from collapsing."
-      },
-      "sources": [
-        {
-          "name": "UN News",
-          "url": "https://news.un.org/feed/view/en/story/2026/08/1168204",
-          "domain": "news.un.org",
-          "type": "primary",
-          "language": "en",
-          "publishedAt": "2026-08-26T20:00:00+08:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T20:00:00+08:00",
-      "updatedAt": "2026-08-26T20:00:00+08:00",
-      "regions": [
-        "Israel",
-        "Palestinian Territories",
-        "Middle East"
-      ],
-      "topic": "conflict-security",
-      "subjectOrganization": {
-        "id": "un-security-council",
-        "name": "United Nations Security Council"
-      },
-      "importanceFactors": {
-        "impactBreadth": 68,
-        "consequenceSeverity": 84,
-        "systemicSignificance": 87,
-        "independentCoverage": 24,
-        "yesterdayNovelty": 72
-      },
-      "impactScore": 70
-    },
-    {
-      "id": "mtg-i2-weather-satellite-ready",
-      "category": "science",
-      "rank": 6,
-      "titles": {
-        "zh": "欧洲MTG-I2气象卫星完成发射准备",
-        "en": "Europe’s MTG-I2 weather satellite declared ready for launch"
-      },
-      "originalTitle": "MTG-I2 ready for launch",
-      "summaries": {
-        "zh": "欧洲航天局宣布，第三代气象卫星MTG-I2已准备在法属圭亚那搭乘阿丽亚娜6号发射。该卫星将为欧洲天气服务提供更精细影像，重点提升强天气的短时预报能力。",
-        "en": "The European Space Agency announced that the Meteosat Third Generation Imager-2 satellite was ready to launch aboard an Ariane 6 from French Guiana on 27 August. MTG-I2 will join two satellites already in orbit and is intended to deliver more detailed imagery and new data products for European weather services, particularly short-range forecasts of severe weather. ESA’s primary announcement directly verifies the readiness milestone and scheduled launch."
-      },
-      "whyItMatters": {
-        "zh": "更快速、精细的卫星观测可改善强风暴预警，为欧洲公共安全和气象服务争取关键时间。",
-        "en": "Faster, more detailed satellite observations can improve severe-weather warnings and give European emergency services valuable preparation time."
-      },
-      "sources": [
-        {
-          "name": "European Space Agency",
-          "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
-          "domain": "esa.int",
-          "type": "primary",
-          "language": "en",
-          "publishedAt": "2026-08-26T19:00:00+08:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T19:00:00+08:00",
-      "updatedAt": "2026-08-26T19:00:00+08:00",
-      "regions": [
-        "Europe",
-        "French Guiana"
-      ],
-      "topic": "aerospace",
-      "subjectOrganization": {
-        "id": "european-space-agency",
-        "name": "European Space Agency"
-      },
-      "importanceFactors": {
-        "impactBreadth": 67,
-        "consequenceSeverity": 64,
-        "systemicSignificance": 77,
-        "independentCoverage": 20,
-        "yesterdayNovelty": 82
-      },
-      "impactScore": 63
+      "impactScore": 77
     },
     {
       "id": "dolly-parton-dies-at-80",
-      "category": "culture-sports",
-      "rank": 7,
+      "category": "entertainment",
+      "rank": 5,
       "titles": {
-        "zh": "美国乡村音乐巨星多莉·帕顿去世，享年80岁",
-        "en": "Country music icon Dolly Parton dies at 80"
+        "zh": "美国乡村音乐巨星多莉·帕顿逝世，享年80岁",
+        "en": "Country Music Icon Dolly Parton Dies at 80"
       },
       "originalTitle": "Dolly Parton, queen of country music, dies at 80",
       "summaries": {
-        "zh": "多家媒体报道，美国歌手、词曲作者兼演员多莉·帕顿于八十岁去世，其家人已发表声明。她近六十年的创作、表演和商业事业跨越音乐类型与社会分歧，留下广泛文化影响。",
-        "en": "Dolly Parton, the American singer, songwriter and actor whose career spanned nearly six decades, died at 80, according to a family statement reported by France 24. The BBC separately published an assessment of her musical legacy. Her songwriting, performances, public persona and business career made her one of country music’s most recognizable figures and an artist whose appeal extended well beyond the genre and across US cultural divides."
+        "zh": "美国乡村歌手、词曲作者兼演员多莉·帕顿去世，享年80岁，家人已发表声明。她近六十年的音乐与表演生涯之外，还长期支持儿童阅读和疫苗研究等公益事业。",
+        "en": "Dolly Parton, the American country singer, songwriter and actor whose career spanned nearly six decades, died at 80, according to a family statement reported by France 24. BBC coverage independently described the late performer’s philanthropic work, including children’s literacy and support connected with COVID-19 vaccine research. Her death closes one of country music’s most influential and widely recognized careers."
       },
       "whyItMatters": {
-        "zh": "帕顿的创作与公共形象深刻影响乡村音乐、大众文化及女性艺人的商业自主。",
-        "en": "Parton’s work and public life shaped country music, popular culture and the model of commercial independence available to women artists."
+        "zh": "帕顿的创作、商业影响力和公益投入使其影响远超乡村音乐领域。",
+        "en": "Parton’s songwriting, cultural reach, business career and philanthropy extended far beyond country music."
       },
       "sources": [
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_campaign=rss&at_medium=RSS",
-          "domain": "bbc.co.uk",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T19:32:11+08:00"
-        },
         {
           "name": "France 24",
           "url": "https://www.france24.com/en/video/20260826-dolly-parton-queen-of-country-music-dies-at-80",
@@ -375,42 +236,50 @@
           "type": "independent-media",
           "language": "en",
           "publishedAt": "2026-08-26T22:59:28+08:00"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c24j39jqy2go?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T20:11:43+08:00"
         }
       ],
       "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T19:32:11+08:00",
+      "publishedAt": "2026-08-26T20:11:43+08:00",
       "updatedAt": "2026-08-26T22:59:28+08:00",
       "regions": [
         "United States",
         "Global"
       ],
-      "topic": "culture-sports",
+      "topic": "music-entertainment",
       "subjectOrganization": null,
       "importanceFactors": {
-        "impactBreadth": 66,
-        "consequenceSeverity": 48,
-        "systemicSignificance": 47,
-        "independentCoverage": 76,
-        "yesterdayNovelty": 82
+        "impactBreadth": 79,
+        "consequenceSeverity": 55,
+        "systemicSignificance": 59,
+        "independentCoverage": 82,
+        "yesterdayNovelty": 95
       },
-      "impactScore": 61
+      "impactScore": 71
     },
     {
       "id": "nasa-lunar-plume-surface-tests",
-      "category": "science",
-      "rank": 8,
+      "category": "technology",
+      "rank": 6,
       "titles": {
-        "zh": "NASA推进月球着陆器羽流与地表相互作用测试",
-        "en": "NASA advances lunar lander plume–surface interaction testing"
+        "zh": "NASA进入月球着陆器羽流与地表作用测试新阶段",
+        "en": "NASA Advances Lunar Lander Plume-Surface Testing"
       },
       "originalTitle": "NASA Begins Moon Mission Plume-Surface Interaction Tests",
       "summaries": {
-        "zh": "NASA更新月球任务测试进展，进入研究着陆器发动机羽流与月表相互作用的新阶段，并发布近期试验资料。相关研究旨在识别着陆时喷流、尘埃和碎屑带来的运行风险。",
-        "en": "NASA reported a new phase of testing focused on how lunar-lander engine plumes interact with the Moon’s surface, adding video and images from a recent test run to an earlier project account. The work is intended to improve understanding of hazards created by exhaust, dust and displaced surface material during landings. NASA’s dated primary update directly verifies that the agency advanced the test campaign on the target date."
+        "zh": "NASA更新其月球任务测试计划，宣布进入新的试验阶段，以研究着陆器发动机羽流冲击月面时可能产生的扬尘与地表风险，并为该机构及商业伙伴的着陆设计提供依据。",
+        "en": "NASA reported a new phase of testing aimed at understanding how lunar-lander engine plumes interact with the Moon’s surface. The work examines hazards created during landing, including the effects of expelled material, and is intended to inform NASA and commercial partners. The agency’s updated primary-source account directly documents the testing activity, including material from a recent test run."
       },
       "whyItMatters": {
-        "zh": "厘清喷流扬尘风险有助于保护着陆器、附近设备和未来月面人员，并改善任务设计。",
-        "en": "Understanding plume-driven dust and debris is important for protecting landers, nearby hardware and future crews operating on the lunar surface."
+        "zh": "羽流扬尘会威胁设备、人员和邻近设施，是持续月面活动必须解决的工程问题。",
+        "en": "Plume-driven debris can endanger hardware, crews and nearby infrastructure during sustained lunar operations."
       },
       "sources": [
         {
@@ -435,136 +304,131 @@
         "name": "NASA"
       },
       "importanceFactors": {
-        "impactBreadth": 55,
-        "consequenceSeverity": 57,
-        "systemicSignificance": 72,
-        "independentCoverage": 20,
-        "yesterdayNovelty": 78
+        "impactBreadth": 54,
+        "consequenceSeverity": 59,
+        "systemicSignificance": 75,
+        "independentCoverage": 35,
+        "yesterdayNovelty": 76
       },
-      "impactScore": 56
+      "impactScore": 59
     },
     {
-      "id": "record-ocean-temperatures-el-nino",
+      "id": "nasa-september-iss-spacewalk",
       "category": "science",
-      "rank": 9,
+      "rank": 7,
       "titles": {
-        "zh": "厄尔尼诺增强之际，全球海洋温度据报创历史新高",
-        "en": "Ocean temperatures reportedly reach record highs as El Niño strengthens"
+        "zh": "NASA安排国际空间站维护太空行走",
+        "en": "NASA Schedules Space Station Maintenance Spacewalk"
       },
-      "originalTitle": "Highest-ever ocean temperatures recorded as El Niño intensifies",
+      "originalTitle": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
       "summaries": {
-        "zh": "《自然》报道，随着厄尔尼诺增强，海洋温度达到有记录以来最高水平，并可能削弱海洋吸收二氧化碳的能力。快照未给出测量范围、数据集或纪录比较期，结论仍待核验。",
-        "en": "Nature reported that ocean temperatures had reached their highest recorded levels as El Niño intensified, with extreme warmth expected to weaken the ocean’s role as a carbon sink. The snapshot supplies no measurement range, dataset, baseline or regional breakdown, preventing independent assessment of the record claim or its precise scale. The finding is therefore presented cautiously and remains pending corroboration from another allowlisted domain or a directly cited primary dataset."
+        "zh": "NASA宣布两名宇航员将于9月1日在国际空间站外执行太空行走，更换一套航天器导航辅助设备并完成多项维护任务。任务预计上午8时30分开始并持续数小时。",
+        "en": "NASA scheduled two astronauts to conduct a spacewalk outside the International Space Station on September 1. The crew is expected to replace a spacecraft navigational aid and complete several maintenance tasks supporting station operations. NASA plans to begin live coverage at 7 a.m. EDT, with the spacewalk starting at approximately 8:30 a.m. The agency announcement directly establishes the schedule and planned work."
       },
       "whyItMatters": {
-        "zh": "持续异常海温会加剧海洋生态压力，并削弱吸碳能力，从而形成进一步增暖的反馈。",
-        "en": "Persistent extreme ocean warmth can damage marine ecosystems and weaken carbon uptake, creating feedback that compounds global warming."
+        "zh": "关键导航设备与例行维护关系到国际空间站后续任务的安全和连续运行。",
+        "en": "Replacing navigation equipment and completing maintenance supports the station’s safe, continuous operation."
       },
       "sources": [
         {
-          "name": "Nature",
-          "url": "https://www.nature.com/articles/d41586-026-02681-4",
-          "domain": "nature.com",
-          "type": "independent-media",
+          "name": "NASA",
+          "url": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned",
+          "domain": "nasa.gov",
+          "type": "primary",
           "language": "en",
-          "publishedAt": "2026-08-26T08:00:00+08:00"
+          "publishedAt": "2026-08-26T22:16:29+08:00"
         }
       ],
-      "verificationStatus": "pending",
-      "pendingReason": {
-        "zh": "仅有《自然》一个许可域名，且摘要未列明数据集、测量范围、基准期或原始发布机构，无法独立核实纪录。",
-        "en": "Only one allowlisted domain is present, and the snapshot does not identify the underlying dataset, measurement scope, baseline period or originating institution."
-      },
-      "publishedAt": "2026-08-26T08:00:00+08:00",
-      "updatedAt": "2026-08-26T08:00:00+08:00",
+      "verificationStatus": "verified",
+      "eventAt": "2026-09-01T20:30:00+08:00",
+      "publishedAt": "2026-08-26T22:16:29+08:00",
+      "updatedAt": "2026-08-26T22:16:29+08:00",
       "regions": [
-        "Global"
+        "International Space Station",
+        "United States"
       ],
-      "topic": "earth-science",
-      "subjectOrganization": null,
-      "importanceFactors": {
-        "impactBreadth": 94,
-        "consequenceSeverity": 84,
-        "systemicSignificance": 83,
-        "independentCoverage": 20,
-        "yesterdayNovelty": 79
+      "topic": "aerospace",
+      "subjectOrganization": {
+        "id": "nasa",
+        "name": "NASA"
       },
-      "impactScore": 77
+      "importanceFactors": {
+        "impactBreadth": 39,
+        "consequenceSeverity": 47,
+        "systemicSignificance": 53,
+        "independentCoverage": 28,
+        "yesterdayNovelty": 66
+      },
+      "impactScore": 45
     },
     {
-      "id": "binding-to-release-cancer-drug-delivery",
-      "category": "health",
-      "rank": 10,
+      "id": "us-canada-retaliatory-tariffs",
+      "category": "business",
+      "rank": 8,
       "titles": {
-        "zh": "“结合后释放”策略探索更精准的抗癌药物递送",
-        "en": "Binding-to-release strategy targets more precise anticancer drug delivery"
+        "zh": "美加贸易争端升级，加拿大宣布约200亿美元报复性关税",
+        "en": "Canada Announces Retaliatory Tariffs as US Trade Fight Escalates"
       },
-      "originalTitle": "A binding-to-release strategy for targeted anticancer drug delivery",
+      "originalTitle": "From tariffs to French: Trump’s trade war with Canada takes a cultural turn",
       "summaries": {
-        "zh": "《自然》论文摘要称，一种“结合后释放”药物偶联策略无需进入细胞即可释放载荷，可能提高肿瘤特异性、疗效并扩大可用靶点。快照未说明研究阶段、模型或临床证据。",
-        "en": "A Nature paper reported a binding-to-release drug-conjugate strategy designed to deliver an anticancer payload without requiring cellular internalization. Its abstract says the method improved tumour specificity and efficacy while potentially expanding the range of therapeutic targets beyond conventional conjugates. The snapshot does not identify the experimental model, study stage, safety findings or any human evidence, and no independent allowlisted domain corroborates the result; clinical relevance therefore remains uncertain."
+        "zh": "法国24台报道称，加拿大将对约200亿美元美国商品征收15%至50%的报复性关税，以回应新生效的美国对加拿大商品50%关税；争端还延伸至文化和语言层面。",
+        "en": "France 24 reported that Canada announced retaliatory tariffs ranging from 15 percent to 50 percent on about $20 billion of US goods. The measures followed new 50 percent US tariffs on Canadian products that took effect on Saturday. The report said the dispute is also acquiring a cultural and linguistic dimension, indicating that bilateral friction is spreading beyond the immediate exchange of trade barriers."
       },
       "whyItMatters": {
-        "zh": "若后续研究证实安全有效，该机制可能扩大靶向药物可攻击的癌症标志物，并减少非目标组织暴露。",
-        "en": "If validated for safety and efficacy, the mechanism could broaden targetable cancer markers while reducing exposure of healthy tissue to toxic payloads."
-      },
-      "sources": [
-        {
-          "name": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10971-0",
-          "domain": "nature.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T08:00:00+08:00"
-        }
-      ],
-      "verificationStatus": "pending",
-      "pendingReason": {
-        "zh": "只有《自然》一个许可域名；摘要未说明实验模型、研究阶段、安全结果或人体证据，临床意义无法确认。",
-        "en": "Only one allowlisted domain is present, and the snapshot does not specify the experimental model, development stage, safety results or human evidence."
-      },
-      "publishedAt": "2026-08-26T08:00:00+08:00",
-      "updatedAt": "2026-08-26T08:00:00+08:00",
-      "regions": [
-        "Global"
-      ],
-      "topic": "health-medicine",
-      "subjectOrganization": null,
-      "importanceFactors": {
-        "impactBreadth": 75,
-        "consequenceSeverity": 77,
-        "systemicSignificance": 79,
-        "independentCoverage": 20,
-        "yesterdayNovelty": 81
-      },
-      "impactScore": 69
-    },
-    {
-      "id": "haiti-kenscoff-gang-attack",
-      "category": "world",
-      "rank": 11,
-      "titles": {
-        "zh": "海地肯斯科夫遭大规模帮派袭击，国家治理危机加深",
-        "en": "Deadly gang attack in Kenscoff deepens Haiti’s state-security crisis"
-      },
-      "originalTitle": "Gang attack in Haiti: Anger mounts over police failures",
-      "summaries": {
-        "zh": "法国24台报道称，武装人员袭击海地首都附近的肯斯科夫社区，造成数十人死亡、五十余人被绑架。报道将事件与警力失效、帮派扩张及恢复选举进程面临的威胁联系起来。",
-        "en": "France 24 reported that armed men attacked Kenscoff, a community in the hills near Port-au-Prince, killing dozens of people and abducting more than 50. Its coverage said the assault challenged claims that security was improving and intensified anger over police failures. The incident also threatens efforts to restore electoral politics while armed groups control much of the capital. Casualty and abduction figures remain cautiously attributed because no second allowlisted domain corroborates them."
-      },
-      "whyItMatters": {
-        "zh": "帮派势力向首都周边扩张，可能进一步削弱国家权威并破坏海地十年来首次选举的筹备。",
-        "en": "Gang expansion beyond established strongholds could further erode state authority and obstruct preparations for Haiti’s first elections in a decade."
+        "zh": "高额互征关税会推高跨境成本，并可能扰动深度融合的北美供应链。",
+        "en": "High reciprocal tariffs can raise cross-border costs and disrupt deeply integrated North American supply chains."
       },
       "sources": [
         {
           "name": "France 24",
-          "url": "https://www.france24.com/en/video/20260826-gang-attack-in-haiti-anger-mounts-over-police-failures",
+          "url": "https://www.france24.com/en/video/20260826-from-tariffs-to-french-trump-s-trade-war-with-canada-takes-a-cultural-turn",
           "domain": "france24.com",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T22:55:31+08:00"
-        },
+          "publishedAt": "2026-08-26T23:00:40+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有法国24台候选记录；缺少加拿大或美国官方文件以及第二家独立媒体对税率和商品规模的确认。",
+        "en": "Only France 24 supplied a candidate; Canadian or US primary documents and a second independent report are missing for the rates and trade value."
+      },
+      "publishedAt": "2026-08-26T23:00:40+08:00",
+      "updatedAt": "2026-08-26T23:00:40+08:00",
+      "regions": [
+        "Canada",
+        "United States",
+        "North America"
+      ],
+      "topic": "economy-finance",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 85,
+        "consequenceSeverity": 79,
+        "systemicSignificance": 82,
+        "independentCoverage": 34,
+        "yesterdayNovelty": 85
+      },
+      "impactScore": 75
+    },
+    {
+      "id": "haiti-kenscoff-killings",
+      "category": "world",
+      "rank": 9,
+      "titles": {
+        "zh": "海地肯斯科夫发生致命袭击，国家权威再受冲击",
+        "en": "Deadly Kenscoff Attack Deepens Haiti’s Security Crisis"
+      },
+      "originalTitle": "‘Shockwaves throughout the country’ following ‘gruesome’ killings in Haitian mountain retreat",
+      "summaries": {
+        "zh": "法国24台报道称，海地肯斯科夫发生严重杀戮，袭击地点靠近较富裕社区，引发全国震动。事件发生之际，武装团体据称控制首都大部分地区，而海地正筹备十年来首次选举。",
+        "en": "France 24 reported killings in Kenscoff, a mountain retreat near some of Haiti’s more affluent areas, describing the attack as a challenge to already fragile state authority. Its report said armed groups control roughly 80 percent of Port-au-Prince and increasingly shape the movement of people and goods. The violence comes as Haiti attempts to organize its first elections in a decade."
+      },
+      "whyItMatters": {
+        "zh": "暴力向首都周边扩散，可能进一步削弱国家治理并阻碍选举恢复。",
+        "en": "Violence spreading toward previously safer areas could further weaken governance and obstruct elections."
+      },
+      "sources": [
         {
           "name": "France 24",
           "url": "https://www.france24.com/en/shockwaves-throughout-the-country-following-gruesome-killings-in-haitian-mountain-retreat",
@@ -576,10 +440,10 @@
       ],
       "verificationStatus": "pending",
       "pendingReason": {
-        "zh": "快照仅有法国24台同一域名的两条记录，伤亡、绑架规模及现场细节缺少第二家独立许可来源核实。",
-        "en": "The snapshot contains two France 24 records but no second independent allowlisted domain; casualty, abduction and on-the-ground details therefore remain uncorroborated."
+        "zh": "仅有法国24台一组报道；缺少另一家独立白名单媒体对死伤情况及袭击细节的确认。",
+        "en": "Only France 24 supplied a candidate; a second independent allowlisted publisher has not corroborated the casualties or attack details."
       },
-      "publishedAt": "2026-08-26T22:55:31+08:00",
+      "publishedAt": "2026-08-26T23:45:21+08:00",
       "updatedAt": "2026-08-26T23:45:21+08:00",
       "regions": [
         "Haiti",
@@ -588,30 +452,230 @@
       "topic": "conflict-security",
       "subjectOrganization": null,
       "importanceFactors": {
-        "impactBreadth": 61,
-        "consequenceSeverity": 88,
-        "systemicSignificance": 78,
-        "independentCoverage": 25,
-        "yesterdayNovelty": 86
+        "impactBreadth": 62,
+        "consequenceSeverity": 86,
+        "systemicSignificance": 80,
+        "independentCoverage": 34,
+        "yesterdayNovelty": 87
+      },
+      "impactScore": 70
+    },
+    {
+      "id": "court-blocks-fcc-election-ad-order",
+      "category": "society",
+      "rank": 10,
+      "titles": {
+        "zh": "法院阻止FCC扩大政党最低广告费率待遇的命令",
+        "en": "Court Blocks FCC Order on Discounted Election Advertising"
+      },
+      "originalTitle": "Court blocks Trump FCC order that could flood broadcast TV with more election ads",
+      "summaries": {
+        "zh": "Ars Technica报道称，法院阻止特朗普政府时期FCC的一项命令，该命令要求广播机构把最低广告费率扩大至政党和筹款委员会。裁决暂时限制了选举广告优惠规则的扩张。",
+        "en": "Ars Technica reported that a court blocked an FCC order requiring broadcasters to extend their lowest advertising rates to political parties and fundraising committees. The policy could have increased the volume of discounted election advertising on broadcast television. The ruling temporarily prevents that expansion, but the supplied snapshot does not include the court opinion or separate reporting confirming its scope and legal reasoning."
+      },
+      "whyItMatters": {
+        "zh": "政治广告定价规则会影响竞选资金的传播效率以及广播资源的分配。",
+        "en": "Political-ad pricing rules shape campaign reach, fundraising leverage and access to limited broadcast inventory."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/08/court-blocks-trump-fcc-order-that-could-flood-broadcast-tv-with-more-election-ads",
+          "domain": "arstechnica.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T23:45:07+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有Ars Technica候选记录；缺少法院裁决原文或另一家独立白名单媒体确认命令范围。",
+        "en": "Only Ars Technica supplied a candidate; the court ruling itself or a second independent allowlisted report is needed to confirm the order’s scope."
+      },
+      "publishedAt": "2026-08-26T23:45:07+08:00",
+      "updatedAt": "2026-08-26T23:45:07+08:00",
+      "regions": [
+        "United States"
+      ],
+      "topic": "public-policy",
+      "subjectOrganization": {
+        "id": "federal-communications-commission",
+        "name": "Federal Communications Commission"
+      },
+      "importanceFactors": {
+        "impactBreadth": 72,
+        "consequenceSeverity": 64,
+        "systemicSignificance": 82,
+        "independentCoverage": 32,
+        "yesterdayNovelty": 88
       },
       "impactScore": 68
     },
     {
-      "id": "small-modular-nuclear-reactor-outlook",
-      "category": "technology",
+      "id": "pakistan-hospital-fire-babies",
+      "category": "health",
+      "rank": 11,
+      "titles": {
+        "zh": "巴基斯坦医院火灾致14名婴儿死亡，病房门状态存争议",
+        "en": "Pakistan Hospital Fire Kills 14 Babies Amid Dispute Over Locked Door"
+      },
+      "originalTitle": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
+      "summaries": {
+        "zh": "BBC报道称，巴基斯坦一家医院发生火灾，造成14名婴儿死亡。目击者称病房门当时上锁，医院则否认这一说法，称门口由保安值守以保护婴儿。",
+        "en": "BBC News reported that a fire at a hospital in Pakistan killed 14 babies. Witnesses said the ward door was locked, while the hospital disputed that account and said security guards staffed the entrance to protect the infants. The death toll and conflicting descriptions raise serious safety questions, but the snapshot contains no official investigation, hospital documentation or independent report resolving what happened."
+      },
+      "whyItMatters": {
+        "zh": "重大儿科伤亡及逃生通道争议可能暴露医院消防和安全管理缺陷。",
+        "en": "The pediatric death toll and disputed exit access may reveal critical failures in hospital fire safety."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T22:42:03+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有BBC候选记录，且目击者与医院说法冲突；缺少官方调查或第二家独立媒体确认。",
+        "en": "Only BBC News supplied a candidate and witness and hospital accounts conflict; an official investigation or second independent report is missing."
+      },
+      "publishedAt": "2026-08-26T22:42:03+08:00",
+      "updatedAt": "2026-08-26T22:42:03+08:00",
+      "regions": [
+        "Pakistan",
+        "Asia"
+      ],
+      "topic": "health-medicine",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 52,
+        "consequenceSeverity": 89,
+        "systemicSignificance": 61,
+        "independentCoverage": 31,
+        "yesterdayNovelty": 90
+      },
+      "impactScore": 64
+    },
+    {
+      "id": "zambia-post-election-democracy-test",
+      "category": "society",
       "rank": 12,
       "titles": {
-        "zh": "小型反应堆设计被寄望提升核能灵活性与低碳价值",
-        "en": "Smaller reactor designs aim to make nuclear power more flexible"
+        "zh": "赞比亚反对派继续质疑选举结果，民主制度承压",
+        "en": "Zambia’s Institutions Face Pressure After Disputed Election"
+      },
+      "originalTitle": "Zambia after the polls: A test for democracy in Africa",
+      "summaries": {
+        "zh": "德国之声报道称，赞比亚反对派在投票数周后仍质疑选举结果，法院持续关闭，选后争议尚未结束。围绕司法可及性和结果合法性的疑问正考验该国民主制度。",
+        "en": "Deutsche Welle reported that Zambia’s opposition continues to dispute election results weeks after voting, while courts remain closed. The unresolved contest is placing scrutiny on the country’s democratic institutions and the availability of judicial review. Because the snapshot contains no electoral commission statement, court record or report from another independent publisher, the precise procedural status of the dispute remains uncorroborated."
+      },
+      "whyItMatters": {
+        "zh": "选举争议若缺少可运作的司法渠道，可能削弱结果合法性和制度信任。",
+        "en": "An election dispute without functioning judicial review can erode legitimacy and public trust in institutions."
+      },
+      "sources": [
+        {
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/zambia-after-the-polls-a-test-for-democracy-in-africa/a-78509362?maca=en-rss-en-top-1022-rdf",
+          "domain": "dw.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T19:47:00+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有德国之声候选记录；缺少选举机构、法院材料或第二家独立媒体确认争议的程序状态。",
+        "en": "Only Deutsche Welle supplied a candidate; electoral or court records, or a second independent report, are missing to confirm the dispute’s procedural status."
+      },
+      "publishedAt": "2026-08-26T19:47:00+08:00",
+      "updatedAt": "2026-08-26T19:47:00+08:00",
+      "regions": [
+        "Zambia",
+        "Africa"
+      ],
+      "topic": "public-policy",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 61,
+        "consequenceSeverity": 73,
+        "systemicSignificance": 79,
+        "independentCoverage": 32,
+        "yesterdayNovelty": 68
+      },
+      "impactScore": 64
+    },
+    {
+      "id": "kennedy-center-demolition-warning",
+      "category": "society",
+      "rank": 13,
+      "titles": {
+        "zh": "美官员称若翻修受阻，肯尼迪中心可能面临拆除",
+        "en": "US Officials Threaten Kennedy Center Demolition if Renovations Are Blocked"
+      },
+      "originalTitle": "Trump officials threaten Kennedy Center demolition if court blocks renovations",
+      "summaries": {
+        "zh": "BBC报道称，美国政府官员警告，若法院阻止肯尼迪中心翻修，建筑可能被拆除。司法部同时要求恢复特朗普在建筑上的名字，此前该名称已依照法院命令移除。",
+        "en": "BBC News reported that Trump administration officials threatened demolition of the Kennedy Center if a court prevents planned renovations. The Justice Department also asked for President Donald Trump’s name to be restored to the building after it was removed in June under a court order. The snapshot does not provide the underlying filing, the precise conditions attached to the warning or independent corroboration."
+      },
+      "whyItMatters": {
+        "zh": "争端把国家文化机构的建筑管理、司法权力与政治命名问题直接联系起来。",
+        "en": "The dispute links management of a national cultural institution with judicial authority and political naming."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T23:42:45+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有BBC候选记录；缺少司法部文件、法院材料或第二家独立媒体确认拆除警告的具体条件。",
+        "en": "Only BBC News supplied a candidate; Justice Department or court documents, or a second independent report, are missing for the demolition warning’s terms."
+      },
+      "publishedAt": "2026-08-26T23:42:45+08:00",
+      "updatedAt": "2026-08-26T23:42:45+08:00",
+      "regions": [
+        "United States"
+      ],
+      "topic": "public-policy",
+      "subjectOrganization": {
+        "id": "kennedy-center",
+        "name": "John F. Kennedy Center for the Performing Arts"
+      },
+      "importanceFactors": {
+        "impactBreadth": 58,
+        "consequenceSeverity": 65,
+        "systemicSignificance": 74,
+        "independentCoverage": 31,
+        "yesterdayNovelty": 87
+      },
+      "impactScore": 62
+    },
+    {
+      "id": "small-modular-reactor-engineering",
+      "category": "technology",
+      "rank": 14,
+      "titles": {
+        "zh": "小型反应堆设计探索更灵活的零碳核电路径",
+        "en": "Smaller Reactor Designs Seek a More Flexible Nuclear Future"
       },
       "originalTitle": "Smaller reactors bring nuclear power closer to fulfilling its promise",
       "summaries": {
-        "zh": "《自然》评述称，工程团队正探索不同的小型反应堆、燃料、冷却剂和材料，希望提高核裂变发电的灵活性并提供稳定低碳电力。快照未显示具体项目已验证安全性、成本或部署进度。",
-        "en": "Nature reviewed efforts to develop smaller nuclear reactors using varied fuels, coolants and materials, arguing that these designs could make fission a more flexible source of continuous low-carbon electricity. The supplied evidence is an overview rather than a discrete deployment or demonstrated engineering milestone. It provides no independently verified construction costs, safety outcomes, waste performance or commercial timelines, so claims that the technology is nearing fulfilment remain pending."
+        "zh": "《自然》报道，核工程团队正在探索不同反应堆、燃料、冷却剂和材料组合，希望以更小型设计改善安全性和部署灵活性，使裂变能成为更稳定的低碳电力来源。",
+        "en": "Nature reported that nuclear engineers are developing smaller reactor concepts using varied fuels, coolants and materials. These designs aim to address safety concerns associated with past nuclear disasters while making fission more flexible as an always-available, low-carbon energy source. The article describes a broad technology direction rather than a single demonstrated breakthrough, and the snapshot supplies no second source confirming specific performance or deployment claims."
       },
       "whyItMatters": {
-        "zh": "小型反应堆若能控制成本、安全和废物风险，可能为需要稳定低碳电力的电网提供新选择。",
-        "en": "If cost, safety and waste challenges are controlled, smaller reactors could offer grids another source of dependable low-carbon electricity."
+        "zh": "若安全与成本目标能够实现，小型反应堆可能补充波动性可再生能源并推动电力脱碳。",
+        "en": "If safety and cost goals are met, smaller reactors could complement variable renewables in decarbonized grids."
       },
       "sources": [
         {
@@ -625,8 +689,8 @@
       ],
       "verificationStatus": "pending",
       "pendingReason": {
-        "zh": "仅有《自然》一个许可域名，且内容属于技术综述；快照没有具体装置的成本、安全、废物或商业部署证据。",
-        "en": "Only one allowlisted domain is available, and the item is a technology overview without project-specific evidence on cost, safety, waste or commercial deployment."
+        "zh": "仅有《自然》单篇综述性报道；缺少具体项目的原始数据或第二家独立媒体对技术进展的确认。",
+        "en": "Only one broad Nature report is available; project-level primary data or a second independent account is missing for the claimed progress."
       },
       "publishedAt": "2026-08-26T08:00:00+08:00",
       "updatedAt": "2026-08-26T08:00:00+08:00",
@@ -636,30 +700,30 @@
       "topic": "energy-materials",
       "subjectOrganization": null,
       "importanceFactors": {
-        "impactBreadth": 76,
-        "consequenceSeverity": 70,
-        "systemicSignificance": 78,
-        "independentCoverage": 20,
-        "yesterdayNovelty": 60
+        "impactBreadth": 69,
+        "consequenceSeverity": 66,
+        "systemicSignificance": 73,
+        "independentCoverage": 30,
+        "yesterdayNovelty": 53
       },
-      "impactScore": 65
+      "impactScore": 62
     },
     {
-      "id": "low-temperature-tandem-solar-cell-process",
+      "id": "lower-temperature-tandem-solar-cells",
       "category": "technology",
-      "rank": 13,
+      "rank": 15,
       "titles": {
-        "zh": "新型蒸发工艺或可降低叠层太阳能电池制造温度",
-        "en": "Vaporization method could lower manufacturing temperatures for tandem solar cells"
+        "zh": "新型蒸发工艺降低叠层太阳能电池制造温度",
+        "en": "Vaporization Method Lowers Tandem Solar-Cell Manufacturing Temperatures"
       },
       "originalTitle": "Vaporization trick enables ‘tandem’ solar cells to be made at lower temperatures",
       "summaries": {
-        "zh": "《自然》介绍一种蒸发钙钛矿半导体化合物的新方法，称其可在更低温度下制造叠层太阳能电池，并缓解下一代组件规模化生产的一项难题。摘要未提供效率与耐久数据。",
-        "en": "Nature described a new method for evaporating a compound used in perovskite semiconductors, reporting that it enables tandem solar cells to be manufactured at lower temperatures. The approach could address a persistent obstacle to scaling next-generation photovoltaic devices. However, the supplied snapshot gives no efficiency, durability, manufacturing-yield or comparative process data, and no second allowlisted source independently confirms the result, so its practical significance remains provisional."
+        "zh": "《自然》报道，一种用于蒸发钙钛矿半导体化合物的新方法，可在较低温度下制造叠层太阳能电池，并有望缓解下一代电池从实验室走向规模生产时的关键工艺难题。",
+        "en": "Nature reported a vaporization approach that allows a compound used in perovskite semiconductors to be processed at lower temperatures when making tandem solar cells. The method addresses a difficult manufacturing problem that has hindered efforts to scale next-generation photovoltaic technology. The snapshot identifies the technical advance but provides neither the underlying research record nor an independent report confirming its performance and manufacturing implications."
       },
       "whyItMatters": {
-        "zh": "若能兼顾效率、寿命和良率，低温制造可降低先进太阳能组件的能耗、成本与扩产难度。",
-        "en": "If efficiency, durability and yield hold at scale, lower-temperature processing could reduce the energy use, cost and complexity of advanced solar manufacturing."
+        "zh": "降低工艺温度可能减少制造成本和能耗，并推动高效率叠层电池规模化。",
+        "en": "Lower processing temperatures could reduce manufacturing energy and help high-efficiency tandem cells scale."
       },
       "sources": [
         {
@@ -673,8 +737,8 @@
       ],
       "verificationStatus": "pending",
       "pendingReason": {
-        "zh": "仅有《自然》一个许可域名，快照没有效率、耐久性、制造良率或规模化验证数据，实际性能尚无法核实。",
-        "en": "Only one allowlisted domain is available, and the snapshot lacks efficiency, durability, manufacturing-yield and scale-up validation data."
+        "zh": "仅有《自然》新闻候选记录；快照未包含原始论文，也无第二家独立白名单媒体确认实验结果。",
+        "en": "Only a Nature news candidate is available; the underlying paper and a second independent allowlisted report are absent from the snapshot."
       },
       "publishedAt": "2026-08-26T08:00:00+08:00",
       "updatedAt": "2026-08-26T08:00:00+08:00",
@@ -684,32 +748,392 @@
       "topic": "energy-materials",
       "subjectOrganization": null,
       "importanceFactors": {
-        "impactBreadth": 72,
-        "consequenceSeverity": 61,
-        "systemicSignificance": 76,
-        "independentCoverage": 20,
+        "impactBreadth": 65,
+        "consequenceSeverity": 55,
+        "systemicSignificance": 74,
+        "independentCoverage": 31,
+        "yesterdayNovelty": 75
+      },
+      "impactScore": 60
+    },
+    {
+      "id": "particle-radar-podcast-ai-platform",
+      "category": "ai",
+      "rank": 16,
+      "titles": {
+        "zh": "Particle推出Radar，将13万余档播客接入搜索与AI代理",
+        "en": "Particle Launches Radar to Make Podcasts Searchable by AI Agents"
+      },
+      "originalTitle": "Radar makes podcasts searchable — and usable by AI agents",
+      "summaries": {
+        "zh": "TechCrunch报道称，Particle推出播客智能平台Radar，可转录和分析超过13万档播客，使谈话内容可在网页搜索，并通过API和MCP接口供AI代理调用。",
+        "en": "TechCrunch reported that Particle launched Radar, a podcast intelligence platform that transcribes and analyzes more than 130,000 podcasts. The service makes spoken conversations searchable on the web and available to AI agents through an API and MCP. The launch could turn a large body of previously difficult-to-index audio into machine-accessible data, though the scale and product capabilities lack independent confirmation."
+      },
+      "whyItMatters": {
+        "zh": "把大量口语内容结构化后开放给代理，可能扩大AI检索的数据范围和应用场景。",
+        "en": "Structuring spoken content for agents could materially expand the data available to AI search and applications."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents",
+          "domain": "techcrunch.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T23:47:28+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有TechCrunch候选记录；缺少Particle的直接公告或第二家独立媒体确认平台规模和接口能力。",
+        "en": "Only TechCrunch supplied a candidate; a direct Particle announcement or second independent report is missing for the platform’s scale and interfaces."
+      },
+      "eventAt": "2026-08-26T23:47:28+08:00",
+      "publishedAt": "2026-08-26T23:47:28+08:00",
+      "updatedAt": "2026-08-26T23:47:28+08:00",
+      "regions": [
+        "United States",
+        "Global"
+      ],
+      "topic": "artificial-intelligence",
+      "subjectOrganization": {
+        "id": "particle",
+        "name": "Particle"
+      },
+      "importanceFactors": {
+        "impactBreadth": 59,
+        "consequenceSeverity": 43,
+        "systemicSignificance": 62,
+        "independentCoverage": 30,
+        "yesterdayNovelty": 86
+      },
+      "impactScore": 54
+    },
+    {
+      "id": "zai-ox-alpha-model-disclosure",
+      "category": "ai",
+      "rank": 17,
+      "titles": {
+        "zh": "Z.ai确认其为Ox Alpha模型开发方，并计划开放权重",
+        "en": "Z.ai Identifies Itself as Developer of Ox Alpha Model"
+      },
+      "originalTitle": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
+      "summaries": {
+        "zh": "TechCrunch报道称，Z.ai确认自己是神秘开放模型Ox Alpha背后的实验室；该模型据称在多项基准和排行榜表现突出，其权重计划不久后发布，但具体时间尚未说明。",
+        "en": "TechCrunch reported that Z.ai confirmed it developed Ox Alpha, an open AI model that had appeared anonymously on benchmarks and leaderboards. The company reportedly plans to release the model’s weights soon, although the snapshot gives no firm schedule. The disclosure clarifies the model’s origin, but its benchmark standing, openness and release commitment have not been corroborated by another allowlisted source or a primary announcement."
+      },
+      "whyItMatters": {
+        "zh": "模型归属和权重开放会影响研究者评估透明度、复现能力及开放模型竞争格局。",
+        "en": "Clear provenance and released weights would affect transparency, reproducibility and competition among open models."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model",
+          "domain": "techcrunch.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T22:19:29+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有TechCrunch候选记录；缺少Z.ai直接公告或第二家独立媒体确认模型归属、成绩与权重发布时间。",
+        "en": "Only TechCrunch supplied a candidate; a Z.ai primary announcement or second independent report is missing for authorship, results and the weights schedule."
+      },
+      "eventAt": "2026-08-26T22:19:29+08:00",
+      "publishedAt": "2026-08-26T22:19:29+08:00",
+      "updatedAt": "2026-08-26T22:19:29+08:00",
+      "regions": [
+        "China",
+        "Global"
+      ],
+      "topic": "artificial-intelligence",
+      "subjectOrganization": {
+        "id": "z-ai",
+        "name": "Z.ai"
+      },
+      "importanceFactors": {
+        "impactBreadth": 57,
+        "consequenceSeverity": 42,
+        "systemicSignificance": 63,
+        "independentCoverage": 29,
+        "yesterdayNovelty": 88
+      },
+      "impactScore": 53
+    },
+    {
+      "id": "saul-adamczewski-abuse-allegations-industry-action",
+      "category": "entertainment",
+      "rank": 18,
+      "titles": {
+        "zh": "两名女性指控Saul Adamczewski施暴，唱片公司解约并取消巡演",
+        "en": "Musician Dropped and Tour Dates Cancelled After Abuse Allegations"
+      },
+      "originalTitle": "Two women accuse former Fat White Family member Saul Adamczewski of physical and emotional abuse",
+      "summaries": {
+        "zh": "《卫报》报道称，两名女性指控音乐人Saul Adamczewski存在身体和情感虐待行为。报道明确将其表述为指控；其唱片公司随后与其解约，多场巡演日期也被取消。",
+        "en": "The Guardian reported that two women accused musician Saul Adamczewski, formerly of Fat White Family, of physical and emotional abuse. The allegations remain claims, not established findings. According to the report, his record label dropped him and tour dates were cancelled after the accounts became public. Those resulting business decisions are concrete, but no second allowlisted publisher or primary statement is present in the snapshot."
+      },
+      "whyItMatters": {
+        "zh": "指控已引发解约和演出取消，产生了明确的职业与行业后果。",
+        "en": "The allegations have already produced concrete professional and industry consequences through cancellation and dismissal."
+      },
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/music/2026/aug/26/two-women-accuse-former-fat-white-family-member-saul-adamczweski-physical-emotional-abuse",
+          "domain": "theguardian.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T23:42:15+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有《卫报》候选记录；虐待内容仍属指控，且缺少相关当事方原始声明或第二家独立媒体确认后续行动。",
+        "en": "Only The Guardian supplied a candidate; the abuse claims remain allegations, and primary statements or a second independent report on the resulting actions are missing."
+      },
+      "publishedAt": "2026-08-26T23:42:15+08:00",
+      "updatedAt": "2026-08-26T23:42:15+08:00",
+      "regions": [
+        "United Kingdom"
+      ],
+      "topic": "music-entertainment",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 42,
+        "consequenceSeverity": 68,
+        "systemicSignificance": 51,
+        "independentCoverage": 29,
+        "yesterdayNovelty": 86
+      },
+      "impactScore": 53
+    },
+    {
+      "id": "perceptron-industrial-visual-ai",
+      "category": "ai",
+      "rank": 19,
+      "titles": {
+        "zh": "Perceptron拟将视觉AI模型引入工厂设备",
+        "en": "Perceptron Brings Visual AI Model to Factory Machines"
+      },
+      "originalTitle": "Ex-Meta scientists want to bring visual AI to the factory floor",
+      "summaries": {
+        "zh": "TechCrunch报道称，由前Meta科学家创办的Perceptron推出视觉AI方案，声称可帮助机器理解和导航现实环境，同时提供深入视觉分析，目标应用场景包括工厂生产设备。",
+        "en": "TechCrunch reported that former Meta scientists behind Perceptron are developing a visual AI model for industrial machines. The company says the system can help machines navigate physical environments while providing detailed visual intelligence, with factories as a target setting. The report points to growing efforts to move multimodal AI into industrial operations, but no independent evaluation or primary technical evidence appears in the snapshot."
+      },
+      "whyItMatters": {
+        "zh": "视觉模型若能可靠进入工厂，可改变自动化设备的感知能力和部署范围。",
+        "en": "Reliable industrial visual models could broaden what automated machinery can perceive and safely perform."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor",
+          "domain": "techcrunch.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T23:00:00+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有TechCrunch候选记录；缺少Perceptron技术材料或第二家独立媒体对模型能力和工业部署的确认。",
+        "en": "Only TechCrunch supplied a candidate; Perceptron technical material or a second independent evaluation is missing for the model’s capabilities and deployment."
+      },
+      "eventAt": "2026-08-26T23:00:00+08:00",
+      "publishedAt": "2026-08-26T23:00:00+08:00",
+      "updatedAt": "2026-08-26T23:00:00+08:00",
+      "regions": [
+        "United States",
+        "Global"
+      ],
+      "topic": "artificial-intelligence",
+      "subjectOrganization": {
+        "id": "perceptron",
+        "name": "Perceptron"
+      },
+      "importanceFactors": {
+        "impactBreadth": 56,
+        "consequenceSeverity": 45,
+        "systemicSignificance": 60,
+        "independentCoverage": 29,
         "yesterdayNovelty": 78
       },
-      "impactScore": 63
+      "impactScore": 52
+    },
+    {
+      "id": "accelerated-solar-wind-lunar-material-test",
+      "category": "science",
+      "rank": 20,
+      "titles": {
+        "zh": "西雅图公司尝试在四小时内模拟月壤长期太阳风暴露",
+        "en": "Experiment Compresses Millennia of Solar-Wind Exposure Into Hours"
+      },
+      "originalTitle": "15,000 years of solar wind in four hours? A Seattle company gives it a go.",
+      "summaries": {
+        "zh": "Ars Technica报道称，一家西雅图公司开展加速实验，试图在约四小时内模拟月面材料经历一万五千年太阳风照射的效应，以研究稀缺月球资源及长期暴露变化。",
+        "en": "Ars Technica reported that a Seattle company attempted to reproduce the effects of roughly 15,000 years of solar-wind exposure in about four hours. The experiment is intended to study how lunar materials change under prolonged irradiation and may inform thinking about scarce resources on the Moon. The supplied description does not name the company, provide results or include independent scientific validation of the accelerated method."
+      },
+      "whyItMatters": {
+        "zh": "快速模拟长期太空风化可帮助评估月球材料、资源利用和设备耐久性。",
+        "en": "Accelerated space-weathering tests could improve assessments of lunar materials, resources and equipment durability."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/08/15000-years-of-solar-wind-in-four-hours-a-seattle-company-gives-it-a-go",
+          "domain": "arstechnica.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T22:14:52+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有Ars Technica候选记录；缺少实验机构原始资料、结果数据或第二家独立科学媒体的验证。",
+        "en": "Only Ars Technica supplied a candidate; primary experimental material, results and a second independent scientific report are missing."
+      },
+      "publishedAt": "2026-08-26T22:14:52+08:00",
+      "updatedAt": "2026-08-26T22:14:52+08:00",
+      "regions": [
+        "United States",
+        "Moon"
+      ],
+      "topic": "aerospace",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 45,
+        "consequenceSeverity": 38,
+        "systemicSignificance": 62,
+        "independentCoverage": 28,
+        "yesterdayNovelty": 81
+      },
+      "impactScore": 48
+    },
+    {
+      "id": "ubisoft-player-council-launch",
+      "category": "games",
+      "rank": 21,
+      "titles": {
+        "zh": "育碧推出Player Council，扩大游戏早期开发反馈",
+        "en": "Ubisoft Launches Player Council for Early Development Feedback"
+      },
+      "originalTitle": "Ubisoft debuts Player Council platform to expand early game development feedback",
+      "summaries": {
+        "zh": "Game Developer报道称，育碧推出Player Council平台，计划邀请成员测试早期创意、原型和持续运营内容，以便在游戏开发更早阶段收集玩家意见并调整产品。",
+        "en": "Game Developer reported that Ubisoft launched Player Council, a platform intended to expand player feedback during early game development. Selected members will be invited to test early concepts, prototypes and live experiences. The program could make external feedback a more formal part of Ubisoft’s production process, although the snapshot contains neither a direct Ubisoft announcement nor independent reporting on selection, scale or implementation."
+      },
+      "whyItMatters": {
+        "zh": "把玩家反馈前置到原型阶段，可能改变大型发行商的产品决策和开发流程。",
+        "en": "Moving player feedback into prototyping could influence product decisions and development practices at a major publisher."
+      },
+      "sources": [
+        {
+          "name": "Game Developer",
+          "url": "https://www.gamedeveloper.com/business/ubisoft-debuts-player-council-platform-to-expand-early-game-development-feedback",
+          "domain": "gamedeveloper.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T23:50:50+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有Game Developer候选记录；缺少育碧直接公告或第二家独立媒体确认平台规则、规模与实施时间。",
+        "en": "Only Game Developer supplied a candidate; a direct Ubisoft announcement or second independent report is missing for the program’s rules, scale and timing."
+      },
+      "eventAt": "2026-08-26T23:50:50+08:00",
+      "publishedAt": "2026-08-26T23:50:50+08:00",
+      "updatedAt": "2026-08-26T23:50:50+08:00",
+      "regions": [
+        "France",
+        "Global"
+      ],
+      "topic": "game-development",
+      "subjectOrganization": {
+        "id": "ubisoft",
+        "name": "Ubisoft"
+      },
+      "importanceFactors": {
+        "impactBreadth": 46,
+        "consequenceSeverity": 35,
+        "systemicSignificance": 48,
+        "independentCoverage": 28,
+        "yesterdayNovelty": 73
+      },
+      "impactScore": 44
+    },
+    {
+      "id": "victoria-and-albert-museum-strike",
+      "category": "culture-sports",
+      "rank": 22,
+      "titles": {
+        "zh": "维多利亚与艾尔伯特博物馆员工将因薪酬和条件罢工",
+        "en": "V&A Museum Workers Plan Strike Over Pay and Conditions"
+      },
+      "originalTitle": "V&A workers to strike over pay and conditions",
+      "summaries": {
+        "zh": "BBC报道称，维多利亚与艾尔伯特博物馆三个场馆的员工计划就薪酬和工作条件举行罢工，另有员工准备按章工作。劳资行动可能影响多处场馆的日常运营。",
+        "en": "BBC News reported that workers at three Victoria and Albert Museum sites are due to strike over pay and working conditions. Additional staff plan to work strictly to contractual rules, potentially widening operational disruption. The planned labor action could affect visitor services across multiple venues, but the snapshot includes no union notice, museum response or report from another independent allowlisted publisher confirming its duration and scope."
+      },
+      "whyItMatters": {
+        "zh": "多场馆劳资行动既影响公共文化服务，也反映文化机构员工的薪酬压力。",
+        "en": "A multi-site labor action affects public cultural services and highlights pay pressures within major institutions."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cyvzynlv442o?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T21:50:11+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有BBC候选记录；缺少工会通知、博物馆回应或第二家独立媒体确认罢工日期与影响范围。",
+        "en": "Only BBC News supplied a candidate; a union notice, museum response or second independent report is missing for the dates and operational scope."
+      },
+      "publishedAt": "2026-08-26T21:50:11+08:00",
+      "updatedAt": "2026-08-26T21:50:11+08:00",
+      "regions": [
+        "United Kingdom"
+      ],
+      "topic": "culture-sports",
+      "subjectOrganization": {
+        "id": "victoria-and-albert-museum",
+        "name": "Victoria and Albert Museum"
+      },
+      "importanceFactors": {
+        "impactBreadth": 38,
+        "consequenceSeverity": 37,
+        "systemicSignificance": 44,
+        "independentCoverage": 28,
+        "yesterdayNovelty": 72
+      },
+      "impactScore": 41
     }
   ],
   "metrics": {
-    "candidateCount": 78,
+    "candidateCount": 45,
     "pagesOpened": 0,
     "searchGroups": 0,
-    "verifiedCount": 8,
-    "pendingCount": 5,
-    "rejectedCount": 65,
+    "verifiedCount": 7,
+    "pendingCount": 15,
+    "rejectedCount": 23,
     "tokenUsage": {
       "measured": true,
-      "candidateJudgment": 6485,
-      "verification": 25938,
-      "bilingualGeneration": 12969,
-      "contentChecks": 6484,
+      "candidateJudgment": 5935,
+      "verification": 23741,
+      "bilingualGeneration": 11870,
+      "contentChecks": 5935,
       "repairReserve": 0,
-      "input": 39509,
-      "output": 12367,
-      "total": 51876
+      "input": 32702,
+      "output": 14779,
+      "total": 47481
     }
   }
 }

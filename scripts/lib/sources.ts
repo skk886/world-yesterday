@@ -3,11 +3,13 @@ import path from "node:path";
 import { z } from "zod";
 import { categories } from "../../src/lib/schema";
 
-const sourceSchema = z.object({
+export const sourceSchema = z.object({
   id: z.string(),
   name: z.string(),
   domain: z.string().toLowerCase(),
   aliases: z.array(z.string().toLowerCase()).default([]),
+  homepage: z.string().url().refine((value) => value.startsWith("https://"), "homepage must use HTTPS"),
+  publisherGroup: z.string().regex(/^[a-z0-9][a-z0-9-]*$/),
   tier: z.enum(["A", "B"]),
   type: z.enum(["primary", "independent-media", "state-media"]),
   language: z.string(),
@@ -16,8 +18,17 @@ const sourceSchema = z.object({
 });
 
 const registrySchema = z.object({
-  schemaVersion: z.literal(1),
+  schemaVersion: z.literal(2),
   sources: z.array(sourceSchema)
+}).superRefine((registry, context) => {
+  const ids = new Set<string>();
+  const domains = new Set<string>();
+  for (const source of registry.sources) {
+    if (ids.has(source.id)) context.addIssue({ code: "custom", message: `Duplicate source id: ${source.id}` });
+    if (domains.has(source.domain)) context.addIssue({ code: "custom", message: `Duplicate source domain: ${source.domain}` });
+    ids.add(source.id);
+    domains.add(source.domain);
+  }
 });
 
 export type SourceDefinition = z.infer<typeof sourceSchema>;
@@ -47,4 +58,10 @@ export function findAllowedSource(urlOrDomain: string, sources = loadSourceRegis
 
 export function isAllowedUrl(url: string, sources = loadSourceRegistry()): boolean {
   return Boolean(findAllowedSource(url, sources));
+}
+
+export function sourceIndependenceKey(urlOrDomain: string, sources = loadSourceRegistry()): string | undefined {
+  const source = findAllowedSource(urlOrDomain, sources);
+  if (!source || source.type !== "independent-media") return undefined;
+  return source.publisherGroup;
 }

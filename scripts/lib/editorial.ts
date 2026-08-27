@@ -1,4 +1,7 @@
 import { categoryTargets, importanceWeights, type Edition, type NewsItem } from "../../src/lib/schema";
+import { loadSourceRegistry, sourceIndependenceKey } from "./sources";
+
+const sourceRegistry = loadSourceRegistry();
 
 export function normalizeOrganizationId(value: string): string {
   return value.normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80) || "unknown";
@@ -28,7 +31,9 @@ function normalizeItem(item: NewsItem): NewsItem {
 }
 
 function independentSourceCount(item: NewsItem): number {
-  return new Set(item.sources.filter((source) => source.type !== "state-media").map((source) => source.domain)).size;
+  return new Set(item.sources
+    .map((source) => sourceIndependenceKey(source.url, sourceRegistry))
+    .filter((group): group is string => Boolean(group))).size;
 }
 
 export function compareEditorialRank(left: NewsItem, right: NewsItem): number {
@@ -53,7 +58,7 @@ export function applyEditorialControls(edition: Edition): Edition {
     if (keys.some((key) => (organizationTotals.get(key) ?? 0) >= 2)) continue;
     if (keys.some((key) => (organizationCategories.get(`${key}:${item.category}`) ?? 0) >= 1)) continue;
     if (item.topic === "aerospace" && ["science", "technology"].includes(item.category) && scienceTechnologyAerospace >= 3) continue;
-    if (["business", "health", "climate", "culture-sports"].includes(item.category)) {
+    if (["ai", "business", "health", "climate", "entertainment", "games", "culture-sports"].includes(item.category)) {
       const count = limitedCategoryCounts.get(item.category) ?? 0;
       if (count >= categoryTargets[item.category]) continue;
       limitedCategoryCounts.set(item.category, count + 1);
@@ -98,5 +103,12 @@ export function diversityErrors(edition: Edition): string[] {
     if (count > 1) errors.push(`${key}: organization exceeds same-category limit: ${count}/1.`);
   }
   if (scienceTechnologyAerospace > 3) errors.push(`Science/technology aerospace items exceed limit: ${scienceTechnologyAerospace}/3.`);
+  const aiOrganizationCounts = new Map<string, number>();
+  for (const item of edition.items.filter((candidate) => candidate.category === "ai")) {
+    for (const key of organizationKeys(item)) aiOrganizationCounts.set(key, (aiOrganizationCounts.get(key) ?? 0) + 1);
+  }
+  for (const [organization, count] of aiOrganizationCounts) {
+    if (count > 1) errors.push(`${organization}: AI company exceeds issue limit: ${count}/1.`);
+  }
   return errors;
 }

@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { canonicalizeUrl, classifyArticle, deduplicateCandidates, stableCandidateId } from "./lib/candidates";
+import { canonicalizeUrl, classifyArticle, deduplicateCandidates, isExcludedCandidate, stableCandidateId } from "./lib/candidates";
 import { fetchText, parseFeed } from "./lib/feed";
 import { findAllowedSource, loadSourceRegistry, normalizeDomain, type SourceDefinition } from "./lib/sources";
 import { dateIsInShanghaiDay, previousShanghaiDate, shanghaiDayWindow } from "../src/lib/dates";
@@ -47,6 +47,7 @@ function toCandidate(entry: { title: string; url: string; publishedAt?: string; 
     return undefined;
   }
   const classification = classifyArticle(entry.title, entry.description);
+  if (isExcludedCandidate(entry, classification)) return undefined;
   return {
     id: stableCandidateId(canonicalUrl),
     title: entry.title.trim(),
@@ -110,7 +111,7 @@ function gdeltTimestamp(date: Date): string {
 
 async function collectGdelt(date: string, sources: SourceDefinition[]): Promise<RawCandidate[]> {
   const { start, end } = shanghaiDayWindow(date);
-  const query = "(conflict OR election OR economy OR technology OR science OR health OR climate OR society OR culture OR sports)";
+  const query = "(conflict OR election OR economy OR technology OR artificial intelligence OR science OR health OR climate OR society OR film OR television OR music OR gaming OR esports OR culture OR sports)";
   const url = new URL("https://api.gdeltproject.org/api/v2/doc/doc");
   url.search = new URLSearchParams({
     query,
@@ -166,7 +167,7 @@ function sourceCandidateLimit(candidate: RawCandidate): number {
 export function selectBalanced(candidates: RawCandidate[], limit = 90): RawCandidate[] {
   const selected: RawCandidate[] = [];
   const sourceCounts = new Map<string, number>();
-  const categoryOrder = ["world", "technology", "science", "society", "business", "health", "climate", "culture-sports"] as const;
+  const categoryOrder = ["world", "technology", "ai", "science", "society", "business", "health", "climate", "entertainment", "games", "culture-sports"] as const;
   const queues = new Map(categoryOrder.map((category) => [category, candidates.filter((candidate) => candidate.categoryHints[0] === category)]));
 
   while (selected.length < limit) {
@@ -192,7 +193,7 @@ export function selectBalanced(candidates: RawCandidate[], limit = 90): RawCandi
   return selected;
 }
 
-function readExistingCandidates(outputPath: string): RawCandidate[] {
+function readExistingCandidates(outputPath: string, date: string): RawCandidate[] {
   if (!fs.existsSync(outputPath)) return [];
   try {
     const payload = JSON.parse(fs.readFileSync(outputPath, "utf8")) as { candidates?: Array<Partial<RawCandidate> & Pick<RawCandidate, "title">> };
@@ -203,6 +204,11 @@ function readExistingCandidates(outputPath: string): RawCandidate[] {
         categoryHints: [classification.category],
         topic: classification.topic
       } as RawCandidate;
+    }).filter((candidate) => {
+      const isInWindow = dateIsInShanghaiDay(candidate.publishedAt, date)
+        || Boolean(candidate.updatedAt && dateIsInShanghaiDay(candidate.updatedAt, date));
+      return isInWindow
+        && !isExcludedCandidate({ title: candidate.title, description: candidate.description, url: candidate.canonicalUrl });
     });
   } catch {
     return [];
@@ -222,7 +228,7 @@ export async function collect(date: string, output?: string, noGdelt = false) {
     }
   }
   const outputPath = path.resolve(output ?? `data/raw/${date}.json`);
-  const existingCandidates = readExistingCandidates(outputPath);
+  const existingCandidates = readExistingCandidates(outputPath, date);
   const candidates = selectBalanced(deduplicateCandidates([...feedResult.candidates, ...gdeltCandidates, ...existingCandidates]));
   if (!candidates.length) throw new Error("Collector returned no allowlisted candidates; existing snapshots were left untouched.");
   const { start, end } = shanghaiDayWindow(date);

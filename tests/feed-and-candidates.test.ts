@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canonicalizeUrl, classifyArticle, deduplicateCandidates, titleSimilarity } from "../scripts/lib/candidates";
+import { canonicalizeUrl, classifyArticle, deduplicateCandidates, isExcludedCandidate, titleSimilarity } from "../scripts/lib/candidates";
 import { selectBalanced } from "../scripts/collect";
 import { parseFeed } from "../scripts/lib/feed";
 import type { RawCandidate } from "../src/lib/schema";
@@ -29,9 +29,21 @@ describe("RSS and candidate normalization", () => {
 
   it("classifies the article itself instead of copying a publisher-wide section list", () => {
     expect(classifyArticle("NASA prepares a lunar telescope mission")).toEqual({ category: "science", topic: "aerospace" });
-    expect(classifyArticle("New AI model changes software development")).toEqual({ category: "technology", topic: "artificial-intelligence" });
+    expect(classifyArticle("New AI model changes software development")).toEqual({ category: "ai", topic: "artificial-intelligence" });
+    expect(classifyArticle("Major game studio closes after publisher restructuring")).toEqual({ category: "games", topic: "game-development" });
+    expect(classifyArticle("Country music icon dies at 80")).toEqual({ category: "entertainment", topic: "music-entertainment" });
+    expect(classifyArticle("CIA director visits Moscow").category).not.toBe("entertainment");
+    expect(classifyArticle("NASA welcomes a new contractor").category).not.toBe("entertainment");
     expect(classifyArticle("Malaria cluster investigated at airport")).toEqual({ category: "health", topic: "health-medicine" });
     expect(classifyArticle("Rental insecurity affects more children")).toEqual({ category: "society", topic: "public-policy" });
+  });
+
+  it("rejects sponsored content and routine leisure reviews or rumours", () => {
+    expect(isExcludedCandidate({ title: "Sponsored: a new AI platform", url: "https://example.com/sponsor/ai" })).toBe(true);
+    expect(isExcludedCandidate({ title: "Our review of the newest video game", url: "https://example.com/games/review" })).toBe(true);
+    expect(isExcludedCandidate({ title: "MSI Stealth 16 AI laptop review", url: "https://example.com/hardware/review" })).toBe(true);
+    expect(isExcludedCandidate({ title: "Studio responds to game leak", url: "https://example.com/games/leak" })).toBe(true);
+    expect(isExcludedCandidate({ title: "Film studio announces a binding merger", url: "https://example.com/business/merger" })).toBe(false);
   });
 
   it("round-robins categories and enforces per-publisher candidate ceilings", () => {

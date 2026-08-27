@@ -1,26 +1,89 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import registry from "../../../config/sources.json";
+import { categoryLabels, type Category } from "../../lib/schema";
+
+type SourceEntry = (typeof registry.sources)[number];
+const typeLabels = {
+  primary: "一手机构",
+  "independent-media": "独立媒体",
+  "state-media": "国家媒体"
+} as const;
+const sourceGroups: Array<{ id: string; title: string; description: string; sources: SourceEntry[] }> = [
+  {
+    id: "primary",
+    title: "A 级一手机构",
+    description: "只用于证明机构自身的决定、文件、数据或行动；不能自动证明其对外部世界的全部判断。",
+    sources: registry.sources.filter((source) => source.type === "primary")
+  },
+  {
+    id: "independent",
+    title: "B 级独立媒体",
+    description: "用于独立报道与交叉核验；同一出版集团旗下品牌只计算为一个独立来源。",
+    sources: registry.sources.filter((source) => source.type === "independent-media")
+  },
+  {
+    id: "state-media",
+    title: "国家媒体",
+    description: "可证明其政府或机构的公开立场；战争、外交和争议事实不能仅凭此类来源核验。",
+    sources: registry.sources.filter((source) => source.type === "state-media")
+  }
+].map((group) => ({ ...group, sources: group.sources.sort((left, right) => left.name.localeCompare(right.name, "en")) }));
+const rssSourceCount = registry.sources.filter((source) => source.feeds.length > 0).length;
 ---
 <BaseLayout title="方法与来源 · 昨日世界" current="method">
   <article class="policy">
     <header><p class="edition-hero__kicker">Method & source policy</p><h1>可靠，不等于假装绝对正确。</h1></header>
     <div class="policy__content">
       <h2>发现与证据分开</h2><p>RSS 和 GDELT 帮助发现昨日可能值得关注的事件。热度只决定“检查什么”，不能证明报道为真；GDELT 也从不作为真实性证据。日常自动模式使用白名单发布者提供的 RSS 标题、描述和时间记录，页面上的链接始终指向发布者原始网页。</p>
-      <h2>核验标准</h2><p>已核验事件需要两个独立权威来源，或一个能直接证明自身行为、文件或数据的一手机构。政府或国家媒体可以证明其公开立场；涉及争议事实时，它不能单独构成核验。</p>
+      <h2>核验标准</h2><p>已核验事件需要两个不同出版集团的独立权威来源，或一个能直接证明自身行为、文件或数据的一手机构。政府或国家媒体可以证明其公开立场；涉及争议事实时，它不能单独构成核验。</p>
       <h2>怎样判断重要</h2>
       <p>本站采用可解释的多指标决策模型（MCDA），不是经过训练的预测模型，也不根据点击量或个人偏好调整。来源等级只用于核验门槛，不会给事件增加重要性分数。控制器按以下五项计算总分并排序：</p>
       <ul>
         <li><strong>影响范围 30%</strong>：影响人口、地区、行业和机构的广度。</li>
         <li><strong>后果强度与持续时间 25%</strong>：生命、安全、经济或制度后果是否严重、持久、难以逆转。</li>
         <li><strong>系统性意义 20%</strong>：是否改变政策、监管、科学认识、技术路线或形成重要先例。</li>
-        <li><strong>独立报道与跨地区关注 15%</strong>：独立来源数量以及传播是否跨地区。</li>
+        <li><strong>独立报道与跨地区关注 15%</strong>：独立出版集团数量以及传播是否跨地区。</li>
         <li><strong>昨日新增信息 10%</strong>：昨日是否出现新决定、新数据、新结果或实质进展。</li>
       </ul>
       <p>排序顺序为：已核验优先，其次是加权总分、独立来源数和跨地区覆盖。卡片不展示数字分数，以免制造相邻分数具有绝对差异的错觉。</p>
-      <h2>多样性约束</h2><p>同一主要机构每期最多两条、同一机构在同一栏目最多一条；科技与科学栏目中的航天主题合计最多三条。限制不会因候选不足而放宽：先选择其他科技与科学主题，再把空缺转给国际、科技、科学或社会，仍无可靠内容时允许少于三十条。</p>
-      <h2>待核实观察</h2><p>每期最多五条，至少有一个白名单来源，并明确写出仍缺少什么证据。它们独立显示，不进入已核验事件排行。</p>
+      <h2>栏目与多样性约束</h2><p>每期目标为国际5、科技3、AI3、科学4、社会3、财经2、健康2、气候2、娱乐3、游戏2、文化体育1。同一主要机构每期最多两条、同一机构在同一栏目最多一条；同一家 AI 公司最多一条；科技与科学中的航天主题合计最多三条。限制不会因候选不足而放宽，仍无可靠内容时允许少于三十条。</p>
+      <h2>白名单单源</h2><p>每期最多十五条。一个 B 级独立媒体或相关一手机构即可收录，但必须明确标注尚缺的独立佐证，使用审慎措辞，并排在全部已核验事件之后。白名单代表来源正规，不等于单篇报道已经交叉核验。</p>
       <h2>版权与更正</h2><p>本站只保存原创中英文摘要、必要的短标题、时间和原文链接，不转载新闻正文或图片。若来源后来更正，日报保留更新时间并同步修改事实描述。</p>
       <h2>自动化边界</h2><p>云端采集不使用生成式模型。Codex 只在本机开机后处理结构化候选，并且日常生成不会逐页浏览新闻网页，以维持每期 80,000 token 上限。分类、加权算术、机构与主题上限、日期和 Schema 检查均由普通程序执行；任何一项不合格都不能发布。</p>
+
+      <section class="source-directory" aria-labelledby="source-directory-heading">
+        <h2 id="source-directory-heading">完整消息来源</h2>
+        <p>当前白名单共 <strong>{registry.sources.length}</strong> 个来源，其中 <strong>{rssSourceCount}</strong> 个参与每日 RSS 采集。没有 RSS 的来源只在发现或核验时使用；目录由来源配置自动生成。</p>
+        {sourceGroups.map((group) => (
+          <section class="source-group" aria-labelledby={`source-group-${group.id}`}>
+            <header>
+              <h3 id={`source-group-${group.id}`}>{group.title} · {group.sources.length}</h3>
+              <p>{group.description}</p>
+            </header>
+            <div class="source-directory__grid">
+              {group.sources.map((source) => (
+                <article class="source-entry">
+                  <h4><a href={source.homepage} target="_blank" rel="noopener noreferrer">{source.name}<span aria-hidden="true"> ↗</span></a></h4>
+                  <p class="source-entry__meta"><span>{source.tier} 级</span><span>{typeLabels[source.type as keyof typeof typeLabels]}</span><span>{source.language.toUpperCase()}</span></p>
+                  <p class="source-entry__categories">{source.categories.map((category) => categoryLabels[category as Category].zh).join(" · ")}</p>
+                  <p class="source-entry__group">出版集团：{source.publisherGroup}</p>
+                  <div class="source-entry__feeds">
+                    {source.feeds.length ? source.feeds.map((feed, index) => (
+                      <a href={feed} target="_blank" rel="noopener noreferrer">RSS{source.feeds.length > 1 ? ` ${index + 1}` : ""}<span aria-hidden="true"> ↗</span></a>
+                    )) : <span>仅用于发现与核验</span>}
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+        ))}
+        <aside class="discovery-tool">
+          <strong>发现工具</strong>
+          <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener noreferrer">GDELT Project <span aria-hidden="true">↗</span></a>
+          <p>仅用于发现跨语言热点和报道量，不作为真实性证据，也不计入独立来源数量。</p>
+        </aside>
+      </section>
     </div>
   </article>
 </BaseLayout>

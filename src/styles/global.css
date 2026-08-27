@@ -70,11 +70,11 @@ button, input { font: inherit; }
   grid-template-columns: 1fr 1fr;
   gap: 48px;
   align-items: end;
-  padding: 48px 0 34px;
+  padding: 36px 0 28px;
   border-bottom: 1px solid var(--ink);
 }
 .edition-hero__kicker { margin: 0 0 14px; font: 700 11px/1 var(--sans); letter-spacing: .18em; color: var(--accent-dark); text-transform: uppercase; }
-.edition-hero h1 { margin: 0; font-size: clamp(48px, 6.4vw, 104px); font-weight: 500; line-height: .86; letter-spacing: -.07em; }
+.edition-hero h1 { margin: 0; font-size: clamp(40px, 4.2vw, 72px); font-weight: 500; line-height: .96; letter-spacing: -.04em; }
 .edition-hero__right { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
 .edition-hero__right p { margin: 0; font-size: 16px; line-height: 1.65; }
 .edition-hero__right p:last-child { font-family: var(--sans); font-size: 13px; color: var(--muted); }
@@ -85,6 +85,7 @@ button, input { font: inherit; }
   z-index: 10;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
   padding: 14px 0;
   border-bottom: 1px solid var(--line);
@@ -145,10 +146,32 @@ button, input { font: inherit; }
 
 .policy { display: grid; grid-template-columns: 1fr 2fr; gap: 70px; padding: 58px 0; }
 .policy h1 { margin: 0; font-size: 56px; font-weight: 500; letter-spacing: -.05em; }
-.policy__content { max-width: 900px; }
+.policy__content { max-width: 980px; }
 .policy__content h2 { margin: 34px 0 10px; font-size: 24px; font-weight: 550; }
 .policy__content h2:first-child { margin-top: 0; }
 .policy__content p, .policy__content li { font-size: 16px; line-height: 1.75; }
+.source-directory { margin-top: 54px; padding-top: 12px; border-top: 4px double var(--ink); }
+.source-group { margin-top: 38px; }
+.source-group > header { display: grid; grid-template-columns: minmax(220px, .75fr) 1.25fr; gap: 24px; align-items: baseline; padding-bottom: 11px; border-bottom: 2px solid var(--ink); }
+.source-group > header h3 { margin: 0; font-size: 21px; font-weight: 600; }
+.source-group > header p { margin: 0; color: var(--muted); font: 500 12px/1.6 var(--sans); }
+.source-directory__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.source-entry { min-width: 0; padding: 18px 18px 17px 0; border-bottom: 1px solid var(--line); }
+.source-entry:nth-child(odd) { padding-right: 22px; border-right: 1px solid var(--line); }
+.source-entry:nth-child(even) { padding-left: 22px; }
+.source-entry h4 { margin: 0 0 8px; font-size: 18px; line-height: 1.35; }
+.source-entry h4 a, .source-entry__feeds a, .discovery-tool a { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.source-entry h4 a:visited, .source-entry__feeds a:visited, .discovery-tool a:visited { color: var(--visited); }
+.source-entry h4 a:hover, .source-entry__feeds a:hover, .discovery-tool a:hover { background: var(--ink); color: var(--paper); }
+.source-entry h4 a:focus-visible, .source-entry__feeds a:focus-visible, .discovery-tool a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.source-entry__meta { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 8px; }
+.source-entry__meta span { padding: 3px 6px; border: 1px solid var(--line); border-radius: 3px; color: var(--muted); font: 650 9px/1 var(--sans); letter-spacing: .05em; text-transform: uppercase; }
+.source-entry__categories, .source-entry__group { margin: 0 0 7px; color: var(--muted); font: 500 11px/1.55 var(--sans) !important; }
+.source-entry__feeds { display: flex; flex-wrap: wrap; gap: 8px; font: 600 10px/1.45 var(--sans); }
+.source-entry__feeds span { color: var(--muted); }
+.discovery-tool { margin-top: 38px; padding: 20px; border: 1px solid var(--ink); background: rgba(21, 23, 19, .035); }
+.discovery-tool strong { margin-right: 14px; font: 750 11px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
+.discovery-tool p { margin: 10px 0 0; color: var(--muted); font: 500 12px/1.65 var(--sans); }
 .site-footer { display: grid; grid-template-columns: 1fr auto; gap: 30px; margin-top: 64px; padding-top: 18px; border-top: 4px double var(--ink); color: var(--muted); font: 550 10px/1.6 var(--sans); letter-spacing: .06em; text-transform: uppercase; }
 
 @media (max-width: 1180px) {

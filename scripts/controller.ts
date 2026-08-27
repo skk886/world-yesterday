@@ -9,11 +9,28 @@ import { editionSchema, rawSnapshotSchema, type Edition } from "../src/lib/schem
 import { loadAndValidateEdition } from "./validate";
 import { applyEditorialControls } from "./lib/editorial";
 
-type Options = { dryRun: boolean; publish: boolean; force: boolean; reuseOutput: boolean; date?: string };
+type Options = {
+  dryRun: boolean;
+  publish: boolean;
+  force: boolean;
+  reuseOutput: boolean;
+  date?: string;
+  candidateLimit?: number;
+  reasoningEffort?: string;
+};
 export type LocalState = {
   schemaVersion: 1;
   runs: Array<{ date: string; completedAt: string; tokenTotal: number; published: boolean }>;
   nextEligibleAt?: string;
+};
+
+type UsageRun = {
+  runId: string;
+  date: string;
+  completedAt: string;
+  outcome: "published" | "validated" | "failed";
+  failureReason?: string;
+  metrics: Edition["metrics"];
 };
 
 const root = path.resolve(".");
@@ -28,6 +45,11 @@ function parseArgs(argv: string[]): Options {
     else if (argv[index] === "--force") options.force = true;
     else if (argv[index] === "--reuse-output") options.reuseOutput = true;
     else if (argv[index] === "--date") options.date = argv[++index];
+    else if (argv[index] === "--candidate-limit") options.candidateLimit = Number(argv[++index]);
+    else if (argv[index] === "--reasoning-effort") options.reasoningEffort = argv[++index];
+  }
+  if (options.candidateLimit !== undefined && (!Number.isInteger(options.candidateLimit) || options.candidateLimit < 1 || options.candidateLimit > 90)) {
+    throw new Error("--candidate-limit must be an integer from 1 to 90.");
   }
   return options;
 }
@@ -93,9 +115,9 @@ function runCommand(command: string, args: string[], options: { capture?: boolea
   });
 }
 
-function runCodex(prompt: string, schemaPath: string, outputPath: string, eventPath: string): Promise<void> {
+function runCodex(prompt: string, schemaPath: string, outputPath: string, eventPath: string, requestedEffort?: string): Promise<void> {
   const executable = process.env.CODEX_EXECUTABLE || "codex";
-  const reasoningEffort = process.env.CODEX_REASONING_EFFORT || "high";
+  const reasoningEffort = requestedEffort || process.env.CODEX_REASONING_EFFORT || "high";
   if (!["minimal", "low", "medium", "high", "xhigh"].includes(reasoningEffort)) {
     throw new Error(`Unsupported CODEX_REASONING_EFFORT: ${reasoningEffort}`);
   }
@@ -162,8 +184,34 @@ function parseUsage(eventPath: string): { input: number; output: number; total: 
   return { ...best, total: best.input + best.output, measured: best.input + best.output > 0 };
 }
 
-function applyMeasuredUsage(edition: Edition, usage: ReturnType<typeof parseUsage>, candidateCount: number): Edition {
+function tokenUsageMetrics(usage: ReturnType<typeof parseUsage>) {
   const total = usage.total;
+  return {
+    measured: usage.measured,
+    candidateJudgment: Math.round(total * 0.125),
+    verification: Math.round(total * 0.5),
+    bilingualGeneration: Math.round(total * 0.25),
+    contentChecks: total - Math.round(total * 0.875),
+    repairReserve: 0,
+    input: usage.input,
+    output: usage.output,
+    total
+  };
+}
+
+function failedAttemptMetrics(candidateCount: number, usage: ReturnType<typeof parseUsage>): Edition["metrics"] {
+  return {
+    candidateCount,
+    pagesOpened: 0,
+    searchGroups: 0,
+    verifiedCount: 0,
+    pendingCount: 0,
+    rejectedCount: candidateCount,
+    tokenUsage: tokenUsageMetrics(usage)
+  };
+}
+
+function applyMeasuredUsage(edition: Edition, usage: ReturnType<typeof parseUsage>, candidateCount: number): Edition {
   const verifiedCount = edition.items.filter((item) => item.verificationStatus === "verified").length;
   const pendingCount = edition.items.length - verifiedCount;
   return editionSchema.parse({
@@ -176,17 +224,7 @@ function applyMeasuredUsage(edition: Edition, usage: ReturnType<typeof parseUsag
       verifiedCount,
       pendingCount,
       rejectedCount: Math.max(0, candidateCount - edition.items.length),
-      tokenUsage: {
-        measured: usage.measured,
-        candidateJudgment: Math.round(total * 0.125),
-        verification: Math.round(total * 0.5),
-        bilingualGeneration: Math.round(total * 0.25),
-        contentChecks: total - Math.round(total * 0.875),
-        repairReserve: 0,
-        input: usage.input,
-        output: usage.output,
-        total
-      }
+      tokenUsage: tokenUsageMetrics(usage)
     }
   });
 }
@@ -223,11 +261,14 @@ export function stripNullObjectFields(value: unknown): unknown {
   );
 }
 
-function buildPrompt(date: string, rawPath: string): string {
+function buildPrompt(date: string, rawPath: string, candidateLimit?: number): string {
   const template = fs.readFileSync(path.join(root, "automation/EDITOR_PROMPT.md"), "utf8");
   const registry = fs.readFileSync(path.join(root, "config/sources.json"), "utf8");
-  const snapshot = fs.readFileSync(rawPath, "utf8");
-  return `${template.replaceAll("{{DATE}}", date)}\n\n<allowlist_registry>\n${registry}\n</allowlist_registry>\n\n<raw_snapshot>\n${snapshot}\n</raw_snapshot>\n`;
+  const snapshot = rawSnapshotSchema.parse(JSON.parse(fs.readFileSync(rawPath, "utf8")));
+  const submittedSnapshot = candidateLimit
+    ? { ...snapshot, candidates: snapshot.candidates.slice(0, candidateLimit), notes: [...snapshot.notes, `Token-controlled submission: ${candidateLimit} of ${snapshot.candidates.length} balanced candidates.`] }
+    : snapshot;
+  return `${template.replaceAll("{{DATE}}", date)}\n\n<allowlist_registry>\n${registry}\n</allowlist_registry>\n\n<raw_snapshot>\n${JSON.stringify(submittedSnapshot, null, 2)}\n</raw_snapshot>\n`;
 }
 
 function recoverGeneratedOutput(eventPath: string, outputPath: string): boolean {
@@ -247,15 +288,48 @@ function recoverGeneratedOutput(eventPath: string, outputPath: string): boolean 
   return false;
 }
 
-function writeMonthlyUsage(date: string): string {
+function readUsageRuns(report: Record<string, unknown> | undefined): UsageRun[] {
+  if (!report) return [];
+  if (report.schemaVersion === 2 && Array.isArray(report.runs)) return report.runs as UsageRun[];
+  if (report.schemaVersion !== 1 || !Array.isArray(report.editions)) return [];
+  const generatedAt = typeof report.generatedAt === "string" ? report.generatedAt : new Date(0).toISOString();
+  return (report.editions as Array<Record<string, unknown>>).map((entry, index) => ({
+    runId: `${String(entry.date)}-legacy-${index + 1}`,
+    date: String(entry.date),
+    completedAt: generatedAt,
+    outcome: "published" as const,
+    metrics: {
+      candidateCount: Number(entry.candidateCount ?? 0),
+      pagesOpened: Number(entry.pagesOpened ?? 0),
+      searchGroups: Number(entry.searchGroups ?? 0),
+      verifiedCount: Number(entry.verifiedCount ?? 0),
+      pendingCount: Number(entry.pendingCount ?? 0),
+      rejectedCount: Number(entry.rejectedCount ?? 0),
+      tokenUsage: entry.tokenUsage as Edition["metrics"]["tokenUsage"]
+    }
+  }));
+}
+
+function writeMonthlyUsage(date: string, attempt?: UsageRun): string {
   const month = date.slice(0, 7);
   const editions = listDates(path.join(root, "data/editions"))
     .filter((editionDate) => editionDate.startsWith(month))
     .map((editionDate) => editionSchema.parse(JSON.parse(fs.readFileSync(path.join(root, `data/editions/${editionDate}.json`), "utf8"))));
   const sum = (selector: (edition: Edition) => number) => editions.reduce((total, edition) => total + selector(edition), 0);
   const outputPath = path.join(root, `data/usage/${month}.json`);
+  let previous: Record<string, unknown> | undefined;
+  if (fs.existsSync(outputPath)) {
+    try { previous = JSON.parse(fs.readFileSync(outputPath, "utf8")) as Record<string, unknown>; } catch { /* Rebuild below. */ }
+  }
+  const runs = readUsageRuns(previous);
+  if (attempt) {
+    const existingIndex = runs.findIndex((run) => run.runId === attempt.runId);
+    if (existingIndex >= 0) runs[existingIndex] = attempt;
+    else runs.push(attempt);
+  }
+  const actualTokens = runs.reduce((total, run) => total + run.metrics.tokenUsage.total, 0);
   const report = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     month,
     generatedAt: new Date().toISOString(),
     totals: {
@@ -266,10 +340,13 @@ function writeMonthlyUsage(date: string): string {
       verified: sum((edition) => edition.metrics.verifiedCount),
       pending: sum((edition) => edition.metrics.pendingCount),
       rejected: sum((edition) => edition.metrics.rejectedCount),
-      tokens: sum((edition) => edition.metrics.tokenUsage.total),
-      measuredEditions: editions.filter((edition) => edition.metrics.tokenUsage.measured).length
+      tokens: actualTokens,
+      currentEditionTokens: sum((edition) => edition.metrics.tokenUsage.total),
+      measuredRuns: runs.filter((run) => run.metrics.tokenUsage.measured).length,
+      runs: runs.length
     },
-    editions: editions.map((edition) => ({ date: edition.date, status: edition.status, ...edition.metrics }))
+    editions: editions.map((edition) => ({ date: edition.date, status: edition.status, ...edition.metrics })),
+    runs
   };
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(outputPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");
@@ -332,6 +409,7 @@ async function main() {
     rawDates = listDates(path.join(root, "data/raw"));
   }
   const snapshot = rawSnapshotSchema.parse(JSON.parse(fs.readFileSync(rawPath, "utf8")));
+  const submittedCandidateCount = Math.min(options.candidateLimit ?? snapshot.candidates.length, snapshot.candidates.length);
 
   if (options.dryRun) {
     console.log(JSON.stringify({ targetDate, rawPath, publish: options.publish, runCountToday: state.runs.filter((run) => formatShanghaiDate(new Date(run.completedAt)) === formatShanghaiDate(now)).length }, null, 2));
@@ -343,43 +421,68 @@ async function main() {
   const outputPath = path.join(runtimeDirectory, `edition-${targetDate}.json`);
   const generatedOutputPath = path.join(runtimeDirectory, `edition-${targetDate}.generated.json`);
   const eventPath = path.join(runtimeDirectory, `codex-${targetDate}.jsonl`);
+  const runId = `${targetDate}-${now.toISOString()}`;
+  const zeroUsage = { input: 0, output: 0, total: 0, measured: false };
   const jsonSchema = z.toJSONSchema(editionSchema, { target: "draft-7" });
   // Responses strict schemas require every property while the public data
   // schema has optional fields. Represent those as nullable for generation;
   // remove nulls before the unchanged runtime Zod validation.
   const codexSchema = JSON.stringify(toCodexOutputSchema(jsonSchema), null, 2);
   fs.writeFileSync(schemaPath, `${codexSchema}\n`, "utf8");
-  if (options.reuseOutput) {
-    if (!fs.existsSync(generatedOutputPath) && !recoverGeneratedOutput(eventPath, generatedOutputPath)) {
-      throw new Error(`Cannot reuse output for ${targetDate}; generated JSON and recoverable usage events are missing.`);
+  let usage = { input: 0, output: 0, total: 0, measured: false };
+  let attemptUsage = zeroUsage;
+  let edition: Edition;
+  try {
+    if (options.reuseOutput) {
+      if (!fs.existsSync(generatedOutputPath) && !recoverGeneratedOutput(eventPath, generatedOutputPath)) {
+        throw new Error(`Cannot reuse output for ${targetDate}; generated JSON and recoverable usage events are missing.`);
+      }
+      console.log(`Reusing existing Codex output for ${targetDate}; no new model call will be made.`);
+    } else {
+      await runCodex(buildPrompt(targetDate, rawPath, options.candidateLimit), schemaPath, generatedOutputPath, eventPath, options.reasoningEffort);
     }
-    console.log(`Reusing existing Codex output for ${targetDate}; no new model call will be made.`);
-  } else {
-    await runCodex(buildPrompt(targetDate, rawPath), schemaPath, generatedOutputPath, eventPath);
-  }
 
-  const rawEdition = editionSchema.parse(stripNullObjectFields(JSON.parse(fs.readFileSync(generatedOutputPath, "utf8"))));
-  if (rawEdition.date !== targetDate) throw new Error(`Codex returned ${rawEdition.date}; expected ${targetDate}.`);
-  const usage = parseUsage(eventPath);
-  if (usage.measured && usage.total > 80_000) throw new Error(`Run used ${usage.total} tokens, exceeding the 80,000 ceiling; edition rejected.`);
-  const controlledEdition = applyEditorialControls(rawEdition);
-  const edition = applyMeasuredUsage(controlledEdition, usage, snapshot.candidates.length);
-  fs.writeFileSync(outputPath, `${JSON.stringify(edition, null, 2)}\n`, "utf8");
-  loadAndValidateEdition(outputPath);
+    const rawEdition = editionSchema.parse(stripNullObjectFields(JSON.parse(fs.readFileSync(generatedOutputPath, "utf8"))));
+    if (rawEdition.date !== targetDate) throw new Error(`Codex returned ${rawEdition.date}; expected ${targetDate}.`);
+    usage = parseUsage(eventPath);
+    attemptUsage = options.reuseOutput ? zeroUsage : usage;
+    if (usage.measured && usage.total > 80_000) throw new Error(`Run used ${usage.total} tokens, exceeding the 80,000 ceiling; edition rejected.`);
+    const controlledEdition = applyEditorialControls(rawEdition);
+    edition = applyMeasuredUsage(controlledEdition, usage, submittedCandidateCount);
+    fs.writeFileSync(outputPath, `${JSON.stringify(edition, null, 2)}\n`, "utf8");
+    loadAndValidateEdition(outputPath);
+  } catch (error) {
+    attemptUsage = options.reuseOutput ? zeroUsage : parseUsage(eventPath);
+    writeMonthlyUsage(targetDate, {
+      runId, date: targetDate, completedAt: new Date().toISOString(), outcome: "failed",
+      failureReason: error instanceof Error ? error.message.slice(0, 1000) : String(error).slice(0, 1000),
+      metrics: failedAttemptMetrics(submittedCandidateCount, attemptUsage)
+    });
+    throw error;
+  }
 
   const editionPath = path.join(root, `data/editions/${targetDate}.json`);
   if (fs.existsSync(editionPath) && !options.force) throw new Error(`Edition already exists: ${editionPath}`);
+  const previousEdition = fs.existsSync(editionPath) ? fs.readFileSync(editionPath, "utf8") : undefined;
   fs.mkdirSync(path.dirname(editionPath), { recursive: true });
   fs.copyFileSync(outputPath, editionPath);
   const usagePath = path.join(root, `data/usage/${targetDate.slice(0, 7)}.json`);
-  const previousUsage = fs.existsSync(usagePath) ? fs.readFileSync(usagePath, "utf8") : undefined;
-  writeMonthlyUsage(targetDate);
+  const successfulAttempt: UsageRun = {
+    runId, date: targetDate, completedAt: new Date().toISOString(), outcome: options.publish ? "published" : "validated",
+    metrics: { ...edition.metrics, tokenUsage: tokenUsageMetrics(attemptUsage) }
+  };
+  writeMonthlyUsage(targetDate, successfulAttempt);
   try {
     await runCommand("npm", ["run", "build"]);
   } catch (error) {
-    fs.rmSync(editionPath, { force: true });
-    if (previousUsage === undefined) fs.rmSync(usagePath, { force: true });
-    else fs.writeFileSync(usagePath, previousUsage, "utf8");
+    if (previousEdition === undefined) fs.rmSync(editionPath, { force: true });
+    else fs.writeFileSync(editionPath, previousEdition, "utf8");
+    writeMonthlyUsage(targetDate, {
+      ...successfulAttempt,
+      completedAt: new Date().toISOString(),
+      outcome: "failed",
+      failureReason: error instanceof Error ? error.message.slice(0, 1000) : String(error).slice(0, 1000)
+    });
     throw error;
   }
   if (options.publish) await publishEdition(targetDate, rawPath, editionPath, usagePath);
