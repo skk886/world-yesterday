@@ -215,8 +215,17 @@ async function synchronizeRepository() {
   await runCommand("git", ["push"]);
 }
 
-async function publishEdition(date: string, editionPath: string, usagePath: string) {
-  await runCommand("git", ["add", "--", path.relative(root, editionPath), path.relative(root, usagePath)]);
+async function publishEdition(date: string, rawPath: string, editionPath: string, usagePath: string) {
+  // A cloud snapshot is already tracked, while a locally recovered snapshot is
+  // new. Stage it either way so fallback collection cannot leave the worktree
+  // dirty and block a later pull --rebase.
+  await runCommand("git", [
+    "add",
+    "--",
+    path.relative(root, rawPath),
+    path.relative(root, editionPath),
+    path.relative(root, usagePath)
+  ]);
   await runCommand("git", ["commit", "-m", `content: publish ${date} edition`]);
   try {
     await runCommand("git", ["push"]);
@@ -293,7 +302,7 @@ async function main() {
     else fs.writeFileSync(usagePath, previousUsage, "utf8");
     throw error;
   }
-  if (options.publish) await publishEdition(targetDate, editionPath, usagePath);
+  if (options.publish) await publishEdition(targetDate, rawPath, editionPath, usagePath);
 
   const completedAt = new Date().toISOString();
   state.runs.push({ date: targetDate, completedAt, tokenTotal: usage.total, published: options.publish });
