@@ -1,6 +1,12 @@
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
-import { assertRunAllowed, chooseTargetDate, type LocalState } from "../scripts/controller";
+import {
+  assertRunAllowed,
+  chooseTargetDate,
+  stripNullObjectFields,
+  toCodexOutputSchema,
+  type LocalState
+} from "../scripts/controller";
 import { editionSchema } from "../src/lib/schema";
 
 describe("catch-up ordering", () => {
@@ -22,6 +28,20 @@ describe("catch-up ordering", () => {
 
   it("produces the structured-output schema used by Codex", () => {
     expect(() => z.toJSONSchema(editionSchema, { target: "draft-7" })).not.toThrow();
+  });
+
+  it("adapts optional URLs to the Responses strict-schema subset", () => {
+    const schema = toCodexOutputSchema({
+      type: "object",
+      properties: {
+        title: { type: "string" },
+        url: { type: "string", format: "uri" }
+      },
+      required: ["title"]
+    }) as any;
+    expect(schema.required).toEqual(["title", "url"]);
+    expect(schema.properties.url).toEqual({ anyOf: [{ type: "string" }, { type: "null" }] });
+    expect(stripNullObjectFields({ title: "news", url: null })).toEqual({ title: "news" });
   });
 
   it("enforces two editions per Shanghai day and the 90-minute cooldown", () => {

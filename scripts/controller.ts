@@ -182,6 +182,38 @@ function applyMeasuredUsage(edition: Edition, usage: ReturnType<typeof parseUsag
   });
 }
 
+export function toCodexOutputSchema(value: unknown): unknown {
+  if (Array.isArray(value)) return value.map(toCodexOutputSchema);
+  if (!value || typeof value !== "object") return value;
+  const source = value as Record<string, unknown>;
+  const output: Record<string, unknown> = {};
+  for (const [key, child] of Object.entries(source)) {
+    if (key === "format" && child === "uri") continue;
+    output[key] = toCodexOutputSchema(child);
+  }
+  if (source.type === "object" && source.properties && typeof source.properties === "object") {
+    const originalRequired = new Set(Array.isArray(source.required) ? source.required as string[] : []);
+    const properties = output.properties as Record<string, unknown>;
+    for (const key of Object.keys(properties)) {
+      if (!originalRequired.has(key)) {
+        properties[key] = { anyOf: [properties[key], { type: "null" }] };
+      }
+    }
+    output.required = Object.keys(properties);
+  }
+  return output;
+}
+
+export function stripNullObjectFields(value: unknown): unknown {
+  if (Array.isArray(value)) return value.map(stripNullObjectFields);
+  if (!value || typeof value !== "object") return value;
+  return Object.fromEntries(
+    Object.entries(value as Record<string, unknown>)
+      .filter(([, child]) => child !== null)
+      .map(([key, child]) => [key, stripNullObjectFields(child)])
+  );
+}
+
 function buildPrompt(date: string, rawPath: string): string {
   const template = fs.readFileSync(path.join(root, "automation/EDITOR_PROMPT.md"), "utf8");
   return template.replaceAll("{{DATE}}", date).replaceAll("{{RAW_PATH}}", path.relative(root, rawPath).replace(/\\/g, "/"));
@@ -283,17 +315,14 @@ async function main() {
   const outputPath = path.join(runtimeDirectory, `edition-${targetDate}.json`);
   const eventPath = path.join(runtimeDirectory, `codex-${targetDate}.jsonl`);
   const jsonSchema = z.toJSONSchema(editionSchema, { target: "draft-7" });
-  // The Responses structured-output subset rejects JSON Schema's `uri`
-  // format. Runtime Zod validation still enforces every returned URL.
-  const codexSchema = JSON.stringify(
-    jsonSchema,
-    (key, value) => key === "format" && value === "uri" ? undefined : value,
-    2
-  );
+  // Responses strict schemas require every property while the public data
+  // schema has optional fields. Represent those as nullable for generation;
+  // remove nulls before the unchanged runtime Zod validation.
+  const codexSchema = JSON.stringify(toCodexOutputSchema(jsonSchema), null, 2);
   fs.writeFileSync(schemaPath, `${codexSchema}\n`, "utf8");
   await runCodex(buildPrompt(targetDate, rawPath), schemaPath, outputPath, eventPath);
 
-  const rawEdition = editionSchema.parse(JSON.parse(fs.readFileSync(outputPath, "utf8")));
+  const rawEdition = editionSchema.parse(stripNullObjectFields(JSON.parse(fs.readFileSync(outputPath, "utf8"))));
   if (rawEdition.date !== targetDate) throw new Error(`Codex returned ${rawEdition.date}; expected ${targetDate}.`);
   const usage = parseUsage(eventPath);
   if (usage.measured && usage.total > 80_000) throw new Error(`Run used ${usage.total} tokens, exceeding the 80,000 ceiling; edition rejected.`);
