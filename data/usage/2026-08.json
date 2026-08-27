@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-08",
+  "generatedAt": "2026-08-27T04:03:29.170Z",
+  "totals": {
+    "editions": 1,
+    "candidates": 20,
+    "pagesOpened": 0,
+    "searchGroups": 0,
+    "verified": 15,
+    "pending": 5,
+    "rejected": 123,
+    "tokens": 57207,
+    "measuredEditions": 1
+  },
+  "editions": [
+    {
+      "date": "2026-08-26",
+      "status": "partial",
+      "candidateCount": 20,
+      "pagesOpened": 0,
+      "searchGroups": 0,
+      "verifiedCount": 15,
+      "pendingCount": 5,
+      "rejectedCount": 123,
+      "tokenUsage": {
+        "measured": true,
+        "candidateJudgment": 7151,
+        "verification": 28604,
+        "bilingualGeneration": 14302,
+        "contentChecks": 7151,
+        "repairReserve": 0,
+        "input": 43059,
+        "output": 14148,
+        "total": 57207
+      }
+    }
+  ]
+}
