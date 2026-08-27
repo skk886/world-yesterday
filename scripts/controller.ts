@@ -104,6 +104,9 @@ function runCodex(prompt: string, schemaPath: string, outputPath: string, eventP
     "--disable", "plugins",
     "--disable", "memories",
     "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--model", process.env.CODEX_MODEL || "gpt-5.6-sol",
     "--config", `model_reasoning_effort=${reasoningEffort}`,
     "--sandbox", "read-only",
     "--json",
@@ -280,7 +283,14 @@ async function main() {
   const outputPath = path.join(runtimeDirectory, `edition-${targetDate}.json`);
   const eventPath = path.join(runtimeDirectory, `codex-${targetDate}.jsonl`);
   const jsonSchema = z.toJSONSchema(editionSchema, { target: "draft-7" });
-  fs.writeFileSync(schemaPath, `${JSON.stringify(jsonSchema, null, 2)}\n`, "utf8");
+  // The Responses structured-output subset rejects JSON Schema's `uri`
+  // format. Runtime Zod validation still enforces every returned URL.
+  const codexSchema = JSON.stringify(
+    jsonSchema,
+    (key, value) => key === "format" && value === "uri" ? undefined : value,
+    2
+  );
+  fs.writeFileSync(schemaPath, `${codexSchema}\n`, "utf8");
   await runCodex(buildPrompt(targetDate, rawPath), schemaPath, outputPath, eventPath);
 
   const rawEdition = editionSchema.parse(JSON.parse(fs.readFileSync(outputPath, "utf8")));
