@@ -288,7 +288,6 @@ async function main() {
   const now = new Date();
   const expectedDate = previousShanghaiDate(now);
   const state = readState();
-  assertRunAllowed(state, now, options.force);
   if (options.publish && !options.dryRun) await synchronizeRepository();
 
   let rawDates = listDates(path.join(root, "data/raw"));
@@ -301,6 +300,7 @@ async function main() {
       return;
     }
   }
+  assertRunAllowed(state, now, options.force);
 
   const rawPath = path.join(root, `data/raw/${targetDate}.json`);
   if (!fs.existsSync(rawPath)) {
