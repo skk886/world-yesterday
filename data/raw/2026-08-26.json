@@ -2,291 +2,31 @@
   "schemaVersion": 1,
   "date": "2026-08-26",
   "timezone": "Asia/Shanghai",
-  "collectedAt": "2026-08-26T20:25:57.733Z",
+  "collectedAt": "2026-08-27T05:58:35.968Z",
   "window": {
     "start": "2026-08-25T16:00:00.000Z",
     "end": "2026-08-26T15:59:59.999Z"
   },
   "candidates": [
     {
-      "id": "bf4e058514e1622c",
-      "title": "More health workers, stronger systems: Africa’s new ambitious goal",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168207",
-      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168207",
-      "sourceId": "un-news",
-      "sourceName": "UN News",
-      "domain": "news.un.org",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-26T12:00:00.000Z",
-      "description": "Facing a projected shortage of more than six million health professionals by 2035, African countries are stepping up efforts to strengthen their workforce, with a new decade-long plan announced on Wednesday during a meeting of health ministers in Addis Ababa, Ethiopia.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "society",
-        "health",
-        "climate"
-      ],
-      "preliminaryScore": 78
-    },
-    {
-      "id": "f3a10e5ec4c9854a",
-      "title": "Security Council LIVE: Rising tensions in Gaza, West Bank",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168204",
-      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168204",
-      "sourceId": "un-news",
-      "sourceName": "UN News",
-      "domain": "news.un.org",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-26T12:00:00.000Z",
-      "description": "Amid illegal Israeli settlement surges, continued attacks in Gaza and the West Bank alongside tensions throughout Occupied Palestinian Territory, the Security Council discussed the latest developments on Wednesday, with the UN Special Envoy stressing that “human dignity must be at the centre of all efforts” to overcome the current fragile ceasefire and continued suffering. UN News app users can follow here.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "society",
-        "health",
-        "climate"
-      ],
-      "preliminaryScore": 78
-    },
-    {
-      "id": "941c446abd234d6a",
-      "title": "Two mobile phone shop employees arrested over scheme to compromise Singpass accounts",
-      "url": "https://www.channelnewsasia.com/singapore/two-man-arrested-compromise-singpass-accounts-police-6343146",
-      "canonicalUrl": "https://www.channelnewsasia.com/singapore/two-man-arrested-compromise-singpass-accounts-police-6343146",
-      "sourceId": "cna",
-      "sourceName": "Channel NewsAsia",
-      "domain": "channelnewsasia.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:59:01.000Z",
-      "description": "Both suspects, aged 25 and 47, are Malaysian.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "technology",
-        "society"
-      ],
-      "preliminaryScore": 69
-    },
-    {
-      "id": "0d579d16c0729c3f",
-      "title": "LIVE: Real Madrid vs Real Sociedad – La Liga",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/8/26/live-real-madrid-vs-sociedad-la-liga?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/sports/liveblog/2026/8/26/live-real-madrid-vs-sociedad-la-liga?traffic_source=rss",
-      "sourceId": "al-jazeera",
-      "sourceName": "Al Jazeera",
-      "domain": "aljazeera.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:52:53.000Z",
-      "description": "Live coverage and text updates from our commentary stream as Mbappe and Bellingham lead the line for Mourinho&#039;s side.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 69
-    },
-    {
-      "id": "1b81ad887577b32c",
-      "title": "Dolly Parton: Buckingham Palace guards play musical tribute",
-      "url": "https://www.france24.com/en/video/20260826-dolly-parton-buckingham-palace-guards-play-musical-tribute",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-dolly-parton-buckingham-palace-guards-play-musical-tribute",
+      "id": "b56a4c6c2e858c13",
+      "title": "‘Shockwaves throughout the country’ following ‘gruesome’ killings in Haitian mountain retreat",
+      "url": "https://www.france24.com/en/shockwaves-throughout-the-country-following-gruesome-killings-in-haitian-mountain-retreat",
+      "canonicalUrl": "https://www.france24.com/en/shockwaves-throughout-the-country-following-gruesome-killings-in-haitian-mountain-retreat",
       "sourceId": "france24",
       "sourceName": "France 24",
       "domain": "france24.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T15:51:38.000Z",
-      "description": "Britain’s royal family posted a video on social media Wednesday of the band of the Buckingham Palace guards playing Dolly Parton’s “9 to 5”, in tribute to the American country music legend who passed away Tuesday aged 80.",
+      "publishedAt": "2026-08-26T15:45:21.000Z",
+      "description": "Genie Godula is pleased to welcome journalist Harold Isaac on the ground in Haiti's capital, Port-au-Prince. He says what we are witnessing in Haiti is not simply another episode of gang violence, but a profound challenge to the authority of the state at a moment when the country is attempting to return to electoral politics. With armed groups controlling roughly 80 percent of Port-au-Prince, the capital is effectively under siege, while the circulation of people, goods and services increasingly requires some form of negotiation with gang power. The attack in Kenscoff is especially significant because of its proximity to some of the country’s most affluent areas. This as authorities seek to organize Haiti’s first elections in a decade, against a backdrop of arms smuggling, institutional fragility and an unresolved political transition.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
+        "world"
       ],
-      "preliminaryScore": 69
-    },
-    {
-      "id": "58dfb62807996aed",
-      "title": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned/",
-      "canonicalUrl": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "nasa.gov",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:16:29.000Z",
-      "description": "NASA will provide coverage as two astronauts step outside the International Space Station on Tuesday, Sept. 1, to replace a spacecraft navigational aid and complete several maintenance tasks in support of space station operations. Watch live coverage beginning at 7 a.m. EDT. The spacewalk is expected to start at approximately 8:30 a.m. and last about [&#8230;]",
-      "discovery": "rss",
-      "categoryHints": [
-        "science",
-        "technology",
-        "climate"
-      ],
-      "preliminaryScore": 79
-    },
-    {
-      "id": "23999dfa7e9fe8e5",
-      "title": "NASA Begins Moon Mission Plume-Surface Interaction Tests",
-      "url": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests/",
-      "canonicalUrl": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "nasa.gov",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-26T13:58:04.000Z",
-      "description": "EDITOR’S NOTE: This story, originally published in December, was revised Aug. 26, 2026 with an update on a new phase of testing, including video from a recent test run and new images. To help NASA and commercial partners better understand the science of lunar landings, specifically the hazards that may occur when a lander’s engine [&#8230;]",
-      "discovery": "rss",
-      "categoryHints": [
-        "science",
-        "technology",
-        "climate"
-      ],
-      "preliminaryScore": 79
-    },
-    {
-      "id": "33ae32c67083a1c9",
-      "title": "Contractor to Civil Servant: NASA Welcomes Jeret Howard",
-      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jeret-howard/",
-      "canonicalUrl": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jeret-howard",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "nasa.gov",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-26T13:32:28.000Z",
-      "description": "At 17, Jeret Howard raised his right hand to serve his country as a United States Army combat medic in Iraq. This past summer, he raised his right hand again at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Hired as a civil servant under the agency&#8217;s workforce directive to restore core competencies by [&#8230;]",
-      "discovery": "rss",
-      "categoryHints": [
-        "science",
-        "technology",
-        "climate"
-      ],
-      "preliminaryScore": 78
-    },
-    {
-      "id": "3fc237a17ac2c758",
-      "title": "MTG-I2 ready for launch",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
-      "canonicalUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
-      "sourceId": "esa",
-      "sourceName": "European Space Agency",
-      "domain": "esa.int",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:00:00.000Z",
-      "description": "Video: 00:00:31 The Meteosat Third Generation -Imager2 (MTG-I2) satellite, is ready for launch on board an Ariane 6 &nbsp;launcher from Europe’s Spaceport in French Guiana. Lift off is scheduled for 27 August 2026 at 22:10 CEST (17:10 local time). MTG-I2 is part of the MTG constellation for Eumetsat – two are already in orbit. It will produce images for weather forecasting in Europe in unprecedented detail. This mission provides completely new data products and capabilities for European weather services, especially suited to short-term forecasting of severe weather events.",
-      "discovery": "rss",
-      "categoryHints": [
-        "science",
-        "technology",
-        "climate"
-      ],
-      "preliminaryScore": 77
-    },
-    {
-      "id": "f0ccc9d26ce9d7aa",
-      "title": "Second spacewalk completed for Sophie Adenot",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
-      "canonicalUrl": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
-      "sourceId": "esa",
-      "sourceName": "European Space Agency",
-      "domain": "esa.int",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-26T08:40:00.000Z",
-      "description": "ESA astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed US EVA-98 at 20:57 CEST on Tuesday 25 August. It was Sophie’s second spacewalk, and the 32nd conducted by a European astronaut.&nbsp;&nbsp;&nbsp;",
-      "discovery": "rss",
-      "categoryHints": [
-        "science",
-        "technology",
-        "climate"
-      ],
-      "preliminaryScore": 75
-    },
-    {
-      "id": "4a73cf447b77e234",
-      "title": "APOD: 2026 August 26 – JWST Images The Lion’s Head Nebula",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-26-jwst-images-the-lions-head-nebula/",
-      "canonicalUrl": "https://science.nasa.gov/image-article/apod-2026-august-26-jwst-images-the-lions-head-nebula",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "science.nasa.gov",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-26T04:05:00.000Z",
-      "description": "APOD Science APOD APOD: 2026 August 26 – JWST… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. JWST Images [&#8230;]",
-      "discovery": "rss",
-      "categoryHints": [
-        "science",
-        "technology",
-        "climate"
-      ],
-      "preliminaryScore": 73
-    },
-    {
-      "id": "ca5b23124772c98d",
-      "title": "Trump officials threaten Kennedy Center demolition if court blocks renovations",
-      "url": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:42:45.000Z",
-      "description": "The justice department has also asked for Trump's name to be put back on the building after it was removed in June following a court order.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 69
-    },
-    {
-      "id": "5077f133d4012622",
-      "title": "Inquest opens into death of ex-Cambridge professor Jason Arday",
-      "url": "https://www.abc.net.au/news/2026-08-27/jason-arday-inquest-opens/107082894",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-27/jason-arday-inquest-opens/107082894",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:38:57.000Z",
-      "description": "The opening of the inquest comes a day before the UK release of his memoir, and weeks after the Cambridge University professor's sudden death after an intense media frenzy.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "science",
-        "society",
-        "health"
-      ],
-      "preliminaryScore": 69
+      "topic": "conflict-security",
+      "preliminaryScore": 85
     },
     {
       "id": "f7eb76f5c8a408c5",
@@ -303,144 +43,50 @@
       "description": "In an exclusive interview with the BBC, Asha Sharma also discusses giving gamers digital versions of games they own.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "technology",
-        "science",
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "06dca3a8beae5a55",
+      "title": "How to see the 'Blood Moon' lunar eclipse",
+      "url": "https://www.bbc.co.uk/news/videos/cwyzl5x4vv8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cwyzl5x4vv8o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:54:46.000Z",
+      "description": "How to see the 'Blood Moon' lunar eclipse",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "ca5b23124772c98d",
+      "title": "Trump officials threaten Kennedy Center demolition if court blocks renovations",
+      "url": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:42:45.000Z",
+      "description": "The justice department has also asked for Trump's name to be put back on the building after it was removed in June following a court order.",
+      "discovery": "rss",
+      "categoryHints": [
         "society"
       ],
-      "preliminaryScore": 69
-    },
-    {
-      "id": "492b2510845ed17e",
-      "title": "Surge in families renting puts more children at risk of housing insecurity",
-      "url": "https://www.abc.net.au/news/2026-08-27/more-children-are-growing-up-in-rental-housing/107082682",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-27/more-children-are-growing-up-in-rental-housing/107082682",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:15:43.000Z",
-      "description": "There has been a 20 per cent jump in Australian children growing up in rental households this century, with this group facing an average of six moves by aged 14, according to a new research paper.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "science",
-        "society",
-        "health"
-      ],
-      "preliminaryScore": 69
-    },
-    {
-      "id": "b56a4c6c2e858c13",
-      "title": "‘Shockwaves throughout the country’ following ‘gruesome’ killings in Haitian mountain retreat",
-      "url": "https://www.france24.com/en/shockwaves-throughout-the-country-following-gruesome-killings-in-haitian-mountain-retreat",
-      "canonicalUrl": "https://www.france24.com/en/shockwaves-throughout-the-country-following-gruesome-killings-in-haitian-mountain-retreat",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:45:21.000Z",
-      "description": "Genie Godula is pleased to welcome journalist Harold Isaac on the ground in Haiti's capital, Port-au-Prince. He says what we are witnessing in Haiti is not simply another episode of gang violence, but a profound challenge to the authority of the state at a moment when the country is attempting to return to electoral politics. With armed groups controlling roughly 80 percent of Port-au-Prince, the capital is effectively under siege, while the circulation of people, goods and services increasingly requires some form of negotiation with gang power. The attack in Kenscoff is especially significant because of its proximity to some of the country’s most affluent areas. This as authorities seek to organize Haiti’s first elections in a decade, against a backdrop of arms smuggling, institutional fragility and an unresolved political transition.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 69
-    },
-    {
-      "id": "c115a7f71c21705a",
-      "title": "Russia: CIA director visits Moscow",
-      "url": "https://www.france24.com/en/video/20260826-russia-cia-director-visits-moscow",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-russia-cia-director-visits-moscow",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:41:43.000Z",
-      "description": "CIA director John Ratcliffe held talks with Russian intelligence services in Moscow, the Kremlin confirmed Wednesday, the first know visit by a US spy chief to the Russian capital since 2021. It is not known what Ratcliffe discussed with his Russian counterparts, but the talks come as ‌the war in Ukraine is escalating and as ⁠efforts to reach a lasting peace between the US and Iran have stalled.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 69
-    },
-    {
-      "id": "311daf30090cbc59",
-      "title": "This extremely successful author polarizes German readers",
-      "url": "https://www.dw.com/en/this-extremely-successful-author-polarizes-german-readers/a-78500452?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/this-extremely-successful-author-polarizes-german-readers/a-78500452?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:18:00.000Z",
-      "description": "She's young and she says what she thinks: Caroline Wahl is topping Germany's bestseller lists with her novels. But she has also faced public backlash.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 69
-    },
-    {
-      "id": "16621941788a426f",
-      "title": "Tornado wreaks havoc in village in southwestern France",
-      "url": "https://www.france24.com/en/video/20260826-tornado-wreaks-havoc-in-village-in-southwestern-france",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-tornado-wreaks-havoc-in-village-in-southwestern-france",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:17:21.000Z",
-      "description": "A tornado swept through a village in the Aude ​region of southwestern France late on Monday, destroying homes and injuring dozens, authorities said, describing it as a rare and traumatic event. Around 300 of the 500 houses in the ​village of ‌Pomas have been damaged, officials said, adding that 100 of ⁠the damaged ones may no longer be safe to live in.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 69
-    },
-    {
-      "id": "2f404c8a033ba77f",
-      "title": "Hundreds missing in Nepal catastrophic flash floods",
-      "url": "https://www.france24.com/en/video/20260826-hundreds-missing-in-nepal-catastrophic-flash-floods",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-hundreds-missing-in-nepal-catastrophic-flash-floods",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:01:42.000Z",
-      "description": "Massive flash floods in Nepal on Wednesday killed at least 22 people and left hundreds of tourists, workers and others missing after sweeping through communities and bringing travel in parts of the Himalayan country to a halt. China's government across the northern border also launched search and rescue efforts, with major casualties in the border area of Gyirong, state broadcaster CCTV reported. No toll was immediately reported.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 68
+      "topic": "public-policy",
+      "preliminaryScore": 85
     },
     {
       "id": "54c904b05054eb16",
@@ -457,12 +103,150 @@
       "description": "A trade war between Canada and the United States is escalating. Canada has announced retaliatory tariffs ranging from 15% to 50% on about $20 billion worth of American goods, after new 50% US tariffs on Canadian products took effect Saturday. But the tit-for-tat over goods has also taken on a cultural and linguistic dimension.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "c1b51bd1a8886ab7",
+      "title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
+      "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:42:03.000Z",
+      "description": "The hospital tells the BBC the ward door was not locked but manned with security guards, to protect the babies.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "2f404c8a033ba77f",
+      "title": "Hundreds missing in Nepal catastrophic flash floods",
+      "url": "https://www.france24.com/en/video/20260826-hundreds-missing-in-nepal-catastrophic-flash-floods",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-hundreds-missing-in-nepal-catastrophic-flash-floods",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:01:42.000Z",
+      "description": "Massive flash floods in Nepal on Wednesday killed at least 22 people and left hundreds of tourists, workers and others missing after sweeping through communities and bringing travel in parts of the Himalayan country to a halt. China's government across the northern border also launched search and rescue efforts, with major casualties in the border area of Gyirong, state broadcaster CCTV reported. No toll was immediately reported.",
+      "discovery": "rss",
+      "categoryHints": [
         "climate"
       ],
-      "preliminaryScore": 68
+      "topic": "climate-environment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "1b81ad887577b32c",
+      "title": "Dolly Parton: Buckingham Palace guards play musical tribute",
+      "url": "https://www.france24.com/en/video/20260826-dolly-parton-buckingham-palace-guards-play-musical-tribute",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-dolly-parton-buckingham-palace-guards-play-musical-tribute",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:51:38.000Z",
+      "description": "Britain’s royal family posted a video on social media Wednesday of the band of the Buckingham Palace guards playing Dolly Parton’s “9 to 5”, in tribute to the American country music legend who passed away Tuesday aged 80.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "c115a7f71c21705a",
+      "title": "Russia: CIA director visits Moscow",
+      "url": "https://www.france24.com/en/video/20260826-russia-cia-director-visits-moscow",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-russia-cia-director-visits-moscow",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:41:43.000Z",
+      "description": "CIA director John Ratcliffe held talks with Russian intelligence services in Moscow, the Kremlin confirmed Wednesday, the first know visit by a US spy chief to the Russian capital since 2021. It is not known what Ratcliffe discussed with his Russian counterparts, but the talks come as ‌the war in Ukraine is escalating and as ⁠efforts to reach a lasting peace between the US and Iran have stalled.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "68f33cc9f776f412",
+      "title": "Gamescom 2026 highlights gaming industry's strength, AI challenges",
+      "url": "https://www.dw.com/en/gamescom-2026-highlights-gaming-industry-s-strength-ai-challenges/a-78502849?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/gamescom-2026-highlights-gaming-industry-s-strength-ai-challenges/a-78502849?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:15:00.000Z",
+      "description": "Gamescom 2026 opens in Cologne as the global gaming industry continues to grow. But rising hardware costs, AI concerns and slowing user growth all pose challenges.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "58dfb62807996aed",
+      "title": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned/",
+      "canonicalUrl": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:16:29.000Z",
+      "description": "NASA will provide coverage as two astronauts step outside the International Space Station on Tuesday, Sept. 1, to replace a spacecraft navigational aid and complete several maintenance tasks in support of space station operations. Watch live coverage beginning at 7 a.m. EDT. The spacewalk is expected to start at approximately 8:30 a.m. and last about [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "6f65c6fb9563c8d9",
+      "title": "Zambia after the polls: A test for democracy in Africa",
+      "url": "https://www.dw.com/en/zambia-after-the-polls-a-test-for-democracy-in-africa/a-78509362?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/zambia-after-the-polls-a-test-for-democracy-in-africa/a-78509362?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:47:00.000Z",
+      "description": "Zambia's democratic institutions are under scrutiny, as the opposition continues to dispute the election results and courts remain closed. Weeks after the election, Zambia’s election story might be far from over.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 81
     },
     {
       "id": "f6c026255420c8b5",
@@ -479,34 +263,30 @@
       "description": "Dolly Parton was around six when she wrote her first song: \"Little Tiny Tasseltop,\" an ⁠ode to her corncob doll with ​corn-silk hair. Her mother stored it preciously in a shoebox. Parton never stopped making music after that. The irrepressible country music singer, songwriter and actress whose charisma, heartfelt lyrics and ​business acumen captured the public's imagination for nearly six decades, died on Tuesday aged 80, her family said in a statement.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
+        "business"
       ],
-      "preliminaryScore": 68
+      "topic": "economy-finance",
+      "preliminaryScore": 84
     },
     {
-      "id": "a02432863aab57c3",
-      "title": "Why a Christian group is suing the Dutch government for West Bank trade ban",
-      "url": "https://www.aljazeera.com/news/2026/8/26/why-a-christian-group-is-suing-the-dutch-government-for-west-bank-trade-ban?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/8/26/why-a-christian-group-is-suing-the-dutch-government-for-west-bank-trade-ban?traffic_source=rss",
-      "sourceId": "al-jazeera",
-      "sourceName": "Al Jazeera",
-      "domain": "aljazeera.com",
+      "id": "afd59155ffa75cd7",
+      "title": "Frankfurt Airport workers die after malaria infection",
+      "url": "https://www.dw.com/en/frankfurt-airport-workers-die-after-malaria-infection/a-78512056?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/frankfurt-airport-workers-die-after-malaria-infection/a-78512056?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T14:59:22.000Z",
-      "description": "The Israeli Product Centre says it has not been given enough time to sell off its stock.",
+      "publishedAt": "2026-08-26T14:13:00.000Z",
+      "description": "An unusual cluster of malaria cases at Frankfurt Airport infected six employees, two fatally. Mosquitos brought in on an aircraft are thought to have caused the infections.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
+        "health"
       ],
-      "preliminaryScore": 68
+      "topic": "health-medicine",
+      "preliminaryScore": 84
     },
     {
       "id": "38d1a253cc8cdfe8",
@@ -523,12 +303,510 @@
       "description": "Massive flooding near the border with Tibet killed dozens in Nepal on Wednesday. Hundreds of people were still out of contact hours after the disaster hit. A torrent of mud and debris burst from the banks of a river between China and Nepal, burying buildings and triggering a frantic search for survivors. FRANCE 24's Sarah Jacob reports from New Delhi, India.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
         "climate"
       ],
+      "topic": "climate-environment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "38f0a3364b2b40c6",
+      "title": "Reports: UEFA backs off FIFA boycott threat",
+      "url": "https://www.dw.com/en/reports-uefa-backs-off-fifa-boycott-threat/a-78511519?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/reports-uefa-backs-off-fifa-boycott-threat/a-78511519?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T13:25:00.000Z",
+      "description": "UEFA is reportedly set to withdraw a threat to boycott FIFA tournaments over a plan to partially privatize football tournaments. The Under-20 Women's World Cup is to be hosted by Poland next month.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "311daf30090cbc59",
+      "title": "This extremely successful author polarizes German readers",
+      "url": "https://www.dw.com/en/this-extremely-successful-author-polarizes-german-readers/a-78500452?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/this-extremely-successful-author-polarizes-german-readers/a-78500452?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:18:00.000Z",
+      "description": "She's young and she says what she thinks: Caroline Wahl is topping Germany's bestseller lists with her novels. But she has also faced public backlash.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "188aa6b25d6ca746",
+      "title": "Plasma-jet movie is astronomy’s summer blockbuster",
+      "url": "https://www.nature.com/articles/d41586-026-02522-4",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02522-4",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02522-4 Just 116 images exist of the active galaxy 3C 345 — but an AI-driven algorithm has created a highly detailed video of the plasma jets blasted from its centre.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "23999dfa7e9fe8e5",
+      "title": "NASA Begins Moon Mission Plume-Surface Interaction Tests",
+      "url": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests/",
+      "canonicalUrl": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T13:58:04.000Z",
+      "description": "EDITOR’S NOTE: This story, originally published in December, was revised Aug. 26, 2026 with an update on a new phase of testing, including video from a recent test run and new images. To help NASA and commercial partners better understand the science of lunar landings, specifically the hazards that may occur when a lander’s engine [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "5e5606b51cf0b71e",
+      "title": "Moscow confirms visit of CIA Director John Ratcliffe",
+      "url": "https://www.dw.com/en/moscow-confirms-visit-of-cia-director-john-ratcliffe/a-78508645?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/moscow-confirms-visit-of-cia-director-john-ratcliffe/a-78508645?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:24:00.000Z",
+      "description": "The Russian government said that spy chief John Ratcliffe held talks with counterparts, but not President Vladimir Putin, on his Moscow trip.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "bde50bd0ab66a16e",
+      "title": "Libyan who was cleared after Lockerbie bombing trial dies aged 70",
+      "url": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T08:01:56.000Z",
+      "description": "A Facebook post by Libyan Airlines announced the death of Al Amin Khalifah Fhimah and expressed the company's condolences to his family.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "bf4e058514e1622c",
+      "title": "More health workers, stronger systems: Africa’s new ambitious goal",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168207",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168207",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "description": "Facing a projected shortage of more than six million health professionals by 2035, African countries are stepping up efforts to strengthen their workforce, with a new decade-long plan announced on Wednesday during a meeting of health ministers in Addis Ababa, Ethiopia.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "3ac885e26266286d",
+      "title": "Land models sprout as degradation threatens billions of livelihoods",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168212",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168212",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "description": "Promising efforts to restore degraded land are now in the spotlight at a time when 40 per cent of the world’s land currently faces degradation and drought, threatening the livelihoods of over three billion people, the head of the UN Convention to Combat Desertification (UNCCD) said Wednesday, announcing three winners of its&nbsp;World Restoration Flagships awards.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "a3c1bdeebc352432",
+      "title": "Heart, hope and a steely determination: Dolly Parton's musical legacy",
+      "url": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:32:11.000Z",
+      "description": "BBC music correspondent Mark Savage looks back on the legacy of the \"irreplaceable\" late singer.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "16621941788a426f",
+      "title": "Tornado wreaks havoc in village in southwestern France",
+      "url": "https://www.france24.com/en/video/20260826-tornado-wreaks-havoc-in-village-in-southwestern-france",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-tornado-wreaks-havoc-in-village-in-southwestern-france",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:17:21.000Z",
+      "description": "A tornado swept through a village in the Aude ​region of southwestern France late on Monday, destroying homes and injuring dozens, authorities said, describing it as a rare and traumatic event. Around 300 of the 500 houses in the ​village of ‌Pomas have been damaged, officials said, adding that 100 of ⁠the damaged ones may no longer be safe to live in.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "d2a2fb21adc8408d",
+      "title": "Smaller reactors bring nuclear power closer to fulfilling its promise",
+      "url": "https://www.nature.com/articles/d41586-026-02506-4",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02506-4",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02506-4 Shadowed by past disasters, nuclear engineers are developing different types of reactor, fuel, coolant and material that could help to make fission the zero-carbon energy technology of choice.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "33ae32c67083a1c9",
+      "title": "Contractor to Civil Servant: NASA Welcomes Jeret Howard",
+      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jeret-howard/",
+      "canonicalUrl": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jeret-howard",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T13:32:28.000Z",
+      "description": "At 17, Jeret Howard raised his right hand to serve his country as a United States Army combat medic in Iraq. This past summer, he raised his right hand again at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Hired as a civil servant under the agency&#8217;s workforce directive to restore core competencies by [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "76b0a63e57bdaca4",
+      "title": "South Africa’s ‘registration law’ for scientists could be a template for the world — if the nation gets it right",
+      "url": "https://www.nature.com/articles/d41586-026-02568-4",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02568-4",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02568-4 The plan to force some scientists to register with a professional body could protect people and the environment, but the current version lacks clarity.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "4fc813a0afe2ea6e",
+      "title": "The 46 companies scrambling to commercialize fusion for energy",
+      "url": "https://www.nature.com/articles/d41586-026-02513-5",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02513-5",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02513-5 Whether the billions of dollars of investment will lead to an inexhaustible source of clean electrical power is not yet known.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "43a3fdcefbc8a0fd",
+      "title": "Radiation link in flight attendant's breast cancer, French court finds",
+      "url": "https://www.bbc.co.uk/news/articles/cn0j3z6147jo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cn0j3z6147jo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T10:29:36.000Z",
+      "description": "Former Air France stewardess Sophie Lainault has had her cancer recognised as an occupational disease.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "5b22158ecc1243e8",
+      "title": "Deadly floods cause widespread destruction in China, Nepal",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168208",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168208",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "description": "Severe flooding in China and Nepal caused widespread destruction and mounting death tolls, UN agencies reported on Wednesday as aid efforts deployed to help provide emergency assistance.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "5ece6a92a66b2afe",
+      "title": "US country music legend Dolly Parton dies, aged 80",
+      "url": "https://www.france24.com/en/video/20260826-us-country-music-legend-dolly-parton-dies-aged-80",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-us-country-music-legend-dolly-parton-dies-aged-80",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:40:15.000Z",
+      "description": "Dolly Parton was one of the rare celebrities that transcended divides in the United States. The country music legend and actress died, aged 80, on August 25.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "bf6a8196ac93f6ba",
+      "title": "Island could protect 30% of waters in marine plan",
+      "url": "https://www.bbc.co.uk/news/articles/c4gr0dd5r3po?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c4gr0dd5r3po?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:00:52.000Z",
+      "description": "The proposal would give added protection to about 50 sq miles (128.8 sq km) of sea around Sark.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "c228b19e5d5cfca8",
+      "title": "Vaporization trick enables ‘tandem’ solar cells to be made at lower temperatures",
+      "url": "https://www.nature.com/articles/d41586-026-02469-6",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02469-6",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02469-6 A clever approach for evaporating a compound used to make perovskite semiconductors tackles a vexing challenge in scaling up next-generation solar cells.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "energy-materials",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "3fc237a17ac2c758",
+      "title": "MTG-I2 ready for launch",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
+      "canonicalUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/MTG-I2_ready_for_launch",
+      "sourceId": "esa",
+      "sourceName": "European Space Agency",
+      "domain": "esa.int",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:00:00.000Z",
+      "description": "Video: 00:00:31 The Meteosat Third Generation -Imager2 (MTG-I2) satellite, is ready for launch on board an Ariane 6 &nbsp;launcher from Europe’s Spaceport in French Guiana. Lift off is scheduled for 27 August 2026 at 22:10 CEST (17:10 local time). MTG-I2 is part of the MTG constellation for Eumetsat – two are already in orbit. It will produce images for weather forecasting in Europe in unprecedented detail. This mission provides completely new data products and capabilities for European weather services, especially suited to short-term forecasting of severe weather events.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "492b2510845ed17e",
+      "title": "Surge in families renting puts more children at risk of housing insecurity",
+      "url": "https://www.abc.net.au/news/2026-08-27/more-children-are-growing-up-in-rental-housing/107082682",
+      "canonicalUrl": "https://www.abc.net.au/news/2026-08-27/more-children-are-growing-up-in-rental-housing/107082682",
+      "sourceId": "abc-au",
+      "sourceName": "ABC News Australia",
+      "domain": "abc.net.au",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:15:43.000Z",
+      "description": "There has been a 20 per cent jump in Australian children growing up in rental households this century, with this group facing an average of six moves by aged 14, according to a new research paper.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "a02432863aab57c3",
+      "title": "Why a Christian group is suing the Dutch government for West Bank trade ban",
+      "url": "https://www.aljazeera.com/news/2026/8/26/why-a-christian-group-is-suing-the-dutch-government-for-west-bank-trade-ban?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/8/26/why-a-christian-group-is-suing-the-dutch-government-for-west-bank-trade-ban?traffic_source=rss",
+      "sourceId": "al-jazeera",
+      "sourceName": "Al Jazeera",
+      "domain": "aljazeera.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:59:22.000Z",
+      "description": "The Israeli Product Centre says it has not been given enough time to sell off its stock.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
       "preliminaryScore": 68
+    },
+    {
+      "id": "8b8eb769a4634d11",
+      "title": "Germany news: Sugar tax plan leaves sour taste",
+      "url": "https://www.dw.com/en/germany-news-sugar-tax-plan-leaves-sour-taste/live-78504011?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/germany-news-sugar-tax-plan-leaves-sour-taste/live-78504011?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T08:45:00.000Z",
+      "description": "Germany's plans for a sugar tax are facing growing opposition amid claims that it's more about raising revenue than health. DW has the latest.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "84b05356bb8daa70",
+      "title": "India: Assam tea industry faces climate-driven labor crisis",
+      "url": "https://www.dw.com/en/india-assam-tea-industry-faces-climate-driven-labor-crisis/a-78506414?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/india-assam-tea-industry-faces-climate-driven-labor-crisis/a-78506414?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:03:00.000Z",
+      "description": "Plantations in Assam produce more than half of India's tea. But rising heat is hurting yields, workers are increasingly leaving for more stable work, and producers are feeling the squeeze of stagnant tea prices.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "f72c65299a15e05b",
+      "title": "Watch Nashville fans lay flowers in tribute to Dolly Parton",
+      "url": "https://www.bbc.co.uk/news/videos/cx2zm89zd99o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cx2zm89zd99o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T06:37:30.000Z",
+      "description": "The BBC's Helena Humphrey is outside the Country Music Hall of Fame where fans gathered to mourn Dolly Parton.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 63
     },
     {
       "id": "1875250a7a04ad4b",
@@ -545,106 +823,16 @@
       "description": "Turkey on Wednesday said the dissolution of the Kurdish-led Syrian Democratic Forces (SDF) marked a key step towards strengthening state authority and achieving lasting stability in Syria. Turkey has long regarded the SDF as an extension of the outlawed Kurdistan Workers' Party (PKK), which waged an insurgency against the Turkish state for decades. FRANCE 24's Jasper Mortimer reports from Ankara, Turkey.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
+        "world"
       ],
-      "preliminaryScore": 68
+      "topic": "general",
+      "preliminaryScore": 84
     },
     {
-      "id": "0858d1bac160c50f",
-      "title": "Meta to pay $23 billion to settle teen social media addiction cases",
-      "url": "https://www.abc.net.au/news/2026-08-27/meta-settlement-on-harm-to-teens/107082748",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-27/meta-settlement-on-harm-to-teens/107082748",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:01:05.000Z",
-      "description": "Meta has agreed to a wide-ranging deal settling all claims in US federal and state courts, which alleged the company's platforms harmed children.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "science",
-        "society",
-        "health"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "183407c461365eab",
-      "title": "Prince Harry and Meghan arrive back in UK",
-      "url": "https://www.abc.net.au/news/2026-08-26/prince-harry-and-megan-arrive-back-in-uk-with-family/107082698",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-26/prince-harry-and-megan-arrive-back-in-uk-with-family/107082698",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T13:40:42.000Z",
-      "description": "Prince Harry and his wife Meghan arrive back in the UK with their two children, six years after they moved their lives to California amid simmering tensions within the royal family.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "science",
-        "society",
-        "health"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "48a569bad6d6d83a",
-      "title": "Ukraine awards Elon Musk Order of Freedom for Starlink support",
-      "url": "https://www.abc.net.au/news/2026-08-26/zelenskyy-awards-elon-musk-medal-for-starlink-access/107082694",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-26/zelenskyy-awards-elon-musk-medal-for-starlink-access/107082694",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T13:10:02.000Z",
-      "description": "Ukrainian President Volodymyr Zelenskyy has awarded Elon Musk the Order of Freedom, one of Ukraine's highest state honours.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "science",
-        "society",
-        "health"
-      ],
-      "preliminaryScore": 67
-    },
-    {
-      "id": "62fea6dbf88129ba",
-      "title": "More than 150 dead in Nepal floods, Australian among hundreds missing",
-      "url": "https://www.abc.net.au/news/2026-08-26/australian-missing-in-nepal-flood/107082672",
-      "canonicalUrl": "https://www.abc.net.au/news/2026-08-26/australian-missing-in-nepal-flood/107082672",
-      "sourceId": "abc-au",
-      "sourceName": "ABC News Australia",
-      "domain": "abc.net.au",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:33:20.000Z",
-      "description": "The flash flood in the Himalayan border region has killed more than 150 people in Nepal. More than 300 foreign nationals, including an Australian, have been reported missing.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "science",
-        "society",
-        "health"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "e73a45f754cd935b",
-      "title": "Highest-ever ocean temperatures recorded as El Niño intensifies",
-      "url": "https://www.nature.com/articles/d41586-026-02681-4",
-      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02681-4",
+      "id": "948768f3f65c0409",
+      "title": "A raft of start-up firms is betting on nuclear fusion",
+      "url": "https://www.nature.com/articles/d41586-026-02511-7",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02511-7",
       "sourceId": "nature",
       "sourceName": "Nature",
       "domain": "nature.com",
@@ -652,79 +840,52 @@
       "sourceTier": "B",
       "language": "en",
       "publishedAt": "2026-08-26T00:00:00.000Z",
-      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02681-4 Why extreme temperatures are expected to weaken ocean carbon sinks — plus, how mitochondrial injections could treat vision loss.",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02511-7 The phenomenon that makes stars shine and hydrogen bombs explode has yet to be reliably tamed for energy generation. But that isn’t stopping companies from trying.",
       "discovery": "rss",
       "categoryHints": [
-        "science",
-        "health",
-        "climate",
         "technology"
       ],
-      "preliminaryScore": 59
+      "topic": "energy-materials",
+      "preliminaryScore": 72
     },
     {
-      "id": "c531949d2fae7da0",
-      "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
-      "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
-      "canonicalUrl": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "nasa.gov",
+      "id": "f0ccc9d26ce9d7aa",
+      "title": "Second spacewalk completed for Sophie Adenot",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
+      "canonicalUrl": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
+      "sourceId": "esa",
+      "sourceName": "European Space Agency",
+      "domain": "esa.int",
       "sourceType": "primary",
       "sourceTier": "A",
       "language": "en",
-      "publishedAt": "2026-08-25T22:28:34.000Z",
-      "description": "NASA’s Deep Space Network facility in California is marking the addition of a brand new 34-meter-wide (114-foot-wide) radio frequency antenna to the agency’s deep space communications and navigation system. The network uses giant dish antennas located at three global facilities to support more than 40 spacecraft exploring the solar system and interstellar space. The new [&#8230;]",
+      "publishedAt": "2026-08-26T08:40:00.000Z",
+      "description": "ESA astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed US EVA-98 at 20:57 CEST on Tuesday 25 August. It was Sophie’s second spacewalk, and the 32nd conducted by a European astronaut.&nbsp;&nbsp;&nbsp;",
       "discovery": "rss",
       "categoryHints": [
-        "science",
-        "technology",
-        "climate"
+        "science"
       ],
-      "preliminaryScore": 69
+      "topic": "aerospace",
+      "preliminaryScore": 79
     },
     {
-      "id": "083b2b7397f89a10",
-      "title": "Gang attack in Haiti: Anger mounts over police failures",
-      "url": "https://www.france24.com/en/video/20260826-gang-attack-in-haiti-anger-mounts-over-police-failures",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-gang-attack-in-haiti-anger-mounts-over-police-failures",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
+      "id": "d5e68d9162240439",
+      "title": "Tech Life",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyb?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/sounds/play/w3ct8jyb?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T14:55:31.000Z",
-      "description": "At least 47 people were killed and more than 50 others kidnapped after armed men attacked a once-peaceful community near Haiti’s capital earlier this week, the United Nations said Tuesday. It is believed to be one of the largest mass kidnappings in Haiti in recent years, and one gang leader is threatening to kill the hostages if authorities kill any gang members as they try to secure the community nestled in the hills above Port-au-Prince. Sunday’s attack on Kenscoff pierced the belief that security in the troubled Caribbean country was improving. Journalist Harold Isaac reports from Port-au-Prince, Haiti.",
+      "publishedAt": "2026-08-25T20:00:00.000Z",
+      "description": "The government agency that's encouraging high-risk and high-reward research.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
+        "society"
       ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "7b799f8aab9057e3",
-      "title": "'In Ceuta, they are eating the cats': Fake images and a persistent rumour",
-      "url": "https://www.france24.com/en/ceuta-eating-cats-fake-images-persistent-rumour",
-      "canonicalUrl": "https://www.france24.com/en/ceuta-eating-cats-fake-images-persistent-rumour",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:54:50.000Z",
-      "description": "Cats “massacred” in the Spanish enclave of Ceuta? Three weeks after thousands of migrants crossed the border into Ceuta, Spanish websites and social media users are claiming that the migrants who have stayed are killing cats. But all of the dead cat photos that have been shared so far are either fake or have been taken out of context. Our team spoke to a local cat rescue organisation, which also confirmed that this is a rumour.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
+      "topic": "public-policy",
       "preliminaryScore": 68
     },
     {
@@ -742,648 +903,30 @@
       "description": "Raid on UNRWA centre exposes Israel&#039;s strategic push to erase refugee rights, seal West Bank annexation, analysts say.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
+        "business"
       ],
+      "topic": "economy-finance",
       "preliminaryScore": 68
     },
     {
-      "id": "9ed0ed4df047eb2b",
-      "title": "Meta reaches $17 billion settlement with US states over social media harm to teens",
-      "url": "https://www.france24.com/en/americas/20260826-meta-reaches-17-billion-settlement-with-us-states-over-social-media-harm-teens",
-      "canonicalUrl": "https://www.france24.com/en/americas/20260826-meta-reaches-17-billion-settlement-with-us-states-over-social-media-harm-teens",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
+      "id": "11b06ac93ad5c365",
+      "title": "A binding-to-release strategy for targeted anticancer drug delivery",
+      "url": "https://www.nature.com/articles/s41586-026-10971-0",
+      "canonicalUrl": "https://www.nature.com/articles/s41586-026-10971-0",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T14:31:06.000Z",
-      "description": "Meta Platforms on Wednesday agreed to pay $17 billion to settle claims, filed by 47 US states, that the company designed Facebook and Instagram to deliberately make teens addicted to their products while deceiving the public, according to state attorneys general. The company agreed to add child-safety measures as part of the settlement.",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/s41586-026-10971-0 A binding-to-release drug conjugate strategy enables targeted payload release without cellular internalization, improving tumour specificity, efficacy and expanding therapeutic targets beyond conventional drug conjugates.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
+        "health"
       ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "bf6a8196ac93f6ba",
-      "title": "Island could protect 30% of waters in marine plan",
-      "url": "https://www.bbc.co.uk/news/articles/c4gr0dd5r3po?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c4gr0dd5r3po?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:00:52.000Z",
-      "description": "The proposal would give added protection to about 50 sq miles (128.8 sq km) of sea around Sark.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "06dca3a8beae5a55",
-      "title": "How to see the 'Blood Moon' lunar eclipse",
-      "url": "https://www.bbc.co.uk/news/videos/cwyzl5x4vv8o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cwyzl5x4vv8o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:54:46.000Z",
-      "description": "How to see the 'Blood Moon' lunar eclipse",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "c1b51bd1a8886ab7",
-      "title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
-      "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:42:03.000Z",
-      "description": "The hospital tells the BBC the ward door was not locked but manned with security guards, to protect the babies.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "2e256d9005c4bc19",
-      "title": "Nepal: Hundreds reported missing after deadly flash floods",
-      "url": "https://www.france24.com/en/video/20260826-nepal-hundreds-reported-missing-after-deadly-flash-floods",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-nepal-hundreds-reported-missing-after-deadly-flash-floods",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:30:30.000Z",
-      "description": "Entire roads and villages have been engulfed in mud after flash floods struck a border crossing between Tibet and Nepal. Hundreds are reported missing, including over 300 tourists. Flood alerts have also been issued in the Indian states of Bihar and Uttar Pradesh.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "dbfd63f5db9b16a8",
-      "title": "Kremlin says CIA head met Russian intelligence officials, but not Putin",
-      "url": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss",
-      "sourceId": "al-jazeera",
-      "sourceName": "Al Jazeera",
-      "domain": "aljazeera.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:30:24.000Z",
-      "description": "CIA&#039;s Ratcliffe has met with Russian intel officials in Moscow, but not President Putin; Kremlin calls talks &#039;positive&#039;.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "0d3fa8a966b50e69",
-      "title": "Saxony-Anhalt: an AfD stronghold in Germany's east",
-      "url": "https://www.dw.com/en/saxony-anhalt-an-afd-stronghold-in-germany-s-east/a-78482588?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/saxony-anhalt-an-afd-stronghold-in-germany-s-east/a-78482588?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:24:00.000Z",
-      "description": "Saxony-Anhalt is a structurally weak, predominantly rural state. Could it become the first German state to be governed by the far-right AfD?",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "ad0fbb1695dd70d8",
-      "title": "Frankfurt Airport worker dies after malaria infection",
-      "url": "https://www.dw.com/en/frankfurt-airport-worker-dies-after-malaria-infection/a-78512056?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/frankfurt-airport-worker-dies-after-malaria-infection/a-78512056?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T14:13:00.000Z",
-      "description": "An unusual cluster of malaria cases at Frankfurt Airport infected six employees, one fatally. It is thought to have been caused by a mosquito brought in on an aircraft.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "9def77a68ff8600e",
-      "title": "Guinea's president dismisses 173 soldiers, including coup ally, for desertion",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z0j3nyl4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cx2z0j3nyl4o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T13:49:55.000Z",
-      "description": "It is thought to be part of efforts to consolidate the former coup leader's control.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "392f37d179667219",
-      "title": "Meta settles in US states lawsuit on teen user addiction",
-      "url": "https://www.dw.com/en/meta-settles-in-us-states-lawsuit-on-teen-user-addiction/a-78512157?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/meta-settles-in-us-states-lawsuit-on-teen-user-addiction/a-78512157?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T13:48:00.000Z",
-      "description": "Meta has agreed to pay what could amount to billions of dollars and to implement platform usage limitations on young users in a lawsuit brought by US states. The challenge revolved around addiction issues and overuse.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "4d29514eb454b1cf",
-      "title": "NASA Invites Media to LunaRecycle Challenge Finale Event in Alabama",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama/",
-      "canonicalUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "nasa.gov",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-25T20:20:58.000Z",
-      "description": "NASA will announce the winners of the final phase of its LunaRecycle Challenge on Friday, Aug. 28, at The University of Alabama (UA) Lee Styslinger College of Engineering in Tuscaloosa, Alabama. Launched in 2024, the challenge incentivizes the invention of new recycling systems that could support non-metabolic waste management efforts for future lunar missions. Media [&#8230;]",
-      "discovery": "rss",
-      "categoryHints": [
-        "science",
-        "technology",
-        "climate"
-      ],
-      "preliminaryScore": 68
-    },
-    {
-      "id": "38f0a3364b2b40c6",
-      "title": "Reports: UEFA backs off FIFA boycott threat",
-      "url": "https://www.dw.com/en/reports-uefa-backs-off-fifa-boycott-threat/a-78511519?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/reports-uefa-backs-off-fifa-boycott-threat/a-78511519?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T13:25:00.000Z",
-      "description": "UEFA is reportedly set to withdraw a threat to boycott FIFA tournaments over a plan to partially privatize football tournaments. The Under-20 Women's World Cup is to be hosted by Poland next month.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 67
-    },
-    {
-      "id": "defd3fc3ecfaae7f",
-      "title": "Could Syria become the focus of an Israeli-Turkish conflict?",
-      "url": "https://www.dw.com/en/could-syria-become-the-focus-of-an-israeli-turkish-conflict/a-78507781?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/could-syria-become-the-focus-of-an-israeli-turkish-conflict/a-78507781?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T13:14:00.000Z",
-      "description": "An Israeli attack on a Syrian military airfield just recently demonstrated once again that Syria is becoming a key battleground for the rivalry between regional powers. At the forefront: Israel and Turkey.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 67
-    },
-    {
-      "id": "34d90ff7a2686a8f",
-      "title": "Panama and El Salvador declare emergency over El Nino-fuelled drought",
-      "url": "https://www.france24.com/en/americas/20260826-panama-and-el-salvador-declare-emergency-over-el-nino-fuelled-drought",
-      "canonicalUrl": "https://www.france24.com/en/americas/20260826-panama-and-el-salvador-declare-emergency-over-el-nino-fuelled-drought",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T12:37:01.000Z",
-      "description": "Panama and El Salvador have become the latest countries along with Honduras to declare an emergency over El Nino, which has already forced a reduction in shipping through the Panama Canal. All three countries broke their monthly temperature records in both June and July, exacerbating famine concerns.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 67
-    },
-    {
-      "id": "383b8b5c5e30ff80",
-      "title": "Deadly flash floods near Nepal-Tibet border raze villages, leave hundreds missing",
-      "url": "https://www.france24.com/en/asia-pacific/20260826-at-least-22-bodies-recovered-hundreds-missing-after-nepal-tibet-flash-floods",
-      "canonicalUrl": "https://www.france24.com/en/asia-pacific/20260826-at-least-22-bodies-recovered-hundreds-missing-after-nepal-tibet-flash-floods",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T12:26:17.000Z",
-      "description": "Massive flash floods that swept through the Himalayan border regions of Nepal and Tibet on Wednesday killed at least 160 people and destroyed villages and infrastructure, officials said. Hundreds are still missing, including foreign tourists and pilgrims from neighbouring India, as authorities race to send humanitarian assistance to affected communities.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 67
-    },
-    {
-      "id": "ec9bc64688b4d291",
-      "title": "China advises its citizens to leave Taiwan ally Eswatini over 'security risks'",
-      "url": "https://www.bbc.co.uk/news/articles/c3rel9rgnx5o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c3rel9rgnx5o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T12:17:12.000Z",
-      "description": "Eswatini is one of 12 countries, and the only one in Africa, that has diplomatic relations with Taiwan.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 67
-    },
-    {
-      "id": "0e7f6bfbe5483089",
-      "title": "NASA Ames’ Contributions to Roman’s Mission",
-      "url": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission/",
-      "canonicalUrl": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission",
-      "sourceId": "nasa",
-      "sourceName": "NASA",
-      "domain": "nasa.gov",
-      "sourceType": "primary",
-      "sourceTier": "A",
-      "language": "en",
-      "publishedAt": "2026-08-25T19:44:55.000Z",
-      "description": "Set to launch on Sunday, Aug. 30, NASA’s Nancy Grace Roman Space Telescope will empower astronomers to explore vast regions of the cosmos and settle essential questions in the areas of dark energy, dark matter, planets outside our solar system, and the formation and growth of galaxies over cosmic time. Key contributions to Roman’s mission [&#8230;]",
-      "discovery": "rss",
-      "categoryHints": [
-        "science",
-        "technology",
-        "climate"
-      ],
-      "preliminaryScore": 67
-    },
-    {
-      "id": "6f65c6fb9563c8d9",
-      "title": "Zambia after the polls: A test for democracy in Africa",
-      "url": "https://www.dw.com/en/zambia-after-the-polls-a-test-for-democracy-in-africa/a-78509362?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/zambia-after-the-polls-a-test-for-democracy-in-africa/a-78509362?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:47:00.000Z",
-      "description": "Zambia's democratic institutions are under scrutiny, as the opposition continues to dispute the election results and courts remain closed. Weeks after the election, Zambia’s election story might be far from over.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "5ece6a92a66b2afe",
-      "title": "US country music legend Dolly Parton dies, aged 80",
-      "url": "https://www.france24.com/en/video/20260826-us-country-music-legend-dolly-parton-dies-aged-80",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-us-country-music-legend-dolly-parton-dies-aged-80",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:40:15.000Z",
-      "description": "Dolly Parton was one of the rare celebrities that transcended divides in the United States. The country music legend and actress died, aged 80, on August 25.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "a3c1bdeebc352432",
-      "title": "Heart, hope and a steely determination: Dolly Parton's musical legacy",
-      "url": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:32:11.000Z",
-      "description": "BBC music correspondent Mark Savage looks back on the legacy of the \"irreplaceable\" late singer.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "131ec77f5c2ac33a",
-      "title": "Pakistan: At least 14 newborns die in hospital fire",
-      "url": "https://www.france24.com/en/video/20260826-pakistan-at-least-14-newborns-die-in-hospital-fire",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-pakistan-at-least-14-newborns-die-in-hospital-fire",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:26:25.000Z",
-      "description": "Devasted parents gathered outside a hospital in Islamabad, Pakistan, on Wednesday after a fire tore through a mother-and-baby ward, killing at least 14 newborns. Witnesses described chaotic and harrowing scenes, including intense smoke and broken glass, while local media blamed the tragedy on a faulty air conditioning system.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "5e5606b51cf0b71e",
-      "title": "Moscow confirms visit of CIA Director John Ratcliffe",
-      "url": "https://www.dw.com/en/moscow-confirms-visit-of-cia-director-john-ratcliffe/a-78508645?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/moscow-confirms-visit-of-cia-director-john-ratcliffe/a-78508645?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:24:00.000Z",
-      "description": "The Russian government said that spy chief John Ratcliffe held talks with counterparts, but not President Vladimir Putin, on his Moscow trip.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "ca70376036b75514",
-      "title": "Nile crocodile eggs hatch naturally in French zoo following heatwaves",
-      "url": "https://www.france24.com/en/france/20260826-too-hot-to-incubate-nile-crocodiles-hatch-on-their-own-in-french-reserve",
-      "canonicalUrl": "https://www.france24.com/en/france/20260826-too-hot-to-incubate-nile-crocodiles-hatch-on-their-own-in-french-reserve",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:15:13.000Z",
-      "description": "Ten Nile crocodile eggs at a wildlife park in southern France hatched naturally without the need for controlled incubators, zoo authorities said Wednesday. The natural incubation, a first at the reserve for reptiles, occurred following a series of extreme heatwaves over the summer.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "68f33cc9f776f412",
-      "title": "Gamescom 2026 highlights gaming industry's strength, AI challenges",
-      "url": "https://www.dw.com/en/gamescom-2026-highlights-gaming-industry-s-strength-ai-challenges/a-78502849?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/gamescom-2026-highlights-gaming-industry-s-strength-ai-challenges/a-78502849?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:15:00.000Z",
-      "description": "Gamescom 2026 opens in Cologne as the global gaming industry continues to grow. But rising hardware costs, AI concerns and slowing user growth all pose challenges.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "b483d5fd42e8020c",
-      "title": "Mawlid festivities cancelled in Ethiopia's Tigray region over fears of drone strikes",
-      "url": "https://www.france24.com/en/video/20260826-mawlid-festivities-cancelled-in-ethiopia-s-tigray-region-over-fears-of-drone-strikes",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-mawlid-festivities-cancelled-in-ethiopia-s-tigray-region-over-fears-of-drone-strikes",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:06:38.000Z",
-      "description": "In Ethiopia, festivities marking Mawlid, the Muslim holiday celebrating the birth of the Prophet Mohammed, have been cancelled at the last minute over fears of drone strikes. The cancellation comes just days after another major Tigrayan festival, Ashenda, was also called off at the last minute for the same reason. Drone strikes hit northern Ethiopia in recent days, as tensions between the Tigray People’s Liberation Front and the Ethiopian government continue to escalate. FRANCE 24's Tom Canetti reports from Addis Ababa, Ethiopia.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "9874f6603b5a762c",
-      "title": "A new chapter for Syria’s Kurds: What integration really means",
-      "url": "https://www.france24.com/en/video/20260826-a-new-chapter-for-syria-s-kurds-what-integration-really-means",
-      "canonicalUrl": "https://www.france24.com/en/video/20260826-a-new-chapter-for-syria-s-kurds-what-integration-really-means",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:05:16.000Z",
-      "description": "The integration of the Kurdish administration within Syria's state institutions is now complete, Syrian Kurdish leader Mazloum Abdi said on Thursday, marking the end of the Kurds' long-held dream of autonomy. The announcement follows months of negotiations between the two sides after a January agreement that called for the full integration of Kurdish civil and military institutions into the state -- a move Washington deemed \"historic\". FRANCE 24's International Affairs Editor Andrew Hilliar tells us more.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "84b05356bb8daa70",
-      "title": "India: Assam tea industry faces climate-driven labor crisis",
-      "url": "https://www.dw.com/en/india-assam-tea-industry-faces-climate-driven-labor-crisis/a-78506414?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/india-assam-tea-industry-faces-climate-driven-labor-crisis/a-78506414?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T11:03:00.000Z",
-      "description": "Plantations in Assam produce more than half of India's tea. But rising heat is hurting yields, workers are increasingly leaving for more stable work, and producers are feeling the squeeze of stagnant tea prices.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "0ad687892d930a48",
-      "title": "Off-roaders caught damaging protected site after posting videos to TikTok",
-      "url": "https://www.bbc.co.uk/news/articles/cvgyl62pp1zo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cvgyl62pp1zo?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T10:42:13.000Z",
-      "description": "Three men were convicted for their part in driving in a convoy from Liverpool to Berwyn SSSI.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 66
-    },
-    {
-      "id": "43a3fdcefbc8a0fd",
-      "title": "Radiation link in flight attendant's breast cancer, French court finds",
-      "url": "https://www.bbc.co.uk/news/articles/cn0j3z6147jo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cn0j3z6147jo?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T10:29:36.000Z",
-      "description": "Former Air France stewardess Sophie Lainault has had her cancer recognised as an occupational disease.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 66
+      "topic": "health-medicine",
+      "preliminaryScore": 72
     },
     {
       "id": "bbb42e99189ab6f4",
@@ -1400,514 +943,10 @@
       "description": "Dozens have died and hundreds were reported missing, including 341 foreign tourists. Rescue helicopters have been unable to land in affected areas due to high floodwaters.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
         "climate"
       ],
-      "preliminaryScore": 65
-    },
-    {
-      "id": "31291dd0d38b0b55",
-      "title": "Yellow warnings remain in force as rain and thunderstorms hit parts of UK",
-      "url": "https://www.bbc.co.uk/weather/articles/c62krylw57xo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/weather/articles/c62krylw57xo?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T09:28:03.000Z",
-      "description": "Yellow warnings updated as torrential downpours affect parts of England and Wales, delivering some of the wettest weather in several weeks.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 65
-    },
-    {
-      "id": "9760370858b3c01c",
-      "title": "Things are getting worse, says litter picker",
-      "url": "https://www.bbc.co.uk/news/videos/cq63rdymnrmo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cq63rdymnrmo?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T09:17:06.000Z",
-      "description": "An anti-litter campaigner visits all 39 BBC local radio stations with her message.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 65
-    },
-    {
-      "id": "5d3a7b95fa207158",
-      "title": "Germany: Carnivalgoers rescued after being trapped on ride",
-      "url": "https://www.dw.com/en/germany-carnivalgoers-rescued-after-being-trapped-on-ride/a-78504830?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/germany-carnivalgoers-rescued-after-being-trapped-on-ride/a-78504830?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T09:11:00.000Z",
-      "description": "Passengers became stranded high up in the air after a swing carousel malfunctioned in Hamburg.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 65
-    },
-    {
-      "id": "ff8ad21c30dcaa80",
-      "title": "LIV Golf lays off majority of staff as PIF funding ends",
-      "url": "https://www.channelnewsasia.com/sport/liv-golf-lays-majority-staff-pif-funding-ends-6343201",
-      "canonicalUrl": "https://www.channelnewsasia.com/sport/liv-golf-lays-majority-staff-pif-funding-ends-6343201",
-      "sourceId": "cna",
-      "sourceName": "Channel NewsAsia",
-      "domain": "channelnewsasia.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:57:11.000Z",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "technology",
-        "society"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "7f0dcbe0a0c25357",
-      "title": "Briton Brennan takes second Vuelta stage win, Pogacar in control",
-      "url": "https://www.channelnewsasia.com/sport/briton-brennan-takes-second-vuelta-stage-win-pogacar-in-control-6343186",
-      "canonicalUrl": "https://www.channelnewsasia.com/sport/briton-brennan-takes-second-vuelta-stage-win-pogacar-in-control-6343186",
-      "sourceId": "cna",
-      "sourceName": "Channel NewsAsia",
-      "domain": "channelnewsasia.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:49:12.000Z",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "technology",
-        "society"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "85f937b40ee01b13",
-      "title": "Europe&#039;s Solheim Cup captain Nordqvist announces playing retirement",
-      "url": "https://www.channelnewsasia.com/sport/europes-solheim-cup-captain-nordqvist-announces-playing-retirement-6343176",
-      "canonicalUrl": "https://www.channelnewsasia.com/sport/europes-solheim-cup-captain-nordqvist-announces-playing-retirement-6343176",
-      "sourceId": "cna",
-      "sourceName": "Channel NewsAsia",
-      "domain": "channelnewsasia.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:47:32.000Z",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "technology",
-        "society"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "d38e1525cf2e95cd",
-      "title": "Meta agrees to pay $18 billion to settle US lawsuits over children&#039;s social media addiction",
-      "url": "https://www.channelnewsasia.com/business/meta-agrees-pay-18-billion-settle-us-lawsuits-over-childrens-social-media-addiction-6343111",
-      "canonicalUrl": "https://www.channelnewsasia.com/business/meta-agrees-pay-18-billion-settle-us-lawsuits-over-childrens-social-media-addiction-6343111",
-      "sourceId": "cna",
-      "sourceName": "Channel NewsAsia",
-      "domain": "channelnewsasia.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T15:21:05.000Z",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "technology",
-        "society"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "78262f7672f931c1",
-      "title": "Canada's retaliation tests the limit of American power under Trump",
-      "url": "https://www.bbc.co.uk/news/articles/ce8xd5k1krpo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/ce8xd5k1krpo?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T08:47:18.000Z",
-      "description": "The president is using US dominance to challenge allies and enemies alike - but both Canada and Iran have found ways to fight back.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "8b8eb769a4634d11",
-      "title": "Germany news: Sugar tax plan leaves sour taste",
-      "url": "https://www.dw.com/en/germany-news-sugar-tax-plan-leaves-sour-taste/live-78504011?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/germany-news-sugar-tax-plan-leaves-sour-taste/live-78504011?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T08:45:00.000Z",
-      "description": "Germany's plans for a sugar tax are facing growing opposition amid claims that it's more about raising revenue than health. DW has the latest.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "49d64cac31d45d65",
-      "title": "RSPB reports record-breaking chough numbers",
-      "url": "https://www.bbc.co.uk/news/articles/c8xklkeyx88o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c8xklkeyx88o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T08:32:22.000Z",
-      "description": "RSPB England says 161 Choughs have been counted - 32 more than the 129 recorded last year.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "a19087f497146c75",
-      "title": "Far-right Israeli lawmaker damages Palestinian memorial with sledgehammer",
-      "url": "https://www.bbc.co.uk/news/articles/c0lrw8325pzo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c0lrw8325pzo?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T08:17:45.000Z",
-      "description": "Zvi Sukkot's actions have drawn widespread condemnation, including from Israeli Prime Minister Benjamin Netanyahu.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "bde50bd0ab66a16e",
-      "title": "Libyan who was cleared after Lockerbie bombing trial dies aged 70",
-      "url": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T08:01:56.000Z",
-      "description": "A Facebook post by Libyan Airlines announced the death of Al Amin Khalifah Fhimah and expressed the company's condolences to his family.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "419b397482b41399",
-      "title": "Why Mamdani opposes RSS chief Mohan Bhagwat's NYC event",
-      "url": "https://www.dw.com/en/why-mamdani-opposes-rss-chief-mohan-bhagwat-s-nyc-event/a-78502850?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/why-mamdani-opposes-rss-chief-mohan-bhagwat-s-nyc-event/a-78502850?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T07:54:00.000Z",
-      "description": "Zohran Mamdani called the Hindu nationalist group's ideology \"exclusionary\" ahead of Mohan Bhagwat's New York event.&#10;But can the mayor do anything to stop it?",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "1f34c68f60e1beaf",
-      "title": "Indian jewellery ad pulled after backlash over actor's outfit",
-      "url": "https://www.bbc.co.uk/news/articles/cy9z4dwx172o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cy9z4dwx172o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T07:26:03.000Z",
-      "description": "Kriti Sanon has defended the ad in which she was seen celebrating the upcoming Hindu festival of Rakhi.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 64
-    },
-    {
-      "id": "3d0f04a1e727d2f4",
-      "title": "Bodies found on S Korean holiday island as missing persons scandal deepens",
-      "url": "https://www.bbc.co.uk/news/articles/cwyz9gjw9n9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cwyz9gjw9n9o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T07:01:45.000Z",
-      "description": "A police sergeant has been arrested following accusations that he lied to victims' families and prematurely closed missing persons cases.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 63
-    },
-    {
-      "id": "f72c65299a15e05b",
-      "title": "Watch Nashville fans lay flowers in tribute to Dolly Parton",
-      "url": "https://www.bbc.co.uk/news/videos/cx2zm89zd99o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cx2zm89zd99o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T06:37:30.000Z",
-      "description": "The BBC's Helena Humphrey is outside the Country Music Hall of Fame where fans gathered to mourn Dolly Parton.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 63
-    },
-    {
-      "id": "4fbc93cc9e335a52",
-      "title": "India's sugar squeeze threatens its biggest season for sweets",
-      "url": "https://www.bbc.co.uk/news/articles/cm2r9y9eleno?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cm2r9y9eleno?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T06:30:24.000Z",
-      "description": "Domestic sugar prices have jumped nearly 40%, forcing India to import 1 million tonnes of the sweetener.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 63
-    },
-    {
-      "id": "81a28bb25a59d980",
-      "title": "'Magical' and rare barn owl has bumper breeding season",
-      "url": "https://www.bbc.co.uk/news/articles/crl6r66yjklo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/crl6r66yjklo?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T05:43:05.000Z",
-      "description": "Ten chicks have been successfully reared by two breeding pairs at secret sites across Fermanagh.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 63
-    },
-    {
-      "id": "edbd5dfd8be315dc",
-      "title": "Fires still burn in charred landscape as focus turns to wildfire prevention",
-      "url": "https://www.bbc.co.uk/news/articles/cvgye1999n8o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cvgye1999n8o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T05:25:20.000Z",
-      "description": "The RSPB is considering measures it can take to improve resilience in the wake of a five-week long fire in the Cairngorms.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 62
-    },
-    {
-      "id": "b4f0090598e3d0f4",
-      "title": "Pakistan: Islamabad hospital fire kills at least 14 infants",
-      "url": "https://www.dw.com/en/pakistan-islamabad-hospital-fire-kills-at-least-14-infants/a-78503056?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/pakistan-islamabad-hospital-fire-kills-at-least-14-infants/a-78503056?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T05:23:00.000Z",
-      "description": "A fire broke out in the third floor of a maternity ward in Islamabad. Pakistani Prime Minister Shehbaz Sharif has called for an immediate investigation into the tragedy.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 62
-    },
-    {
-      "id": "55632cd06068002a",
-      "title": "Why landmines are back in force despite international bans",
-      "url": "https://www.dw.com/en/why-landmines-are-back-in-force-despite-international-bans/a-78501702?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/why-landmines-are-back-in-force-despite-international-bans/a-78501702?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T05:18:00.000Z",
-      "description": "Russia's war on Ukraine has prompted several European countries to abandon a landmark 1990s landmine treaty. DW examines what is at stake.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 62
-    },
-    {
-      "id": "03afbc49082d3685",
-      "title": "Toxic waste sites exposed in Michael Sheen documentary are 'tip of the iceberg'",
-      "url": "https://www.bbc.co.uk/news/articles/c07r2l7rjpko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c07r2l7rjpko?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T05:14:36.000Z",
-      "description": "One scientist says there are thousands of sites across the UK that need investigating.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
-      ],
-      "preliminaryScore": 62
-    },
-    {
-      "id": "d2d57cead7e7629b",
-      "title": "US military kills 4 in Caribbean boat strike",
-      "url": "https://www.dw.com/en/us-military-kills-4-in-caribbean-boat-strike/a-78502726?maca=en-rss-en-top-1022-rdf",
-      "canonicalUrl": "https://www.dw.com/en/us-military-kills-4-in-caribbean-boat-strike/a-78502726?maca=en-rss-en-top-1022-rdf",
-      "sourceId": "dw",
-      "sourceName": "Deutsche Welle",
-      "domain": "dw.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T04:55:00.000Z",
-      "description": "The US military killed four people in a strike on a suspected drug-smuggling boat in the Caribbean, the latest in a campaign that has killed more than 200 people and drawn condemnation from rights groups.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
-      ],
-      "preliminaryScore": 62
+      "topic": "climate-environment",
+      "preliminaryScore": 80
     },
     {
       "id": "8b9e86cc329437a8",
@@ -1924,34 +963,190 @@
       "description": "Sculptor Gao Zhen was charged under China's \"Law on the Protection ⁠of Heroes ​and Martyrs.\" His supporters have called for his immediate release.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "business",
-        "society",
-        "climate"
+        "culture-sports"
       ],
+      "topic": "culture-sports",
       "preliminaryScore": 61
     },
     {
-      "id": "e4f17071da478348",
-      "title": "Musk's SpaceX to build $100bn launch facility in Louisiana",
-      "url": "https://www.bbc.co.uk/news/articles/cq5xel4v642o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cq5xel4v642o?at_campaign=rss&at_medium=RSS",
+      "id": "083b2b7397f89a10",
+      "title": "Gang attack in Haiti: Anger mounts over police failures",
+      "url": "https://www.france24.com/en/video/20260826-gang-attack-in-haiti-anger-mounts-over-police-failures",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-gang-attack-in-haiti-anger-mounts-over-police-failures",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:55:31.000Z",
+      "description": "At least 47 people were killed and more than 50 others kidnapped after armed men attacked a once-peaceful community near Haiti’s capital earlier this week, the United Nations said Tuesday. It is believed to be one of the largest mass kidnappings in Haiti in recent years, and one gang leader is threatening to kill the hostages if authorities kill any gang members as they try to secure the community nestled in the hills above Port-au-Prince. Sunday’s attack on Kenscoff pierced the belief that security in the troubled Caribbean country was improving. Journalist Harold Isaac reports from Port-au-Prince, Haiti.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "d9876c4ecda85a42",
+      "title": "Harnessing nuclear power for a clean-energy future",
+      "url": "https://www.nature.com/articles/d41586-026-02505-5",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02505-5",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02505-5 Generating electricity using fission has a chequered past. New approaches such as smaller reactors could transform the technology into a more nimble source of always-on, carbon-free power.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "e73a45f754cd935b",
+      "title": "Highest-ever ocean temperatures recorded as El Niño intensifies",
+      "url": "https://www.nature.com/articles/d41586-026-02681-4",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02681-4",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02681-4 Why extreme temperatures are expected to weaken ocean carbon sinks — plus, how mitochondrial injections could treat vision loss.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "earth-science",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "b483d5fd42e8020c",
+      "title": "Mawlid festivities cancelled in Ethiopia's Tigray region over fears of drone strikes",
+      "url": "https://www.france24.com/en/video/20260826-mawlid-festivities-cancelled-in-ethiopia-s-tigray-region-over-fears-of-drone-strikes",
+      "canonicalUrl": "https://www.france24.com/en/video/20260826-mawlid-festivities-cancelled-in-ethiopia-s-tigray-region-over-fears-of-drone-strikes",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:06:38.000Z",
+      "description": "In Ethiopia, festivities marking Mawlid, the Muslim holiday celebrating the birth of the Prophet Mohammed, have been cancelled at the last minute over fears of drone strikes. The cancellation comes just days after another major Tigrayan festival, Ashenda, was also called off at the last minute for the same reason. Drone strikes hit northern Ethiopia in recent days, as tensions between the Tigray People’s Liberation Front and the Ethiopian government continue to escalate. FRANCE 24's Tom Canetti reports from Addis Ababa, Ethiopia.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "0858d1bac160c50f",
+      "title": "Meta to pay $23 billion to settle teen social media addiction cases",
+      "url": "https://www.abc.net.au/news/2026-08-27/meta-settlement-on-harm-to-teens/107082748",
+      "canonicalUrl": "https://www.abc.net.au/news/2026-08-27/meta-settlement-on-harm-to-teens/107082748",
+      "sourceId": "abc-au",
+      "sourceName": "ABC News Australia",
+      "domain": "abc.net.au",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:01:05.000Z",
+      "description": "Meta has agreed to a wide-ranging deal settling all claims in US federal and state courts, which alleged the company's platforms harmed children.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "da0887133af75ec2",
+      "title": "Aberrant excitatory neuronal ERBB4 promotes Alzheimer’s disease pathology",
+      "url": "https://www.nature.com/articles/s41586-026-10964-z",
+      "canonicalUrl": "https://www.nature.com/articles/s41586-026-10964-z",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/s41586-026-10964-z Neuroinflammation alone may be dispensable for early synapse loss in Alzheimer’s disease.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "edbd5dfd8be315dc",
+      "title": "Fires still burn in charred landscape as focus turns to wildfire prevention",
+      "url": "https://www.bbc.co.uk/news/articles/cvgye1999n8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cvgye1999n8o?at_campaign=rss&at_medium=RSS",
       "sourceId": "bbc",
       "sourceName": "BBC News",
       "domain": "bbc.co.uk",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-26T01:32:07.000Z",
-      "description": "It will be the firm's biggest site yet and aims to send rockets to space in 2029.",
+      "publishedAt": "2026-08-26T05:25:20.000Z",
+      "description": "The RSPB is considering measures it can take to improve resilience in the wake of a five-week long fire in the Cairngorms.",
       "discovery": "rss",
       "categoryHints": [
-        "world",
-        "technology",
-        "science",
-        "society"
+        "climate"
       ],
-      "preliminaryScore": 60
+      "topic": "climate-environment",
+      "preliminaryScore": 76
+    },
+    {
+      "id": "0d3fa8a966b50e69",
+      "title": "Saxony-Anhalt: an AfD stronghold in Germany's east",
+      "url": "https://www.dw.com/en/saxony-anhalt-an-afd-stronghold-in-germany-s-east/a-78482588?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/saxony-anhalt-an-afd-stronghold-in-germany-s-east/a-78482588?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:24:00.000Z",
+      "description": "Saxony-Anhalt is a structurally weak, predominantly rural state. Could it become the first German state to be governed by the far-right AfD?",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "3e791f60b27545d5",
+      "title": "The best-managed industrial waste in history",
+      "url": "https://www.nature.com/articles/d41586-026-02508-2",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02508-2",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02508-2 Expanded use of nuclear energy will protect the environment even without fresh options for waste disposal.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "energy-materials",
+      "preliminaryScore": 72
     },
     {
       "id": "9667ed7bca080b0d",
@@ -1968,24 +1163,418 @@
       "description": "Nature, Published online: 26 August 2026; doi:10.1038/d41586-026-02514-4 Researchers plan to use radioactive isotopes to power systems on a future Mars rover.",
       "discovery": "rss",
       "categoryHints": [
-        "science",
-        "health",
-        "climate",
-        "technology"
+        "science"
       ],
-      "preliminaryScore": 59
+      "topic": "aerospace",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "3d0f04a1e727d2f4",
+      "title": "Bodies found on S Korean holiday island as missing persons scandal deepens",
+      "url": "https://www.bbc.co.uk/news/articles/cwyz9gjw9n9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cwyz9gjw9n9o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T07:01:45.000Z",
+      "description": "A police sergeant has been arrested following accusations that he lied to victims' families and prematurely closed missing persons cases.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 63
+    },
+    {
+      "id": "ad0fbb1695dd70d8",
+      "title": "Frankfurt Airport worker dies after malaria infection",
+      "url": "https://www.dw.com/en/frankfurt-airport-worker-dies-after-malaria-infection/a-78512056?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/frankfurt-airport-worker-dies-after-malaria-infection/a-78512056?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:13:00.000Z",
+      "description": "An unusual cluster of malaria cases at Frankfurt Airport infected six employees, one fatally. It is thought to have been caused by a mosquito brought in on an aircraft.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "62fea6dbf88129ba",
+      "title": "More than 150 dead in Nepal floods, Australian among hundreds missing",
+      "url": "https://www.abc.net.au/news/2026-08-26/australian-missing-in-nepal-flood/107082672",
+      "canonicalUrl": "https://www.abc.net.au/news/2026-08-26/australian-missing-in-nepal-flood/107082672",
+      "sourceId": "abc-au",
+      "sourceName": "ABC News Australia",
+      "domain": "abc.net.au",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T11:33:20.000Z",
+      "description": "The flash flood in the Himalayan border region has killed more than 150 people in Nepal. More than 300 foreign nationals, including an Australian, have been reported missing.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "d546964f6c00123d",
+      "title": "Red Sea nations step up maritime cooperation as regional threats grow",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168211",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168211",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "description": "From piracy and migrant smuggling to disruptions affecting global shipping routes, countries bordering one of the world’s busiest waterways are seeking closer cooperation to stay ahead of fast-evolving maritime threats.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "c531949d2fae7da0",
+      "title": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
+      "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
+      "canonicalUrl": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-25T22:28:34.000Z",
+      "description": "NASA’s Deep Space Network facility in California is marking the addition of a brand new 34-meter-wide (114-foot-wide) radio frequency antenna to the agency’s deep space communications and navigation system. The network uses giant dish antennas located at three global facilities to support more than 40 spacecraft exploring the solar system and interstellar space. The new [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "8314c63edf5c1e80",
+      "title": "Explainer: UN peace operations work to create, preserve peace",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168210",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168210",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "description": "Supporting the first democratic elections after brutal civil wars in Mozambique and Cambodia. Disarming thousands of child soldiers in Sierra Leone. Helping to secure Namibia’s independence from South Africa. These are some of the contributions of UN operations around the world to help countries transition from conflict to lasting peace.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "4d29514eb454b1cf",
+      "title": "NASA Invites Media to LunaRecycle Challenge Finale Event in Alabama",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama/",
+      "canonicalUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-25T20:20:58.000Z",
+      "description": "NASA will announce the winners of the final phase of its LunaRecycle Challenge on Friday, Aug. 28, at The University of Alabama (UA) Lee Styslinger College of Engineering in Tuscaloosa, Alabama. Launched in 2024, the challenge incentivizes the invention of new recycling systems that could support non-metabolic waste management efforts for future lunar missions. Media [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "f3a10e5ec4c9854a",
+      "title": "Security Council LIVE: Rising tensions in Gaza, West Bank",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168204",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168204",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "description": "Amid illegal Israeli settlement surges, continued attacks in Gaza and the West Bank alongside tensions throughout Occupied Palestinian Territory, the Security Council discussed the latest developments on Wednesday, with the UN Special Envoy stressing that “human dignity must be at the centre of all efforts” to overcome the current fragile ceasefire and continued suffering. UN News app users can follow here.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "0e7f6bfbe5483089",
+      "title": "NASA Ames’ Contributions to Roman’s Mission",
+      "url": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission/",
+      "canonicalUrl": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-25T19:44:55.000Z",
+      "description": "Set to launch on Sunday, Aug. 30, NASA’s Nancy Grace Roman Space Telescope will empower astronomers to explore vast regions of the cosmos and settle essential questions in the areas of dark energy, dark matter, planets outside our solar system, and the formation and growth of galaxies over cosmic time. Key contributions to Roman’s mission [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "941c446abd234d6a",
+      "title": "Two mobile phone shop employees arrested over scheme to compromise Singpass accounts",
+      "url": "https://www.channelnewsasia.com/singapore/two-man-arrested-compromise-singpass-accounts-police-6343146",
+      "canonicalUrl": "https://www.channelnewsasia.com/singapore/two-man-arrested-compromise-singpass-accounts-police-6343146",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:59:01.000Z",
+      "description": "Both suspects, aged 25 and 47, are Malaysian.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "0d579d16c0729c3f",
+      "title": "LIVE: Real Madrid vs Real Sociedad – La Liga",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/8/26/live-real-madrid-vs-sociedad-la-liga?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/sports/liveblog/2026/8/26/live-real-madrid-vs-sociedad-la-liga?traffic_source=rss",
+      "sourceId": "al-jazeera",
+      "sourceName": "Al Jazeera",
+      "domain": "aljazeera.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:52:53.000Z",
+      "description": "Live coverage and text updates from our commentary stream as Mbappe and Bellingham lead the line for Mourinho&#039;s side.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "5077f133d4012622",
+      "title": "Inquest opens into death of ex-Cambridge professor Jason Arday",
+      "url": "https://www.abc.net.au/news/2026-08-27/jason-arday-inquest-opens/107082894",
+      "canonicalUrl": "https://www.abc.net.au/news/2026-08-27/jason-arday-inquest-opens/107082894",
+      "sourceId": "abc-au",
+      "sourceName": "ABC News Australia",
+      "domain": "abc.net.au",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:38:57.000Z",
+      "description": "The opening of the inquest comes a day before the UK release of his memoir, and weeks after the Cambridge University professor's sudden death after an intense media frenzy.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "dbfd63f5db9b16a8",
+      "title": "Kremlin says CIA head met Russian intelligence officials, but not Putin",
+      "url": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/8/26/kremlin-says-cia-head-met-russian-intelligence-officials-but-not-putin?traffic_source=rss",
+      "sourceId": "al-jazeera",
+      "sourceName": "Al Jazeera",
+      "domain": "aljazeera.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T14:30:24.000Z",
+      "description": "CIA&#039;s Ratcliffe has met with Russian intel officials in Moscow, but not President Putin; Kremlin calls talks &#039;positive&#039;.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "183407c461365eab",
+      "title": "Prince Harry and Meghan arrive back in UK",
+      "url": "https://www.abc.net.au/news/2026-08-26/prince-harry-and-megan-arrive-back-in-uk-with-family/107082698",
+      "canonicalUrl": "https://www.abc.net.au/news/2026-08-26/prince-harry-and-megan-arrive-back-in-uk-with-family/107082698",
+      "sourceId": "abc-au",
+      "sourceName": "ABC News Australia",
+      "domain": "abc.net.au",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T13:40:42.000Z",
+      "description": "Prince Harry and his wife Meghan arrive back in the UK with their two children, six years after they moved their lives to California amid simmering tensions within the royal family.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "48a569bad6d6d83a",
+      "title": "Ukraine awards Elon Musk Order of Freedom for Starlink support",
+      "url": "https://www.abc.net.au/news/2026-08-26/zelenskyy-awards-elon-musk-medal-for-starlink-access/107082694",
+      "canonicalUrl": "https://www.abc.net.au/news/2026-08-26/zelenskyy-awards-elon-musk-medal-for-starlink-access/107082694",
+      "sourceId": "abc-au",
+      "sourceName": "ABC News Australia",
+      "domain": "abc.net.au",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T13:10:02.000Z",
+      "description": "Ukrainian President Volodymyr Zelenskyy has awarded Elon Musk the Order of Freedom, one of Ukraine's highest state honours.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "e2dfd2b04d8f8d99",
+      "title": "理响中国｜文献里的党史密码 ： 关键关口 ， 何以掌握战略主动 ？- 思客",
+      "url": "https://www.news.cn/sikepro/20260826/8d729cb890aa4282b147b71a215524fa/c.html",
+      "canonicalUrl": "https://www.news.cn/sikepro/20260826/8d729cb890aa4282b147b71a215524fa/c.html",
+      "sourceId": "xinhua",
+      "sourceName": "Xinhua News Agency",
+      "domain": "news.cn",
+      "sourceType": "state-media",
+      "sourceTier": "B",
+      "language": "zh",
+      "publishedAt": "2026-08-26T08:15:00.000Z",
+      "description": "",
+      "discovery": "gdelt",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 65
+    },
+    {
+      "id": "ff8ad21c30dcaa80",
+      "title": "LIV Golf lays off majority of staff as PIF funding ends",
+      "url": "https://www.channelnewsasia.com/sport/liv-golf-lays-majority-staff-pif-funding-ends-6343201",
+      "canonicalUrl": "https://www.channelnewsasia.com/sport/liv-golf-lays-majority-staff-pif-funding-ends-6343201",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:57:11.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 64
+    },
+    {
+      "id": "7f0dcbe0a0c25357",
+      "title": "Briton Brennan takes second Vuelta stage win, Pogacar in control",
+      "url": "https://www.channelnewsasia.com/sport/briton-brennan-takes-second-vuelta-stage-win-pogacar-in-control-6343186",
+      "canonicalUrl": "https://www.channelnewsasia.com/sport/briton-brennan-takes-second-vuelta-stage-win-pogacar-in-control-6343186",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:49:12.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 64
+    },
+    {
+      "id": "85f937b40ee01b13",
+      "title": "Europe&#039;s Solheim Cup captain Nordqvist announces playing retirement",
+      "url": "https://www.channelnewsasia.com/sport/europes-solheim-cup-captain-nordqvist-announces-playing-retirement-6343176",
+      "canonicalUrl": "https://www.channelnewsasia.com/sport/europes-solheim-cup-captain-nordqvist-announces-playing-retirement-6343176",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:47:32.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 64
+    },
+    {
+      "id": "d38e1525cf2e95cd",
+      "title": "Meta agrees to pay $18 billion to settle US lawsuits over children&#039;s social media addiction",
+      "url": "https://www.channelnewsasia.com/business/meta-agrees-pay-18-billion-settle-us-lawsuits-over-childrens-social-media-addiction-6343111",
+      "canonicalUrl": "https://www.channelnewsasia.com/business/meta-agrees-pay-18-billion-settle-us-lawsuits-over-childrens-social-media-addiction-6343111",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T15:21:05.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 64
     }
   ],
   "sourceResults": [
     {
       "sourceId": "abc-au",
-      "status": "ok",
-      "count": 6
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "al-jazeera",
-      "status": "ok",
-      "count": 4
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "ap",
@@ -1995,7 +1584,7 @@
     {
       "sourceId": "bbc",
       "status": "ok",
-      "count": 38
+      "count": 30
     },
     {
       "sourceId": "bloomberg",
@@ -2010,13 +1599,13 @@
     },
     {
       "sourceId": "cna",
-      "status": "ok",
-      "count": 5
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "dw",
       "status": "ok",
-      "count": 18
+      "count": 14
     },
     {
       "sourceId": "esa",
@@ -2031,7 +1620,7 @@
     {
       "sourceId": "france24",
       "status": "ok",
-      "count": 20
+      "count": 11
     },
     {
       "sourceId": "ft",
@@ -2047,7 +1636,7 @@
     {
       "sourceId": "nasa",
       "status": "ok",
-      "count": 7
+      "count": 6
     },
     {
       "sourceId": "nature",
@@ -2082,7 +1671,7 @@
     {
       "sourceId": "un-news",
       "status": "ok",
-      "count": 2
+      "count": 6
     },
     {
       "sourceId": "us-sec",
@@ -2105,5 +1694,7 @@
       "count": 0
     }
   ],
-  "notes": []
+  "notes": [
+    "Merged and deduplicated 90 candidates from the previous snapshot."
+  ]
 }

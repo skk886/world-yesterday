@@ -6,7 +6,7 @@ import fs from "node:fs";
 
 function editionWithOneItem(): Edition {
   return editionSchema.parse({
-    schemaVersion: 1,
+    schemaVersion: 2,
     siteName: "昨日世界 / World Yesterday",
     date: "2026-08-25",
     generatedAt: "2026-08-26T04:00:00Z",
@@ -30,6 +30,9 @@ function editionWithOneItem(): Edition {
       publishedAt: "2026-08-25T02:00:00Z",
       updatedAt: "2026-08-26T04:00:00Z",
       regions: ["Global"],
+      topic: "aerospace",
+      subjectOrganization: { id: "nasa", name: "NASA" },
+      importanceFactors: { impactBreadth: 80, consequenceSeverity: 80, systemicSignificance: 80, independentCoverage: 80, yesterdayNovelty: 80 },
       impactScore: 80
     }],
     metrics: {
@@ -87,7 +90,7 @@ describe("allowlist and semantic publishing gate", () => {
       candidates: [{
         id: "candidate-1", title: "Test", url: "https://www.nasa.gov/test", canonicalUrl: "https://www.nasa.gov/test",
         sourceId: "bbc", sourceName: "BBC News", domain: "nasa.gov", sourceType: "independent-media", sourceTier: "B", language: "en",
-        publishedAt: "2026-08-25T02:00:00Z", discovery: "rss", categoryHints: ["science"], preliminaryScore: 50
+        publishedAt: "2026-08-25T02:00:00Z", discovery: "rss", categoryHints: ["science"], topic: "aerospace", preliminaryScore: 50
       }], sourceResults: [], notes: []
     });
     expect(validateRawSnapshotSemantics(raw).valid).toBe(false);

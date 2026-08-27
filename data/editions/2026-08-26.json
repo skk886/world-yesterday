@@ -1,36 +1,36 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "siteName": "昨日世界 / World Yesterday",
   "date": "2026-08-26",
-  "generatedAt": "2026-08-27T00:00:00+08:00",
+  "generatedAt": "2026-08-27T13:59:00+08:00",
   "timezone": "Asia/Shanghai",
   "status": "partial",
   "items": [
     {
-      "id": "nepal-tibet-border-flash-floods",
-      "category": "world",
+      "id": "nepal-tibet-deadly-flash-floods",
+      "category": "climate",
       "rank": 1,
       "titles": {
-        "zh": "尼泊尔—西藏边境洪灾造成逾150人死亡",
-        "en": "More Than 150 Killed in Nepal–Tibet Border Floods"
+        "zh": "尼泊尔—西藏边境暴发致命山洪，多地村庄受毁",
+        "en": "Deadly flash floods devastate communities along the Nepal–Tibet border"
       },
-      "originalTitle": "Deadly flash floods near Nepal-Tibet border raze villages, leave hundreds missing",
+      "originalTitle": "Deadly flash flood wipes away villages in Nepal, Tibet",
       "summaries": {
-        "zh": "暴雨引发的山洪席卷尼泊尔与西藏边境，多座村庄和道路被泥石流摧毁。多家媒体称死亡人数已超过150人，数百名游客、工人及居民仍然失联，恶劣条件阻碍空中救援。",
-        "en": "Flash floods swept through communities along the Nepal–Tibet border, destroying villages, roads and other infrastructure. Independent reports placed the death toll above 150 and said hundreds of residents, workers, pilgrims and foreign tourists remained missing. High water and damaged transport links hampered helicopter access, while authorities raced to reach isolated settlements and deliver humanitarian assistance."
+        "zh": "尼泊尔与中国西藏交界地区遭遇严重山洪，村庄和交通设施受毁，造成大量人员死亡或失联。多家媒体称恶劣条件阻碍直升机救援，联合国机构已部署紧急援助。",
+        "en": "Severe flash flooding struck the Himalayan border region between Nepal and China, destroying communities, disrupting travel and leaving many people dead or missing. Reports differ substantially on the early casualty count, so no precise total is stated here. Deutsche Welle, ABC News Australia and France 24 independently described the disaster, while UN News reported that United Nations agencies were deploying emergency assistance."
       },
       "whyItMatters": {
-        "zh": "跨境伤亡和交通中断使这场灾害成为区域性人道紧急事件。",
-        "en": "The cross-border casualties and disrupted access make this a major regional humanitarian emergency."
+        "zh": "灾区地形险峻且游客众多，失联规模与受阻的救援行动可能进一步加重人员损失。",
+        "en": "Difficult terrain, large numbers of missing travellers and obstructed rescue operations could substantially increase the disaster’s human toll."
       },
       "sources": [
         {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/asia-pacific/20260826-at-least-22-bodies-recovered-hundreds-missing-after-nepal-tibet-flash-floods",
-          "domain": "france24.com",
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/deadly-flash-flood-wipes-away-villages-in-nepal-tibet/a-78505576?maca=en-rss-en-top-1022-rdf",
+          "domain": "dw.com",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T12:26:17+00:00"
+          "publishedAt": "2026-08-26T17:44:00+08:00"
         },
         {
           "name": "ABC News Australia",
@@ -38,186 +38,61 @@
           "domain": "abc.net.au",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T11:33:20+00:00"
+          "publishedAt": "2026-08-26T19:33:20+08:00"
         },
         {
-          "name": "Deutsche Welle",
-          "url": "https://www.dw.com/en/deadly-flash-flood-wipes-away-villages-in-nepal-tibet/a-78505576?maca=en-rss-en-top-1022-rdf",
-          "domain": "dw.com",
+          "name": "UN News",
+          "url": "https://news.un.org/feed/view/en/story/2026/08/1168208",
+          "domain": "news.un.org",
+          "type": "primary",
+          "language": "en",
+          "publishedAt": "2026-08-26T20:00:00+08:00"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260826-hundreds-missing-in-nepal-catastrophic-flash-floods",
+          "domain": "france24.com",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T09:44:00+00:00"
+          "publishedAt": "2026-08-26T23:01:42+08:00"
         }
       ],
       "verificationStatus": "verified",
       "publishedAt": "2026-08-26T17:44:00+08:00",
-      "updatedAt": "2026-08-26T20:26:17+08:00",
+      "updatedAt": "2026-08-26T23:01:42+08:00",
       "regions": [
         "Nepal",
         "China",
         "South Asia",
         "East Asia"
       ],
-      "impactScore": 92
+      "topic": "climate-environment",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 76,
+        "consequenceSeverity": 91,
+        "systemicSignificance": 66,
+        "independentCoverage": 88,
+        "yesterdayNovelty": 92
+      },
+      "impactScore": 81
     },
     {
-      "id": "meta-teen-addiction-settlement",
-      "category": "technology",
+      "id": "cia-director-moscow-talks",
+      "category": "world",
       "rank": 2,
       "titles": {
-        "zh": "Meta就青少年社交媒体伤害诉讼达成和解",
-        "en": "Meta Settles Lawsuits Alleging Social-Media Harm to Teens"
-      },
-      "originalTitle": "Meta reaches $17 billion settlement with US states over social media harm to teens",
-      "summaries": {
-        "zh": "Meta同意解决美国各州及其他法院中有关旗下平台伤害青少年的诉讼，并承诺增加儿童安全和使用限制措施。各来源所报总金额从170亿至230亿美元不等，因此具体数字仍不宜确定。",
-        "en": "Meta agreed to settle broad US litigation alleging that Facebook and Instagram harmed children through addictive design and excessive use, with new child-safety or usage restrictions included. Four independent snapshot sources confirm the settlement, but their reported totals conflict sharply, ranging from $17 billion to $23 billion. The existence and broad scope of the agreement are verified; its precise financial value is not."
-      },
-      "whyItMatters": {
-        "zh": "和解可能重塑大型平台面向未成年人的产品设计与法律责任。",
-        "en": "The agreement could reshape platform design and legal accountability for services used by minors."
-      },
-      "sources": [
-        {
-          "name": "Deutsche Welle",
-          "url": "https://www.dw.com/en/meta-settles-in-us-states-lawsuit-on-teen-user-addiction/a-78512157?maca=en-rss-en-top-1022-rdf",
-          "domain": "dw.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T13:48:00+00:00"
-        },
-        {
-          "name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-27/meta-settlement-on-harm-to-teens/107082748",
-          "domain": "abc.net.au",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T14:01:05+00:00"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/americas/20260826-meta-reaches-17-billion-settlement-with-us-states-over-social-media-harm-teens",
-          "domain": "france24.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T14:31:06+00:00"
-        },
-        {
-          "name": "Channel NewsAsia",
-          "url": "https://www.channelnewsasia.com/business/meta-agrees-pay-18-billion-settle-us-lawsuits-over-childrens-social-media-addiction-6343111",
-          "domain": "channelnewsasia.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T15:21:05+00:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T21:48:00+08:00",
-      "updatedAt": "2026-08-26T23:21:05+08:00",
-      "regions": [
-        "United States",
-        "North America"
-      ],
-      "impactScore": 89
-    },
-    {
-      "id": "un-security-council-gaza-west-bank",
-      "category": "world",
-      "rank": 3,
-      "titles": {
-        "zh": "联合国安理会讨论加沙与西岸紧张局势",
-        "en": "UN Security Council Discusses Gaza and West Bank Tensions"
-      },
-      "originalTitle": "Security Council LIVE: Rising tensions in Gaza, West Bank",
-      "summaries": {
-        "zh": "联合国安理会就加沙、约旦河西岸及巴勒斯坦被占领土的最新局势举行会议。联合国特使强调，应把人的尊严置于维持脆弱停火、缓解平民苦难及推动政治努力的核心。",
-        "en": "The UN Security Council met to discuss developments in Gaza, the West Bank and the wider Occupied Palestinian Territory. UN News framed the session around settlement activity, continuing attacks, civilian suffering and strains on a fragile ceasefire. A UN envoy urged participants to place human dignity at the centre of efforts to preserve calm and pursue a political way forward."
-      },
-      "whyItMatters": {
-        "zh": "安理会讨论反映停火承压，也影响后续国际外交与援助行动。",
-        "en": "The meeting signals pressure on the ceasefire and may shape subsequent diplomacy and aid efforts."
-      },
-      "sources": [
-        {
-          "name": "UN News",
-          "url": "https://news.un.org/feed/view/en/story/2026/08/1168204",
-          "domain": "news.un.org",
-          "type": "primary",
-          "language": "en",
-          "publishedAt": "2026-08-26T12:00:00+00:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T20:00:00+08:00",
-      "updatedAt": "2026-08-26T20:00:00+08:00",
-      "regions": [
-        "Palestine",
-        "Israel",
-        "Middle East"
-      ],
-      "impactScore": 87
-    },
-    {
-      "id": "canada-us-tariff-retaliation",
-      "category": "business",
-      "rank": 4,
-      "titles": {
-        "zh": "加拿大以新关税回应美国贸易措施",
-        "en": "Canada Retaliates Against New US Tariffs"
-      },
-      "originalTitle": "From tariffs to French: Trump’s trade war with Canada takes a cultural turn",
-      "summaries": {
-        "zh": "加拿大宣布对约200亿美元美国商品征收15%至50%的报复性关税，回应美国对加拿大产品实施的新一轮50%关税。两国争端已从商品贸易延伸至政治、文化和语言领域。",
-        "en": "Canada announced retaliatory tariffs of 15% to 50% on roughly $20 billion of US goods after new 50% American tariffs on Canadian products took effect. France 24 reported the measures and their emerging cultural dimension, while the BBC independently described Canada’s retaliation as a test of Washington’s ability to use US economic dominance against allies."
-      },
-      "whyItMatters": {
-        "zh": "北美贸易壁垒升级将影响供应链、消费价格和长期盟友关系。",
-        "en": "Escalating North American trade barriers threaten supply chains, consumer prices and a longstanding alliance."
-      },
-      "sources": [
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ce8xd5k1krpo?at_campaign=rss&at_medium=RSS",
-          "domain": "bbc.co.uk",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T08:47:18+00:00"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/video/20260826-from-tariffs-to-french-trump-s-trade-war-with-canada-takes-a-cultural-turn",
-          "domain": "france24.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T15:00:40+00:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T16:47:18+08:00",
-      "updatedAt": "2026-08-26T23:00:40+08:00",
-      "regions": [
-        "Canada",
-        "United States",
-        "North America"
-      ],
-      "impactScore": 84
-    },
-    {
-      "id": "cia-director-moscow-visit",
-      "category": "world",
-      "rank": 5,
-      "titles": {
-        "zh": "美国中情局局长访问莫斯科并与俄方会谈",
-        "en": "CIA Director Visits Moscow for Talks with Russian Officials"
+        "zh": "美国中央情报局局长赴莫斯科，与俄情报官员会谈",
+        "en": "CIA director holds talks with Russian intelligence officials in Moscow"
       },
       "originalTitle": "Moscow confirms visit of CIA Director John Ratcliffe",
       "summaries": {
-        "zh": "俄罗斯方面确认，美国中情局局长约翰·拉特克利夫在莫斯科与俄情报官员举行会谈，但未会见总统普京。三家媒体均报道此行，具体议题尚未公开，时点正值乌克兰战争升级。",
-        "en": "Russia confirmed that CIA Director John Ratcliffe visited Moscow and met Russian intelligence counterparts, but not President Vladimir Putin. Deutsche Welle, Al Jazeera and France 24 independently reported the visit, described as the first known trip by a US intelligence chief to the Russian capital since 2021. The substance of the talks was not disclosed in the snapshot."
+        "zh": "俄罗斯方面确认，美国中央情报局局长约翰·拉特克利夫访问莫斯科并与俄情报部门会谈，但未会见普京。议题尚未公开，此行正值乌克兰战争升级及美伊外交受挫之际。",
+        "en": "Russia confirmed that CIA Director John Ratcliffe visited Moscow and met Russian intelligence counterparts, though not President Vladimir Putin. The subjects discussed were not disclosed. Deutsche Welle, Al Jazeera and France 24 independently reported the visit, described as the first known trip to the Russian capital by a serving US intelligence chief since 2021, amid heightened tensions over Ukraine and stalled US-Iran diplomacy."
       },
       "whyItMatters": {
-        "zh": "罕见的高层情报接触可能影响美俄危机管控及相关外交渠道。",
-        "en": "Rare senior intelligence contact could affect US–Russia crisis management and diplomatic backchannels."
+        "zh": "在多条安全危机同时升温之际，美俄情报高层直接接触可能影响危机管控与秘密外交。",
+        "en": "Direct intelligence contact between Washington and Moscow could shape crisis management and back-channel diplomacy during several escalating security disputes."
       },
       "sources": [
         {
@@ -226,7 +101,7 @@
           "domain": "dw.com",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T11:24:00+00:00"
+          "publishedAt": "2026-08-26T19:24:00+08:00"
         },
         {
           "name": "Al Jazeera",
@@ -234,7 +109,7 @@
           "domain": "aljazeera.com",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T14:30:24+00:00"
+          "publishedAt": "2026-08-26T22:30:24+08:00"
         },
         {
           "name": "France 24",
@@ -242,167 +117,199 @@
           "domain": "france24.com",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T15:41:43+00:00"
+          "publishedAt": "2026-08-26T23:41:43+08:00"
         }
       ],
       "verificationStatus": "verified",
       "publishedAt": "2026-08-26T19:24:00+08:00",
       "updatedAt": "2026-08-26T23:41:43+08:00",
       "regions": [
-        "Russia",
         "United States",
+        "Russia",
         "Europe"
       ],
-      "impactScore": 82
+      "topic": "conflict-security",
+      "subjectOrganization": {
+        "id": "central-intelligence-agency",
+        "name": "Central Intelligence Agency"
+      },
+      "importanceFactors": {
+        "impactBreadth": 72,
+        "consequenceSeverity": 76,
+        "systemicSignificance": 83,
+        "independentCoverage": 82,
+        "yesterdayNovelty": 87
+      },
+      "impactScore": 78
     },
     {
-      "id": "africa-health-workforce-plan",
-      "category": "health",
-      "rank": 6,
+      "id": "meta-teen-addiction-lawsuit-settlement",
+      "category": "business",
+      "rank": 3,
       "titles": {
-        "zh": "非洲推出十年卫生人力强化计划",
-        "en": "African Countries Launch Decade-Long Health Workforce Plan"
+        "zh": "Meta同意和解美国青少年社交媒体伤害诉讼",
+        "en": "Meta agrees to settle US lawsuits alleging social-media harm to children"
       },
-      "originalTitle": "More health workers, stronger systems: Africa’s new ambitious goal",
+      "originalTitle": "Meta to pay $23 billion to settle teen social media addiction cases",
       "summaries": {
-        "zh": "非洲各国卫生部长在埃塞俄比亚亚的斯亚贝巴宣布一项为期十年的卫生人力计划，以应对到2035年可能超过600万人的专业人员缺口，并强化招聘、培训及卫生系统韧性。",
-        "en": "African countries announced a decade-long plan to strengthen their health workforce during a meeting of health ministers in Addis Ababa. UN News said the initiative responds to a projected shortage of more than six million health professionals by 2035. The plan centres on expanding and supporting the workforce so national health systems can deliver more reliable services and withstand future emergencies."
+        "zh": "两家媒体均称Meta已同意全面和解美国联邦及州法院中有关旗下平台伤害儿童的诉讼，但快照所列金额分别为230亿美元和180亿美元，故本刊不采用具体数额。",
+        "en": "ABC News Australia and Channel NewsAsia both reported that Meta agreed to a broad settlement of US federal and state lawsuits alleging that its platforms harmed children. Their snapshot records give conflicting totals—$23 billion and $18 billion—so this edition does not state a settlement amount. The agreement itself is independently corroborated, while its precise financial terms remain unresolved by the supplied evidence."
       },
       "whyItMatters": {
-        "zh": "弥补巨大人力缺口是改善常规医疗和应对疫情的基础条件。",
-        "en": "Closing the workforce gap is fundamental to routine care and preparedness for future outbreaks."
+        "zh": "大范围和解可能重塑社交平台对未成年人风险的法律责任、产品设计与合规成本。",
+        "en": "A settlement spanning many child-harm claims could reshape platform liability, youth-safety design and compliance costs across the social-media industry."
+      },
+      "sources": [
+        {
+          "name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-27/meta-settlement-on-harm-to-teens/107082748",
+          "domain": "abc.net.au",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T22:01:05+08:00"
+        },
+        {
+          "name": "Channel NewsAsia",
+          "url": "https://www.channelnewsasia.com/business/meta-agrees-pay-18-billion-settle-us-lawsuits-over-childrens-social-media-addiction-6343111",
+          "domain": "channelnewsasia.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T23:21:05+08:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-26T22:01:05+08:00",
+      "updatedAt": "2026-08-26T23:21:05+08:00",
+      "regions": [
+        "United States",
+        "North America"
+      ],
+      "topic": "economy-finance",
+      "subjectOrganization": {
+        "id": "meta",
+        "name": "Meta"
+      },
+      "importanceFactors": {
+        "impactBreadth": 79,
+        "consequenceSeverity": 71,
+        "systemicSignificance": 82,
+        "independentCoverage": 72,
+        "yesterdayNovelty": 91
+      },
+      "impactScore": 78
+    },
+    {
+      "id": "unccd-restoration-flagships",
+      "category": "climate",
+      "rank": 4,
+      "titles": {
+        "zh": "联合国防治荒漠化公约公布三项土地恢复旗舰项目",
+        "en": "UNCCD names three restoration flagships as land degradation threatens billions"
+      },
+      "originalTitle": "Land models sprout as degradation threatens billions of livelihoods",
+      "summaries": {
+        "zh": "联合国防治荒漠化公约负责人宣布三项“世界恢复旗舰”获奖项目，并警告全球约四成土地面临退化和干旱，威胁逾三十亿人的生计。该行动由联合国一手来源直接确认。",
+        "en": "The head of the UN Convention to Combat Desertification announced three winners of its World Restoration Flagships awards while warning that land degradation and drought affect roughly 40 percent of the world’s land and threaten more than three billion livelihoods. UN News directly documents the UN body’s announcement. The snapshot does not provide details about the individual projects, so the brief limits itself to the award action and stated global context."
+      },
+      "whyItMatters": {
+        "zh": "扩大可复制的土地恢复模式，关系到粮食安全、水资源、气候韧性和数十亿人的收入来源。",
+        "en": "Scalable restoration models matter for food security, water supplies, climate resilience and the livelihoods of billions of people."
       },
       "sources": [
         {
           "name": "UN News",
-          "url": "https://news.un.org/feed/view/en/story/2026/08/1168207",
+          "url": "https://news.un.org/feed/view/en/story/2026/08/1168212",
           "domain": "news.un.org",
           "type": "primary",
           "language": "en",
-          "publishedAt": "2026-08-26T12:00:00+00:00"
+          "publishedAt": "2026-08-26T20:00:00+08:00"
         }
       ],
       "verificationStatus": "verified",
       "publishedAt": "2026-08-26T20:00:00+08:00",
       "updatedAt": "2026-08-26T20:00:00+08:00",
       "regions": [
-        "Africa",
-        "Ethiopia"
+        "Global"
       ],
-      "impactScore": 79
+      "topic": "climate-environment",
+      "subjectOrganization": {
+        "id": "unccd",
+        "name": "United Nations Convention to Combat Desertification"
+      },
+      "importanceFactors": {
+        "impactBreadth": 91,
+        "consequenceSeverity": 78,
+        "systemicSignificance": 76,
+        "independentCoverage": 20,
+        "yesterdayNovelty": 73
+      },
+      "impactScore": 72
     },
     {
-      "id": "islamabad-hospital-fire",
-      "category": "society",
-      "rank": 7,
+      "id": "un-security-council-gaza-west-bank",
+      "category": "world",
+      "rank": 5,
       "titles": {
-        "zh": "伊斯兰堡医院火灾造成至少14名婴儿死亡",
-        "en": "At Least 14 Infants Die in Islamabad Hospital Fire"
+        "zh": "联合国安理会讨论加沙与约旦河西岸紧张局势",
+        "en": "UN Security Council examines rising tensions in Gaza and the West Bank"
       },
-      "originalTitle": "Pakistan: Islamabad hospital fire kills at least 14 infants",
+      "originalTitle": "Security Council LIVE: Rising tensions in Gaza, West Bank",
       "summaries": {
-        "zh": "巴基斯坦伊斯兰堡一家医院的产妇与新生儿病区发生火灾，至少14名婴儿死亡。目击者与院方对病区门是否上锁说法不一，总理已要求立即调查起火原因及现场管理责任。",
-        "en": "A fire in a maternity and newborn ward at an Islamabad hospital killed at least 14 infants. Deutsche Welle, France 24 and the BBC independently reported the deaths. Witnesses described smoke and chaotic rescue efforts, while the hospital disputed claims that a ward door was locked. Pakistan’s prime minister called for an immediate investigation into the cause and handling of the disaster."
+        "zh": "联合国安全理事会就加沙与约旦河西岸的袭击、定居点扩张及脆弱停火举行会议。联合国特使呼吁将人的尊严置于应对持续苦难和缓和局势的核心位置。",
+        "en": "The United Nations Security Council met to discuss continued attacks, expanding Israeli settlements and rising tensions across Gaza, the West Bank and the wider Occupied Palestinian Territory. UN News reported that the organization’s special envoy urged parties to place human dignity at the centre of efforts to preserve a fragile ceasefire and address continuing suffering. The primary source directly establishes that the Council meeting occurred."
       },
       "whyItMatters": {
-        "zh": "事故暴露医院消防、疏散和问责机制可能存在严重缺陷。",
-        "en": "The deaths raise urgent questions about hospital fire safety, evacuation procedures and accountability."
+        "zh": "安理会的讨论反映停火仍极不稳定，并可能影响国际调停、援助通道与外交施压。",
+        "en": "The Council’s deliberations can influence diplomatic pressure, humanitarian access and international efforts to prevent the fragile ceasefire from collapsing."
       },
       "sources": [
         {
-          "name": "Deutsche Welle",
-          "url": "https://www.dw.com/en/pakistan-islamabad-hospital-fire-kills-at-least-14-infants/a-78503056?maca=en-rss-en-top-1022-rdf",
-          "domain": "dw.com",
-          "type": "independent-media",
+          "name": "UN News",
+          "url": "https://news.un.org/feed/view/en/story/2026/08/1168204",
+          "domain": "news.un.org",
+          "type": "primary",
           "language": "en",
-          "publishedAt": "2026-08-26T05:23:00+00:00"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/video/20260826-pakistan-at-least-14-newborns-die-in-hospital-fire",
-          "domain": "france24.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T11:26:25+00:00"
-        },
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_campaign=rss&at_medium=RSS",
-          "domain": "bbc.co.uk",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T14:42:03+00:00"
+          "publishedAt": "2026-08-26T20:00:00+08:00"
         }
       ],
       "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T13:23:00+08:00",
-      "updatedAt": "2026-08-26T22:42:03+08:00",
+      "publishedAt": "2026-08-26T20:00:00+08:00",
+      "updatedAt": "2026-08-26T20:00:00+08:00",
       "regions": [
-        "Pakistan",
-        "South Asia"
+        "Israel",
+        "Palestinian Territories",
+        "Middle East"
       ],
-      "impactScore": 77
+      "topic": "conflict-security",
+      "subjectOrganization": {
+        "id": "un-security-council",
+        "name": "United Nations Security Council"
+      },
+      "importanceFactors": {
+        "impactBreadth": 68,
+        "consequenceSeverity": 84,
+        "systemicSignificance": 87,
+        "independentCoverage": 24,
+        "yesterdayNovelty": 72
+      },
+      "impactScore": 70
     },
     {
-      "id": "dolly-parton-dies-at-80",
-      "category": "culture-sports",
-      "rank": 8,
+      "id": "mtg-i2-weather-satellite-ready",
+      "category": "science",
+      "rank": 6,
       "titles": {
-        "zh": "美国乡村音乐巨星多莉·帕顿去世，享年80岁",
-        "en": "Country Music Icon Dolly Parton Dies at 80"
-      },
-      "originalTitle": "Dolly Parton, queen of country music, dies at 80",
-      "summaries": {
-        "zh": "美国歌手、词曲作者及演员多莉·帕顿去世，享年80岁，家人通过声明确认消息。她近六十年的创作、表演、商业活动与慈善事业跨越社会分歧，英美两地歌迷和机构纷纷悼念。",
-        "en": "American singer, songwriter and actor Dolly Parton died at 80, according to a family statement reported by France 24. The BBC separately marked her death while assessing a musical legacy built over nearly six decades. Her songwriting, performance, business career and public persona carried country music far beyond its traditional audience, prompting tributes from fans and institutions in Britain and the United States."
-      },
-      "whyItMatters": {
-        "zh": "帕顿的离世标志着美国流行文化中一位跨世代人物的谢幕。",
-        "en": "Parton’s death closes the career of a rare cross-generational figure in American popular culture."
-      },
-      "sources": [
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_campaign=rss&at_medium=RSS",
-          "domain": "bbc.co.uk",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T11:32:11+00:00"
-        },
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/video/20260826-dolly-parton-queen-of-country-music-dies-at-80",
-          "domain": "france24.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T14:59:28+00:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T19:32:11+08:00",
-      "updatedAt": "2026-08-26T22:59:28+08:00",
-      "regions": [
-        "United States",
-        "United Kingdom"
-      ],
-      "impactScore": 75
-    },
-    {
-      "id": "mtg-i2-ready-for-launch",
-      "category": "climate",
-      "rank": 9,
-      "titles": {
-        "zh": "欧洲新一代气象成像卫星准备发射",
-        "en": "Europe’s MTG-I2 Weather Satellite Ready for Launch"
+        "zh": "欧洲MTG-I2气象卫星完成发射准备",
+        "en": "Europe’s MTG-I2 weather satellite declared ready for launch"
       },
       "originalTitle": "MTG-I2 ready for launch",
       "summaries": {
-        "zh": "欧洲航天局宣布，第三代气象卫星MTG-I2已在法属圭亚那完成发射准备，计划搭乘阿丽亚娜6火箭升空。它将为欧洲天气机构提供更精细图像和新的数据产品，重点改善强天气短临预报。",
-        "en": "The European Space Agency said the Meteosat Third Generation Imager-2 satellite was ready to launch aboard an Ariane 6 rocket from French Guiana. MTG-I2 will join two satellites already in orbit and provide European weather services with higher-detail imagery and new data products. ESA says the added capability is especially suited to short-term forecasting of severe weather events."
+        "zh": "欧洲航天局宣布，第三代气象卫星MTG-I2已准备在法属圭亚那搭乘阿丽亚娜6号发射。该卫星将为欧洲天气服务提供更精细影像，重点提升强天气的短时预报能力。",
+        "en": "The European Space Agency announced that the Meteosat Third Generation Imager-2 satellite was ready to launch aboard an Ariane 6 from French Guiana on 27 August. MTG-I2 will join two satellites already in orbit and is intended to deliver more detailed imagery and new data products for European weather services, particularly short-range forecasts of severe weather. ESA’s primary announcement directly verifies the readiness milestone and scheduled launch."
       },
       "whyItMatters": {
-        "zh": "更及时精细的观测可提高欧洲对突发强天气的预警能力。",
-        "en": "Faster, more detailed observations could improve Europe’s warnings for rapidly developing severe weather."
+        "zh": "更快速、精细的卫星观测可改善强风暴预警，为欧洲公共安全和气象服务争取关键时间。",
+        "en": "Faster, more detailed satellite observations can improve severe-weather warnings and give European emergency services valuable preparation time."
       },
       "sources": [
         {
@@ -411,7 +318,7 @@
           "domain": "esa.int",
           "type": "primary",
           "language": "en",
-          "publishedAt": "2026-08-26T11:00:00+00:00"
+          "publishedAt": "2026-08-26T19:00:00+08:00"
         }
       ],
       "verificationStatus": "verified",
@@ -421,24 +328,89 @@
         "Europe",
         "French Guiana"
       ],
-      "impactScore": 72
+      "topic": "aerospace",
+      "subjectOrganization": {
+        "id": "european-space-agency",
+        "name": "European Space Agency"
+      },
+      "importanceFactors": {
+        "impactBreadth": 67,
+        "consequenceSeverity": 64,
+        "systemicSignificance": 77,
+        "independentCoverage": 20,
+        "yesterdayNovelty": 82
+      },
+      "impactScore": 63
     },
     {
-      "id": "nasa-lunar-plume-tests",
-      "category": "science",
-      "rank": 10,
+      "id": "dolly-parton-dies-at-80",
+      "category": "culture-sports",
+      "rank": 7,
       "titles": {
-        "zh": "NASA启动新阶段月面发动机羽流测试",
-        "en": "NASA Begins New Phase of Lunar Plume–Surface Tests"
+        "zh": "美国乡村音乐巨星多莉·帕顿去世，享年80岁",
+        "en": "Country music icon Dolly Parton dies at 80"
+      },
+      "originalTitle": "Dolly Parton, queen of country music, dies at 80",
+      "summaries": {
+        "zh": "多家媒体报道，美国歌手、词曲作者兼演员多莉·帕顿于八十岁去世，其家人已发表声明。她近六十年的创作、表演和商业事业跨越音乐类型与社会分歧，留下广泛文化影响。",
+        "en": "Dolly Parton, the American singer, songwriter and actor whose career spanned nearly six decades, died at 80, according to a family statement reported by France 24. The BBC separately published an assessment of her musical legacy. Her songwriting, performances, public persona and business career made her one of country music’s most recognizable figures and an artist whose appeal extended well beyond the genre and across US cultural divides."
+      },
+      "whyItMatters": {
+        "zh": "帕顿的创作与公共形象深刻影响乡村音乐、大众文化及女性艺人的商业自主。",
+        "en": "Parton’s work and public life shaped country music, popular culture and the model of commercial independence available to women artists."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T19:32:11+08:00"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260826-dolly-parton-queen-of-country-music-dies-at-80",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T22:59:28+08:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-26T19:32:11+08:00",
+      "updatedAt": "2026-08-26T22:59:28+08:00",
+      "regions": [
+        "United States",
+        "Global"
+      ],
+      "topic": "culture-sports",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 66,
+        "consequenceSeverity": 48,
+        "systemicSignificance": 47,
+        "independentCoverage": 76,
+        "yesterdayNovelty": 82
+      },
+      "impactScore": 61
+    },
+    {
+      "id": "nasa-lunar-plume-surface-tests",
+      "category": "science",
+      "rank": 8,
+      "titles": {
+        "zh": "NASA推进月球着陆器羽流与地表相互作用测试",
+        "en": "NASA advances lunar lander plume–surface interaction testing"
       },
       "originalTitle": "NASA Begins Moon Mission Plume-Surface Interaction Tests",
       "summaries": {
-        "zh": "NASA更新其月球着陆研究，宣布进入发动机羽流与月面相互作用测试的新阶段。试验旨在分析着陆器喷流扬起尘土、侵蚀地表并影响设备的风险，为载人及商业月球任务设计提供依据。",
-        "en": "NASA announced a new phase of testing focused on how lunar-lander engine plumes interact with the Moon’s surface. The agency updated an earlier report with results and imagery from a recent run. The work examines how exhaust can displace dust, erode terrain or threaten nearby hardware, producing evidence intended to guide NASA and commercial partners as they design future lunar landing systems."
+        "zh": "NASA更新月球任务测试进展，进入研究着陆器发动机羽流与月表相互作用的新阶段，并发布近期试验资料。相关研究旨在识别着陆时喷流、尘埃和碎屑带来的运行风险。",
+        "en": "NASA reported a new phase of testing focused on how lunar-lander engine plumes interact with the Moon’s surface, adding video and images from a recent test run to an earlier project account. The work is intended to improve understanding of hazards created by exhaust, dust and displaced surface material during landings. NASA’s dated primary update directly verifies that the agency advanced the test campaign on the target date."
       },
       "whyItMatters": {
-        "zh": "理解月尘与喷流风险关系到未来月球着陆器及地面设备的安全。",
-        "en": "Understanding plume and dust hazards is essential to protecting future landers and surface equipment."
+        "zh": "厘清喷流扬尘风险有助于保护着陆器、附近设备和未来月面人员，并改善任务设计。",
+        "en": "Understanding plume-driven dust and debris is important for protecting landers, nearby hardware and future crews operating on the lunar surface."
       },
       "sources": [
         {
@@ -447,7 +419,7 @@
           "domain": "nasa.gov",
           "type": "primary",
           "language": "en",
-          "publishedAt": "2026-08-26T13:58:04+00:00"
+          "publishedAt": "2026-08-26T21:58:04+08:00"
         }
       ],
       "verificationStatus": "verified",
@@ -457,246 +429,36 @@
         "United States",
         "Moon"
       ],
-      "impactScore": 70
-    },
-    {
-      "id": "nasa-deep-space-network-antenna",
-      "category": "technology",
-      "rank": 11,
-      "titles": {
-        "zh": "NASA深空网络新增34米通信天线",
-        "en": "NASA Adds 34-Metre Antenna to Deep Space Network"
+      "topic": "aerospace",
+      "subjectOrganization": {
+        "id": "nasa",
+        "name": "NASA"
       },
-      "originalTitle": "New Next-Gen Dish Adds Muscle to NASA’s Deep Space Network",
-      "summaries": {
-        "zh": "NASA在加州深空网络设施新增一座直径34米的射频天线，扩充全球深空通信与导航能力。该网络由三个分布式站点组成，目前为四十多艘太阳系及星际探测器提供联络支持。",
-        "en": "NASA added a new 34-metre radio-frequency antenna to its Deep Space Network facility in California. The network’s giant dishes, distributed across three global sites, provide communications and navigation services for more than 40 spacecraft exploring the Solar System and interstellar space. The additional antenna expands the ground infrastructure available to handle growing mission demand and long-distance scientific data links."
+      "importanceFactors": {
+        "impactBreadth": 55,
+        "consequenceSeverity": 57,
+        "systemicSignificance": 72,
+        "independentCoverage": 20,
+        "yesterdayNovelty": 78
       },
-      "whyItMatters": {
-        "zh": "地面通信容量决定深空任务能否可靠接收指令并传回科学数据。",
-        "en": "Ground-network capacity determines whether distant missions can reliably receive commands and return scientific data."
-      },
-      "sources": [
-        {
-          "name": "NASA",
-          "url": "https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network",
-          "domain": "nasa.gov",
-          "type": "primary",
-          "language": "en",
-          "publishedAt": "2026-08-25T22:28:34+00:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T06:28:34+08:00",
-      "updatedAt": "2026-08-26T06:28:34+08:00",
-      "regions": [
-        "United States",
-        "Space"
-      ],
-      "impactScore": 68
-    },
-    {
-      "id": "sophie-adenot-second-spacewalk",
-      "category": "science",
-      "rank": 12,
-      "titles": {
-        "zh": "欧洲宇航员索菲·阿德诺完成第二次太空行走",
-        "en": "ESA Astronaut Sophie Adenot Completes Second Spacewalk"
-      },
-      "originalTitle": "Second spacewalk completed for Sophie Adenot",
-      "summaries": {
-        "zh": "欧洲航天局确认，宇航员索菲·阿德诺与NASA宇航员阿尼尔·梅农完成美国第98次舱外活动。任务于欧洲中部夏令时25日20时57分结束，这是阿德诺第二次、欧洲宇航员第32次太空行走。",
-        "en": "ESA confirmed that astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed US EVA-98. The activity ended at 20:57 CEST on August 25, corresponding to 02:57 on August 26 in Shanghai. It was Adenot’s second spacewalk and the 32nd conducted by a European astronaut, adding operational experience to Europe’s human-spaceflight programme aboard the International Space Station."
-      },
-      "whyItMatters": {
-        "zh": "任务扩大欧洲载人航天经验，并支持国际空间站持续运行。",
-        "en": "The mission expands European spaceflight experience while supporting continued International Space Station operations."
-      },
-      "sources": [
-        {
-          "name": "European Space Agency",
-          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
-          "domain": "esa.int",
-          "type": "primary",
-          "language": "en",
-          "publishedAt": "2026-08-26T08:40:00+00:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "eventAt": "2026-08-26T02:57:00+08:00",
-      "publishedAt": "2026-08-26T16:40:00+08:00",
-      "updatedAt": "2026-08-26T16:40:00+08:00",
-      "regions": [
-        "Europe",
-        "United States",
-        "Space"
-      ],
-      "impactScore": 66
-    },
-    {
-      "id": "nasa-station-maintenance-spacewalk",
-      "category": "technology",
-      "rank": 13,
-      "titles": {
-        "zh": "NASA安排空间站维护太空行走",
-        "en": "NASA Schedules Spacewalk for Station Maintenance"
-      },
-      "originalTitle": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
-      "summaries": {
-        "zh": "NASA安排两名宇航员于9月1日走出国际空间站，更换航天器导航辅助设备并完成多项维护工作。机构计划从美国东部时间早7时直播，舱外活动预计8时30分开始并持续数小时。",
-        "en": "NASA scheduled two astronauts to conduct a September 1 spacewalk outside the International Space Station. Their planned work includes replacing a spacecraft navigation aid and completing several maintenance tasks needed for station operations. The agency said live coverage would begin at 7:00 a.m. EDT, with the spacewalk expected to start around 8:30 a.m. and continue for several hours."
-      },
-      "whyItMatters": {
-        "zh": "定期舱外维护对空间站设备可靠性和在轨安全至关重要。",
-        "en": "Regular external maintenance is critical to the station’s equipment reliability and orbital safety."
-      },
-      "sources": [
-        {
-          "name": "NASA",
-          "url": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned",
-          "domain": "nasa.gov",
-          "type": "primary",
-          "language": "en",
-          "publishedAt": "2026-08-26T14:16:29+00:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T22:16:29+08:00",
-      "updatedAt": "2026-08-26T22:16:29+08:00",
-      "regions": [
-        "United States",
-        "Space"
-      ],
-      "impactScore": 64
-    },
-    {
-      "id": "nasa-ames-roman-mission",
-      "category": "science",
-      "rank": 14,
-      "titles": {
-        "zh": "NASA详述艾姆斯中心对罗曼望远镜任务的贡献",
-        "en": "NASA Details Ames Contributions to Roman Telescope Mission"
-      },
-      "originalTitle": "NASA Ames’ Contributions to Roman’s Mission",
-      "summaries": {
-        "zh": "NASA介绍艾姆斯研究中心为南希·格雷斯·罗曼太空望远镜提供的关键工作。该望远镜计划8月30日发射，将开展暗能量、暗物质、系外行星以及星系形成与演化等大范围巡天研究。",
-        "en": "NASA outlined the Ames Research Center’s contributions to the Nancy Grace Roman Space Telescope ahead of its planned August 30 launch. Roman is designed to survey broad areas of the sky and investigate dark energy, dark matter, exoplanets, and the formation and growth of galaxies. The agency’s account directly documents the centre’s role and the scientific objectives assigned to the mission."
-      },
-      "whyItMatters": {
-        "zh": "罗曼望远镜的大视场巡天可能显著扩展宇宙结构与系外行星研究。",
-        "en": "Roman’s wide-field surveys could substantially expand research into cosmic structure and exoplanets."
-      },
-      "sources": [
-        {
-          "name": "NASA",
-          "url": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission",
-          "domain": "nasa.gov",
-          "type": "primary",
-          "language": "en",
-          "publishedAt": "2026-08-25T19:44:55+00:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T03:44:55+08:00",
-      "updatedAt": "2026-08-26T03:44:55+08:00",
-      "regions": [
-        "United States",
-        "Space"
-      ],
-      "impactScore": 62
-    },
-    {
-      "id": "nasa-lunarecycle-finale",
-      "category": "technology",
-      "rank": 15,
-      "titles": {
-        "zh": "NASA将公布月球废物回收挑战赛结果",
-        "en": "NASA Sets Finale for Lunar Waste-Recycling Challenge"
-      },
-      "originalTitle": "NASA Invites Media to LunaRecycle Challenge Finale Event in Alabama",
-      "summaries": {
-        "zh": "NASA宣布将于8月28日在阿拉巴马大学举行LunaRecycle挑战赛决赛并公布获胜者。该竞赛始于2024年，鼓励开发可在未来月球任务中处理非代谢废物的新型回收系统。",
-        "en": "NASA announced that it would reveal the final-phase winners of its LunaRecycle Challenge on August 28 at the University of Alabama. Launched in 2024, the competition encourages development of recycling systems for non-metabolic waste generated during future lunar missions. The finale marks a decision point for technologies intended to reduce disposal burdens and improve resource use away from Earth."
-      },
-      "whyItMatters": {
-        "zh": "有效回收将减少长期月球驻留对地球补给和废物储存的依赖。",
-        "en": "Effective recycling could reduce long-duration lunar missions’ dependence on resupply and waste storage."
-      },
-      "sources": [
-        {
-          "name": "NASA",
-          "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama",
-          "domain": "nasa.gov",
-          "type": "primary",
-          "language": "en",
-          "publishedAt": "2026-08-25T20:20:58+00:00"
-        }
-      ],
-      "verificationStatus": "verified",
-      "publishedAt": "2026-08-26T04:20:58+08:00",
-      "updatedAt": "2026-08-26T04:20:58+08:00",
-      "regions": [
-        "United States",
-        "Moon"
-      ],
-      "impactScore": 60
-    },
-    {
-      "id": "haiti-kenscoff-gang-attack",
-      "category": "world",
-      "rank": 16,
-      "titles": {
-        "zh": "海地肯斯科夫袭击据报造成重大伤亡与绑架",
-        "en": "Deadly Haiti Attack Reportedly Leaves Scores Killed or Abducted"
-      },
-      "originalTitle": "Gang attack in Haiti: Anger mounts over police failures",
-      "summaries": {
-        "zh": "法国24台报道称，武装人员袭击太子港附近的肯斯科夫社区，至少47人死亡、50多人被绑架，并引发对警方处置的愤怒。由于快照中没有第二个独立域名确认，伤亡与绑架数字仍需谨慎看待。",
-        "en": "France 24 reported that armed attackers struck Kenscoff, a community near Port-au-Prince, killing at least 47 people and abducting more than 50. The report said the assault undermined recent perceptions of improving security and intensified anger over police failures. Because the snapshot contains no matching candidate from a second independent domain, the casualty and abduction figures remain provisional in this edition."
-      },
-      "whyItMatters": {
-        "zh": "若获证实，此次袭击将进一步削弱海地国家治理和选举恢复进程。",
-        "en": "If confirmed, the attack would further weaken Haitian governance and efforts to restore electoral politics."
-      },
-      "sources": [
-        {
-          "name": "France 24",
-          "url": "https://www.france24.com/en/video/20260826-gang-attack-in-haiti-anger-mounts-over-police-failures",
-          "domain": "france24.com",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T14:55:31+00:00"
-        }
-      ],
-      "verificationStatus": "pending",
-      "pendingReason": {
-        "zh": "仅有法国24台同一域名的候选记录，缺少第二家独立允许来源核实伤亡、绑架人数及警方处置。",
-        "en": "Only France 24 candidates cover the attack; a second independent allowlisted domain is absent to confirm casualties, abductions and the police response."
-      },
-      "publishedAt": "2026-08-26T22:55:31+08:00",
-      "updatedAt": "2026-08-26T22:55:31+08:00",
-      "regions": [
-        "Haiti",
-        "Caribbean"
-      ],
-      "impactScore": 58
+      "impactScore": 56
     },
     {
       "id": "record-ocean-temperatures-el-nino",
-      "category": "climate",
-      "rank": 17,
+      "category": "science",
+      "rank": 9,
       "titles": {
-        "zh": "《自然》称厄尔尼诺加剧之际海温创纪录",
-        "en": "Ocean Temperatures Reportedly Reach Record High as El Niño Intensifies"
+        "zh": "厄尔尼诺增强之际，全球海洋温度据报创历史新高",
+        "en": "Ocean temperatures reportedly reach record highs as El Niño strengthens"
       },
       "originalTitle": "Highest-ever ocean temperatures recorded as El Niño intensifies",
       "summaries": {
-        "zh": "《自然》报道称，随着厄尔尼诺增强，全球海洋温度达到有记录以来最高水平，并可能削弱海洋吸收碳的能力。快照未提供具体数据集、测量区间或第二家来源，因此纪录结论暂列待核实。",
-        "en": "Nature reported that ocean temperatures had reached their highest recorded level as El Niño intensified. Its snapshot description linked the extreme warmth to expectations that ocean carbon sinks could weaken, potentially leaving more carbon dioxide in the atmosphere. The supplied evidence does not identify the underlying dataset, measurement interval or an independent confirming source, so the record claim remains pending."
+        "zh": "《自然》报道，随着厄尔尼诺增强，海洋温度达到有记录以来最高水平，并可能削弱海洋吸收二氧化碳的能力。快照未给出测量范围、数据集或纪录比较期，结论仍待核验。",
+        "en": "Nature reported that ocean temperatures had reached their highest recorded levels as El Niño intensified, with extreme warmth expected to weaken the ocean’s role as a carbon sink. The snapshot supplies no measurement range, dataset, baseline or regional breakdown, preventing independent assessment of the record claim or its precise scale. The finding is therefore presented cautiously and remains pending corroboration from another allowlisted domain or a directly cited primary dataset."
       },
       "whyItMatters": {
-        "zh": "持续海洋增暖会放大生态压力，并可能削弱关键的天然碳汇。",
-        "en": "Sustained ocean warming can intensify ecological stress and weaken a major natural carbon sink."
+        "zh": "持续异常海温会加剧海洋生态压力，并削弱吸碳能力，从而形成进一步增暖的反馈。",
+        "en": "Persistent extreme ocean warmth can damage marine ecosystems and weaken carbon uptake, creating feedback that compounds global warming."
       },
       "sources": [
         {
@@ -705,160 +467,249 @@
           "domain": "nature.com",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T00:00:00+00:00"
+          "publishedAt": "2026-08-26T08:00:00+08:00"
         }
       ],
       "verificationStatus": "pending",
       "pendingReason": {
-        "zh": "快照只有《自然》一个独立来源，且未列出支撑“最高纪录”的具体数据集或测量口径。",
-        "en": "The snapshot contains only one independent Nature candidate and does not identify the dataset or measurement basis supporting the record claim."
+        "zh": "仅有《自然》一个许可域名，且摘要未列明数据集、测量范围、基准期或原始发布机构，无法独立核实纪录。",
+        "en": "Only one allowlisted domain is present, and the snapshot does not identify the underlying dataset, measurement scope, baseline period or originating institution."
       },
       "publishedAt": "2026-08-26T08:00:00+08:00",
       "updatedAt": "2026-08-26T08:00:00+08:00",
       "regions": [
-        "Global",
-        "Pacific Ocean"
+        "Global"
       ],
-      "impactScore": 56
+      "topic": "earth-science",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 94,
+        "consequenceSeverity": 84,
+        "systemicSignificance": 83,
+        "independentCoverage": 20,
+        "yesterdayNovelty": 79
+      },
+      "impactScore": 77
     },
     {
-      "id": "spacex-louisiana-launch-facility",
-      "category": "technology",
-      "rank": 18,
-      "titles": {
-        "zh": "SpaceX据报拟在路易斯安那建设千亿美元发射基地",
-        "en": "SpaceX Reportedly Plans $100 Billion Louisiana Launch Facility"
-      },
-      "originalTitle": "Musk's SpaceX to build $100bn launch facility in Louisiana",
-      "summaries": {
-        "zh": "英国广播公司报道称，SpaceX计划在美国路易斯安那州建设价值1000亿美元的发射设施，拟于2029年开始执行火箭发射，并成为公司规模最大的基地。快照没有公司或政府一手材料佐证。",
-        "en": "The BBC reported that SpaceX plans to build a $100 billion launch facility in Louisiana, describing it as the company’s largest site and saying rocket launches are targeted for 2029. The scale would make the project economically and strategically significant. However, the snapshot offers no matching company announcement, regulatory filing or second independent report confirming the cost, timetable or final commitment."
-      },
-      "whyItMatters": {
-        "zh": "若落实，该项目将显著改变美国商业航天产能和区域投资格局。",
-        "en": "If realised, the project would materially reshape US commercial-launch capacity and regional investment."
-      },
-      "sources": [
-        {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq5xel4v642o?at_campaign=rss&at_medium=RSS",
-          "domain": "bbc.co.uk",
-          "type": "independent-media",
-          "language": "en",
-          "publishedAt": "2026-08-26T01:32:07+00:00"
-        }
-      ],
-      "verificationStatus": "pending",
-      "pendingReason": {
-        "zh": "只有英国广播公司一条候选记录，缺少SpaceX、地方政府或第二家独立允许来源确认投资额和建设计划。",
-        "en": "Only one BBC candidate is available; no SpaceX, local-government or second independent allowlisted source confirms the investment and construction plan."
-      },
-      "publishedAt": "2026-08-26T09:32:07+08:00",
-      "updatedAt": "2026-08-26T09:32:07+08:00",
-      "regions": [
-        "United States",
-        "Louisiana"
-      ],
-      "impactScore": 54
-    },
-    {
-      "id": "frankfurt-airport-malaria-cluster",
+      "id": "binding-to-release-cancer-drug-delivery",
       "category": "health",
-      "rank": 19,
+      "rank": 10,
       "titles": {
-        "zh": "法兰克福机场据报出现疟疾感染群组",
-        "en": "Malaria Cluster Reported Among Frankfurt Airport Workers"
+        "zh": "“结合后释放”策略探索更精准的抗癌药物递送",
+        "en": "Binding-to-release strategy targets more precise anticancer drug delivery"
       },
-      "originalTitle": "Frankfurt Airport worker dies after malaria infection",
+      "originalTitle": "A binding-to-release strategy for targeted anticancer drug delivery",
       "summaries": {
-        "zh": "德国之声报道称，法兰克福机场六名员工感染疟疾，其中一人死亡。初步推测感染源可能是一只随飞机抵达的蚊虫，但快照没有卫生部门通报、检测结果或第二家媒体记录支持这一传播解释。",
-        "en": "Deutsche Welle reported an unusual cluster of six malaria infections among employees at Frankfurt Airport, including one death. The suggested explanation was an infected mosquito transported aboard an aircraft, rather than local sustained transmission. No health-authority statement, laboratory detail or second independent candidate appears in the snapshot, leaving both the cluster’s circumstances and proposed transmission route insufficiently verified."
+        "zh": "《自然》论文摘要称，一种“结合后释放”药物偶联策略无需进入细胞即可释放载荷，可能提高肿瘤特异性、疗效并扩大可用靶点。快照未说明研究阶段、模型或临床证据。",
+        "en": "A Nature paper reported a binding-to-release drug-conjugate strategy designed to deliver an anticancer payload without requiring cellular internalization. Its abstract says the method improved tumour specificity and efficacy while potentially expanding the range of therapeutic targets beyond conventional conjugates. The snapshot does not identify the experimental model, study stage, safety findings or any human evidence, and no independent allowlisted domain corroborates the result; clinical relevance therefore remains uncertain."
       },
       "whyItMatters": {
-        "zh": "机场输入性蚊媒传播会影响职业防护、病媒监测和快速诊断措施。",
-        "en": "Airport-associated mosquito transmission would affect occupational protection, vector surveillance and rapid diagnosis."
+        "zh": "若后续研究证实安全有效，该机制可能扩大靶向药物可攻击的癌症标志物，并减少非目标组织暴露。",
+        "en": "If validated for safety and efficacy, the mechanism could broaden targetable cancer markers while reducing exposure of healthy tissue to toxic payloads."
       },
       "sources": [
         {
-          "name": "Deutsche Welle",
-          "url": "https://www.dw.com/en/frankfurt-airport-worker-dies-after-malaria-infection/a-78512056?maca=en-rss-en-top-1022-rdf",
-          "domain": "dw.com",
+          "name": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10971-0",
+          "domain": "nature.com",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T14:13:00+00:00"
+          "publishedAt": "2026-08-26T08:00:00+08:00"
         }
       ],
       "verificationStatus": "pending",
       "pendingReason": {
-        "zh": "仅有德国之声一条候选记录，缺少卫生机构或第二家独立来源核实病例关联及蚊虫输入假说。",
-        "en": "Only one Deutsche Welle candidate is available; no health authority or second independent source confirms the linked cases or imported-mosquito hypothesis."
+        "zh": "只有《自然》一个许可域名；摘要未说明实验模型、研究阶段、安全结果或人体证据，临床意义无法确认。",
+        "en": "Only one allowlisted domain is present, and the snapshot does not specify the experimental model, development stage, safety results or human evidence."
       },
-      "publishedAt": "2026-08-26T22:13:00+08:00",
-      "updatedAt": "2026-08-26T22:13:00+08:00",
+      "publishedAt": "2026-08-26T08:00:00+08:00",
+      "updatedAt": "2026-08-26T08:00:00+08:00",
       "regions": [
-        "Germany",
-        "Europe"
+        "Global"
       ],
-      "impactScore": 51
+      "topic": "health-medicine",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 75,
+        "consequenceSeverity": 77,
+        "systemicSignificance": 79,
+        "independentCoverage": 20,
+        "yesterdayNovelty": 81
+      },
+      "impactScore": 69
     },
     {
-      "id": "australia-children-rental-insecurity",
-      "category": "society",
-      "rank": 20,
+      "id": "haiti-kenscoff-gang-attack",
+      "category": "world",
+      "rank": 11,
       "titles": {
-        "zh": "研究称澳大利亚更多儿童面临租房不稳定",
-        "en": "Study Links Australia’s Rental Growth to Childhood Housing Insecurity"
+        "zh": "海地肯斯科夫遭大规模帮派袭击，国家治理危机加深",
+        "en": "Deadly gang attack in Kenscoff deepens Haiti’s state-security crisis"
       },
-      "originalTitle": "Surge in families renting puts more children at risk of housing insecurity",
+      "originalTitle": "Gang attack in Haiti: Anger mounts over police failures",
       "summaries": {
-        "zh": "澳大利亚广播公司援引一篇新研究称，本世纪在租赁家庭中成长的澳大利亚儿童增加约20%，这类儿童到14岁平均搬家六次。频繁迁居可能加剧住房不安全，但快照未提供论文原文或独立复核。",
-        "en": "ABC News Australia reported research indicating a 20% increase this century in Australian children growing up in rental households. The report said children in this group move an average of six times by age 14, potentially exposing them to greater housing insecurity and disruption. The snapshot does not include the paper itself or a second independent account, so its figures and methodology remain unverified here."
+        "zh": "法国24台报道称，武装人员袭击海地首都附近的肯斯科夫社区，造成数十人死亡、五十余人被绑架。报道将事件与警力失效、帮派扩张及恢复选举进程面临的威胁联系起来。",
+        "en": "France 24 reported that armed men attacked Kenscoff, a community in the hills near Port-au-Prince, killing dozens of people and abducting more than 50. Its coverage said the assault challenged claims that security was improving and intensified anger over police failures. The incident also threatens efforts to restore electoral politics while armed groups control much of the capital. Casualty and abduction figures remain cautiously attributed because no second allowlisted domain corroborates them."
       },
       "whyItMatters": {
-        "zh": "儿童频繁搬迁可能影响教育连续性、健康以及家庭的长期稳定。",
-        "en": "Frequent childhood moves can disrupt education, health and longer-term family stability."
+        "zh": "帮派势力向首都周边扩张，可能进一步削弱国家权威并破坏海地十年来首次选举的筹备。",
+        "en": "Gang expansion beyond established strongholds could further erode state authority and obstruct preparations for Haiti’s first elections in a decade."
       },
       "sources": [
         {
-          "name": "ABC News Australia",
-          "url": "https://www.abc.net.au/news/2026-08-27/more-children-are-growing-up-in-rental-housing/107082682",
-          "domain": "abc.net.au",
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260826-gang-attack-in-haiti-anger-mounts-over-police-failures",
+          "domain": "france24.com",
           "type": "independent-media",
           "language": "en",
-          "publishedAt": "2026-08-26T15:15:43+00:00"
+          "publishedAt": "2026-08-26T22:55:31+08:00"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/shockwaves-throughout-the-country-following-gruesome-killings-in-haitian-mountain-retreat",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T23:45:21+08:00"
         }
       ],
       "verificationStatus": "pending",
       "pendingReason": {
-        "zh": "只有澳大利亚广播公司一条候选记录，且快照未包含研究论文、方法说明或第二家独立报道。",
-        "en": "Only one ABC News Australia candidate is present, and the snapshot lacks the research paper, methodology or a second independent report."
+        "zh": "快照仅有法国24台同一域名的两条记录，伤亡、绑架规模及现场细节缺少第二家独立许可来源核实。",
+        "en": "The snapshot contains two France 24 records but no second independent allowlisted domain; casualty, abduction and on-the-ground details therefore remain uncorroborated."
       },
-      "publishedAt": "2026-08-26T23:15:43+08:00",
-      "updatedAt": "2026-08-26T23:15:43+08:00",
+      "publishedAt": "2026-08-26T22:55:31+08:00",
+      "updatedAt": "2026-08-26T23:45:21+08:00",
       "regions": [
-        "Australia",
-        "Oceania"
+        "Haiti",
+        "Caribbean"
       ],
-      "impactScore": 48
+      "topic": "conflict-security",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 61,
+        "consequenceSeverity": 88,
+        "systemicSignificance": 78,
+        "independentCoverage": 25,
+        "yesterdayNovelty": 86
+      },
+      "impactScore": 68
+    },
+    {
+      "id": "small-modular-nuclear-reactor-outlook",
+      "category": "technology",
+      "rank": 12,
+      "titles": {
+        "zh": "小型反应堆设计被寄望提升核能灵活性与低碳价值",
+        "en": "Smaller reactor designs aim to make nuclear power more flexible"
+      },
+      "originalTitle": "Smaller reactors bring nuclear power closer to fulfilling its promise",
+      "summaries": {
+        "zh": "《自然》评述称，工程团队正探索不同的小型反应堆、燃料、冷却剂和材料，希望提高核裂变发电的灵活性并提供稳定低碳电力。快照未显示具体项目已验证安全性、成本或部署进度。",
+        "en": "Nature reviewed efforts to develop smaller nuclear reactors using varied fuels, coolants and materials, arguing that these designs could make fission a more flexible source of continuous low-carbon electricity. The supplied evidence is an overview rather than a discrete deployment or demonstrated engineering milestone. It provides no independently verified construction costs, safety outcomes, waste performance or commercial timelines, so claims that the technology is nearing fulfilment remain pending."
+      },
+      "whyItMatters": {
+        "zh": "小型反应堆若能控制成本、安全和废物风险，可能为需要稳定低碳电力的电网提供新选择。",
+        "en": "If cost, safety and waste challenges are controlled, smaller reactors could offer grids another source of dependable low-carbon electricity."
+      },
+      "sources": [
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-02506-4",
+          "domain": "nature.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T08:00:00+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有《自然》一个许可域名，且内容属于技术综述；快照没有具体装置的成本、安全、废物或商业部署证据。",
+        "en": "Only one allowlisted domain is available, and the item is a technology overview without project-specific evidence on cost, safety, waste or commercial deployment."
+      },
+      "publishedAt": "2026-08-26T08:00:00+08:00",
+      "updatedAt": "2026-08-26T08:00:00+08:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "energy-materials",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 76,
+        "consequenceSeverity": 70,
+        "systemicSignificance": 78,
+        "independentCoverage": 20,
+        "yesterdayNovelty": 60
+      },
+      "impactScore": 65
+    },
+    {
+      "id": "low-temperature-tandem-solar-cell-process",
+      "category": "technology",
+      "rank": 13,
+      "titles": {
+        "zh": "新型蒸发工艺或可降低叠层太阳能电池制造温度",
+        "en": "Vaporization method could lower manufacturing temperatures for tandem solar cells"
+      },
+      "originalTitle": "Vaporization trick enables ‘tandem’ solar cells to be made at lower temperatures",
+      "summaries": {
+        "zh": "《自然》介绍一种蒸发钙钛矿半导体化合物的新方法，称其可在更低温度下制造叠层太阳能电池，并缓解下一代组件规模化生产的一项难题。摘要未提供效率与耐久数据。",
+        "en": "Nature described a new method for evaporating a compound used in perovskite semiconductors, reporting that it enables tandem solar cells to be manufactured at lower temperatures. The approach could address a persistent obstacle to scaling next-generation photovoltaic devices. However, the supplied snapshot gives no efficiency, durability, manufacturing-yield or comparative process data, and no second allowlisted source independently confirms the result, so its practical significance remains provisional."
+      },
+      "whyItMatters": {
+        "zh": "若能兼顾效率、寿命和良率，低温制造可降低先进太阳能组件的能耗、成本与扩产难度。",
+        "en": "If efficiency, durability and yield hold at scale, lower-temperature processing could reduce the energy use, cost and complexity of advanced solar manufacturing."
+      },
+      "sources": [
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-02469-6",
+          "domain": "nature.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-26T08:00:00+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "仅有《自然》一个许可域名，快照没有效率、耐久性、制造良率或规模化验证数据，实际性能尚无法核实。",
+        "en": "Only one allowlisted domain is available, and the snapshot lacks efficiency, durability, manufacturing-yield and scale-up validation data."
+      },
+      "publishedAt": "2026-08-26T08:00:00+08:00",
+      "updatedAt": "2026-08-26T08:00:00+08:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "energy-materials",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 72,
+        "consequenceSeverity": 61,
+        "systemicSignificance": 76,
+        "independentCoverage": 20,
+        "yesterdayNovelty": 78
+      },
+      "impactScore": 63
     }
   ],
   "metrics": {
-    "candidateCount": 90,
+    "candidateCount": 78,
     "pagesOpened": 0,
     "searchGroups": 0,
-    "verifiedCount": 15,
+    "verifiedCount": 8,
     "pendingCount": 5,
-    "rejectedCount": 70,
+    "rejectedCount": 65,
     "tokenUsage": {
       "measured": true,
-      "candidateJudgment": 7151,
-      "verification": 28604,
-      "bilingualGeneration": 14302,
-      "contentChecks": 7151,
+      "candidateJudgment": 6485,
+      "verification": 25938,
+      "bilingualGeneration": 12969,
+      "contentChecks": 6484,
       "repairReserve": 0,
-      "input": 43059,
-      "output": 14148,
-      "total": 57207
+      "input": 39509,
+      "output": 12367,
+      "total": 51876
     }
   }
 }

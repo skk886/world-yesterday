@@ -33,6 +33,30 @@ export const categoryTargets: Record<(typeof categories)[number], number> = {
   "culture-sports": 1
 };
 
+export const topics = [
+  "aerospace",
+  "artificial-intelligence",
+  "digital-infrastructure",
+  "life-sciences",
+  "earth-science",
+  "energy-materials",
+  "health-medicine",
+  "climate-environment",
+  "economy-finance",
+  "conflict-security",
+  "public-policy",
+  "culture-sports",
+  "general"
+] as const;
+
+export const importanceWeights = {
+  impactBreadth: 0.30,
+  consequenceSeverity: 0.25,
+  systemicSignificance: 0.20,
+  independentCoverage: 0.15,
+  yesterdayNovelty: 0.10
+} as const;
+
 const localizedTextSchema = z.object({
   zh: z.string().min(1),
   en: z.string().min(1)
@@ -63,6 +87,18 @@ export const newsItemSchema = z.object({
   publishedAt: z.string().datetime({ offset: true }),
   updatedAt: z.string().datetime({ offset: true }),
   regions: z.array(z.string().min(2)).min(1).max(8),
+  topic: z.enum(topics),
+  subjectOrganization: z.object({
+    id: z.string().regex(/^[a-z0-9][a-z0-9-]{1,80}$/),
+    name: z.string().min(1).max(160)
+  }).nullable(),
+  importanceFactors: z.object({
+    impactBreadth: z.number().min(0).max(100),
+    consequenceSeverity: z.number().min(0).max(100),
+    systemicSignificance: z.number().min(0).max(100),
+    independentCoverage: z.number().min(0).max(100),
+    yesterdayNovelty: z.number().min(0).max(100)
+  }),
   impactScore: z.number().min(0).max(100)
 });
 
@@ -89,7 +125,7 @@ export const editionMetricsSchema = z.object({
 });
 
 export const editionSchema = z.object({
-  schemaVersion: z.literal(1),
+  schemaVersion: z.literal(2),
   siteName: z.literal("昨日世界 / World Yesterday"),
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   generatedAt: z.string().datetime({ offset: true }),
@@ -119,7 +155,8 @@ export const rawCandidateSchema = z.object({
   updatedAt: z.string().datetime({ offset: true }).optional(),
   description: z.string().optional(),
   discovery: z.enum(["rss", "gdelt"]),
-  categoryHints: z.array(z.enum(categories)).max(4).default([]),
+  categoryHints: z.array(z.enum(categories)).min(1).max(1),
+  topic: z.enum(topics),
   preliminaryScore: z.number().min(0).max(100)
 });
 

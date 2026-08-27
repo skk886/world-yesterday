@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
   "month": "2026-08",
-  "generatedAt": "2026-08-27T04:03:29.170Z",
+  "generatedAt": "2026-08-27T06:09:10.157Z",
   "totals": {
     "editions": 1,
-    "candidates": 90,
+    "candidates": 78,
     "pagesOpened": 0,
     "searchGroups": 0,
-    "verified": 15,
+    "verified": 8,
     "pending": 5,
-    "rejected": 70,
-    "tokens": 57207,
+    "rejected": 65,
+    "tokens": 51876,
     "measuredEditions": 1
   },
   "editions": [
     {
       "date": "2026-08-26",
       "status": "partial",
-      "candidateCount": 90,
+      "candidateCount": 78,
       "pagesOpened": 0,
       "searchGroups": 0,
-      "verifiedCount": 15,
+      "verifiedCount": 8,
       "pendingCount": 5,
-      "rejectedCount": 70,
+      "rejectedCount": 65,
       "tokenUsage": {
         "measured": true,
-        "candidateJudgment": 7151,
-        "verification": 28604,
-        "bilingualGeneration": 14302,
-        "contentChecks": 7151,
+        "candidateJudgment": 6485,
+        "verification": 25938,
+        "bilingualGeneration": 12969,
+        "contentChecks": 6484,
         "repairReserve": 0,
-        "input": 43059,
-        "output": 14148,
-        "total": 57207
+        "input": 39509,
+        "output": 12367,
+        "total": 51876
       }
     }
   ]

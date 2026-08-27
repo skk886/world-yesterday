@@ -4,6 +4,7 @@ type Props = { item: NewsItem };
 const { item } = Astro.props;
 const category = categoryLabels[item.category];
 const sourceTypeLabel = { primary: "一手来源", "independent-media": "独立媒体", "state-media": "国家媒体" } as const;
+const primarySource = item.sources[0];
 ---
 
 <article class="news-card" data-category={item.category} data-verification={item.verificationStatus}>
@@ -25,14 +26,25 @@ const sourceTypeLabel = { primary: "一手来源", "independent-media": "独立�
     <p class="news-card__why"><strong>Why it matters</strong><br />{item.whyItMatters.en}</p>
     {item.pendingReason && <p class="news-card__pending">Pending: {item.pendingReason.en}</p>}
   </section>
-  <div class="news-card__sources">
-    <span>原题：{item.originalTitle}</span>
-    {item.sources.map((source) => (
-      <>
-        <a class="source-link" href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a>
-        <span class="source-type">{sourceTypeLabel[source.type]}</span>
-      </>
-    ))}
-    <time datetime={item.updatedAt}>核验 {new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }).format(new Date(item.updatedAt))}</time>
+  <div class="news-card__references">
+    <div class="original-headline">
+      <span class="reference-label">原题 / Original headline</span>
+      <a href={primarySource.url} target="_blank" rel="noopener noreferrer">
+        <span>{item.originalTitle}</span><span class="external-mark" aria-hidden="true">↗</span>
+      </a>
+    </div>
+    <div class="news-card__sources">
+      <span class="reference-label">核验来源 / Sources</span>
+      <div class="source-list">
+        {item.sources.map((source) => (
+          <a class="source-link" href={source.url} target="_blank" rel="noopener noreferrer" aria-label={`${source.name}，${sourceTypeLabel[source.type]}，在新窗口打开`}>
+            <span>{source.name}</span>
+            <span class="source-type">{sourceTypeLabel[source.type]}</span>
+            <span class="external-mark" aria-hidden="true">↗</span>
+          </a>
+        ))}
+      </div>
+      <time datetime={item.updatedAt}>核验 {new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }).format(new Date(item.updatedAt))}</time>
+    </div>
   </div>
 </article>

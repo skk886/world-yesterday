@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { canonicalizeUrl, deduplicateCandidates, stableCandidateId } from "./lib/candidates";
+import { canonicalizeUrl, classifyArticle, deduplicateCandidates, stableCandidateId } from "./lib/candidates";
 import { fetchText, parseFeed } from "./lib/feed";
 import { findAllowedSource, loadSourceRegistry, normalizeDomain, type SourceDefinition } from "./lib/sources";
 import { dateIsInShanghaiDay, previousShanghaiDate, shanghaiDayWindow } from "../src/lib/dates";
@@ -25,15 +25,14 @@ function isoDate(value: string | undefined): string | undefined {
   return Number.isNaN(date.getTime()) ? undefined : date.toISOString();
 }
 
-function scoreCandidate(source: SourceDefinition, publishedAt: string, discovery: "rss" | "gdelt", hasDescription: boolean, date: string): number {
+function scoreCandidate(publishedAt: string, discovery: "rss" | "gdelt", hasDescription: boolean, date: string): number {
   const { start, end } = shanghaiDayWindow(date);
   const progress = Math.max(0, Math.min(1, (new Date(publishedAt).getTime() - start.getTime()) / (end.getTime() - start.getTime())));
   return Math.min(100, Math.round(
-    (source.tier === "A" ? 30 : 22) +
-    (source.type === "independent-media" ? 15 : source.type === "primary" ? 18 : 7) +
-    (discovery === "rss" ? 12 : 8) +
-    (hasDescription ? 5 : 0) +
-    progress * 15
+    45 +
+    (discovery === "rss" ? 10 : 6) +
+    (hasDescription ? 10 : 0) +
+    progress * 20
   ));
 }
 
@@ -47,6 +46,7 @@ function toCandidate(entry: { title: string; url: string; publishedAt?: string; 
   } catch {
     return undefined;
   }
+  const classification = classifyArticle(entry.title, entry.description);
   return {
     id: stableCandidateId(canonicalUrl),
     title: entry.title.trim(),
@@ -62,8 +62,9 @@ function toCandidate(entry: { title: string; url: string; publishedAt?: string; 
     updatedAt,
     description: entry.description,
     discovery,
-    categoryHints: source.categories.slice(0, 4),
-    preliminaryScore: scoreCandidate(source, updatedAt ?? publishedAt, discovery, Boolean(entry.description), date)
+    categoryHints: [classification.category],
+    topic: classification.topic,
+    preliminaryScore: scoreCandidate(updatedAt ?? publishedAt, discovery, Boolean(entry.description), date)
   };
 }
 
@@ -156,17 +157,56 @@ async function collectGdelt(date: string, sources: SourceDefinition[]): Promise<
   return candidates;
 }
 
-function selectBalanced(candidates: RawCandidate[], limit = 90): RawCandidate[] {
+function sourceCandidateLimit(candidate: RawCandidate): number {
+  if (candidate.sourceType === "state-media") return 4;
+  if (candidate.sourceType === "primary") return 6;
+  return 12;
+}
+
+export function selectBalanced(candidates: RawCandidate[], limit = 90): RawCandidate[] {
   const selected: RawCandidate[] = [];
-  const remaining = [...candidates];
-  const categories = ["world", "technology", "science", "society", "business", "health", "climate", "culture-sports"];
-  for (const category of categories) {
-    const matching = remaining.filter((candidate) => candidate.categoryHints.includes(category as never)).slice(0, 5);
-    selected.push(...matching);
-    for (const candidate of matching) remaining.splice(remaining.indexOf(candidate), 1);
+  const sourceCounts = new Map<string, number>();
+  const categoryOrder = ["world", "technology", "science", "society", "business", "health", "climate", "culture-sports"] as const;
+  const queues = new Map(categoryOrder.map((category) => [category, candidates.filter((candidate) => candidate.categoryHints[0] === category)]));
+
+  while (selected.length < limit) {
+    let addedThisRound = 0;
+    for (const category of categoryOrder) {
+      const queue = queues.get(category)!;
+      let candidate: RawCandidate | undefined;
+      while (queue.length) {
+        const next = queue.shift()!;
+        if ((sourceCounts.get(next.sourceId) ?? 0) < sourceCandidateLimit(next)) {
+          candidate = next;
+          break;
+        }
+      }
+      if (!candidate) continue;
+      selected.push(candidate);
+      sourceCounts.set(candidate.sourceId, (sourceCounts.get(candidate.sourceId) ?? 0) + 1);
+      addedThisRound += 1;
+      if (selected.length === limit) break;
+    }
+    if (!addedThisRound) break;
   }
-  selected.push(...remaining.slice(0, Math.max(0, limit - selected.length)));
-  return selected.slice(0, limit);
+  return selected;
+}
+
+function readExistingCandidates(outputPath: string): RawCandidate[] {
+  if (!fs.existsSync(outputPath)) return [];
+  try {
+    const payload = JSON.parse(fs.readFileSync(outputPath, "utf8")) as { candidates?: Array<Partial<RawCandidate> & Pick<RawCandidate, "title">> };
+    return (payload.candidates ?? []).map((candidate) => {
+      const classification = classifyArticle(candidate.title, candidate.description);
+      return {
+        ...candidate,
+        categoryHints: [classification.category],
+        topic: classification.topic
+      } as RawCandidate;
+    });
+  } catch {
+    return [];
+  }
 }
 
 export async function collect(date: string, output?: string, noGdelt = false) {
@@ -181,7 +221,9 @@ export async function collect(date: string, output?: string, noGdelt = false) {
       notes.push(`GDELT unavailable: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
-  const candidates = selectBalanced(deduplicateCandidates([...feedResult.candidates, ...gdeltCandidates]));
+  const outputPath = path.resolve(output ?? `data/raw/${date}.json`);
+  const existingCandidates = readExistingCandidates(outputPath);
+  const candidates = selectBalanced(deduplicateCandidates([...feedResult.candidates, ...gdeltCandidates, ...existingCandidates]));
   if (!candidates.length) throw new Error("Collector returned no allowlisted candidates; existing snapshots were left untouched.");
   const { start, end } = shanghaiDayWindow(date);
   const snapshot = rawSnapshotSchema.parse({
@@ -192,9 +234,8 @@ export async function collect(date: string, output?: string, noGdelt = false) {
     window: { start: start.toISOString(), end: end.toISOString() },
     candidates,
     sourceResults: feedResult.results.sort((a, b) => a.sourceId.localeCompare(b.sourceId)),
-    notes
+    notes: existingCandidates.length ? [...notes, `Merged and deduplicated ${existingCandidates.length} candidates from the previous snapshot.`] : notes
   });
-  const outputPath = path.resolve(output ?? `data/raw/${date}.json`);
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   const temporaryPath = `${outputPath}.${process.pid}.tmp`;
   fs.writeFileSync(temporaryPath, `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");

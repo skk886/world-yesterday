@@ -4,6 +4,7 @@ import { pathToFileURL } from "node:url";
 import { categoryTargets, editionSchema, rawSnapshotSchema, type Edition, type RawSnapshot } from "../src/lib/schema";
 import { dateIsInShanghaiDay } from "../src/lib/dates";
 import { findAllowedSource, loadSourceRegistry, normalizeDomain } from "./lib/sources";
+import { compareEditorialRank, computeImportanceScore, diversityErrors, normalizeOrganizationId } from "./lib/editorial";
 
 export type ValidationResult = { valid: boolean; errors: string[] };
 
@@ -22,17 +23,17 @@ export function validateEditionSemantics(edition: Edition): ValidationResult {
   if (pending.length > 5) errors.push(`Pending items exceed limit: ${pending.length}/5.`);
   if (edition.metrics.pendingCount !== pending.length) errors.push("metrics.pendingCount does not match items.");
   if (edition.metrics.verifiedCount !== verified.length) errors.push("metrics.verifiedCount does not match items.");
+  if (edition.metrics.rejectedCount !== Math.max(0, edition.metrics.candidateCount - edition.items.length)) errors.push("metrics.rejectedCount does not match candidates minus published items.");
   if (edition.status === "complete" && edition.items.length !== 30) errors.push("A complete edition must contain exactly 30 items.");
   if (edition.status === "partial" && edition.items.length === 30) errors.push("A 30-item edition must use complete status.");
   if (pending.length && verified.length && Math.min(...pending.map((item) => item.rank)) <= Math.max(...verified.map((item) => item.rank))) {
     errors.push("Pending observations must rank after every verified item.");
   }
-  if (edition.status === "complete") {
-    for (const category of ["business", "health", "climate", "culture-sports"] as const) {
-      const count = edition.items.filter((item) => item.category === category).length;
-      if (count > categoryTargets[category]) errors.push(`${category} exceeds its target; transferred vacancies may only go to world, technology, science, or society.`);
-    }
+  for (const category of ["business", "health", "climate", "culture-sports"] as const) {
+    const count = edition.items.filter((item) => item.category === category).length;
+    if (count > categoryTargets[category]) errors.push(`${category} exceeds its target; transferred vacancies may only go to world, technology, science, or society.`);
   }
+  errors.push(...diversityErrors(edition));
 
   const tokenUsage = edition.metrics.tokenUsage;
   if (tokenUsage.input + tokenUsage.output !== tokenUsage.total) errors.push("Token input + output must equal total.");
@@ -42,6 +43,12 @@ export function validateEditionSemantics(edition: Edition): ValidationResult {
     if (ranks.has(item.rank)) errors.push(`Duplicate rank: ${item.rank}.`);
     ids.add(item.id);
     ranks.add(item.rank);
+
+    const computedScore = computeImportanceScore(item.importanceFactors);
+    if (item.impactScore !== computedScore) errors.push(`${item.id}: impactScore ${item.impactScore} does not match controller score ${computedScore}.`);
+    if (item.subjectOrganization && item.subjectOrganization.id !== normalizeOrganizationId(item.subjectOrganization.id)) {
+      errors.push(`${item.id}: subjectOrganization.id is not normalized.`);
+    }
 
     if (item.verificationStatus === "pending" && !item.pendingReason) errors.push(`${item.id}: pendingReason is required.`);
     if (item.verificationStatus === "verified" && item.pendingReason) errors.push(`${item.id}: verified item cannot have pendingReason.`);
@@ -82,6 +89,10 @@ export function validateEditionSemantics(edition: Edition): ValidationResult {
 
   const sortedRanks = [...ranks].sort((a, b) => a - b);
   if (sortedRanks.some((rank, index) => rank !== index + 1)) errors.push("Ranks must be contiguous from 1.");
+  const rankedItems = [...edition.items].sort((a, b) => a.rank - b.rank);
+  if (rankedItems.some((item, index) => index > 0 && compareEditorialRank(rankedItems[index - 1], item) > 0)) {
+    errors.push("Items do not follow verified, score, independent-source, and cross-region ranking order.");
+  }
   return { valid: errors.length === 0, errors };
 }
 

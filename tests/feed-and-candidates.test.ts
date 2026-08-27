@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { canonicalizeUrl, deduplicateCandidates, titleSimilarity } from "../scripts/lib/candidates";
+import { canonicalizeUrl, classifyArticle, deduplicateCandidates, titleSimilarity } from "../scripts/lib/candidates";
+import { selectBalanced } from "../scripts/collect";
 import { parseFeed } from "../scripts/lib/feed";
 import type { RawCandidate } from "../src/lib/schema";
 
@@ -20,10 +21,46 @@ describe("RSS and candidate normalization", () => {
       id: "candidate-000001", title: "Major climate summit opens in Brazil", url: "https://bbc.com/news/1",
       canonicalUrl: "https://bbc.com/news/1", sourceId: "bbc", sourceName: "BBC News", domain: "bbc.com",
       sourceType: "independent-media", sourceTier: "B", language: "en", publishedAt: "2026-08-25T02:00:00Z",
-      discovery: "rss", categoryHints: ["climate"], preliminaryScore: 50
+      discovery: "rss", categoryHints: ["climate"], topic: "climate-environment", preliminaryScore: 50
     };
     expect(deduplicateCandidates([base, { ...base, preliminaryScore: 70 }])).toHaveLength(1);
     expect(deduplicateCandidates([base, { ...base, preliminaryScore: 70 }])[0].preliminaryScore).toBe(70);
   });
-});
 
+  it("classifies the article itself instead of copying a publisher-wide section list", () => {
+    expect(classifyArticle("NASA prepares a lunar telescope mission")).toEqual({ category: "science", topic: "aerospace" });
+    expect(classifyArticle("New AI model changes software development")).toEqual({ category: "technology", topic: "artificial-intelligence" });
+    expect(classifyArticle("Malaria cluster investigated at airport")).toEqual({ category: "health", topic: "health-medicine" });
+    expect(classifyArticle("Rental insecurity affects more children")).toEqual({ category: "society", topic: "public-policy" });
+  });
+
+  it("round-robins categories and enforces per-publisher candidate ceilings", () => {
+    const make = (sourceId: string, sourceType: RawCandidate["sourceType"], index: number, category: RawCandidate["categoryHints"][number]): RawCandidate => ({
+      id: `${sourceId}-${String(index).padStart(6, "0")}`,
+      title: `${sourceId} item ${index}`,
+      url: `https://${sourceId}.example/item-${index}`,
+      canonicalUrl: `https://${sourceId}.example/item-${index}`,
+      sourceId,
+      sourceName: sourceId,
+      domain: `${sourceId}.example`,
+      sourceType,
+      sourceTier: sourceType === "primary" ? "A" : "B",
+      language: "en",
+      publishedAt: "2026-08-25T02:00:00Z",
+      discovery: "rss",
+      categoryHints: [category],
+      topic: category === "science" ? "life-sciences" : "general",
+      preliminaryScore: 90 - index
+    });
+    const pool = [
+      ...Array.from({ length: 20 }, (_, index) => make("bbc", "independent-media", index, "world")),
+      ...Array.from({ length: 10 }, (_, index) => make("nasa", "primary", index, "science")),
+      ...Array.from({ length: 10 }, (_, index) => make("xinhua", "state-media", index, "society"))
+    ];
+    const selected = selectBalanced(pool);
+    expect(selected.filter((item) => item.sourceId === "bbc")).toHaveLength(12);
+    expect(selected.filter((item) => item.sourceId === "nasa")).toHaveLength(6);
+    expect(selected.filter((item) => item.sourceId === "xinhua")).toHaveLength(4);
+    expect(selected.slice(0, 3).map((item) => item.categoryHints[0])).toEqual(["world", "science", "society"]);
+  });
+});

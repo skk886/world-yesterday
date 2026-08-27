@@ -7,8 +7,9 @@ import { collect } from "./collect";
 import { previousShanghaiDate, formatShanghaiDate } from "../src/lib/dates";
 import { editionSchema, rawSnapshotSchema, type Edition } from "../src/lib/schema";
 import { loadAndValidateEdition } from "./validate";
+import { applyEditorialControls } from "./lib/editorial";
 
-type Options = { dryRun: boolean; publish: boolean; force: boolean; date?: string };
+type Options = { dryRun: boolean; publish: boolean; force: boolean; reuseOutput: boolean; date?: string };
 export type LocalState = {
   schemaVersion: 1;
   runs: Array<{ date: string; completedAt: string; tokenTotal: number; published: boolean }>;
@@ -20,11 +21,12 @@ const runtimeDirectory = path.join(root, ".runtime");
 const statePath = path.join(root, "data/status/local-state.json");
 
 function parseArgs(argv: string[]): Options {
-  const options: Options = { dryRun: false, publish: false, force: false };
+  const options: Options = { dryRun: false, publish: false, force: false, reuseOutput: false };
   for (let index = 0; index < argv.length; index += 1) {
     if (argv[index] === "--dry-run") options.dryRun = true;
     else if (argv[index] === "--publish") options.publish = true;
     else if (argv[index] === "--force") options.force = true;
+    else if (argv[index] === "--reuse-output") options.reuseOutput = true;
     else if (argv[index] === "--date") options.date = argv[++index];
   }
   return options;
@@ -216,7 +218,7 @@ export function stripNullObjectFields(value: unknown): unknown {
   if (!value || typeof value !== "object") return value;
   return Object.fromEntries(
     Object.entries(value as Record<string, unknown>)
-      .filter(([, child]) => child !== null)
+      .filter(([key, child]) => child !== null || key === "subjectOrganization")
       .map(([key, child]) => [key, stripNullObjectFields(child)])
   );
 }
@@ -226,6 +228,23 @@ function buildPrompt(date: string, rawPath: string): string {
   const registry = fs.readFileSync(path.join(root, "config/sources.json"), "utf8");
   const snapshot = fs.readFileSync(rawPath, "utf8");
   return `${template.replaceAll("{{DATE}}", date)}\n\n<allowlist_registry>\n${registry}\n</allowlist_registry>\n\n<raw_snapshot>\n${snapshot}\n</raw_snapshot>\n`;
+}
+
+function recoverGeneratedOutput(eventPath: string, outputPath: string): boolean {
+  if (!fs.existsSync(eventPath)) return false;
+  const lines = fs.readFileSync(eventPath, "utf8").split(/\r?\n/).filter(Boolean).reverse();
+  for (const line of lines) {
+    try {
+      const event = JSON.parse(line) as { type?: string; item?: { type?: string; text?: string } };
+      if (event.type !== "item.completed" || event.item?.type !== "agent_message" || !event.item.text) continue;
+      JSON.parse(event.item.text);
+      fs.writeFileSync(outputPath, `${event.item.text}\n`, "utf8");
+      return true;
+    } catch {
+      // Continue to earlier event lines until a complete structured response is found.
+    }
+  }
+  return false;
 }
 
 function writeMonthlyUsage(date: string): string {
@@ -322,6 +341,7 @@ async function main() {
   fs.mkdirSync(runtimeDirectory, { recursive: true });
   const schemaPath = path.join(runtimeDirectory, "edition-output.schema.json");
   const outputPath = path.join(runtimeDirectory, `edition-${targetDate}.json`);
+  const generatedOutputPath = path.join(runtimeDirectory, `edition-${targetDate}.generated.json`);
   const eventPath = path.join(runtimeDirectory, `codex-${targetDate}.jsonl`);
   const jsonSchema = z.toJSONSchema(editionSchema, { target: "draft-7" });
   // Responses strict schemas require every property while the public data
@@ -329,13 +349,21 @@ async function main() {
   // remove nulls before the unchanged runtime Zod validation.
   const codexSchema = JSON.stringify(toCodexOutputSchema(jsonSchema), null, 2);
   fs.writeFileSync(schemaPath, `${codexSchema}\n`, "utf8");
-  await runCodex(buildPrompt(targetDate, rawPath), schemaPath, outputPath, eventPath);
+  if (options.reuseOutput) {
+    if (!fs.existsSync(generatedOutputPath) && !recoverGeneratedOutput(eventPath, generatedOutputPath)) {
+      throw new Error(`Cannot reuse output for ${targetDate}; generated JSON and recoverable usage events are missing.`);
+    }
+    console.log(`Reusing existing Codex output for ${targetDate}; no new model call will be made.`);
+  } else {
+    await runCodex(buildPrompt(targetDate, rawPath), schemaPath, generatedOutputPath, eventPath);
+  }
 
-  const rawEdition = editionSchema.parse(stripNullObjectFields(JSON.parse(fs.readFileSync(outputPath, "utf8"))));
+  const rawEdition = editionSchema.parse(stripNullObjectFields(JSON.parse(fs.readFileSync(generatedOutputPath, "utf8"))));
   if (rawEdition.date !== targetDate) throw new Error(`Codex returned ${rawEdition.date}; expected ${targetDate}.`);
   const usage = parseUsage(eventPath);
   if (usage.measured && usage.total > 80_000) throw new Error(`Run used ${usage.total} tokens, exceeding the 80,000 ceiling; edition rejected.`);
-  const edition = applyMeasuredUsage(rawEdition, usage, snapshot.candidates.length);
+  const controlledEdition = applyEditorialControls(rawEdition);
+  const edition = applyMeasuredUsage(controlledEdition, usage, snapshot.candidates.length);
   fs.writeFileSync(outputPath, `${JSON.stringify(edition, null, 2)}\n`, "utf8");
   loadAndValidateEdition(outputPath);
 
