@@ -99,6 +99,10 @@ function runCodex(prompt: string, schemaPath: string, outputPath: string, eventP
   }
   const args = [
     "--search",
+    // Daily news generation is self-contained. Loading third-party plugins can
+    // trigger marketplace upgrades and add unrelated context/token overhead.
+    "--disable", "plugins",
+    "--disable", "memories",
     "exec",
     "--config", `model_reasoning_effort=${reasoningEffort}`,
     "--sandbox", "read-only",
