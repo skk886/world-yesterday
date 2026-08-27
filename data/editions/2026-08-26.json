@@ -843,12 +843,12 @@
     }
   ],
   "metrics": {
-    "candidateCount": 20,
+    "candidateCount": 90,
     "pagesOpened": 0,
     "searchGroups": 0,
     "verifiedCount": 15,
     "pendingCount": 5,
-    "rejectedCount": 123,
+    "rejectedCount": 70,
     "tokenUsage": {
       "measured": true,
       "candidateJudgment": 7151,

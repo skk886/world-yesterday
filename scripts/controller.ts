@@ -160,12 +160,20 @@ function parseUsage(eventPath: string): { input: number; output: number; total: 
   return { ...best, total: best.input + best.output, measured: best.input + best.output > 0 };
 }
 
-function applyMeasuredUsage(edition: Edition, usage: ReturnType<typeof parseUsage>): Edition {
+function applyMeasuredUsage(edition: Edition, usage: ReturnType<typeof parseUsage>, candidateCount: number): Edition {
   const total = usage.total;
+  const verifiedCount = edition.items.filter((item) => item.verificationStatus === "verified").length;
+  const pendingCount = edition.items.length - verifiedCount;
   return editionSchema.parse({
     ...edition,
     metrics: {
       ...edition.metrics,
+      candidateCount,
+      pagesOpened: 0,
+      searchGroups: 0,
+      verifiedCount,
+      pendingCount,
+      rejectedCount: Math.max(0, candidateCount - edition.items.length),
       tokenUsage: {
         measured: usage.measured,
         candidateJudgment: Math.round(total * 0.125),
@@ -304,7 +312,7 @@ async function main() {
     await collect(targetDate);
     rawDates = listDates(path.join(root, "data/raw"));
   }
-  rawSnapshotSchema.parse(JSON.parse(fs.readFileSync(rawPath, "utf8")));
+  const snapshot = rawSnapshotSchema.parse(JSON.parse(fs.readFileSync(rawPath, "utf8")));
 
   if (options.dryRun) {
     console.log(JSON.stringify({ targetDate, rawPath, publish: options.publish, runCountToday: state.runs.filter((run) => formatShanghaiDate(new Date(run.completedAt)) === formatShanghaiDate(now)).length }, null, 2));
@@ -327,7 +335,7 @@ async function main() {
   if (rawEdition.date !== targetDate) throw new Error(`Codex returned ${rawEdition.date}; expected ${targetDate}.`);
   const usage = parseUsage(eventPath);
   if (usage.measured && usage.total > 80_000) throw new Error(`Run used ${usage.total} tokens, exceeding the 80,000 ceiling; edition rejected.`);
-  const edition = applyMeasuredUsage(rawEdition, usage);
+  const edition = applyMeasuredUsage(rawEdition, usage, snapshot.candidates.length);
   fs.writeFileSync(outputPath, `${JSON.stringify(edition, null, 2)}\n`, "utf8");
   loadAndValidateEdition(outputPath);
 
