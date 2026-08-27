@@ -17,12 +17,13 @@ if (Test-Path -LiteralPath $codexCandidate) {
 
 Push-Location $projectRoot
 try {
-  if ($NoPublish) {
-    & npm run controller 2>&1 | Tee-Object -FilePath $logPath
-  } else {
-    & npm run controller -- --publish 2>&1 | Tee-Object -FilePath $logPath
-  }
-  if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+  $controllerCommand = if ($NoPublish) { "npm run controller" } else { "npm run controller -- --publish" }
+  # Windows PowerShell 5 turns normal native stderr (for example Git's
+  # "Everything up-to-date") into an ErrorRecord when piped. Merge the two
+  # streams inside cmd.exe so only the real process exit code controls failure.
+  & $env:ComSpec /d /s /c "$controllerCommand 2>&1" | Tee-Object -FilePath $logPath
+  $controllerExitCode = $LASTEXITCODE
+  if ($controllerExitCode -ne 0) { exit $controllerExitCode }
 } finally {
   Pop-Location
 }
