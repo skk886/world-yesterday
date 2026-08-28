@@ -101,6 +101,7 @@ button, input { font: inherit; }
 .section-heading p { margin: 0 0 3px; color: var(--muted); font: 500 11px/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; }
 
 .journal-watch__heading { padding-top: 34px; }
+.journal-history-note { margin: 26px 0 0; color: var(--muted); font: 500 12px/1.6 var(--sans); }
 .journal-watch__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-bottom: 1px solid var(--ink); }
 .journal-card { min-width: 0; padding: 24px 28px 22px 0; }
 .journal-card + .journal-card { padding-right: 0; padding-left: 28px; border-left: 1px solid var(--line); }

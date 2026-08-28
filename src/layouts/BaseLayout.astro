@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 
-type Props = { title?: string; description?: string; current?: "latest" | "archive" | "method" };
+type Props = { title?: string; description?: string; current?: "latest" | "journal" | "archive" | "method" };
 const { title = "昨日世界 / World Yesterday", description = "一份以来源和核验为中心的中英双语全球新闻简报。", current } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const href = (route: string) => `${base}${route.replace(/^\//, "")}`;
@@ -24,6 +24,7 @@ const href = (route: string) => `${base}${route.replace(/^\//, "")}`;
         <a class="masthead__title" href={href("")}><strong>昨日世界</strong><span>World Yesterday</span></a>
         <nav class="masthead__nav" aria-label="主导航">
           <a href={href("")} aria-current={current === "latest" ? "page" : undefined}>最新</a>
+          <a href={href("journal/")} aria-current={current === "journal" ? "page" : undefined}>期刊精选</a>
           <a href={href("archive/")} aria-current={current === "archive" ? "page" : undefined}>归档</a>
           <a href={href("method/")} aria-current={current === "method" ? "page" : undefined}>方法</a>
         </nav>

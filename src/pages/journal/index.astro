@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import JournalWatch from "../../components/JournalWatch.astro";
+import { loadEditions } from "../../lib/data";
+import { formatEditionDate } from "../../lib/dates";
+import type { EditionV4 } from "../../lib/schema";
+
+const editions = loadEditions();
+const withJournal = editions.filter((edition): edition is EditionV4 => edition.schemaVersion === 4);
+const [latest, ...history] = withJournal;
+const withoutJournal = editions.length - withJournal.length;
+---
+
+<BaseLayout title="期刊精选 · 昨日世界" description="Science 与 Nature 每日期刊精选：来源为出版社 RSS 与 Crossref DOI 元数据，独立于每日热度榜单。" current="journal">
+  <header class="edition-hero">
+    <div><p class="edition-hero__kicker">Journal Watch · Science &amp; Nature</p><h1>期刊精选</h1></div>
+    <div class="edition-hero__right">
+      <p>从 Science 与 Nature 出版社 RSS 中挑选昨日最重要的论文，Science 条目经 Crossref DOI 元数据核验。</p>
+      <p>期刊精选独立于每日热度榜单之外，按日存档，可回溯。</p>
+    </div>
+  </header>
+  {latest ? (
+    <>
+      <JournalWatch
+        highlights={latest.journalHighlights}
+        id="journal-latest-heading"
+        heading={`最新精选 · ${formatEditionDate(latest.date).zh}`}
+        subheading={formatEditionDate(latest.date).en}
+      />
+      {history.map((edition) => {
+        const dateLabel = formatEditionDate(edition.date);
+        return (
+          <JournalWatch
+            highlights={edition.journalHighlights}
+            id={`journal-${edition.date}-heading`}
+            heading={dateLabel.zh}
+            subheading={dateLabel.en}
+          />
+        );
+      })}
+      {withoutJournal > 0 && (
+        <p class="journal-history-note">另有 {withoutJournal} 期历史日报生成于期刊精选功能上线前，无精选记录。</p>
+      )}
+    </>
+  ) : (
+    <section class="journal-history-note">
+      <p>尚无期刊精选记录。正式日报生成后，Science 与 Nature 的当日精选会自动出现在这里。</p>
+    </section>
+  )}
+</BaseLayout>

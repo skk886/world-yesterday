@@ -1,8 +1,8 @@
 ---
 import type { JournalHighlight } from "../lib/schema";
 
-type Props = { highlights: JournalHighlight[] };
-const { highlights } = Astro.props;
+type Props = { highlights: JournalHighlight[]; id?: string; heading?: string; subheading?: string };
+const { highlights, id = "journal-watch-heading", heading = "期刊精选", subheading = "Journal Watch · outside the ranked edition" } = Astro.props;
 const statusLabels = {
   selected: { zh: "昨日精选", en: "Selected" },
   "no-update": { zh: "昨日无新条目", en: "No new entry yesterday" },
@@ -14,10 +14,10 @@ const formatTime = (value: string) => new Intl.DateTimeFormat("zh-CN", {
 }).format(new Date(value));
 ---
 
-<section class="journal-watch" aria-labelledby="journal-watch-heading">
+<section class="journal-watch" aria-labelledby={id}>
   <div class="section-heading journal-watch__heading">
-    <h2 id="journal-watch-heading">期刊精选</h2>
-    <p>Journal Watch · outside the ranked edition</p>
+    <h2 id={id}>{heading}</h2>
+    <p>{subheading}</p>
   </div>
   <div class="journal-watch__grid">
     {highlights.map((highlight) => (
