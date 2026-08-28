@@ -1,0 +1,2035 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-08-27",
+  "timezone": "Asia/Shanghai",
+  "collectedAt": "2026-08-28T02:15:06.640Z",
+  "window": {
+    "start": "2026-08-26T16:00:00.000Z",
+    "end": "2026-08-27T15:59:59.999Z"
+  },
+  "candidates": [
+    {
+      "id": "6ede3c2af4b24fac",
+      "title": "Why did 1,000 world citizens bury their underpants?",
+      "url": "https://arstechnica.com/science/2026/08/why-did-1000-swiss-citizens-bury-their-underpants/",
+      "canonicalUrl": "https://arstechnica.com/science/2026/08/why-did-1000-swiss-citizens-bury-their-underpants",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:39:42.000Z",
+      "description": "Study: Land use is the biggest factor in determining decomposition rates of organic cotton underpants.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "bcb688587fb4f5cf",
+      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:56:52.000Z",
+      "description": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "8344401f119635bf",
+      "title": "AI&#8217;s memory crunch is coming for Android apps",
+      "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:27:04.000Z",
+      "description": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "f9d67b5968f032dd",
+      "title": "NASA Astronaut Jonny Kim Departs Agency to Continue Military Service",
+      "url": "https://www.nasa.gov/news-release/nasa-astronaut-jonny-kim-departs-agency-to-continue-military-service/",
+      "canonicalUrl": "https://www.nasa.gov/news-release/nasa-astronaut-jonny-kim-departs-agency-to-continue-military-service",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:10:24.000Z",
+      "description": "After nearly a decade of service to NASA, including an eight-month science expedition aboard the International Space Station, astronaut Jonny Kim’s last day at the agency is Thursday. He will continue serving as lieutenant commander in the U.S. Navy. Kim launched to the space station in April 2025 aboard the Soyuz MS‑27 spacecraft to conduct [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "47f1449cb3b7fc06",
+      "title": "Zambian opposition leader in police custody: state media",
+      "url": "https://www.dw.com/en/zambian-opposition-leader-in-police-custody-state-media/a-78531338?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/zambian-opposition-leader-in-police-custody-state-media/a-78531338?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:53:00.000Z",
+      "description": "Zambia's national broadcaster reports that Brian Mundubile, who wanted to challenge this month's presidential election results, and his running mate have surrendered to police and are being interviewed.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "38d0f7cd27760fab",
+      "title": "Sony finally has a cheaper OLED to compete with midrange Samsung and LG TVs",
+      "url": "https://www.theverge.com/tech/985363/sony-releases-cheaper-bravia-6-oled-tv",
+      "canonicalUrl": "https://www.theverge.com/tech/985363/sony-releases-cheaper-bravia-6-oled-tv",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T16:00:00.000Z",
+      "updatedAt": "2026-08-27T15:32:22.000Z",
+      "description": "After unexpectedly showing up on a wall-mounting compatibility chart on Sony's site back in June, the company has announced the Sony Bravia 6 OLED TV. The TV sits below its other OLED TVs - the Bravia 8 and Bravia 8 II - as well as its Bravia 9 II and Bravia 7 II RGB LED [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "653b1c322edd7367",
+      "title": "Norway holds its breath as King Harald's health deteriorates",
+      "url": "https://www.france24.com/en/video/20260827-norway-holds-its-breath-as-king-harald-s-health-deteriorates",
+      "canonicalUrl": "https://www.france24.com/en/video/20260827-norway-holds-its-breath-as-king-harald-s-health-deteriorates",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:33:51.000Z",
+      "description": "Norway's King Harald was in a \"very serious\" condition in hospital ​on Thursday, the royal court said, and family members gathered at his bedside. Hundreds of people gathered outside the Royal Palace in central Oslo and many ​lay flowers ‌as they awaited further news of the 89-year-old ⁠king's health.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "653c933346c23f36",
+      "title": "Nepal flooding: 'We are disconnected from Kathmandu'",
+      "url": "https://www.dw.com/en/nepal-flooding-we-are-disconnected-from-kathmandu/a-78536034?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/nepal-flooding-we-are-disconnected-from-kathmandu/a-78536034?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:15:00.000Z",
+      "description": "DW spoke with people from the Nepali regions devastated by flash floods about the fates of their family members, with a government minister warning that the state was not ready for a disaster of such magnitude.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "3ec7560ba5a9eb89",
+      "title": "'National treasure: If we could all be like Dolly, the world would be a much better place'",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20260827-national-treasure-if-we-could-all-be-like-dolly-it-would-be-a-much-better-place-in-the-world",
+      "canonicalUrl": "https://www.france24.com/en/tv-shows/spotlight/20260827-national-treasure-if-we-could-all-be-like-dolly-it-would-be-a-much-better-place-in-the-world",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:21:20.000Z",
+      "description": "As the world pays homage to the life and legacy of Dolly Parton, François Picard is pleased to welcome Nashville's Irene Kelley, Country musician and celebrated songwriter, alongside her daughter, Justyna Kelley, Country musician, songwriter, actress and producer. For the Kelley family, Dolly Parton’s significance lies in the extraordinary reach of her music, and even more in the way she turned intimate stories into something remarkably universal. Her songs were grounded in home and family, sharing life's immense struggles, while staying true to her values. The Kelleys see Parton as a national treasure who transcended generations, social class and the great political divide.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "10cd812c4c753046",
+      "title": "Xbox discs will now grant digital access to games as part of Microsoft's self-proclaimed 'broader commitment to game preservation'",
+      "url": "https://www.pcgamer.com/hardware/xbox-discs-will-now-grant-digital-access-to-games-as-part-of-microsofts-self-proclaimed-broader-commitment-to-game-preservation/",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/xbox-discs-will-now-grant-digital-access-to-games-as-part-of-microsofts-self-proclaimed-broader-commitment-to-game-preservation",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:22:08.000Z",
+      "updatedAt": "2026-08-27T15:22:12.000Z",
+      "description": "Microsoft saw Sony's open goal and took the shot.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "0fd0eaf5f69235d0",
+      "title": "UEFA to bring criminal complaint against Infantino",
+      "url": "https://www.dw.com/en/uefa-to-bring-criminal-complaint-against-infantino/a-78536435?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/uefa-to-bring-criminal-complaint-against-infantino/a-78536435?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:26:00.000Z",
+      "description": "European football’s governing body said it is preparing a criminal complaint against the FIFA president over his failed plan to sell a stake in the World Cup.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "188ddabad8e4aa5d",
+      "title": "I barely remember the last time Nvidia mentioned gaming at all in an earnings call",
+      "url": "https://www.pcgamer.com/software/ai/i-barely-remember-the-last-time-nvidia-mentioned-gaming-at-all-in-an-earnings-call/",
+      "canonicalUrl": "https://www.pcgamer.com/software/ai/i-barely-remember-the-last-time-nvidia-mentioned-gaming-at-all-in-an-earnings-call",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T11:38:49.000Z",
+      "updatedAt": "2026-08-27T16:31:05.000Z",
+      "description": "Gone, but definitely not forgotten.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "a9d2c95830031e64",
+      "title": "The Download: inside OpenAI&#8217;s Hugging Face hack, and a new EV takes on the US",
+      "url": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "domain": "technologyreview.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T12:10:00.000Z",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with&#8230;",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "3ef4d38a94ddb71c",
+      "title": "Here’s all the times AI has gone rogue and hacked other companies",
+      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:01:42.000Z",
+      "description": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "8dc2efc13b509e7f",
+      "title": "Exclusive - French astronaut describes climate change as seen from space",
+      "url": "https://www.france24.com/en/video/20260827-exclusive-french-astronaut-describes-climate-change-as-seen-from-space-1",
+      "canonicalUrl": "https://www.france24.com/en/video/20260827-exclusive-french-astronaut-describes-climate-change-as-seen-from-space-1",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:09:11.000Z",
+      "description": "In her exclusive interview with FRANCE 24, French astronaut Sophie Adenot spoke from the International Space Station about the impacts of climate change and the changing face of Earth.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "0d38e3a239f1417d",
+      "title": "Alleged underworld kingpin testifies at S. African commission",
+      "url": "https://www.france24.com/en/video/20260827-alleged-underworld-kingpin-testifies-at-s-african-commission",
+      "canonicalUrl": "https://www.france24.com/en/video/20260827-alleged-underworld-kingpin-testifies-at-s-african-commission",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:39:59.000Z",
+      "description": "An alleged underworld kingpin wrapped up his testimony at a high profile South African corruption enquiry on Wednesday. Vusimusi “Cat” Matlala returned to the witness stand before the Madlanga Commission looking into allegations including accusations that a suspended deputy police chief took kickbacks from criminals. Eunice Masson has more.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "586ce34de488fdff",
+      "title": "Almost 20 years later, Arkane's founder says he understands why Valve cancelled the Ravenholm game that never was: 'It all came down to the economics'",
+      "url": "https://www.pcgamer.com/games/fps/almost-20-years-later-arkanes-founder-says-he-understands-why-valve-cancelled-the-ravenholm-game-that-never-was-it-all-came-down-to-the-economics/",
+      "canonicalUrl": "https://www.pcgamer.com/games/fps/almost-20-years-later-arkanes-founder-says-he-understands-why-valve-cancelled-the-ravenholm-game-that-never-was-it-all-came-down-to-the-economics",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:11:38.000Z",
+      "updatedAt": "2026-08-27T18:25:29.000Z",
+      "description": "\"We grew up and got a little bit more mature about it.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "824506787bbe6c1d",
+      "title": "UN chief condemns “indifference” as Ebola cases mount in DR Congo",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168217",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168217",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "description": "The Ebola Bundibugyo&nbsp;outbreak in the Democratic Republic of the Congo (DRC) requires “urgent” action and funding to rein in its alarming spread, the UN Secretary-General told reporters at UN Headquarters on Thursday.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "2e105300b7b2db5b",
+      "title": "'Extremely challenging' conditions hamper Nepal-Tibet flood rescue efforts",
+      "url": "https://www.france24.com/en/video/20260827-extremely-challenging-conditions-hamper-nepal-tibet-flood-rescue-efforts",
+      "canonicalUrl": "https://www.france24.com/en/video/20260827-extremely-challenging-conditions-hamper-nepal-tibet-flood-rescue-efforts",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:57:30.000Z",
+      "description": "With more than 1,000 people still missing after the devastating flash flood that hit Nepal and Tibet on Wednesday, international rescue teams are working to locate survivors. But, as France 24’s Navodita Kumari reports, they are facing “extremely challenging” conditions due to the weather, mountainous terrain and lack of infrastructure.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "e3fe2bfa2364ad47",
+      "title": "Robert Carlyle: ‘When we did The Full Monty strip, the reaction from the crowd was terrifying’",
+      "url": "https://www.theguardian.com/film/2026/aug/27/robert-carlyle-interview-full-monty-strip",
+      "canonicalUrl": "https://www.theguardian.com/film/2026/aug/27/robert-carlyle-interview-full-monty-strip",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:00:16.000Z",
+      "description": "The actor on which star he’d devour first on a lifeboat, why he prefers pigeons to dogs and how Trainspotting put the Scottish accent on the map You’re stranded on a lifeboat with Ewan McGregor , Ewen Bremner , Jonny Lee Miller , Kevin McKidd , Peter Mullan , James Cosmo , Keith Allen and Irvine Welsh . Who do you eat first? DarkAnaemicI77 I suppose you have to think about who’s the healthiest and has looked after their body best. I reckon Ewan would be a wee bit too chewy, and Irvine a wee bit pickled. I’ll go for Kevin McKidd because he’s been out in LA for 20 years, eating good food. Did you really not like Zippy the West Highland terrier who played Wee Jock in Hamish Macbeth ? Campbell97 Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "8c49d7f256feb38f",
+      "title": "Xbox CEO Asha Sharma once again stresses Xbox's need for affordability",
+      "url": "https://www.gamedeveloper.com/business/xbox-ceo-asha-sharma-once-again-stresses-xbox-s-need-for-affordability",
+      "canonicalUrl": "https://www.gamedeveloper.com/business/xbox-ceo-asha-sharma-once-again-stresses-xbox-s-need-for-affordability",
+      "sourceId": "game-developer",
+      "sourceName": "Game Developer",
+      "domain": "gamedeveloper.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:40:00.000Z",
+      "description": "Xbox isn't healthy, she said again.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "29adb82c69fd268a",
+      "title": "New study shows German football remains male-dominated",
+      "url": "https://www.dw.com/en/new-study-shows-german-football-remains-male-dominated/a-78532569?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/new-study-shows-german-football-remains-male-dominated/a-78532569?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:53:00.000Z",
+      "description": "The top leagues of German football remain a largely male environment. A new study reveals that only seven clubs have women in upper management levels.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "ea237e98445d17c3",
+      "title": "When and where to watch the GTA 6 gameplay reveal on August 27",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/how-to-watch-gta-6-gameplay-reveal-time-netflix-youtube/",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/how-to-watch-gta-6-gameplay-reveal-time-netflix-youtube",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T07:30:00.000Z",
+      "updatedAt": "2026-08-28T01:04:19.000Z",
+      "description": "Rockstar is finally, officially, showing off GTA 6 gameplay in a reveal that's coming to Netflix first.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "aa4eb2485ef5651f",
+      "title": "Direct evaporation of single-crystal metal contacts for 2D semiconductors",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee3132?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aee3132?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:00:13.000Z",
+      "description": "Science, Volume 393, Issue 6814, Page 938-943, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "energy-materials",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "70872feb0204dd6b",
+      "title": "How much of a problem is AI’s water use?",
+      "url": "https://arstechnica.com/ai/2026/08/how-much-of-a-problem-is-ais-water-use/",
+      "canonicalUrl": "https://arstechnica.com/ai/2026/08/how-much-of-a-problem-is-ais-water-use",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:57:08.000Z",
+      "description": "AI’s water footprint is growing, but location and cooling technology make a difference.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "ef24cd7d701cef7b",
+      "title": "Expedition Sound podcast series",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Expedition_Sound_podcast_series",
+      "canonicalUrl": "https://www.esa.int/Science_Exploration/Space_Science/Expedition_Sound_podcast_series",
+      "sourceId": "esa",
+      "sourceName": "European Space Agency",
+      "domain": "esa.int",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-27T07:30:00.000Z",
+      "description": "Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears. Guided by sonifications – the translation of data into sound – host Zsófi Szalavári travels from our Sun out into the depths of space to uncover what the space telescopes of ESA’s science missions teach us about the Universe.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "b828316462da3948",
+      "title": "Italy to fine careless pedestrians crossing road while looking at phones",
+      "url": "https://www.france24.com/en/video/20260827-italy-to-fine-careless-pedestrians-crossing-road-while-looking-at-phones",
+      "canonicalUrl": "https://www.france24.com/en/video/20260827-italy-to-fine-careless-pedestrians-crossing-road-while-looking-at-phones",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:25:58.000Z",
+      "description": "In Italy, the government has drafted an update to its traffic code to fine pedestrians caught staring at their screens while crossing the road. The measure, set to be approved by mid-October, comes after several court rulings that have held careless pedestrians responsible for accidents.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "218394b154a13f72",
+      "title": "'Great public test': French presidential hopefuls to face off at business summit",
+      "url": "https://www.france24.com/en/video/20260827-great-public-test-french-presidential-hopefuls-to-face-off-at-business-summit",
+      "canonicalUrl": "https://www.france24.com/en/video/20260827-great-public-test-french-presidential-hopefuls-to-face-off-at-business-summit",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:15:37.000Z",
+      "description": "Paris's Roland Garros tennis stadium will be the venue for a French presidential election warmup event on Thursday as seven from a crowded field of candidates will take to the stage at the Medef business leaders' annual end-of-summer seminar to defend their business and economic programmes. France 24's Charles Pellegrin reports.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "369897e16c93c868",
+      "title": "Man who attacked nun on CCTV in Jerusalem acquitted on grounds of mental health",
+      "url": "https://www.bbc.co.uk/news/articles/cpwl54kddeko?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cpwl54kddeko?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T11:23:28.000Z",
+      "description": "A Jerusalem court said the Jewish attacker was having a psychotic episode when he assaulted the nun, in an incident which caused outrage.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "3fccdb9585ba7d82",
+      "title": "Tragedy in Nepal: How do flash floods happen?",
+      "url": "https://www.dw.com/en/tragedy-in-nepal-how-do-flash-floods-happen/a-78526421?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/tragedy-in-nepal-how-do-flash-floods-happen/a-78526421?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:31:00.000Z",
+      "description": "When flash floods sweep through the Himalayas, there is often little time to react. Scientists are working to understand the risks and improve early warning systems.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "65f31cc14f612fab",
+      "title": "Marketing meltdown: why has Andrew Garfield’s new film suddenly added Robin Hood?",
+      "url": "https://www.theguardian.com/film/2026/aug/27/andrew-garfield-the-uprising-movie-robin-hood",
+      "canonicalUrl": "https://www.theguardian.com/film/2026/aug/27/andrew-garfield-the-uprising-movie-robin-hood",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:58:33.000Z",
+      "description": "Paul Greengrass drama The Uprising was supposed to be a historical epic about the Peasants’ Revolt of 1381 – but a strange new campaign has inserted a surprising figure Nobody likes to have the full plot of a movie spoiled before they’ve even seen it. However, sometimes this can be taken to the extreme. Take the new Paul Greengrass movie, The Uprising, for example. It is two weeks away from its US release and not only does nobody know the plot, but nobody seems to know what it is even about. Seriously, nobody at all. The film’s distributors just spent yesterday squabbling in public about whether Robin Hood was in it or not. Here’s what we know so far. Initially, all the trailers and promotional materials made The Uprising look like a film about the Peasants’ Revolt that tore through England in 1381. And this was very exciting, since the revolt was a thrilling moment in history that has been bizarrely underserved by Hollywood over the years. Most exciting of all, though, it sounded like it fit exactly into Greengrass’s wheelhouse: full of action and realism and political awareness. Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "9194b1765c22f218",
+      "title": "Saudi media conglomerate MBC expands into video game industry with new studio",
+      "url": "https://www.gamedeveloper.com/business/saudi-owned-media-conglomerate-mbc-expands-into-the-game-industry",
+      "canonicalUrl": "https://www.gamedeveloper.com/business/saudi-owned-media-conglomerate-mbc-expands-into-the-game-industry",
+      "sourceId": "game-developer",
+      "sourceName": "Game Developer",
+      "domain": "gamedeveloper.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:17:05.000Z",
+      "description": "MBC Game Studio broke cover at Gamescom 2026 and has already hired veterans from BioWare, Hi-Rez, Ubisoft Montreal, and Bungie.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "game-development",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "7bfc5670cbc21b49",
+      "title": "Thieves steal Bronze Age artefacts from Spanish museum in four-minute heist",
+      "url": "https://www.bbc.co.uk/news/articles/ckgw9gw34yqo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckgw9gw34yqo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T12:41:16.000Z",
+      "description": "The Treasure of Villena is a unique trove of almost ten kilos of gold, bowls, bottles and bracelets dating back to the Bronze Age.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "27e6e4d6de63caec",
+      "title": "Gamescom 2026 live hub: The latest news and previews from the biggest gaming event of the year",
+      "url": "https://www.pcgamer.com/gaming-industry/live/news/gamescom-2026-live-hub-the-latest-news-and-previews-from-the-biggest-gaming-event-of-the-year/",
+      "canonicalUrl": "https://www.pcgamer.com/gaming-industry/live/news/gamescom-2026-live-hub-the-latest-news-and-previews-from-the-biggest-gaming-event-of-the-year",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T19:52:35.000Z",
+      "updatedAt": "2026-08-28T00:09:03.000Z",
+      "description": "Your one stop hub for everything happening at Gamescom.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "80b256b102804c43",
+      "title": "Amazon just tripled its order of Nvidia chips over &#8216;surging demand&#8217;",
+      "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T23:47:18.000Z",
+      "description": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 71
+    },
+    {
+      "id": "0f55ced7a4e0df3e",
+      "title": "Plaud&#8217;s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:00:00.000Z",
+      "description": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "2faa482017333c32",
+      "title": "Genomic predisposition is associated with the direction of sex chromosome evolution",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec3449?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aec3449?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "description": "Science, Volume 393, Issue 6814, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "life-sciences",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "ab6d5359f2837bd2",
+      "title": "What does Saxony-Anhalt's election mean for migrants?",
+      "url": "https://www.dw.com/en/what-does-saxony-anhalt-s-election-mean-for-migrants/a-78504553?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/what-does-saxony-anhalt-s-election-mean-for-migrants/a-78504553?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T12:20:00.000Z",
+      "description": "The AfD could make history in the German state of Saxony-Anhalt. For many people with a migration background, the September 6 state election raises questions about belonging, security and their future in Germany.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "807c20eab8d4098b",
+      "title": "An 'icon' of contemporary art: A look back at the career of Yayoi Kusama",
+      "url": "https://www.france24.com/en/video/20260827-an-icon-of-contemporary-art-a-look-back-at-the-career-of-yayoi-kusama",
+      "canonicalUrl": "https://www.france24.com/en/video/20260827-an-icon-of-contemporary-art-a-look-back-at-the-career-of-yayoi-kusama",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:01:47.000Z",
+      "description": "Japan's Yayoi Kusama, one of the world's most celebrated contemporary artists, has died aged 97, her company said on Thursday, triggering tributes from around the world. Eve Jackson takes a look at how the woman dubbed the \"polka dot queen\" became an icon of the art world.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "668bbcd2092c63dc",
+      "title": "A necroptotic-to-apoptotic signaling axis underlies inflammatory bowel disease",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeh7112?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aeh7112?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "description": "Science, Volume 393, Issue 6814, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "4c87b0ccdc3e67a8",
+      "title": "Why were so many Indian pilgrims in Tibet during the Himalayan mudslide disaster?",
+      "url": "https://www.france24.com/en/why-were-so-many-indian-pilgrims-in-tibet-during-the-himalayan-mudslide-disaster",
+      "canonicalUrl": "https://www.france24.com/en/why-were-so-many-indian-pilgrims-in-tibet-during-the-himalayan-mudslide-disaster",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:57:23.000Z",
+      "description": "Hundreds of Indian nationals are missing in Nepal and Tibet following a catastrophic Himalayan flood. They include several pilgrims doing the Kailash Mansarovar Yatra pilgrimage to Mount Kailash, a mountain in Tibet that holds sacred significance for Hinduism, Buddhism, Jainism and the Tibetan Bon religion, explains FRANCE 24’s Leela Jacinto.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "853d061962cc91de",
+      "title": "Thermal cycling–induced nitriding increases energy-storage density in titanate ferroelectric films",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeb5274?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aeb5274?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:00:13.000Z",
+      "description": "Science, Volume 393, Issue 6814, Page 923-930, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "a4af491bd370b430",
+      "title": "European games industry revenue reached €30bn in 2025",
+      "url": "https://www.gamesindustry.biz/european-games-industry-revenue-reached-30bn-in-2025",
+      "canonicalUrl": "https://www.gamesindustry.biz/european-games-industry-revenue-reached-30bn-in-2025",
+      "sourceId": "gamesindustry",
+      "sourceName": "GamesIndustry.biz",
+      "domain": "gamesindustry.biz",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:39:30.000Z",
+      "description": "The European games industry generated &euro;30 billion in 2025, with digital purchases accounting for 91% of total revenue, according to Video Games Europe (VGE). Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-industry",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "87faf4f182d97907",
+      "title": "Yayoi Kusama’s psychedelic art was at its best when taken in high doses",
+      "url": "https://www.theguardian.com/artanddesign/2026/aug/27/yayoi-kusama-art",
+      "canonicalUrl": "https://www.theguardian.com/artanddesign/2026/aug/27/yayoi-kusama-art",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T11:14:17.000Z",
+      "description": "With dots that dizzied the viewer, the giddy sensory overload of seeing the grandest installations of her octopuses and giant pumpkins was hard to resist • Yayoi Kusama, Japanese artist who became a global superstar, dies aged 97 • A life in pictures I once had an argument about Yayoi Kusama with Peter Gabriel. Not in person – I’ve never met the prog rock hero. But after I recorded some critical comments on her work for the BBC, I watched the segment only to see Gabriel passionately defending her. My onscreen cynicism seemed harsh indeed compared with his soulful appreciation of all those dots. My scepticism about Kusama started the first time I saw her work at the Museum of Modern Art in New York. The context is significant because after a big dose of Jackson Pollock’s looping, tangled forests of colour and line (colour as line), Piet Mondrian’s pulsing Broadway Boogie Woogie and other great abstract art, Kusama’s dots appeared to me static, planned, predictable. I wasn’t excited or moved. Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "8a2101964b8662c4",
+      "title": "Ratko Mladic, former general convicted of Bosnia genocide, dies",
+      "url": "https://www.france24.com/en/video/20260827-ratko-mladic-former-general-convicted-of-bosnia-genocide-dies",
+      "canonicalUrl": "https://www.france24.com/en/video/20260827-ratko-mladic-former-general-convicted-of-bosnia-genocide-dies",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:22:48.000Z",
+      "description": "Ratko ⁠Mladic, convicted of genocide for orchestrating ​the 1995 massacre of at least 8,000 Muslims in a U.N.-designated \"safe area\" of Bosnia, Europe's worst atrocity since World War Two, died on Thursday in U.N. custody. France 24's correspondent in Belgrade, Laurent Rouy, has the latest.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "6c41e91493628b45",
+      "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
+      "url": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T22:03:45.000Z",
+      "description": "OpenAI's cyber agents banded together to perform a hack during a security test.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "d46bcbb02fe522e9",
+      "title": "Linus Torvalds details his 'debug session from hell' pushing an AI to fix an error it repeatedly said was 'impossible and unsolvable'. He then made it write the report",
+      "url": "https://www.pcgamer.com/hardware/linus-torvalds-details-his-debug-session-from-hell-pushing-an-ai-to-fix-an-error-it-repeatedly-said-was-impossible-and-unsolvable-he-then-made-it-write-the-report/",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/linus-torvalds-details-his-debug-session-from-hell-pushing-an-ai-to-fix-an-error-it-repeatedly-said-was-impossible-and-unsolvable-he-then-made-it-write-the-report",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T12:57:00.000Z",
+      "description": "Even with AI, Torvalds seems to want a hands on approach.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "23c868471b111f89",
+      "title": "Foreshock productivity and rupture nucleation in injection-induced earthquakes in western Canada",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed9893?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aed9893?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "description": "Science, Volume 393, Issue 6814, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "earth-science",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "d3fa993757a34c48",
+      "title": "Aid reaches hundreds of thousands in Gaza amid severe food insecurity",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168220",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168220",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "description": "As hunger deepens across Gaza, humanitarian agencies continue to deliver food and other essential supplies to families in need.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "ed02f99a4b555fbd",
+      "title": "Panic passes Trump tariff refunds back to the Playdate customers who paid them",
+      "url": "https://arstechnica.com/gaming/2026/08/panic-refunds-illegal-tariffs-customers-paid-on-its-playdate-gaming-handheld/",
+      "canonicalUrl": "https://arstechnica.com/gaming/2026/08/panic-refunds-illegal-tariffs-customers-paid-on-its-playdate-gaming-handheld",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:53:17.000Z",
+      "description": "\"It just felt like the right thing to do.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "dfd0775a1a74b353",
+      "title": "The history and future of sickle cell disease",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej0154?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aej0154?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:00:13.000Z",
+      "description": "Science, Volume 393, Issue 6814, Page 866-866, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "c20ef9dc03f0129a",
+      "title": "Shock and devastation remain, a day after Himalayan flood disaster",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168213",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168213",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "description": "Amid reports that hundreds of people are still missing in Nepal and China after a floodwater surge slammed into towns and villages on Wednesday, aid teams have been working to reach communities cut off by the disaster.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "2a4d329f484d35f4",
+      "title": "‘I am so tired’: Jillian Edelstein’s devastating portraits of apartheid and more – in pictures",
+      "url": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/jill-edelstein-portrait-apartheid-among-people",
+      "canonicalUrl": "https://www.theguardian.com/artanddesign/gallery/2026/aug/27/jill-edelstein-portrait-apartheid-among-people",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:00:06.000Z",
+      "description": "The South African photographer documented her country’s harrowing Truth and Reconciliation Commission. These pictures form part of a new exhibition – alongside intimate images of actors, artists and friends Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "59c2a49cc127d4ee",
+      "title": "\"All of the industry needs to start to innovate on affordability and efficiency\" - Xbox's Asha Sharma wants change and \"more choice\" for people buying consoles",
+      "url": "https://www.eurogamer.net/xbox-console-affordability-price-asha-sharma",
+      "canonicalUrl": "https://www.eurogamer.net/xbox-console-affordability-price-asha-sharma",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T11:16:24.000Z",
+      "description": "As component prices balloon, the expectation Microsoft will take a different tack with the next generation of consoles has been reinforced by Xbox boss Asha Sharma, who has declared that \"all of the industry needs to start to innovate on affordability and efficiency\". Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "253750ce772cfe48",
+      "title": "‘Robot Olympics’ reveal humanoids' rapid progress — but hurdles remain",
+      "url": "https://www.nature.com/articles/d41586-026-02713-z",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02713-z",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "description": "Nature, Published online: 27 August 2026; doi:10.1038/d41586-026-02713-z Humanoid robots broke records at sporting events such as sprints, but struggled at practical tasks such as hammering nails.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "1e47bc5157fd29f7",
+      "title": "Holy crap, it's happening: Dwarf Fortress gets its first Myth and Magic update later this year, bringing each player's world its own procedural magic system",
+      "url": "https://www.pcgamer.com/games/sim/holy-crap-its-happening-dwarf-fortress-gets-its-first-myth-and-magic-update-later-this-year-bringing-each-players-world-its-own-procedural-magic-system/",
+      "canonicalUrl": "https://www.pcgamer.com/games/sim/holy-crap-its-happening-dwarf-fortress-gets-its-first-myth-and-magic-update-later-this-year-bringing-each-players-world-its-own-procedural-magic-system",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:12:30.000Z",
+      "description": "\"Everything that makes fantasy what it is—with every piece tied into how that particular universe works, down to its bones.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "f74514f876aff637",
+      "title": "GTA 6 leaker escalates spoilers, releases 4 minutes of Lucia's prologue",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-escalates-spoilers-releases-4-minutes-of-lucias-prologue/",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-escalates-spoilers-releases-4-minutes-of-lucias-prologue",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T18:17:59.000Z",
+      "updatedAt": "2026-08-26T21:37:56.000Z",
+      "description": "Cyberleek wants more money.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "d384d0b5fe565ec6",
+      "title": "\"We view AI as a sliding scale. There will always be a human in the loop; that's our ethos\": Why Side has signed an MOU with Modl.ai to use AI for QA",
+      "url": "https://www.gamesindustry.biz/we-view-ai-as-a-sliding-scale-there-will-always-be-a-human-in-the-loop-thats-our-ethos-why-side-has-signed-an-mou-with-modlai-to-use-ai-for-qa",
+      "canonicalUrl": "https://www.gamesindustry.biz/we-view-ai-as-a-sliding-scale-there-will-always-be-a-human-in-the-loop-thats-our-ethos-why-side-has-signed-an-mou-with-modlai-to-use-ai-for-qa",
+      "sourceId": "gamesindustry",
+      "sourceName": "GamesIndustry.biz",
+      "domain": "gamesindustry.biz",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T10:34:25.000Z",
+      "description": "Services provider Side has signed a memorandum of understanding with Danish AI firm Modl.ai. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "1982014a34bb463f",
+      "title": "Moon set to turn red as rare partial lunar eclipse graces UK skies on Friday",
+      "url": "https://www.bbc.co.uk/weather/articles/c5y4n7y89w7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/weather/articles/c5y4n7y89w7o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:03:15.000Z",
+      "description": "The Moon could glow an eerie red in the early hours of Friday but cloud cover may spoil the spectacle for some parts of the UK.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "bb0594497d31f88d",
+      "title": "Rockstar set up a special GTA 6 team in Miami to meet with \"ex-criminals, law enforcement, club promoters, gun dealers and anyone notorious or influential\"",
+      "url": "https://www.eurogamer.net/gta-6-rockstar-miami-research-team-ex-criminals-gun-dealers",
+      "canonicalUrl": "https://www.eurogamer.net/gta-6-rockstar-miami-research-team-ex-criminals-gun-dealers",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T09:37:16.000Z",
+      "description": "Rockstar went to some great lengths for its Grand Theft Auto 6 research, it seems, as the studio has said it sent multiple teams of developers to Miami as well as embedding a team there longer-term for research. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "7315752f936bd7d3",
+      "title": "What's the best starting class in Star Wars Zero Company?",
+      "url": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-best-class-specialization/",
+      "canonicalUrl": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-best-class-specialization",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:00:00.000Z",
+      "description": "Pick a decent specialization to begin with.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "ae17b3483ca1b6ff",
+      "title": "A plea for public health support for war-torn El Obeid, Sudan",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej9417?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aej9417?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:00:13.000Z",
+      "description": "Science, Volume 393, Issue 6814, Page 868-868, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "452c93827e095c94",
+      "title": "What caused the Nepal-Tibet flash floods?",
+      "url": "https://www.bbc.co.uk/news/videos/ckgxnrg8j19o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/videos/ckgxnrg8j19o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T10:17:45.000Z",
+      "description": "At least 270 people have died in the massive flash floods, while more than 800 others are missing.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "5b1edf2726f0d955",
+      "title": "Creamfields 2026 festival guide: Everything you need to know",
+      "url": "https://www.bbc.co.uk/news/articles/cn07eqkr748o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cn07eqkr748o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T05:27:49.000Z",
+      "description": "The annual four-day dance music festival celebrates its 20th year at Daresbury in Cheshire.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 76
+    },
+    {
+      "id": "68aca03759203322",
+      "title": "\"The things that we based our assumptions on have changed fundamentally\": Arrowhead CEO Shams Jorjani on the games industry's rapid transformation",
+      "url": "https://www.gamesindustry.biz/the-things-that-we-based-our-assumptions-on-have-changed-fundamentally-arrowhead-ceo-shams-jorjani-on-the-games-industrys-rapid-transformation",
+      "canonicalUrl": "https://www.gamesindustry.biz/the-things-that-we-based-our-assumptions-on-have-changed-fundamentally-arrowhead-ceo-shams-jorjani-on-the-games-industrys-rapid-transformation",
+      "sourceId": "gamesindustry",
+      "sourceName": "GamesIndustry.biz",
+      "domain": "gamesindustry.biz",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T11:10:08.000Z",
+      "description": "The CEO of Helldivers 2 maker Arrowhead Game Studios, Shams Jorjani, has said that the games industry is in a \"transitional phase at the moment\". Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "game-development",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "3c6d7bd9a893236b",
+      "title": "Saber exec: The game industry must look beyond North America and dilute risk",
+      "url": "https://www.gamedeveloper.com/business/saber-exec-the-game-industry-must-look-beyond-north-america-and-dilute-risk",
+      "canonicalUrl": "https://www.gamedeveloper.com/business/saber-exec-the-game-industry-must-look-beyond-north-america-and-dilute-risk",
+      "sourceId": "game-developer",
+      "sourceName": "Game Developer",
+      "domain": "gamedeveloper.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:00:00.000Z",
+      "description": "Saber chief creative officer Tim Willits said studios need to find 'reliable' income to support their big swings.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "d985d6cb66f34dc2",
+      "title": "OpenAI releases its official report on the Hugging Face breach",
+      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T19:05:22.000Z",
+      "description": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "fa969e28eb4b6512",
+      "title": "India’s data center boom is leaving the people it displaces with nothing",
+      "url": "https://restofworld.org/2026/india-data-center-boom-local-community-impact-osama-manzar/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "canonicalUrl": "https://restofworld.org/2026/india-data-center-boom-local-community-impact-osama-manzar",
+      "sourceId": "rest-of-world",
+      "sourceName": "Rest of World",
+      "domain": "restofworld.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T10:00:00.000Z",
+      "description": "Communities are being left behind as AI companies secure tax breaks, cheap land from willing governments.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "db88b407fc53722b",
+      "title": "Orbital alchemy",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael8347?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.ael8347?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:00:13.000Z",
+      "description": "Science, Volume 393, Issue 6814, Page 854-858, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "bc60ca9502de3803",
+      "title": "Met Police defends drill rap use in court trials",
+      "url": "https://www.bbc.co.uk/news/articles/c62egy4e2l7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c62egy4e2l7o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T08:11:16.000Z",
+      "description": "Drill rap lyrics have been used as evidence in recent London murder trials to help secure convictions.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "7d3dfaa3cbce9ada",
+      "title": "How to respec your class and abilities in Star Wars Zero Company",
+      "url": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-respec-change-class/",
+      "canonicalUrl": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-respec-change-class",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:00:00.000Z",
+      "description": "Tweak your chosen specialization and skills.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "5f9775e5301a6bb0",
+      "title": "Deadly tick-borne virus gains ground in Europe",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael8352?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.ael8352?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:00:13.000Z",
+      "description": "Science, Volume 393, Issue 6814, Page 848-849, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "33e2748f6491afc5",
+      "title": "Is Slate Auto&#8217;s new electric truck the EV Americans need?",
+      "url": "https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "domain": "technologyreview.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T10:00:00.000Z",
+      "description": "EVs account for under 10% of total new-vehicle sales in the US, and the numbers are declining. From a climate perspective, that’s pretty dismal, especially because the transportation sector is the single biggest source of greenhouse-gas emissions in the country.&#160; One thing that could help turn that around? Slate Auto’s new truck—a vehicle that seems&#8230;",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "af3d2c758571fc94",
+      "title": "Busy Philipps reveals brain tumour diagnosis: ‘I’m grateful to be alive’",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/aug/27/busy-philipps-reveals-brain-tumour-diagnosis-im-grateful-to-be-alive",
+      "canonicalUrl": "https://www.theguardian.com/tv-and-radio/2026/aug/27/busy-philipps-reveals-brain-tumour-diagnosis-im-grateful-to-be-alive",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T01:09:43.000Z",
+      "description": "Actor says she had the ‘weirdest six months of my life’, after being diagnosed days after her Dawson’s Creek co-star James Van Der Beek died of cancer Busy Philipps has revealed she had a brain tumour removed, which was diagnosed shortly after her Dawson’s Creek co-star James Van Der Beek died from bowel cancer. The 47-year-old, born Elizabeth Philipps, starred in the hit US teen drama as Audrey Liddell opposite Van Der Beek, who died in February aged 48 after being diagnosed with bowel cancer. Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 73
+    },
+    {
+      "id": "61524c00abf922d2",
+      "title": "Xbox announces disc-to-digital feature that lets you digitise physical Xbox One and Series X games",
+      "url": "https://www.eurogamer.net/xbox-disc-to-digital-one-series-x-details",
+      "canonicalUrl": "https://www.eurogamer.net/xbox-disc-to-digital-one-series-x-details",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T10:03:57.000Z",
+      "description": "UPDATE 11.25AM BST : Xbox CEO Asha Sharma shed a little more light on the feature in a BBC interview. The gaming chief said 1,000 titles will be initially supported across Xbox One and Series X. The interview also clarified the point about transfer of the digital license, confirming it does indeed move with the disc, allowing the next owner to take advantage of the same disc-to-digital feature. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "b09e3b0776902d50",
+      "title": "Jellyfish force partial shutdown of French nuclear plant",
+      "url": "https://www.bbc.co.uk/news/articles/cy8znx3g4e2o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cy8znx3g4e2o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:49:23.000Z",
+      "description": "It is the second consecutive year that jellyfish has forced the closure of the Gravelines power station in northern France.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "86ab8fe0aa677d1f",
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "domain": "technologyreview.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T19:00:00.000Z",
+      "description": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’&#8230;",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "e818ee46b60ec573",
+      "title": "‘We’re at a crisis point’: Chappell Roan, Shirley Manson and Eli on playing Olivia Rodrigo’s women-led festival",
+      "url": "https://www.theguardian.com/music/2026/aug/27/olivia-rodrigo-daisy-chain-fields-preview-chappell-roan-interview-eli-shirley-manson",
+      "canonicalUrl": "https://www.theguardian.com/music/2026/aug/27/olivia-rodrigo-daisy-chain-fields-preview-chappell-roan-interview-eli-shirley-manson",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T09:00:10.000Z",
+      "description": "Ahead of playing Rodrigo’s Daisy Chain Fields, artists explain why female-first festivals are due for a resurgence When I first saw the poster for Olivia Rodrigo ’s inaugural Daisy Chain Fields festival in June, I assumed it was AI. Chappell Roan, Doechii, Mitski, the Breeders, Bikini Kill and Garbage, all arranged in a neat line – and this was before I got to the words “special guests”. Karen O, Sarah McLachlan. And, to top it all off, Stevie Nicks? No. I saw the post confirmed on Rodrigo’s Instagram, and thought: how? Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "57d19a5643ad120f",
+      "title": "NASA’s Roman telescope readies a sweeping view of the universe",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael8353?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.ael8353?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:00:13.000Z",
+      "description": "Science, Volume 393, Issue 6814, Page 849-850, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "f1301d54bab8af79",
+      "title": "Deep-sea mining outpaces both science and law",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aek5038?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aek5038?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:00:13.000Z",
+      "description": "Science, Volume 393, Issue 6814, Page 867-867, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "8e3211973e1cb58c",
+      "title": "The best talents for each specialization in Star Wars Zero Company",
+      "url": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-best-talents/",
+      "canonicalUrl": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-best-talents",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:00:00.000Z",
+      "updatedAt": "2026-08-27T14:03:02.000Z",
+      "description": "Pick the perfect talent to go with each class.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "7c9a5f320089aea8",
+      "title": "New chief of child health institute has MAHA ties",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael8354?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.ael8354?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:00:13.000Z",
+      "description": "Science, Volume 393, Issue 6814, Page 851-851, August 2026.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "92cff34cbd20bb21",
+      "title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
+      "url": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T09:50:10.000Z",
+      "description": "Preliminary investigations by scientists have pointed to a collapsed glacier as the cause, highlighting the issue of rapidly melting Himalayan ice.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "3009437ddf51ed34",
+      "title": "Susan Sarandon leads tributes to Rocky Horror Picture Show co-star Tim Curry",
+      "url": "https://www.bbc.co.uk/news/articles/clyj56zjdxpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/clyj56zjdxpo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T00:32:27.000Z",
+      "description": "Stars of stage and screen grieve the cult British actor, who has died aged 80.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "f20301b15b9ac753",
+      "title": "Trainwatch – alone with your thoughts on a railway line to nowhere",
+      "url": "https://www.theguardian.com/games/2026/aug/27/trainwatch-alone-with-your-thoughts-on-a-railway-line-to-nowhere",
+      "canonicalUrl": "https://www.theguardian.com/games/2026/aug/27/trainwatch-alone-with-your-thoughts-on-a-railway-line-to-nowhere",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T09:00:10.000Z",
+      "description": "The flat routines of a dead end railway job screen out an approaching menace in a quietly intriguing game from the indie developer of Cat Lady and Lorelai Lonely jobs have provided excellent material for independent video games over the years. From Papers, Please to Firewatch to The Stanley Parable , players have been happy to spend hours dwelling in depressing cubicles or rural hideaways, usually because there is an intriguingly hidden point to it all. In Trainwatch, a character named Troy has taken a seemingly godforsaken job as a railway worker in an unnamed desolate backwater. His main task over the course of a single month is to manage a level crossing, closing the gate whenever a train comes, while also carrying out daily chores such as cooking and washing. It sounds serene, but Troy is also running away from something. The other stipulations are that he stays sober and calls his wife every night. And there is something lurking in the fog at the edges of the fields – one day he must face it. Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-industry",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "88953ef0f07b563a",
+      "title": "Traders brought Central American cacao to Georgia 1,000 years ago",
+      "url": "https://arstechnica.com/science/2026/08/traders-brought-central-american-cacao-to-georgia-1000-years-ago/",
+      "canonicalUrl": "https://arstechnica.com/science/2026/08/traders-brought-central-american-cacao-to-georgia-1000-years-ago",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T14:22:42.000Z",
+      "description": "\"We built this city on good cacao\" does have a nice ring to it.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "f102e443156ffdb4",
+      "title": "Nvidia closes in on Hugging Face acquisition",
+      "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T06:32:51.000Z",
+      "description": "Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "4b95772af9af07f5",
+      "title": "How can you see Friday's 'Magical' Blood Moon?",
+      "url": "https://www.bbc.co.uk/news/articles/crerdrlepg8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/crerdrlepg8o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T05:23:21.000Z",
+      "description": "A blood red moon may be visible in the early hours of Friday during a partial lunar eclipse.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 76
+    },
+    {
+      "id": "9b3e1f078d219027",
+      "title": "Meta to pay up to $18bn to settle claims its platforms harm children",
+      "url": "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-26T21:27:23.000Z",
+      "description": "The deal has been reached during a California federal court trial over claims brought by US states.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "f59359d2784448b7",
+      "title": "Ghana bars export of unrefined gold",
+      "url": "https://www.france24.com/en/video/20260827-ghana-bars-export-of-unrefined-gold",
+      "canonicalUrl": "https://www.france24.com/en/video/20260827-ghana-bars-export-of-unrefined-gold",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T13:43:37.000Z",
+      "description": "Ghana has announced a ban on the exporting of unrefined gold from the country. Africa’s leading gold producer wants to move beyond the role of a supplier of raw minerals and enable the country to capture greater economic value from its gold resources. Our correspondent, Justice Baidoo, has more.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 83
+    }
+  ],
+  "sourceResults": [
+    {
+      "sourceId": "abc-au",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "al-jazeera",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "ap",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "ars-technica",
+      "status": "ok",
+      "count": 13
+    },
+    {
+      "sourceId": "bbc",
+      "status": "ok",
+      "count": 36
+    },
+    {
+      "sourceId": "billboard",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "bloomberg",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "cbc",
+      "status": "failed",
+      "count": 0,
+      "error": "https://www.cbc.ca/cmlink/rss-world: The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "cna",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "deadline",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "dw",
+      "status": "ok",
+      "count": 14
+    },
+    {
+      "sourceId": "esa",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "sourceId": "eu-commission",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "eurogamer",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "sourceId": "france24",
+      "status": "ok",
+      "count": 13
+    },
+    {
+      "sourceId": "ft",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "game-developer",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "sourceId": "gamesindustry",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "sourceId": "hollywood-reporter",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "ieee-spectrum",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "ign",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "imf",
+      "status": "failed",
+      "count": 0,
+      "error": "https://www.imf.org/en/News/RSS?Language=ENG: 403 Forbidden"
+    },
+    {
+      "sourceId": "mit-technology-review",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "sourceId": "nasa",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "sourceId": "nature",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "sourceId": "nhk",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "oecd",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "pc-gamer",
+      "status": "ok",
+      "count": 32
+    },
+    {
+      "sourceId": "polygon",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "rest-of-world",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "sourceId": "reuters",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "science",
+      "status": "ok",
+      "count": 39
+    },
+    {
+      "sourceId": "tass",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "techcrunch",
+      "status": "ok",
+      "count": 12
+    },
+    {
+      "sourceId": "the-guardian",
+      "status": "ok",
+      "count": 12
+    },
+    {
+      "sourceId": "the-verge",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "sourceId": "un-news",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "sourceId": "us-sec",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "variety",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "who",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "world-bank",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "xinhua",
+      "status": "no-feed",
+      "count": 0
+    }
+  ],
+  "notes": []
+}
