@@ -1,0 +1,1180 @@
+{
+  "schemaVersion": 3,
+  "siteName": "昨日世界 / World Yesterday",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-28T10:15:06.640+08:00",
+  "timezone": "Asia/Shanghai",
+  "status": "partial",
+  "items": [
+    {
+      "id": "nepal-tibet-flash-flood-rescue-crisis",
+      "category": "climate",
+      "rank": 1,
+      "titles": {
+        "zh": "尼泊尔与西藏山洪造成大规模失联，救援受恶劣条件阻碍",
+        "en": "Nepal-Tibet Floods Leave Hundreds Missing as Rescuers Face Severe Obstacles"
+      },
+      "originalTitle": "'Extremely challenging' conditions hamper Nepal-Tibet flood rescue efforts",
+      "summaries": {
+        "zh": "尼泊尔和西藏遭遇灾难性山洪，数百人仍下落不明，多国公民与朝圣者受困。山区天气、地形和基础设施不足严重阻碍搜救与灾区联络。",
+        "en": "Catastrophic flash floods across Nepal and Tibet left hundreds of people unaccounted for, including foreign visitors and pilgrims. Reports described communities cut off from Kathmandu, hospitals receiving victims and international teams searching for survivors. Mountain weather, difficult terrain and limited infrastructure were substantially hampering rescue operations, while officials acknowledged inadequate readiness for a disaster of this scale."
+      },
+      "whyItMatters": {
+        "zh": "大范围失联与救援受阻表明喜马拉雅地区的灾害预警、交通和跨境应急能力承受严峻考验。",
+        "en": "The scale of missing persons and disrupted access exposes serious weaknesses in Himalayan warning systems, transport links and cross-border disaster response."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260827-extremely-challenging-conditions-hamper-nepal-tibet-flood-rescue-efforts",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T22:57:30+08:00"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cn5dzldq1pzo?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T20:26:12+08:00"
+        },
+        {
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/nepal-flooding-we-are-disconnected-from-kathmandu/a-78536034?maca=en-rss-en-top-1022-rdf",
+          "domain": "dw.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:15:00+08:00"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/27/al-jazeera-reports-from-hospital-in-flood-hit-nepal?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T20:05:00+08:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-27T20:05:00+08:00",
+      "updatedAt": "2026-08-27T23:15:00+08:00",
+      "regions": [
+        "Nepal",
+        "China",
+        "Tibet",
+        "South Asia"
+      ],
+      "topic": "climate-environment",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 83,
+        "consequenceSeverity": 92,
+        "systemicSignificance": 75,
+        "independentCoverage": 94,
+        "yesterdayNovelty": 91
+      },
+      "impactScore": 86
+    },
+    {
+      "id": "drc-ebola-outbreak-urgent-action",
+      "category": "health",
+      "rank": 2,
+      "titles": {
+        "zh": "刚果（金）埃博拉病例继续上升，联合国呼吁紧急行动",
+        "en": "UN Calls for Urgent Action as Ebola Cases Rise in DR Congo"
+      },
+      "originalTitle": "UN chief condemns “indifference” as Ebola cases mount in DR Congo",
+      "summaries": {
+        "zh": "联合国秘书长警告，刚果（金）的本迪布焦型埃博拉疫情正在惊人扩散，亟须资金和行动。法国二十四台同时报道，当地传播仍活跃，而乌干达疫情已经结束。",
+        "en": "The UN Secretary-General called for urgent action and funding as the Bundibugyo Ebola outbreak continued spreading in the Democratic Republic of the Congo. France 24 separately reported that transmission remained active there even as the neighboring Ugandan outbreak was declared over. The snapshot’s figures come from the Congolese government and should be read as reported totals."
+      },
+      "whyItMatters": {
+        "zh": "持续传播可能造成更多死亡并跨境扩散，而资金不足会直接削弱监测、隔离和治疗能力。",
+        "en": "Continued transmission threatens further deaths and cross-border spread, while insufficient funding directly weakens surveillance, isolation and treatment."
+      },
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/feed/view/en/story/2026/08/1168217",
+          "domain": "news.un.org",
+          "type": "primary",
+          "language": "en",
+          "publishedAt": "2026-08-27T20:00:00+08:00"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260827-ebola-outbreak-over-in-uganda-but-cases-still-rising-in-dr-congo",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T19:29:48+08:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-27T19:29:48+08:00",
+      "updatedAt": "2026-08-27T20:00:00+08:00",
+      "regions": [
+        "Democratic Republic of the Congo",
+        "Uganda",
+        "Africa"
+      ],
+      "topic": "health-medicine",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 78,
+        "consequenceSeverity": 93,
+        "systemicSignificance": 87,
+        "independentCoverage": 70,
+        "yesterdayNovelty": 84
+      },
+      "impactScore": 83
+    },
+    {
+      "id": "ratko-mladic-dies-in-un-custody",
+      "category": "world",
+      "rank": 3,
+      "titles": {
+        "zh": "波黑战争罪犯拉特科·姆拉迪奇在联合国羁押期间死亡",
+        "en": "Bosnia War Criminal Ratko Mladic Dies in UN Custody"
+      },
+      "originalTitle": "Ratko Mladic, former general convicted of Bosnia genocide, dies",
+      "summaries": {
+        "zh": "因斯雷布雷尼察种族灭绝等罪行被判终身监禁的波黑塞族前将领拉特科·姆拉迪奇，八十四岁时在荷兰一所联合国监狱医院死亡。",
+        "en": "Ratko Mladic, the former Bosnian Serb general serving a life sentence for genocide and other crimes committed during the 1992–95 Bosnian war, died aged 84 in a United Nations prison hospital in the Netherlands. Three independent publishers reported the death, citing confirmation from the UN tribunal in The Hague."
+      },
+      "whyItMatters": {
+        "zh": "他的死亡结束了波黑战争核心被告之一的服刑历程，也再次牵动受害者、司法与历史记忆。",
+        "en": "His death closes the prison chapter for one of the Bosnian war’s central defendants while renewing questions of justice, victims and historical memory."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260827-ratko-mladic-former-general-convicted-of-bosnia-genocide-dies",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:22:48+08:00"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/27/bosnian-serb-general-ratko-mladic-has-died-un-official-says?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T21:02:53+08:00"
+        },
+        {
+          "name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-27/ratko-mladic-dies/107087374",
+          "domain": "abc.net.au",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T21:25:01+08:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-27T21:02:53+08:00",
+      "updatedAt": "2026-08-27T23:22:48+08:00",
+      "regions": [
+        "Bosnia and Herzegovina",
+        "Netherlands",
+        "Europe"
+      ],
+      "topic": "conflict-security",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 70,
+        "consequenceSeverity": 76,
+        "systemicSignificance": 79,
+        "independentCoverage": 90,
+        "yesterdayNovelty": 94
+      },
+      "impactScore": 79
+    },
+    {
+      "id": "uefa-prepares-infantino-criminal-complaint",
+      "category": "culture-sports",
+      "rank": 4,
+      "titles": {
+        "zh": "欧足联拟就世界杯权益出售计划起诉国际足联主席因凡蒂诺",
+        "en": "UEFA Prepares Criminal Complaint Against FIFA President Infantino"
+      },
+      "originalTitle": "UEFA asks US court for FIFA documents for criminal case against Infantino",
+      "summaries": {
+        "zh": "欧足联正准备针对国际足联主席詹尼·因凡蒂诺提出刑事控告，并向美国法院寻求相关文件。争议涉及一项未成功的世界杯权益出售计划。",
+        "en": "UEFA is preparing a criminal complaint against FIFA president Gianni Infantino over a failed plan to sell a stake connected to the World Cup, according to two independent reports. European football’s governing body has also asked a US court for FIFA documents relevant to the prospective case. No court finding or criminal liability has yet been established."
+      },
+      "whyItMatters": {
+        "zh": "争端可能触及世界杯商业权益的治理与问责，并加剧全球足球两大管理机构之间的冲突。",
+        "en": "The dispute could reshape accountability for World Cup commercial rights and deepen conflict between football’s most powerful governing institutions."
+      },
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/8/27/uefa-asks-us-court-for-fifa-documents-for-criminal-case-against-infantino?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:32:52+08:00"
+        },
+        {
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/uefa-to-bring-criminal-complaint-against-infantino/a-78536435?maca=en-rss-en-top-1022-rdf",
+          "domain": "dw.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:26:00+08:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-27T23:26:00+08:00",
+      "updatedAt": "2026-08-27T23:32:52+08:00",
+      "regions": [
+        "Europe",
+        "United States",
+        "Global"
+      ],
+      "topic": "culture-sports",
+      "subjectOrganization": {
+        "id": "uefa",
+        "name": "UEFA"
+      },
+      "importanceFactors": {
+        "impactBreadth": 72,
+        "consequenceSeverity": 68,
+        "systemicSignificance": 81,
+        "independentCoverage": 77,
+        "yesterdayNovelty": 90
+      },
+      "impactScore": 75
+    },
+    {
+      "id": "peter-cullen-dies-at-85",
+      "category": "entertainment",
+      "rank": 5,
+      "titles": {
+        "zh": "“擎天柱”配音演员彼得·卡伦去世，享年85岁",
+        "en": "Peter Cullen, Voice of Optimus Prime, Dies at 85"
+      },
+      "originalTitle": "Peter Cullen, Optimus Prime in Transformers, Dies at 85",
+      "summaries": {
+        "zh": "加拿大配音演员彼得·卡伦去世，享年八十五岁。他因长期为《变形金刚》擎天柱配音而闻名，也曾饰演屹耳，并为《金刚》和“铁血战士”等角色创作声音。",
+        "en": "Canadian actor Peter Cullen, best known as the defining voice of Optimus Prime in the Transformers franchise, died at 85. Independent reports also noted his portrayal of Eeyore and his sound work associated with characters including King Kong and the Predator. His theater-trained voice became one of animation and franchise entertainment’s most recognizable performances."
+      },
+      "whyItMatters": {
+        "zh": "卡伦塑造了跨越数十年的标志性角色声音，其离世影响动画、电影和游戏领域的多代观众。",
+        "en": "Cullen created a character voice recognized across generations, giving his death significance throughout animation, film and games culture."
+      },
+      "sources": [
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/peter-cullen-optimus-prime-in-transformers-dies-at-85",
+          "domain": "ign.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:01:30+08:00"
+        },
+        {
+          "name": "The Hollywood Reporter",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/peter-cullen-optimus-prime-transformers-eeyore-1236683075",
+          "domain": "hollywoodreporter.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T22:16:47+08:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-27T22:16:47+08:00",
+      "updatedAt": "2026-08-27T23:01:30+08:00",
+      "regions": [
+        "Canada",
+        "United States",
+        "Global"
+      ],
+      "topic": "film-television",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 61,
+        "consequenceSeverity": 51,
+        "systemicSignificance": 38,
+        "independentCoverage": 76,
+        "yesterdayNovelty": 95
+      },
+      "impactScore": 60
+    },
+    {
+      "id": "hugging-face-launches-microduck-robot",
+      "category": "technology",
+      "rank": 6,
+      "titles": {
+        "zh": "Hugging Face推出售价399美元的开源Microduck机器人",
+        "en": "Hugging Face Launches $399 Open-Source Microduck Robot"
+      },
+      "originalTitle": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+      "summaries": {
+        "zh": "Hugging Face旗下Pollen Robotics推出双足机器人Microduck，开放预订价为399美元，计划在2026年圣诞节前发货，并支持通过强化学习教授新动作。",
+        "en": "Hugging Face’s Pollen Robotics launched Microduck, an open-source, one-eyed bipedal robot priced at $399. The machine stands just under ten inches tall, is available for preorder in several colors and is scheduled to ship before Christmas 2026. The company presents it as a programmable platform that users can teach new behaviors through reinforcement learning."
+      },
+      "whyItMatters": {
+        "zh": "较低价格与开放设计可能扩大具身机器人实验的参与面，让教学和开发者原型更易获得。",
+        "en": "Its relatively low price and open design could make embodied-robotics experiments more accessible to educators and independent developers."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck",
+          "domain": "techcrunch.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T22:56:52+08:00"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
+          "domain": "theverge.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T21:44:00+08:00",
+          "updatedAt": "2026-08-27T21:44:00+08:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-27T21:44:00+08:00",
+      "updatedAt": "2026-08-27T22:56:52+08:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "digital-infrastructure",
+      "subjectOrganization": {
+        "id": "hugging-face",
+        "name": "Hugging Face"
+      },
+      "importanceFactors": {
+        "impactBreadth": 48,
+        "consequenceSeverity": 35,
+        "systemicSignificance": 57,
+        "independentCoverage": 72,
+        "yesterdayNovelty": 94
+      },
+      "impactScore": 55
+    },
+    {
+      "id": "nasa-astronaut-jonny-kim-departs",
+      "category": "science",
+      "rank": 7,
+      "titles": {
+        "zh": "宇航员乔尼·金离开NASA，将继续在美国海军服役",
+        "en": "Astronaut Jonny Kim Leaves NASA to Continue US Navy Service"
+      },
+      "originalTitle": "NASA Astronaut Jonny Kim Departs Agency to Continue Military Service",
+      "summaries": {
+        "zh": "美国航天局宣布，宇航员乔尼·金在该机构工作近十年后离职，继续以海军少校身份服役。他曾于2025年搭乘联盟MS-27飞船前往国际空间站执行八个月任务。",
+        "en": "NASA announced that astronaut Jonny Kim was leaving the agency after nearly a decade to continue serving as a lieutenant commander in the US Navy. Kim previously launched aboard Soyuz MS-27 in April 2025 and completed an eight-month science expedition on the International Space Station. His final day at NASA was August 27."
+      },
+      "whyItMatters": {
+        "zh": "这次离职减少了一名已有长期空间站任务经验的现役宇航员，但不代表NASA项目方向发生变化。",
+        "en": "The departure removes an astronaut with long-duration station experience from NASA’s active ranks, though it does not itself signal a program change."
+      },
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/news-release/nasa-astronaut-jonny-kim-departs-agency-to-continue-military-service",
+          "domain": "nasa.gov",
+          "type": "primary",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:10:24+08:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "eventAt": "2026-08-27T00:00:00+08:00",
+      "publishedAt": "2026-08-27T23:10:24+08:00",
+      "updatedAt": "2026-08-27T23:10:24+08:00",
+      "regions": [
+        "United States",
+        "International Space Station"
+      ],
+      "topic": "aerospace",
+      "subjectOrganization": {
+        "id": "nasa",
+        "name": "NASA"
+      },
+      "importanceFactors": {
+        "impactBreadth": 32,
+        "consequenceSeverity": 30,
+        "systemicSignificance": 35,
+        "independentCoverage": 18,
+        "yesterdayNovelty": 88
+      },
+      "impactScore": 36
+    },
+    {
+      "id": "android-app-memory-limits-ai-shortage",
+      "category": "ai",
+      "rank": 8,
+      "titles": {
+        "zh": "AI数据中心加剧内存供应压力，Android将收紧应用内存限制",
+        "en": "Android Tightens App Memory Limits Amid AI-Driven Hardware Pressure"
+      },
+      "originalTitle": "AI’s memory crunch is coming for Android apps",
+      "summaries": {
+        "zh": "TechCrunch报道，谷歌正为Android应用设定新的内存使用限制。报道认为，AI数据中心对硬件的旺盛需求正在加剧供应紧张，低价手机可能因此配备更少内存。",
+        "en": "Google is setting new memory-use limits for Android applications, TechCrunch reported. The change comes as demand from AI data centers contributes to hardware shortages that may leave lower-cost phones with less memory. If implemented broadly, developers would need to make apps operate within tighter constraints, linking infrastructure demand for AI directly to consumer-device performance and software design."
+      },
+      "whyItMatters": {
+        "zh": "数据中心争夺内存等硬件资源，可能把AI扩张的成本传导给手机制造商、开发者和低价设备用户。",
+        "en": "Competition for memory hardware could pass part of AI infrastructure’s cost to phone makers, app developers and budget-device users."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps",
+          "domain": "techcrunch.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T22:27:04+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照中只有TechCrunch一家具独立发布者集团的报道；缺少谷歌或Android官方材料及另一家白名单媒体的独立确认。",
+        "en": "The snapshot contains only TechCrunch’s report from one publisher group; it lacks Google or Android primary documentation and confirmation from a second allowlisted publisher."
+      },
+      "publishedAt": "2026-08-27T22:27:04+08:00",
+      "updatedAt": "2026-08-27T22:27:04+08:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "artificial-intelligence",
+      "subjectOrganization": {
+        "id": "google",
+        "name": "Google"
+      },
+      "importanceFactors": {
+        "impactBreadth": 76,
+        "consequenceSeverity": 56,
+        "systemicSignificance": 68,
+        "independentCoverage": 22,
+        "yesterdayNovelty": 84
+      },
+      "impactScore": 62
+    },
+    {
+      "id": "zambia-opposition-leaders-police-custody",
+      "category": "society",
+      "rank": 9,
+      "titles": {
+        "zh": "赞比亚反对派领导人及竞选搭档被警方羁押问话",
+        "en": "Zambian Opposition Leader and Running Mate Taken into Police Custody"
+      },
+      "originalTitle": "Zambian opposition leader in police custody: state media",
+      "summaries": {
+        "zh": "德国之声援引赞比亚国家广播机构称，拟挑战本月总统选举结果的反对派人士布赖恩·蒙杜比莱及其竞选搭档已向警方自首，目前正接受问话。",
+        "en": "Zambian opposition figure Brian Mundubile and his running mate surrendered to police and were being interviewed, Deutsche Welle reported, citing the country’s national broadcaster. Mundubile had sought to challenge the results of the month’s presidential election. The snapshot gives no police statement, legal allegations or independent account of the circumstances surrounding their custody."
+      },
+      "whyItMatters": {
+        "zh": "在选举争议背景下羁押主要反对派人物，可能影响司法挑战、政治竞争及公众对程序公正的信任。",
+        "en": "Custody of opposition figures during an election dispute could affect legal challenges, political competition and confidence in procedural fairness."
+      },
+      "sources": [
+        {
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/zambian-opposition-leader-in-police-custody-state-media/a-78531338?maca=en-rss-en-top-1022-rdf",
+          "domain": "dw.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:53:00+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "德国之声的单一报道依赖赞比亚国家广播机构；快照缺少警方、反对派或第二家白名单独立媒体的直接确认。",
+        "en": "Deutsche Welle’s single report relies on Zambia’s state broadcaster; the snapshot lacks direct confirmation from police, the opposition or a second allowlisted independent publisher."
+      },
+      "publishedAt": "2026-08-27T23:53:00+08:00",
+      "updatedAt": "2026-08-27T23:53:00+08:00",
+      "regions": [
+        "Zambia",
+        "Africa"
+      ],
+      "topic": "public-policy",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 58,
+        "consequenceSeverity": 70,
+        "systemicSignificance": 72,
+        "independentCoverage": 17,
+        "yesterdayNovelty": 87
+      },
+      "impactScore": 61
+    },
+    {
+      "id": "ai-water-use-location-cooling",
+      "category": "ai",
+      "rank": 10,
+      "titles": {
+        "zh": "AI用水影响因数据中心选址与冷却技术而显著不同",
+        "en": "AI’s Water Impact Varies Sharply by Location and Cooling Technology"
+      },
+      "originalTitle": "How much of a problem is AI’s water use?",
+      "summaries": {
+        "zh": "Ars Technica报道称，AI系统的用水足迹正在增长，但实际环境压力并非由算力规模单独决定，数据中心所在地的水资源状况以及采用的冷却技术都会显著改变结果。",
+        "en": "AI’s water footprint is growing, but its practical environmental impact depends heavily on where data centers operate and which cooling systems they use, Ars Technica reported. The assessment cautions against treating every unit of computing demand as environmentally equivalent. Local water scarcity and infrastructure choices can make otherwise similar AI workloads produce substantially different consequences."
+      },
+      "whyItMatters": {
+        "zh": "监管者和运营商若只统计总用水量，可能忽视缺水地区的集中风险以及冷却方案可带来的减排空间。",
+        "en": "Policy based only on aggregate water use may miss concentrated risks in water-stressed regions and the gains available from better cooling choices."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/08/how-much-of-a-problem-is-ais-water-use",
+          "domain": "arstechnica.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T21:57:08+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照仅收录Ars Technica一家具独立发布者集团的分析，缺少其底层研究或数据来源及第二家白名单媒体的确认。",
+        "en": "The snapshot provides only Ars Technica’s analysis from one publisher group; the underlying study or dataset and confirmation from a second allowlisted publisher are absent."
+      },
+      "publishedAt": "2026-08-27T21:57:08+08:00",
+      "updatedAt": "2026-08-27T21:57:08+08:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "artificial-intelligence",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 72,
+        "consequenceSeverity": 65,
+        "systemicSignificance": 71,
+        "independentCoverage": 19,
+        "yesterdayNovelty": 55
+      },
+      "impactScore": 60
+    },
+    {
+      "id": "unsafe-ebike-battery-repairs-fires",
+      "category": "technology",
+      "rank": 11,
+      "titles": {
+        "zh": "澳大利亚调查称非正规电动自行车电池维修引发致命火灾",
+        "en": "Australian Inquest Links Informal E-Bike Battery Repairs to Deadly Fires"
+      },
+      "originalTitle": "'Backyard' e-bike battery repairs starting deadly fires, inquest told",
+      "summaries": {
+        "zh": "澳大利亚一项死因调查获悉，自行改装及依据网络视频进行的锂离子电池维修与多起火灾有关，其中一些造成死亡。现有快照未说明涉案数量或拟议监管措施。",
+        "en": "An Australian inquest was told that do-it-yourself and online-video-inspired modifications and repairs to lithium-ion e-bike batteries had caused fires, some fatal. The report points to risks from informal repair practices rather than ordinary certified servicing. The supplied evidence does not specify the number of incidents, the expert evidence presented or any regulatory response under consideration."
+      },
+      "whyItMatters": {
+        "zh": "非正规维修会把高能量电池缺陷带入住宅环境，可能推动维修认证、产品追踪与消防规则收紧。",
+        "en": "Unsafe repairs bring high-energy battery failures into homes and may prompt tighter certification, product-tracing and fire-safety rules."
+      },
+      "sources": [
+        {
+          "name": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-08-27/lithium-ion-battery-inquest-told-about-backyard-repairers/107084326",
+          "domain": "abc.net.au",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T13:31:21+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照中仅有ABC澳大利亚一家发布者集团的报道，缺少调查庭记录、消防机构材料或第二家白名单媒体的确认。",
+        "en": "The snapshot contains only ABC Australia’s report from one publisher group; it lacks the inquest record, fire-authority material or confirmation from a second allowlisted publisher."
+      },
+      "publishedAt": "2026-08-27T13:31:21+08:00",
+      "updatedAt": "2026-08-27T13:31:21+08:00",
+      "regions": [
+        "Australia"
+      ],
+      "topic": "energy-materials",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 62,
+        "consequenceSeverity": 75,
+        "systemicSignificance": 61,
+        "independentCoverage": 18,
+        "yesterdayNovelty": 71
+      },
+      "impactScore": 59
+    },
+    {
+      "id": "xbox-discs-grant-digital-game-access",
+      "category": "games",
+      "rank": 12,
+      "titles": {
+        "zh": "Xbox实体光盘将可授予对应游戏的数字访问权",
+        "en": "Xbox Discs to Grant Digital Access to Corresponding Games"
+      },
+      "originalTitle": "Xbox discs will now grant digital access to games as part of Microsoft's self-proclaimed 'broader commitment to game preservation'",
+      "summaries": {
+        "zh": "PC Gamer报道，微软将让Xbox实体游戏光盘授予相应数字版访问权，并把这一变化称为更广泛的游戏保存承诺。快照未说明适用主机、游戏范围及授权持续条件。",
+        "en": "Microsoft will allow Xbox game discs to grant digital access to corresponding titles, PC Gamer reported, presenting the change as part of a broader commitment to game preservation. The snapshot does not explain which consoles and games qualify, how ownership will be authenticated or whether access remains available if licensing or online services change."
+      },
+      "whyItMatters": {
+        "zh": "把实体介质与数字授权连接起来可能延长游戏可用性，但保存价值取决于认证和长期服务器支持。",
+        "en": "Linking physical media to digital entitlements could extend game availability, though its preservation value depends on authentication and long-term server support."
+      },
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/hardware/xbox-discs-will-now-grant-digital-access-to-games-as-part-of-microsofts-self-proclaimed-broader-commitment-to-game-preservation",
+          "domain": "pcgamer.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:22:08+08:00",
+          "updatedAt": "2026-08-27T23:22:12+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照仅收录PC Gamer一家发布者集团的报道，缺少微软或Xbox官方政策文本及第二家白名单媒体的确认。",
+        "en": "The snapshot contains only PC Gamer’s report from one publisher group; it lacks Microsoft or Xbox primary policy documentation and confirmation from a second allowlisted publisher."
+      },
+      "publishedAt": "2026-08-27T23:22:08+08:00",
+      "updatedAt": "2026-08-27T23:22:12+08:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "games-industry",
+      "subjectOrganization": {
+        "id": "xbox",
+        "name": "Xbox"
+      },
+      "importanceFactors": {
+        "impactBreadth": 65,
+        "consequenceSeverity": 50,
+        "systemicSignificance": 66,
+        "independentCoverage": 18,
+        "yesterdayNovelty": 87
+      },
+      "impactScore": 57
+    },
+    {
+      "id": "induced-earthquake-foreshocks-western-canada",
+      "category": "science",
+      "rank": 13,
+      "titles": {
+        "zh": "研究考察加拿大西部注入诱发地震的前震与破裂成核",
+        "en": "Study Examines Foreshocks and Rupture Nucleation in Injection-Induced Canadian Earthquakes"
+      },
+      "originalTitle": "Foreshock productivity and rupture nucleation in injection-induced earthquakes in western Canada",
+      "summaries": {
+        "zh": "《科学》发表一项研究，考察加拿大西部流体注入诱发地震中的前震活动与破裂成核。快照未提供数据范围、注入类型、预测能力或风险管理结论。",
+        "en": "Science published a study on foreshock productivity and rupture nucleation in injection-induced earthquakes in western Canada. The snapshot provides no abstract or supporting details about the dataset, type of industrial injection, statistical strength or potential forecasting value. Its implications for operational earthquake management consequently cannot be determined from the supplied evidence alone."
+      },
+      "whyItMatters": {
+        "zh": "更好理解诱发地震如何起裂，可能帮助能源和注入作业制定更有效的监测阈值与停工规则。",
+        "en": "Better understanding how induced earthquakes begin could improve monitoring thresholds and shutdown rules for energy and injection operations."
+      },
+      "sources": [
+        {
+          "name": "Science",
+          "url": "https://www.science.org/doi/abs/10.1126/science.aed9893?af=R",
+          "domain": "science.org",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T15:00:00+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照只包含《科学》的题目与卷期信息，缺少论文摘要、研究机构原始说明及第二家白名单媒体的独立确认。",
+        "en": "The snapshot includes only Science’s title and issue metadata, without the abstract, originating researchers’ material or independent confirmation from a second allowlisted publisher."
+      },
+      "publishedAt": "2026-08-27T15:00:00+08:00",
+      "updatedAt": "2026-08-27T15:00:00+08:00",
+      "regions": [
+        "Canada"
+      ],
+      "topic": "earth-science",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 53,
+        "consequenceSeverity": 62,
+        "systemicSignificance": 73,
+        "independentCoverage": 13,
+        "yesterdayNovelty": 76
+      },
+      "impactScore": 56
+    },
+    {
+      "id": "single-crystal-contacts-2d-semiconductors",
+      "category": "technology",
+      "rank": 14,
+      "titles": {
+        "zh": "研究提出为二维半导体直接蒸镀单晶金属接触的方法",
+        "en": "Study Reports Directly Evaporated Single-Crystal Contacts for 2D Semiconductors"
+      },
+      "originalTitle": "Direct evaporation of single-crystal metal contacts for 2D semiconductors",
+      "summaries": {
+        "zh": "《科学》刊登一项关于二维半导体接触技术的研究，标题显示研究人员实现了单晶金属接触的直接蒸镀。快照未提供实验性能、材料体系或与现有方法的量化比较。",
+        "en": "Science published a study reporting direct evaporation of single-crystal metal contacts for two-dimensional semiconductors. The supplied snapshot identifies the paper and its publication details but provides no abstract-level evidence about materials, device performance, reproducibility or quantitative improvement over existing contact methods. Any assessment of practical readiness therefore remains premature."
+      },
+      "whyItMatters": {
+        "zh": "若性能与可制造性得到完整论文验证，该工艺可能缓解二维器件中金属接触质量这一关键瓶颈。",
+        "en": "If the full results establish performance and manufacturability, the technique could address a major contact-quality bottleneck in two-dimensional electronics."
+      },
+      "sources": [
+        {
+          "name": "Science",
+          "url": "https://www.science.org/doi/abs/10.1126/science.aee3132?af=R",
+          "domain": "science.org",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T14:00:13+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照只有《科学》的一条书目信息，未含摘要、研究机构原始材料或另一发布者集团的独立报道，具体结论尚无法核验。",
+        "en": "The snapshot contains only Science’s bibliographic record, without an abstract, originating institution material or independent coverage from another publisher group, so the detailed findings cannot be checked."
+      },
+      "publishedAt": "2026-08-27T14:00:13+08:00",
+      "updatedAt": "2026-08-27T14:00:13+08:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "energy-materials",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 57,
+        "consequenceSeverity": 45,
+        "systemicSignificance": 73,
+        "independentCoverage": 14,
+        "yesterdayNovelty": 77
+      },
+      "impactScore": 53
+    },
+    {
+      "id": "italy-phone-distracted-pedestrian-fines",
+      "category": "society",
+      "rank": 15,
+      "titles": {
+        "zh": "意大利拟处罚过马路时看手机的行人",
+        "en": "Italy Drafts Fines for Pedestrians Using Phones While Crossing Roads"
+      },
+      "originalTitle": "Italy to fine careless pedestrians crossing road while looking at phones",
+      "summaries": {
+        "zh": "法国二十四台报道，意大利政府已起草交通法规修订案，拟对过马路时盯着手机屏幕的行人处以罚款，预计十月中旬批准。此前多项法院判决认定疏忽行人应承担事故责任。",
+        "en": "Italy’s government has drafted a traffic-code amendment that would fine pedestrians caught looking at phone screens while crossing roads, France 24 reported. The measure was expected to receive approval by mid-October and follows court rulings assigning responsibility to careless pedestrians in accidents. The snapshot does not provide the proposed fine, legislative text or parliamentary status."
+      },
+      "whyItMatters": {
+        "zh": "该措施把分心出行的法律责任明确延伸至行人，可能成为其他国家道路安全政策的参考。",
+        "en": "The proposal explicitly extends distracted-road-use liability to pedestrians and could influence road-safety policy elsewhere."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260827-italy-to-fine-careless-pedestrians-crossing-road-while-looking-at-phones",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T21:25:58+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照仅含法国二十四台一家发布者集团的报道，缺少意大利政府法案文本及第二家白名单媒体的独立确认。",
+        "en": "The snapshot contains only France 24’s report from one publisher group; it lacks the Italian government’s draft text and confirmation from a second allowlisted publisher."
+      },
+      "publishedAt": "2026-08-27T21:25:58+08:00",
+      "updatedAt": "2026-08-27T21:25:58+08:00",
+      "regions": [
+        "Italy",
+        "Europe"
+      ],
+      "topic": "public-policy",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 61,
+        "consequenceSeverity": 43,
+        "systemicSignificance": 59,
+        "independentCoverage": 17,
+        "yesterdayNovelty": 83
+      },
+      "impactScore": 52
+    },
+    {
+      "id": "two-killed-school-near-berlin",
+      "category": "society",
+      "rank": 16,
+      "titles": {
+        "zh": "柏林附近学校发生暴力事件，两人死亡、一人被捕",
+        "en": "Two Killed in Violent Incident at School Near Berlin"
+      },
+      "originalTitle": "Two killed in 'violent incident' at school near Berlin",
+      "summaries": {
+        "zh": "英国广播公司报道，柏林附近一所学校发生暴力事件，两人死亡，其中包括一名十八岁青年。警方已经逮捕一名男子，但快照未说明作案动机及嫌疑人与受害者关系。",
+        "en": "Two people, including an 18-year-old, were killed in what police described as a violent incident at a school near Berlin, the BBC reported. Authorities arrested a man following the deaths. The supplied snapshot does not identify a motive, explain the relationship between those involved or indicate whether police believed any continuing threat remained."
+      },
+      "whyItMatters": {
+        "zh": "学校场所发生致命暴力会直接影响当地安全，并可能引发对校园防护和事件处置的审查。",
+        "en": "Fatal violence at a school directly affects community safety and may prompt scrutiny of campus protection and emergency response."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cgqdy8g2zlgo?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:47:34+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照仅有BBC一家发布者集团的报道，缺少德国警方原始通报或第二家白名单媒体对伤亡与逮捕情况的确认。",
+        "en": "The snapshot contains only the BBC report from one publisher group and lacks a German police bulletin or confirmation of the deaths and arrest from a second allowlisted publisher."
+      },
+      "publishedAt": "2026-08-27T23:47:34+08:00",
+      "updatedAt": "2026-08-27T23:47:34+08:00",
+      "regions": [
+        "Germany",
+        "Berlin"
+      ],
+      "topic": "public-policy",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 40,
+        "consequenceSeverity": 78,
+        "systemicSignificance": 45,
+        "independentCoverage": 16,
+        "yesterdayNovelty": 91
+      },
+      "impactScore": 52
+    },
+    {
+      "id": "king-harald-condition-very-serious",
+      "category": "health",
+      "rank": 17,
+      "titles": {
+        "zh": "挪威王室称哈拉尔五世病情“非常严重”",
+        "en": "Norway’s King Harald in “Very Serious” Condition, Royal Court Says"
+      },
+      "originalTitle": "Norway holds its breath as King Harald's health deteriorates",
+      "summaries": {
+        "zh": "法国二十四台援引挪威王室称，八十九岁的国王哈拉尔五世在医院病情“非常严重”，家人已聚集在床边。数百名民众在奥斯陆王宫外献花并等待消息。",
+        "en": "Norway’s royal court said 89-year-old King Harald was in a “very serious” condition in hospital, according to France 24. Members of his family gathered at his bedside, while hundreds of people assembled outside the Royal Palace in Oslo and laid flowers. The snapshot supplies no diagnosis, treatment details or direct royal-court notice."
+      },
+      "whyItMatters": {
+        "zh": "作为挪威国家元首，国王健康恶化具有宪制与公共象征意义，但现有证据未显示已发生权力交接。",
+        "en": "As Norway’s head of state, the king’s deterioration carries constitutional and symbolic weight, though no transfer of authority is established here."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260827-norway-holds-its-breath-as-king-harald-s-health-deteriorates",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T21:33:51+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照仅有法国二十四台的单一报道，缺少挪威王室原始公告或第二家白名单媒体对病情的确认。",
+        "en": "The snapshot contains only France 24’s report and lacks the Norwegian royal court’s primary notice or confirmation from a second allowlisted publisher."
+      },
+      "publishedAt": "2026-08-27T21:33:51+08:00",
+      "updatedAt": "2026-08-27T21:33:51+08:00",
+      "regions": [
+        "Norway"
+      ],
+      "topic": "health-medicine",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 47,
+        "consequenceSeverity": 67,
+        "systemicSignificance": 43,
+        "independentCoverage": 16,
+        "yesterdayNovelty": 82
+      },
+      "impactScore": 50
+    },
+    {
+      "id": "sex-chromosome-evolution-genomic-predisposition",
+      "category": "science",
+      "rank": 18,
+      "titles": {
+        "zh": "研究发现基因组倾向与性染色体演化方向存在关联",
+        "en": "Study Links Genomic Predisposition to the Direction of Sex-Chromosome Evolution"
+      },
+      "originalTitle": "Genomic predisposition is associated with the direction of sex chromosome evolution",
+      "summaries": {
+        "zh": "《科学》发表研究，标题显示基因组层面的既有倾向与性染色体演化方向存在关联。快照仅含论文题目和期刊信息，无法判断研究物种、样本规模及因果机制。",
+        "en": "Science published a paper reporting an association between genomic predisposition and the direction of sex-chromosome evolution. The supplied record contains only the title and issue information, so it does not establish which organisms were studied, the sample size, the proposed biological mechanism or whether the result demonstrates causation rather than correlation."
+      },
+      "whyItMatters": {
+        "zh": "若跨物种证据稳健，这一结果可能改变研究者解释性染色体为何沿不同路径演化的方式。",
+        "en": "If supported across species, the finding could change how researchers explain why sex chromosomes follow different evolutionary paths."
+      },
+      "sources": [
+        {
+          "name": "Science",
+          "url": "https://www.science.org/doi/abs/10.1126/science.aec3449?af=R",
+          "domain": "science.org",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T15:00:00+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照仅有《科学》的论文书目记录，没有摘要、作者机构材料或第二家白名单发布者的独立报道，研究细节缺乏核验。",
+        "en": "The snapshot supplies only Science’s bibliographic record, with no abstract, author-institution material or independent report from a second allowlisted publisher to verify the study details."
+      },
+      "publishedAt": "2026-08-27T15:00:00+08:00",
+      "updatedAt": "2026-08-27T15:00:00+08:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "life-sciences",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 49,
+        "consequenceSeverity": 34,
+        "systemicSignificance": 76,
+        "independentCoverage": 13,
+        "yesterdayNovelty": 78
+      },
+      "impactScore": 48
+    },
+    {
+      "id": "french-presidential-hopefuls-business-summit",
+      "category": "business",
+      "rank": 19,
+      "titles": {
+        "zh": "法国七名总统参选人将在雇主峰会阐述经济方案",
+        "en": "Seven French Presidential Hopefuls to Present Economic Platforms at Business Summit"
+      },
+      "originalTitle": "'Great public test': French presidential hopefuls to face off at business summit",
+      "summaries": {
+        "zh": "法国七名总统参选人将在巴黎罗兰·加洛斯举行的法国企业运动年度研讨会上同台，向商界领袖阐述各自商业与经济政策，被视为大选前的一次公开测试。",
+        "en": "Seven prospective French presidential candidates were due to appear at the Medef business federation’s annual end-of-summer seminar at Roland Garros in Paris, France 24 reported. The event was framed as an early public test of a crowded field, with participants expected to defend their business and economic programs before company leaders."
+      },
+      "whyItMatters": {
+        "zh": "这场同台活动让企业界提前比较主要竞选人的经济路线，也可能影响法国大选前的政策议程。",
+        "en": "The event gives business leaders an early comparison of competing economic platforms and may shape the policy agenda before France’s election."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260827-great-public-test-french-presidential-hopefuls-to-face-off-at-business-summit",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:15:37+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照仅有法国二十四台一家发布者集团的预告性报道，缺少主办方日程、候选人确认或第二家白名单媒体的独立报道。",
+        "en": "The snapshot contains only France 24’s advance report from one publisher group; it lacks an organizer schedule, candidate confirmations or independent coverage from a second allowlisted publisher."
+      },
+      "eventAt": "2026-08-27T00:00:00+08:00",
+      "publishedAt": "2026-08-27T23:15:37+08:00",
+      "updatedAt": "2026-08-27T23:15:37+08:00",
+      "regions": [
+        "France",
+        "Europe"
+      ],
+      "topic": "economy-finance",
+      "subjectOrganization": {
+        "id": "medef",
+        "name": "Medef"
+      },
+      "importanceFactors": {
+        "impactBreadth": 55,
+        "consequenceSeverity": 39,
+        "systemicSignificance": 59,
+        "independentCoverage": 16,
+        "yesterdayNovelty": 70
+      },
+      "impactScore": 47
+    },
+    {
+      "id": "mbc-launches-game-studio",
+      "category": "games",
+      "rank": 20,
+      "titles": {
+        "zh": "沙特媒体集团MBC成立游戏工作室，进军电子游戏行业",
+        "en": "Saudi Media Group MBC Enters Games Industry with New Studio"
+      },
+      "originalTitle": "Saudi media conglomerate MBC expands into video game industry with new studio",
+      "summaries": {
+        "zh": "Game Developer报道，沙特媒体集团MBC在2026年Gamescom公布MBC Game Studio，正式扩展至电子游戏业务。新团队已聘请来自多家大型开发商的资深人员。",
+        "en": "Saudi-owned media conglomerate MBC unveiled MBC Game Studio at Gamescom 2026, marking a formal expansion into video-game development, Game Developer reported. The new studio has already recruited veterans from BioWare, Hi-Rez, Ubisoft Montreal and Bungie. The snapshot does not identify its first project, staffing scale, investment level or release timetable."
+      },
+      "whyItMatters": {
+        "zh": "大型区域媒体集团直接建立开发能力，显示中东资本正从游戏投资和发行进一步转向内容生产。",
+        "en": "A major regional media group building development capacity shows Middle Eastern investment moving further from financing and distribution into game production."
+      },
+      "sources": [
+        {
+          "name": "Game Developer",
+          "url": "https://www.gamedeveloper.com/business/saudi-owned-media-conglomerate-mbc-expands-into-the-game-industry",
+          "domain": "gamedeveloper.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T22:17:05+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照只有Game Developer一家发布者集团的报道，缺少MBC正式公告或第二家白名单媒体对工作室成立与招聘情况的确认。",
+        "en": "The snapshot contains only Game Developer’s report from one publisher group and lacks an MBC announcement or confirmation of the studio and hiring from a second allowlisted publisher."
+      },
+      "publishedAt": "2026-08-27T22:17:05+08:00",
+      "updatedAt": "2026-08-27T22:17:05+08:00",
+      "regions": [
+        "Saudi Arabia",
+        "Middle East",
+        "Global"
+      ],
+      "topic": "game-development",
+      "subjectOrganization": {
+        "id": "mbc-group",
+        "name": "MBC Group"
+      },
+      "importanceFactors": {
+        "impactBreadth": 48,
+        "consequenceSeverity": 39,
+        "systemicSignificance": 55,
+        "independentCoverage": 17,
+        "yesterdayNovelty": 86
+      },
+      "impactScore": 46
+    },
+    {
+      "id": "prime-video-greenlights-crouch-end",
+      "category": "entertainment",
+      "rank": 21,
+      "titles": {
+        "zh": "Prime Video批准六集限定剧《克劳奇恩德》",
+        "en": "Prime Video Greenlights Six-Part Stephen King Adaptation Crouch End"
+      },
+      "originalTitle": "Prime Video Sets Series Adaptation Of Stephen King Short Story ‘Crouch End’",
+      "summaries": {
+        "zh": "Deadline报道，Prime Video已批准把斯蒂芬·金短篇小说《克劳奇恩德》改编为六集限定剧。剧集将在英国制作，并沿用原作名称，构成一项正式内容投资决定。",
+        "en": "Prime Video has greenlit a six-part limited series based on Stephen King’s short story Crouch End, Deadline reported. The production will retain the story’s title and be made in the United Kingdom. The report establishes a commissioning decision, but the snapshot provides no cast, production timetable, budget or planned release date."
+      },
+      "whyItMatters": {
+        "zh": "正式开绿灯意味着平台已作出制作投入，也延续了流媒体对知名文学版权和限定剧形式的需求。",
+        "en": "The commission represents a binding production investment and extends streaming demand for established literary properties and limited-series formats."
+      },
+      "sources": [
+        {
+          "name": "Deadline",
+          "url": "https://deadline.com/2026/08/crouch-end-prime-video-stephen-king-1237060906",
+          "domain": "deadline.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:45:40+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照只有Deadline所属单一发布者集团的报道，缺少Prime Video正式公告或另一家白名单媒体的独立确认。",
+        "en": "The snapshot contains only Deadline’s report from one publisher group and lacks a Prime Video announcement or independent confirmation from another allowlisted publisher."
+      },
+      "publishedAt": "2026-08-27T23:45:40+08:00",
+      "updatedAt": "2026-08-27T23:45:40+08:00",
+      "regions": [
+        "United Kingdom",
+        "Global"
+      ],
+      "topic": "film-television",
+      "subjectOrganization": {
+        "id": "prime-video",
+        "name": "Prime Video"
+      },
+      "importanceFactors": {
+        "impactBreadth": 44,
+        "consequenceSeverity": 34,
+        "systemicSignificance": 32,
+        "independentCoverage": 16,
+        "yesterdayNovelty": 88
+      },
+      "impactScore": 39
+    },
+    {
+      "id": "ifc-acquires-tangles-north-american-rights",
+      "category": "entertainment",
+      "rank": 22,
+      "titles": {
+        "zh": "Independent Film Company取得动画片《Tangles》北美发行权",
+        "en": "Independent Film Company Acquires North American Rights to Tangles"
+      },
+      "originalTitle": "‘Tangles,’ Hand-Drawn Cannes Standout, Lands at Independent Film Company for Oscar-Qualifying Run (EXCLUSIVE)",
+      "summaries": {
+        "zh": "Variety报道，Independent Film Company与Sapan Studio已取得手绘动画片《Tangles》的北美发行权，并计划在年底前安排符合奥斯卡参评资格的院线上映。",
+        "en": "Independent Film Company, formerly branded IFC, and Sapan Studio acquired North American rights to Tangles, Variety reported. The hand-drawn animated feature is Leah Nelson’s directorial debut and is set to receive an Oscar-qualifying theatrical run before the end of 2026. The snapshot does not disclose financial terms or a detailed release schedule."
+      },
+      "whyItMatters": {
+        "zh": "发行权交易与参奖院线计划为独立动画建立了实际市场路径，并可能扩大影片在北美的观众覆盖。",
+        "en": "The rights deal and qualifying run give an independent animated film a concrete market path and potential awards visibility in North America."
+      },
+      "sources": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/film/awards/tangles-ifc-acquisition-oscars-animated-feature-1236844683",
+          "domain": "variety.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-27T23:30:00+08:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "快照仅含Variety所属单一发布者集团的独家报道，缺少收购方正式公告或第二家白名单媒体的独立确认。",
+        "en": "The snapshot contains only Variety’s exclusive report from one publisher group and lacks an acquiring-company announcement or independent confirmation from a second allowlisted publisher."
+      },
+      "publishedAt": "2026-08-27T23:30:00+08:00",
+      "updatedAt": "2026-08-27T23:30:00+08:00",
+      "regions": [
+        "United States",
+        "Canada"
+      ],
+      "topic": "film-television",
+      "subjectOrganization": {
+        "id": "independent-film-company",
+        "name": "Independent Film Company"
+      },
+      "importanceFactors": {
+        "impactBreadth": 35,
+        "consequenceSeverity": 27,
+        "systemicSignificance": 30,
+        "independentCoverage": 15,
+        "yesterdayNovelty": 87
+      },
+      "impactScore": 34
+    }
+  ],
+  "metrics": {
+    "candidateCount": 60,
+    "pagesOpened": 0,
+    "searchGroups": 0,
+    "verifiedCount": 7,
+    "pendingCount": 15,
+    "rejectedCount": 38,
+    "tokenUsage": {
+      "measured": true,
+      "candidateJudgment": 6430,
+      "verification": 25718,
+      "bilingualGeneration": 12859,
+      "contentChecks": 6429,
+      "repairReserve": 0,
+      "input": 37382,
+      "output": 14054,
+      "total": 51436
+    }
+  }
+}

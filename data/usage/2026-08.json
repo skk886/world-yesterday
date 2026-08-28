@@ -1,21 +1,42 @@
 {
   "schemaVersion": 2,
   "month": "2026-08",
-  "generatedAt": "2026-08-27T08:08:39.447Z",
+  "generatedAt": "2026-08-28T03:34:31.153Z",
   "totals": {
-    "editions": 1,
-    "candidates": 45,
+    "editions": 2,
+    "candidates": 105,
     "pagesOpened": 0,
     "searchGroups": 0,
-    "verified": 7,
-    "pending": 15,
-    "rejected": 23,
-    "tokens": 158046,
-    "currentEditionTokens": 47481,
-    "measuredRuns": 3,
-    "runs": 4
+    "verified": 14,
+    "pending": 30,
+    "rejected": 61,
+    "tokens": 209482,
+    "currentEditionTokens": 98917,
+    "measuredRuns": 4,
+    "runs": 5
   },
   "editions": [
+    {
+      "date": "2026-08-27",
+      "status": "partial",
+      "candidateCount": 60,
+      "pagesOpened": 0,
+      "searchGroups": 0,
+      "verifiedCount": 7,
+      "pendingCount": 15,
+      "rejectedCount": 38,
+      "tokenUsage": {
+        "measured": true,
+        "candidateJudgment": 6430,
+        "verification": 25718,
+        "bilingualGeneration": 12859,
+        "contentChecks": 6429,
+        "repairReserve": 0,
+        "input": 37382,
+        "output": 14054,
+        "total": 51436
+      }
+    },
     {
       "date": "2026-08-26",
       "status": "partial",
@@ -137,6 +158,31 @@
           "input": 32702,
           "output": 14779,
           "total": 47481
+        }
+      }
+    },
+    {
+      "runId": "2026-08-27-2026-08-28T03:30:02.461Z",
+      "date": "2026-08-27",
+      "completedAt": "2026-08-28T03:34:31.148Z",
+      "outcome": "published",
+      "metrics": {
+        "candidateCount": 60,
+        "pagesOpened": 0,
+        "searchGroups": 0,
+        "verifiedCount": 7,
+        "pendingCount": 15,
+        "rejectedCount": 38,
+        "tokenUsage": {
+          "measured": true,
+          "candidateJudgment": 6430,
+          "verification": 25718,
+          "bilingualGeneration": 12859,
+          "contentChecks": 6429,
+          "repairReserve": 0,
+          "input": 37382,
+          "output": 14054,
+          "total": 51436
         }
       }
     }
