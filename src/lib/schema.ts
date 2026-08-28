@@ -77,6 +77,25 @@ const localizedTextSchema = z.object({
   en: z.string().min(1)
 });
 
+export const journalIds = ["science", "nature"] as const;
+
+export const journalHighlightSchema = z.object({
+  journal: z.enum(journalIds),
+  journalName: z.enum(["Science", "Nature"]),
+  status: z.enum(["selected", "no-update", "metadata-insufficient"]),
+  candidateId: z.string().regex(/^[a-f0-9]{16}$/).optional(),
+  originalTitle: z.string().min(1).optional(),
+  titles: localizedTextSchema.optional(),
+  summaries: localizedTextSchema.optional(),
+  whyItMatters: localizedTextSchema.optional(),
+  topic: z.enum(topics).optional(),
+  doi: z.string().min(6).max(200).optional(),
+  url: z.string().url().optional(),
+  publishedAt: z.string().datetime({ offset: true }).optional(),
+  metadataSource: z.enum(["rss", "crossref"]).optional(),
+  notice: localizedTextSchema
+});
+
 export const sourceCitationSchema = z.object({
   name: z.string().min(1),
   url: z.string().url(),
@@ -139,8 +158,7 @@ export const editionMetricsSchema = z.object({
   tokenUsage: tokenUsageSchema
 });
 
-export const editionSchema = z.object({
-  schemaVersion: z.literal(3),
+const editionBaseSchema = {
   siteName: z.literal("昨日世界 / World Yesterday"),
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   generatedAt: z.string().datetime({ offset: true }),
@@ -148,12 +166,39 @@ export const editionSchema = z.object({
   status: z.enum(["complete", "partial"]),
   items: z.array(newsItemSchema).max(30),
   metrics: editionMetricsSchema
+} as const;
+
+export const editionV3Schema = z.object({
+  schemaVersion: z.literal(3),
+  ...editionBaseSchema
 });
+
+export const editionV4Schema = z.object({
+  schemaVersion: z.literal(4),
+  ...editionBaseSchema,
+  journalHighlights: z.array(journalHighlightSchema).length(2)
+});
+
+// Schema 3 remains readable so permanent archives continue to build. New
+// generations use editionV4Schema and always publish the two journal slots.
+export const editionSchema = z.union([editionV4Schema, editionV3Schema]);
 
 export type Category = (typeof categories)[number];
 export type SourceCitation = z.infer<typeof sourceCitationSchema>;
 export type NewsItem = z.infer<typeof newsItemSchema>;
 export type Edition = z.infer<typeof editionSchema>;
+export type EditionV4 = z.infer<typeof editionV4Schema>;
+export type JournalHighlight = z.infer<typeof journalHighlightSchema>;
+
+export const metadataEnrichmentSchema = z.object({
+  provider: z.literal("crossref"),
+  status: z.enum(["enriched", "abstract-missing", "not-found", "error"]),
+  doi: z.string().min(6).max(200),
+  fetchedAt: z.string().datetime({ offset: true }),
+  abstract: z.string().min(1).max(4_000).optional(),
+  sourceUrl: z.string().url().optional(),
+  error: z.string().max(500).optional()
+});
 
 export const rawCandidateSchema = z.object({
   id: z.string(),
@@ -169,6 +214,10 @@ export const rawCandidateSchema = z.object({
   publishedAt: z.string().datetime({ offset: true }),
   updatedAt: z.string().datetime({ offset: true }).optional(),
   description: z.string().optional(),
+  rssDescription: z.string().optional(),
+  doi: z.string().min(6).max(200).optional(),
+  journalContentType: z.string().max(120).optional(),
+  metadataEnrichment: metadataEnrichmentSchema.optional(),
   discovery: z.enum(["rss", "gdelt"]),
   categoryHints: z.array(z.enum(categories)).min(1).max(1),
   topic: z.enum(topics),

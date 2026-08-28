@@ -1,19 +1,19 @@
 {
   "schemaVersion": 2,
   "month": "2026-08",
-  "generatedAt": "2026-08-28T03:34:31.153Z",
+  "generatedAt": "2026-08-28T04:16:31.127Z",
   "totals": {
     "editions": 2,
     "candidates": 105,
     "pagesOpened": 0,
     "searchGroups": 0,
-    "verified": 14,
-    "pending": 30,
-    "rejected": 61,
-    "tokens": 209482,
-    "currentEditionTokens": 98917,
-    "measuredRuns": 4,
-    "runs": 5
+    "verified": 13,
+    "pending": 27,
+    "rejected": 63,
+    "tokens": 265150,
+    "currentEditionTokens": 103149,
+    "measuredRuns": 5,
+    "runs": 6
   },
   "editions": [
     {
@@ -22,19 +22,19 @@
       "candidateCount": 60,
       "pagesOpened": 0,
       "searchGroups": 0,
-      "verifiedCount": 7,
-      "pendingCount": 15,
-      "rejectedCount": 38,
+      "verifiedCount": 6,
+      "pendingCount": 12,
+      "rejectedCount": 40,
       "tokenUsage": {
         "measured": true,
-        "candidateJudgment": 6430,
-        "verification": 25718,
-        "bilingualGeneration": 12859,
-        "contentChecks": 6429,
+        "candidateJudgment": 6959,
+        "verification": 27834,
+        "bilingualGeneration": 13917,
+        "contentChecks": 6958,
         "repairReserve": 0,
-        "input": 37382,
-        "output": 14054,
-        "total": 51436
+        "input": 42768,
+        "output": 12900,
+        "total": 55668
       }
     },
     {
@@ -183,6 +183,31 @@
           "input": 37382,
           "output": 14054,
           "total": 51436
+        }
+      }
+    },
+    {
+      "runId": "2026-08-27-2026-08-28T04:12:30.769Z",
+      "date": "2026-08-27",
+      "completedAt": "2026-08-28T04:16:31.123Z",
+      "outcome": "published",
+      "metrics": {
+        "candidateCount": 60,
+        "pagesOpened": 0,
+        "searchGroups": 0,
+        "verifiedCount": 6,
+        "pendingCount": 12,
+        "rejectedCount": 40,
+        "tokenUsage": {
+          "measured": true,
+          "candidateJudgment": 6959,
+          "verification": 27834,
+          "bilingualGeneration": 13917,
+          "contentChecks": 6958,
+          "repairReserve": 0,
+          "input": 42768,
+          "output": 12900,
+          "total": 55668
         }
       }
     }

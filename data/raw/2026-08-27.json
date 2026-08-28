@@ -2,12 +2,224 @@
   "schemaVersion": 1,
   "date": "2026-08-27",
   "timezone": "Asia/Shanghai",
-  "collectedAt": "2026-08-28T02:15:06.640Z",
+  "collectedAt": "2026-08-28T04:11:45.826Z",
   "window": {
     "start": "2026-08-26T16:00:00.000Z",
     "end": "2026-08-27T15:59:59.999Z"
   },
   "candidates": [
+    {
+      "id": "23c868471b111f89",
+      "title": "Foreshock productivity and rupture nucleation in injection-induced earthquakes in western Canada",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed9893?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aed9893?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "description": "Foreshock activity is a key consideration in traffic-light protocol (TLP) to mitigate seismic risk from injection-induced earthquakes (IIEs). However, the seismogenic processes of IIE foreshocks remain poorly understood. Using an enhanced western Canada catalog (2014–2024), we analyzed 77 IIE sequences to statistically delineate foreshock patterns before local magnitude ( M L ) ≥ 3 mainshocks. We found that 92% are preceded by foreshocks and that foreshock productivity and spatiotemporal patterns reflect the interplay among fluid injection, the seismogenic index, and the fault stress state. Sequence-specific analyses elucidate three nucleation models: fluid-driven preslip with weakened source asperity, fluid-driven preslip with intact source asperity, and fluid-driven cascade, highlighting the central role of fluids in enabling aseismic slip and interevent stress transfer before mainshock rupture. These results imply that IIE monitoring strategies should be spatially conditioned according to foreshock productivity.",
+      "rssDescription": "Science, Volume 393, Issue 6814, August 2026.",
+      "doi": "10.1126/science.aed9893",
+      "journalContentType": "Research Article",
+      "metadataEnrichment": {
+        "provider": "crossref",
+        "status": "enriched",
+        "doi": "10.1126/science.aed9893",
+        "fetchedAt": "2026-08-28T04:11:41.830Z",
+        "abstract": "Foreshock activity is a key consideration in traffic-light protocol (TLP) to mitigate seismic risk from injection-induced earthquakes (IIEs). However, the seismogenic processes of IIE foreshocks remain poorly understood. Using an enhanced western Canada catalog (2014–2024), we analyzed 77 IIE sequences to statistically delineate foreshock patterns before local magnitude ( M L ) ≥ 3 mainshocks. We found that 92% are preceded by foreshocks and that foreshock productivity and spatiotemporal patterns reflect the interplay among fluid injection, the seismogenic index, and the fault stress state. Sequence-specific analyses elucidate three nucleation models: fluid-driven preslip with weakened source asperity, fluid-driven preslip with intact source asperity, and fluid-driven cascade, highlighting the central role of fluids in enabling aseismic slip and interevent stress transfer before mainshock rupture. These results imply that IIE monitoring strategies should be spatially conditioned according to foreshock productivity.",
+        "sourceUrl": "https://api.crossref.org/works/10.1126%2Fscience.aed9893"
+      },
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "earth-science",
+      "preliminaryScore": 86
+    },
+    {
+      "id": "09201e2bcb010267",
+      "title": "Animal-microbe partnerships date back to the dawn of complex life",
+      "url": "https://www.nature.com/articles/d41586-026-02629-8",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02629-8",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "description": "Nature, Published online: 27 August 2026; doi:10.1038/d41586-026-02629-8 Geochemical clues hint that worm-like creatures in the Ediacaran period benefited from symbiosis with bacteria.",
+      "rssDescription": "Nature, Published online: 27 August 2026; doi:10.1038/d41586-026-02629-8 Geochemical clues hint that worm-like creatures in the Ediacaran period benefited from symbiosis with bacteria.",
+      "doi": "10.1038/d41586-026-02629-8",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "668bbcd2092c63dc",
+      "title": "A necroptotic-to-apoptotic signaling axis underlies inflammatory bowel disease",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeh7112?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aeh7112?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "description": "Inflammatory bowel disease (IBD) is a chronic condition caused by altered cytokine signaling, maladaptive immunity, dysbiosis, and intestinal barrier dysfunction. Although current therapies aim to correct these imbalances to induce remission, most patients ultimately relapse, suggesting that key pathogenic mechanisms persist. Here, we identified aberrant epithelial cell death signaling as an underlying feature of IBD that arises in patients in remission and on advanced therapy. Mechanistically, nascent inflammation skewed epithelial cells into an M1-macrophage–like transcriptional state that promoted RIPK1-independent necroptotic signaling. This signaling then triggered inducible nitric oxide synthase–assisted mitochondrial apoptosis of absorptive epithelial cells and PUMA-mediated intestinal stem cell death. Thus, aberrant epithelial cell death signaling represents a hallmark of IBD that occurs early in mucosal lesion development, persists despite current therapeutic strategies, and predicts clinical relapse.",
+      "rssDescription": "Science, Volume 393, Issue 6814, August 2026.",
+      "doi": "10.1126/science.aeh7112",
+      "journalContentType": "Research Article",
+      "metadataEnrichment": {
+        "provider": "crossref",
+        "status": "enriched",
+        "doi": "10.1126/science.aeh7112",
+        "fetchedAt": "2026-08-28T04:11:41.822Z",
+        "abstract": "Inflammatory bowel disease (IBD) is a chronic condition caused by altered cytokine signaling, maladaptive immunity, dysbiosis, and intestinal barrier dysfunction. Although current therapies aim to correct these imbalances to induce remission, most patients ultimately relapse, suggesting that key pathogenic mechanisms persist. Here, we identified aberrant epithelial cell death signaling as an underlying feature of IBD that arises in patients in remission and on advanced therapy. Mechanistically, nascent inflammation skewed epithelial cells into an M1-macrophage–like transcriptional state that promoted RIPK1-independent necroptotic signaling. This signaling then triggered inducible nitric oxide synthase–assisted mitochondrial apoptosis of absorptive epithelial cells and PUMA-mediated intestinal stem cell death. Thus, aberrant epithelial cell death signaling represents a hallmark of IBD that occurs early in mucosal lesion development, persists despite current therapeutic strategies, and predicts clinical relapse.",
+        "sourceUrl": "https://api.crossref.org/works/10.1126%2Fscience.aeh7112"
+      },
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 86
+    },
+    {
+      "id": "253750ce772cfe48",
+      "title": "‘Robot Olympics’ reveal humanoids' rapid progress — but hurdles remain",
+      "url": "https://www.nature.com/articles/d41586-026-02713-z",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02713-z",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "description": "Nature, Published online: 27 August 2026; doi:10.1038/d41586-026-02713-z Humanoid robots broke records at sporting events such as sprints, but struggled at practical tasks such as hammering nails.",
+      "rssDescription": "Nature, Published online: 27 August 2026; doi:10.1038/d41586-026-02713-z Humanoid robots broke records at sporting events such as sprints, but struggled at practical tasks such as hammering nails.",
+      "doi": "10.1038/d41586-026-02713-z",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "6e8ce925a706b0aa",
+      "title": "Autism mutations rewire protein interaction networks to drive neurodevelopmental pathology",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ady4523?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.ady4523?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "description": "Systematic mapping of protein-protein interaction (PPI) networks and determining how causal mutations rewire them in autism spectrum disorder (ASD) provide a powerful framework for uncovering disease mechanisms and therapeutic opportunities. Using affinity purification–mass spectrometry, we systematically mapped PPIs for 100 high-confidence ASD genes, uncovering more than 1800 interactions. By assessing the impact of pathogenic missense mutations, leveraging AlphaFold, and validating key findings in human-derived model systems, we identified marked convergence onto shared protein complexes in the wild-type state and convergent PPI rewiring driven by independent mutations. For example, distinct patient-derived variants in FOXP1 disrupt its interactions with FOXP4, leading to changes in cortical neurogenesis and neural activity in brain organoids. Overall, these findings link genetic variation to protein networks and convergent neurodevelopmental dysfunction in ASD.",
+      "rssDescription": "Science, Volume 393, Issue 6814, August 2026.",
+      "doi": "10.1126/science.ady4523",
+      "journalContentType": "Research Article",
+      "metadataEnrichment": {
+        "provider": "crossref",
+        "status": "enriched",
+        "doi": "10.1126/science.ady4523",
+        "fetchedAt": "2026-08-28T04:11:41.510Z",
+        "abstract": "Systematic mapping of protein-protein interaction (PPI) networks and determining how causal mutations rewire them in autism spectrum disorder (ASD) provide a powerful framework for uncovering disease mechanisms and therapeutic opportunities. Using affinity purification–mass spectrometry, we systematically mapped PPIs for 100 high-confidence ASD genes, uncovering more than 1800 interactions. By assessing the impact of pathogenic missense mutations, leveraging AlphaFold, and validating key findings in human-derived model systems, we identified marked convergence onto shared protein complexes in the wild-type state and convergent PPI rewiring driven by independent mutations. For example, distinct patient-derived variants in FOXP1 disrupt its interactions with FOXP4, leading to changes in cortical neurogenesis and neural activity in brain organoids. Overall, these findings link genetic variation to protein networks and convergent neurodevelopmental dysfunction in ASD.",
+        "sourceUrl": "https://api.crossref.org/works/10.1126%2Fscience.ady4523"
+      },
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 86
+    },
+    {
+      "id": "44189a3efa416380",
+      "title": "Why are El Niños getting stronger? 1000-year-coral record points to climate change",
+      "url": "https://www.nature.com/articles/d41586-026-02717-9",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02717-9",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "description": "Nature, Published online: 27 August 2026; doi:10.1038/d41586-026-02717-9 A reconstruction of Pacific Ocean sea surface temperatures adds to the evidence that human-caused warming is boosting El Niño events.",
+      "rssDescription": "Nature, Published online: 27 August 2026; doi:10.1038/d41586-026-02717-9 A reconstruction of Pacific Ocean sea surface temperatures adds to the evidence that human-caused warming is boosting El Niño events.",
+      "doi": "10.1038/d41586-026-02717-9",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "9a2ec16ea29ae04a",
+      "title": "Nonviral delivery of chemically modified tRNA rescues nonsense mutations in cystic fibrosis",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeb0054?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aeb0054?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T07:00:00.000Z",
+      "description": "Suppressor transfer RNAs (sup-tRNAs) can rescue disease-causing nonsense mutations by promoting readthrough of premature termination codons (PTCs). Their clinical translation is limited by suboptimal activity and inefficient in vivo delivery. In this work, we combined site-specific chemical modification of sup-tRNAs with cargo-tailored pulmonary lipid nanoparticle (LNP) engineering to overcome these barriers. Incorporation of N 1 -methyladenosine in sup-tRNAs improved PTC readthrough, enhanced tRNA aminoacylation, prolonged functional persistence, and reduced innate immune activation. High-throughput ionizable lipid screening and formulation optimization identified a sup-tRNA–tailored LNP that efficiently delivered chemically modified sup-tRNAs to the lung. This approach restored cystic fibrosis transmembrane conductance regulator (CFTR) expression and function in bronchial epithelial cells, mouse models, and patient-derived organoids. Thus, LNP-delivered, chemically engineered sup-tRNAs represent a potential therapeutic platform for treating nonsense mutations.",
+      "rssDescription": "Science, Volume 393, Issue 6814, August 2026.",
+      "doi": "10.1126/science.aeb0054",
+      "journalContentType": "Research Article",
+      "metadataEnrichment": {
+        "provider": "crossref",
+        "status": "enriched",
+        "doi": "10.1126/science.aeb0054",
+        "fetchedAt": "2026-08-28T04:11:41.520Z",
+        "abstract": "Suppressor transfer RNAs (sup-tRNAs) can rescue disease-causing nonsense mutations by promoting readthrough of premature termination codons (PTCs). Their clinical translation is limited by suboptimal activity and inefficient in vivo delivery. In this work, we combined site-specific chemical modification of sup-tRNAs with cargo-tailored pulmonary lipid nanoparticle (LNP) engineering to overcome these barriers. Incorporation of N 1 -methyladenosine in sup-tRNAs improved PTC readthrough, enhanced tRNA aminoacylation, prolonged functional persistence, and reduced innate immune activation. High-throughput ionizable lipid screening and formulation optimization identified a sup-tRNA–tailored LNP that efficiently delivered chemically modified sup-tRNAs to the lung. This approach restored cystic fibrosis transmembrane conductance regulator (CFTR) expression and function in bronchial epithelial cells, mouse models, and patient-derived organoids. Thus, LNP-delivered, chemically engineered sup-tRNAs represent a potential therapeutic platform for treating nonsense mutations.",
+        "sourceUrl": "https://api.crossref.org/works/10.1126%2Fscience.aeb0054"
+      },
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 86
+    },
+    {
+      "id": "7321bf895803bb0e",
+      "title": "Women face bans on research underground — here’s how to modernize the system",
+      "url": "https://www.nature.com/articles/d41586-026-02679-y",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02679-y",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "description": "Nature, Published online: 27 August 2026; doi:10.1038/d41586-026-02679-y In many countries, female engineers are barred from entering deep mines to carry out studies. Differentiating risks can increase access while protecting safety.",
+      "rssDescription": "Nature, Published online: 27 August 2026; doi:10.1038/d41586-026-02679-y In many countries, female engineers are barred from entering deep mines to carry out studies. Differentiating risks can increase access while protecting safety.",
+      "doi": "10.1038/d41586-026-02679-y",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 72
+    },
     {
       "id": "8a2101964b8662c4",
       "title": "Ratko Mladic, former general convicted of Bosnia genocide, dies",
@@ -26,7 +238,7 @@
         "world"
       ],
       "topic": "conflict-security",
-      "preliminaryScore": 98
+      "preliminaryScore": 100
     },
     {
       "id": "bcb688587fb4f5cf",
@@ -41,6 +253,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T14:56:52.000Z",
       "description": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
+      "rssDescription": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
       "discovery": "rss",
       "categoryHints": [
         "technology"
@@ -81,6 +294,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T15:10:24.000Z",
       "description": "After nearly a decade of service to NASA, including an eight-month science expedition aboard the International Space Station, astronaut Jonny Kim’s last day at the agency is Thursday. He will continue serving as lieutenant commander in the U.S. Navy. Kim launched to the space station in April 2025 aboard the Soyuz MS‑27 spacecraft to conduct [&#8230;]",
+      "rssDescription": "After nearly a decade of service to NASA, including an eight-month science expedition aboard the International Space Station, astronaut Jonny Kim’s last day at the agency is Thursday. He will continue serving as lieutenant commander in the U.S. Navy. Kim launched to the space station in April 2025 aboard the Soyuz MS‑27 spacecraft to conduct [&#8230;]",
       "discovery": "rss",
       "categoryHints": [
         "science"
@@ -101,6 +315,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T15:53:00.000Z",
       "description": "Zambia's national broadcaster reports that Brian Mundubile, who wanted to challenge this month's presidential election results, and his running mate have surrendered to police and are being interviewed.",
+      "rssDescription": "Zambia's national broadcaster reports that Brian Mundubile, who wanted to challenge this month's presidential election results, and his running mate have surrendered to police and are being interviewed.",
       "discovery": "rss",
       "categoryHints": [
         "society"
@@ -142,6 +357,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T13:33:51.000Z",
       "description": "Norway's King Harald was in a \"very serious\" condition in hospital ​on Thursday, the royal court said, and family members gathered at his bedside. Hundreds of people gathered outside the Royal Palace in central Oslo and many ​lay flowers ‌as they awaited further news of the 89-year-old ⁠king's health.",
+      "rssDescription": "Norway's King Harald was in a \"very serious\" condition in hospital ​on Thursday, the royal court said, and family members gathered at his bedside. Hundreds of people gathered outside the Royal Palace in central Oslo and many ​lay flowers ‌as they awaited further news of the 89-year-old ⁠king's health.",
       "discovery": "rss",
       "categoryHints": [
         "health"
@@ -162,6 +378,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T15:15:00.000Z",
       "description": "DW spoke with people from the Nepali regions devastated by flash floods about the fates of their family members, with a government minister warning that the state was not ready for a disaster of such magnitude.",
+      "rssDescription": "DW spoke with people from the Nepali regions devastated by flash floods about the fates of their family members, with a government minister warning that the state was not ready for a disaster of such magnitude.",
       "discovery": "rss",
       "categoryHints": [
         "climate"
@@ -247,7 +464,7 @@
         "world"
       ],
       "topic": "general",
-      "preliminaryScore": 98
+      "preliminaryScore": 100
     },
     {
       "id": "38b2d5603aa1ce56",
@@ -283,6 +500,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T14:27:04.000Z",
       "description": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
+      "rssDescription": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
       "discovery": "rss",
       "categoryHints": [
         "ai"
@@ -303,6 +521,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T15:09:11.000Z",
       "description": "In her exclusive interview with FRANCE 24, French astronaut Sophie Adenot spoke from the International Space Station about the impacts of climate change and the changing face of Earth.",
+      "rssDescription": "In her exclusive interview with FRANCE 24, French astronaut Sophie Adenot spoke from the International Space Station about the impacts of climate change and the changing face of Earth.",
       "discovery": "rss",
       "categoryHints": [
         "science"
@@ -383,6 +602,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T14:57:30.000Z",
       "description": "With more than 1,000 people still missing after the devastating flash flood that hit Nepal and Tibet on Wednesday, international rescue teams are working to locate survivors. But, as France 24’s Navodita Kumari reports, they are facing “extremely challenging” conditions due to the weather, mountainous terrain and lack of infrastructure.",
+      "rssDescription": "With more than 1,000 people still missing after the devastating flash flood that hit Nepal and Tibet on Wednesday, international rescue teams are working to locate survivors. But, as France 24’s Navodita Kumari reports, they are facing “extremely challenging” conditions due to the weather, mountainous terrain and lack of infrastructure.",
       "discovery": "rss",
       "categoryHints": [
         "climate"
@@ -424,6 +644,7 @@
       "publishedAt": "2026-08-27T15:22:08.000Z",
       "updatedAt": "2026-08-27T15:22:12.000Z",
       "description": "Microsoft saw Sony's open goal and took the shot.",
+      "rssDescription": "Microsoft saw Sony's open goal and took the shot.",
       "discovery": "rss",
       "categoryHints": [
         "games"
@@ -444,6 +665,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T15:47:31.000Z",
       "description": "Gold collection known as Treasure of Villena, worth at least €1.7m, is target of ‘very well planned’ raid Thieves in Spain have raided the Treasure of Villena – a stunning collection of bronze age gold artefacts that has been described as the most important prehistoric trove in Europe – in the latest high-profile smash-and-grab heist on the continent. The raid on Thursday morning of the 66 mostly gold objects in the Spanish town of Villena lasted just minutes, officials said. Continue reading...",
+      "rssDescription": "Gold collection known as Treasure of Villena, worth at least €1.7m, is target of ‘very well planned’ raid Thieves in Spain have raided the Treasure of Villena – a stunning collection of bronze age gold artefacts that has been described as the most important prehistoric trove in Europe – in the latest high-profile smash-and-grab heist on the continent. The raid on Thursday morning of the 66 mostly gold objects in the Spanish town of Villena lasted just minutes, officials said. Continue reading...",
       "discovery": "rss",
       "categoryHints": [
         "culture-sports"
@@ -469,7 +691,7 @@
         "world"
       ],
       "topic": "general",
-      "preliminaryScore": 98
+      "preliminaryScore": 100
     },
     {
       "id": "a9d2c95830031e64",
@@ -484,6 +706,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T12:10:00.000Z",
       "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with&#8230;",
+      "rssDescription": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with&#8230;",
       "discovery": "rss",
       "categoryHints": [
         "technology"
@@ -504,6 +727,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T14:01:42.000Z",
       "description": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "rssDescription": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
       "discovery": "rss",
       "categoryHints": [
         "ai"
@@ -524,6 +748,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T07:30:00.000Z",
       "description": "Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears. Guided by sonifications – the translation of data into sound – host Zsófi Szalavári travels from our Sun out into the depths of space to uncover what the space telescopes of ESA’s science missions teach us about the Universe.",
+      "rssDescription": "Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears. Guided by sonifications – the translation of data into sound – host Zsófi Szalavári travels from our Sun out into the depths of space to uncover what the space telescopes of ESA’s science missions teach us about the Universe.",
       "discovery": "rss",
       "categoryHints": [
         "science"
@@ -565,6 +790,7 @@
       "publishedAt": "2026-08-27T15:11:38.000Z",
       "updatedAt": "2026-08-27T18:25:29.000Z",
       "description": "\"We grew up and got a little bit more mature about it.\"",
+      "rssDescription": "\"We grew up and got a little bit more mature about it.\"",
       "discovery": "rss",
       "categoryHints": [
         "business"
@@ -605,6 +831,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T14:31:00.000Z",
       "description": "When flash floods sweep through the Himalayas, there is often little time to react. Scientists are working to understand the risks and improve early warning systems.",
+      "rssDescription": "When flash floods sweep through the Himalayas, there is often little time to react. Scientists are working to understand the risks and improve early warning systems.",
       "discovery": "rss",
       "categoryHints": [
         "climate"
@@ -690,7 +917,7 @@
         "world"
       ],
       "topic": "conflict-security",
-      "preliminaryScore": 97
+      "preliminaryScore": 100
     },
     {
       "id": "b497155f647211c7",
@@ -746,6 +973,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T07:00:07.000Z",
       "description": "In his trailblazing work, paint is pushed through the back of hemp to create spare, striking paintings. Abstraction is a form of rebellion, he says – and he has no intention of slowing down In the early 1970s, the Korean artist Ha Chong-Hyun had a simple but novel idea: why not apply oil paint to the back of a surface rather than the front? Instead of canvas, he stretched pieces of hemp, a coarse and loosely woven fabric, and pushed the thick oil paint through the holes in the cloth. For each work he used a single colour, in a neutral or muted tone such as white or brown. On the “front” side, he&nbsp;then moved the paint around with various handmade tools to create something akin to brushstrokes. Ha, now 91, has remained dedicated to this technique, known as the “back-pressure method” ( bae-ap-bub in&nbsp;Korean), ever since. He titles every piece Conjunction – because for him the work is essentially about the coming together of artist and material – along with numbers denoting the date of its creation. “The technique he developed was really revolutionary. It hadn’t been done before,” says Max Bossier, director at Lisson Gallery in London, where a selection from this decades-spanni",
+      "rssDescription": "In his trailblazing work, paint is pushed through the back of hemp to create spare, striking paintings. Abstraction is a form of rebellion, he says – and he has no intention of slowing down In the early 1970s, the Korean artist Ha Chong-Hyun had a simple but novel idea: why not apply oil paint to the back of a surface rather than the front? Instead of canvas, he stretched pieces of hemp, a coarse and loosely woven fabric, and pushed the thick oil paint through the holes in the cloth. For each work he used a single colour, in a neutral or muted tone such as white or brown. On the “front” side, he&nbsp;then moved the paint around with various handmade tools to create something akin to brushstrokes. Ha, now 91, has remained dedicated to this technique, known as the “back-pressure method” ( bae-ap-bub in&nbsp;Korean), ever since. He titles every piece Conjunction – because for him the work is essentially about the coming together of artist and material – along with numbers denoting the date of its creation. “The technique he developed was really revolutionary. It hadn’t been done before,” says Max Bossier, director at Lisson Gallery in London, where a selection from this decades-spanni",
       "discovery": "rss",
       "categoryHints": [
         "science"
@@ -786,6 +1014,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T15:15:37.000Z",
       "description": "Paris's Roland Garros tennis stadium will be the venue for a French presidential election warmup event on Thursday as seven from a crowded field of candidates will take to the stage at the Medef business leaders' annual end-of-summer seminar to defend their business and economic programmes. France 24's Charles Pellegrin reports.",
+      "rssDescription": "Paris's Roland Garros tennis stadium will be the venue for a French presidential election warmup event on Thursday as seven from a crowded field of candidates will take to the stage at the Medef business leaders' annual end-of-summer seminar to defend their business and economic programmes. France 24's Charles Pellegrin reports.",
       "discovery": "rss",
       "categoryHints": [
         "business"
@@ -806,6 +1035,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T12:00:00.000Z",
       "description": "The Ebola Bundibugyo&nbsp;outbreak in the Democratic Republic of the Congo (DRC) requires “urgent” action and funding to rein in its alarming spread, the UN Secretary-General told reporters at UN Headquarters on Thursday.",
+      "rssDescription": "The Ebola Bundibugyo&nbsp;outbreak in the Democratic Republic of the Congo (DRC) requires “urgent” action and funding to rein in its alarming spread, the UN Secretary-General told reporters at UN Headquarters on Thursday.",
       "discovery": "rss",
       "categoryHints": [
         "health"
@@ -826,6 +1056,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T13:57:23.000Z",
       "description": "Hundreds of Indian nationals are missing in Nepal and Tibet following a catastrophic Himalayan flood. They include several pilgrims doing the Kailash Mansarovar Yatra pilgrimage to Mount Kailash, a mountain in Tibet that holds sacred significance for Hinduism, Buddhism, Jainism and the Tibetan Bon religion, explains FRANCE 24’s Leela Jacinto.",
+      "rssDescription": "Hundreds of Indian nationals are missing in Nepal and Tibet following a catastrophic Himalayan flood. They include several pilgrims doing the Kailash Mansarovar Yatra pilgrimage to Mount Kailash, a mountain in Tibet that holds sacred significance for Hinduism, Buddhism, Jainism and the Tibetan Bon religion, explains FRANCE 24’s Leela Jacinto.",
       "discovery": "rss",
       "categoryHints": [
         "climate"
@@ -866,6 +1097,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T14:40:00.000Z",
       "description": "Xbox isn't healthy, she said again.",
+      "rssDescription": "Xbox isn't healthy, she said again.",
       "discovery": "rss",
       "categoryHints": [
         "games"
@@ -886,6 +1118,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T15:26:00.000Z",
       "description": "European football’s governing body said it is preparing a criminal complaint against the FIFA president over his failed plan to sell a stake in the World Cup.",
+      "rssDescription": "European football’s governing body said it is preparing a criminal complaint against the FIFA president over his failed plan to sell a stake in the World Cup.",
       "discovery": "rss",
       "categoryHints": [
         "culture-sports"
@@ -925,13 +1158,24 @@
       "sourceTier": "B",
       "language": "en",
       "publishedAt": "2026-08-27T06:00:13.000Z",
-      "description": "Science, Volume 393, Issue 6814, Page 938-943, August 2026.",
+      "description": "Metal contacts remain one of the key bottlenecks in two-dimensional (2D) semiconductor electronics. We developed an atomic-scale step-by-step evaporation method to directly grow single-crystal metals on monolayer semiconductors with clean interfaces. This method accesses a distinct growth-kinetic window that suppresses secondary nucleation and promotes lateral coalescence, enabling van der Waals epitaxy of diverse metals—including bismuth, silver, indium, gold, and palladium—on molybdenum disulfide (MoS 2 ) and tungsten diselenide (WSe 2 ). The single-crystal metals support ultrathin conduction, provide spatially uniform work functions, and exhibit improved thermal robustness. As contacts, they show minimal Fermi-level pinning, approaching the Schottky–Mott limit. With bismuth and palladium contacts, monolayer MoS 2 and WSe 2 transistors achieved ultralow n- and p-type contact resistances of 36 and 145 ohm-micrometers, respectively, and short-channel currents both above 1.1 milliampere per micrometer.",
+      "rssDescription": "Science, Volume 393, Issue 6814, Page 938-943, August 2026.",
+      "doi": "10.1126/science.aee3132",
+      "journalContentType": "Research Article",
+      "metadataEnrichment": {
+        "provider": "crossref",
+        "status": "enriched",
+        "doi": "10.1126/science.aee3132",
+        "fetchedAt": "2026-08-28T04:11:43.084Z",
+        "abstract": "Metal contacts remain one of the key bottlenecks in two-dimensional (2D) semiconductor electronics. We developed an atomic-scale step-by-step evaporation method to directly grow single-crystal metals on monolayer semiconductors with clean interfaces. This method accesses a distinct growth-kinetic window that suppresses secondary nucleation and promotes lateral coalescence, enabling van der Waals epitaxy of diverse metals—including bismuth, silver, indium, gold, and palladium—on molybdenum disulfide (MoS 2 ) and tungsten diselenide (WSe 2 ). The single-crystal metals support ultrathin conduction, provide spatially uniform work functions, and exhibit improved thermal robustness. As contacts, they show minimal Fermi-level pinning, approaching the Schottky–Mott limit. With bismuth and palladium contacts, monolayer MoS 2 and WSe 2 transistors achieved ultralow n- and p-type contact resistances of 36 and 145 ohm-micrometers, respectively, and short-channel currents both above 1.1 milliampere per micrometer.",
+        "sourceUrl": "https://api.crossref.org/works/10.1126%2Fscience.aee3132"
+      },
       "discovery": "rss",
       "categoryHints": [
         "technology"
       ],
       "topic": "energy-materials",
-      "preliminaryScore": 77
+      "preliminaryScore": 85
     },
     {
       "id": "70872feb0204dd6b",
@@ -946,6 +1190,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T13:57:08.000Z",
       "description": "AI’s water footprint is growing, but location and cooling technology make a difference.",
+      "rssDescription": "AI’s water footprint is growing, but location and cooling technology make a difference.",
       "discovery": "rss",
       "categoryHints": [
         "ai"
@@ -965,13 +1210,24 @@
       "sourceTier": "B",
       "language": "en",
       "publishedAt": "2026-08-27T07:00:00.000Z",
-      "description": "Science, Volume 393, Issue 6814, August 2026.",
+      "description": "Sex chromosome evolution is among the most dynamic genomic innovations in vertebrates, yet why some lineages evolve XY while others evolve ZW remains unclear. Using chromosome-level genomes from 19 geckos, we found that gecko sex chromosomes originated independently from 16 ancestral chromosomes. Their origins are nonrandom in both time and direction. Five of 11 datable origins coincide near the Middle Miocene Climatic Transition (~10 million years ago). Ancestral gene content is associated with the direction of evolution, with testis-enriched regions tending to evolve into ZW and testis-depleted regions into XY, a pattern observed across multiple amniote sex chromosome origins. Geckos with genetic sex determination repeatedly evolve partial dosage balance through up-regulation in the heterogametic sex. Sex chromosome evolution thus follows constraints from ancestral genomic predisposition and environmental context.",
+      "rssDescription": "Science, Volume 393, Issue 6814, August 2026.",
+      "doi": "10.1126/science.aec3449",
+      "journalContentType": "Research Article",
+      "metadataEnrichment": {
+        "provider": "crossref",
+        "status": "enriched",
+        "doi": "10.1126/science.aec3449",
+        "fetchedAt": "2026-08-28T04:11:42.487Z",
+        "abstract": "Sex chromosome evolution is among the most dynamic genomic innovations in vertebrates, yet why some lineages evolve XY while others evolve ZW remains unclear. Using chromosome-level genomes from 19 geckos, we found that gecko sex chromosomes originated independently from 16 ancestral chromosomes. Their origins are nonrandom in both time and direction. Five of 11 datable origins coincide near the Middle Miocene Climatic Transition (~10 million years ago). Ancestral gene content is associated with the direction of evolution, with testis-enriched regions tending to evolve into ZW and testis-depleted regions into XY, a pattern observed across multiple amniote sex chromosome origins. Geckos with genetic sex determination repeatedly evolve partial dosage balance through up-regulation in the heterogametic sex. Sex chromosome evolution thus follows constraints from ancestral genomic predisposition and environmental context.",
+        "sourceUrl": "https://api.crossref.org/works/10.1126%2Fscience.aec3449"
+      },
       "discovery": "rss",
       "categoryHints": [
         "science"
       ],
       "topic": "life-sciences",
-      "preliminaryScore": 78
+      "preliminaryScore": 86
     },
     {
       "id": "0d38e3a239f1417d",
@@ -986,6 +1242,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T13:39:59.000Z",
       "description": "An alleged underworld kingpin wrapped up his testimony at a high profile South African corruption enquiry on Wednesday. Vusimusi “Cat” Matlala returned to the witness stand before the Madlanga Commission looking into allegations including accusations that a suspended deputy police chief took kickbacks from criminals. Eunice Masson has more.",
+      "rssDescription": "An alleged underworld kingpin wrapped up his testimony at a high profile South African corruption enquiry on Wednesday. Vusimusi “Cat” Matlala returned to the witness stand before the Madlanga Commission looking into allegations including accusations that a suspended deputy police chief took kickbacks from criminals. Eunice Masson has more.",
       "discovery": "rss",
       "categoryHints": [
         "society"
@@ -1086,6 +1343,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T14:17:05.000Z",
       "description": "MBC Game Studio broke cover at Gamescom 2026 and has already hired veterans from BioWare, Hi-Rez, Ubisoft Montreal, and Bungie.",
+      "rssDescription": "MBC Game Studio broke cover at Gamescom 2026 and has already hired veterans from BioWare, Hi-Rez, Ubisoft Montreal, and Bungie.",
       "discovery": "rss",
       "categoryHints": [
         "games"
@@ -1175,24 +1433,25 @@
       "preliminaryScore": 83
     },
     {
-      "id": "23c868471b111f89",
-      "title": "Foreshock productivity and rupture nucleation in injection-induced earthquakes in western Canada",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aed9893?af=R",
-      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aed9893?af=R",
-      "sourceId": "science",
-      "sourceName": "Science",
-      "domain": "science.org",
+      "id": "1982014a34bb463f",
+      "title": "Moon set to turn red as rare partial lunar eclipse graces UK skies on Friday",
+      "url": "https://www.bbc.co.uk/weather/articles/c5y4n7y89w7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/weather/articles/c5y4n7y89w7o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-27T07:00:00.000Z",
-      "description": "Science, Volume 393, Issue 6814, August 2026.",
+      "publishedAt": "2026-08-27T06:03:15.000Z",
+      "description": "The Moon could glow an eerie red in the early hours of Friday but cloud cover may spoil the spectacle for some parts of the UK.",
+      "rssDescription": "The Moon could glow an eerie red in the early hours of Friday but cloud cover may spoil the spectacle for some parts of the UK.",
       "discovery": "rss",
       "categoryHints": [
         "science"
       ],
-      "topic": "earth-science",
-      "preliminaryScore": 78
+      "topic": "aerospace",
+      "preliminaryScore": 77
     },
     {
       "id": "b828316462da3948",
@@ -1247,6 +1506,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T11:23:28.000Z",
       "description": "A Jerusalem court said the Jewish attacker was having a psychotic episode when he assaulted the nun, in an incident which caused outrage.",
+      "rssDescription": "A Jerusalem court said the Jewish attacker was having a psychotic episode when he assaulted the nun, in an incident which caused outrage.",
       "discovery": "rss",
       "categoryHints": [
         "health"
@@ -1267,6 +1527,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T12:00:00.000Z",
       "description": "Amid reports that hundreds of people are still missing in Nepal and China after a floodwater surge slammed into towns and villages on Wednesday, aid teams have been working to reach communities cut off by the disaster.",
+      "rssDescription": "Amid reports that hundreds of people are still missing in Nepal and China after a floodwater surge slammed into towns and villages on Wednesday, aid teams have been working to reach communities cut off by the disaster.",
       "discovery": "rss",
       "categoryHints": [
         "climate"
@@ -1287,6 +1548,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T15:21:20.000Z",
       "description": "As the world pays homage to the life and legacy of Dolly Parton, François Picard is pleased to welcome Nashville's Irene Kelley, Country musician and celebrated songwriter, alongside her daughter, Justyna Kelley, Country musician, songwriter, actress and producer. For the Kelley family, Dolly Parton’s significance lies in the extraordinary reach of her music, and even more in the way she turned intimate stories into something remarkably universal. Her songs were grounded in home and family, sharing life's immense struggles, while staying true to her values. The Kelleys see Parton as a national treasure who transcended generations, social class and the great political divide.",
+      "rssDescription": "As the world pays homage to the life and legacy of Dolly Parton, François Picard is pleased to welcome Nashville's Irene Kelley, Country musician and celebrated songwriter, alongside her daughter, Justyna Kelley, Country musician, songwriter, actress and producer. For the Kelley family, Dolly Parton’s significance lies in the extraordinary reach of her music, and even more in the way she turned intimate stories into something remarkably universal. Her songs were grounded in home and family, sharing life's immense struggles, while staying true to her values. The Kelleys see Parton as a national treasure who transcended generations, social class and the great political divide.",
       "discovery": "rss",
       "categoryHints": [
         "entertainment"
@@ -1327,6 +1589,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T13:53:00.000Z",
       "description": "The top leagues of German football remain a largely male environment. A new study reveals that only seven clubs have women in upper management levels.",
+      "rssDescription": "The top leagues of German football remain a largely male environment. A new study reveals that only seven clubs have women in upper management levels.",
       "discovery": "rss",
       "categoryHints": [
         "culture-sports"
@@ -1396,24 +1659,35 @@
       "preliminaryScore": 83
     },
     {
-      "id": "1982014a34bb463f",
-      "title": "Moon set to turn red as rare partial lunar eclipse graces UK skies on Friday",
-      "url": "https://www.bbc.co.uk/weather/articles/c5y4n7y89w7o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/weather/articles/c5y4n7y89w7o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
+      "id": "db88b407fc53722b",
+      "title": "Orbital alchemy",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael8347?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.ael8347?af=R",
+      "sourceId": "science",
+      "sourceName": "Science",
+      "domain": "science.org",
       "sourceType": "independent-media",
       "sourceTier": "B",
       "language": "en",
-      "publishedAt": "2026-08-27T06:03:15.000Z",
-      "description": "The Moon could glow an eerie red in the early hours of Friday but cloud cover may spoil the spectacle for some parts of the UK.",
+      "publishedAt": "2026-08-27T06:00:13.000Z",
+      "description": "Maturing space labs and cheaper launches fuel dreams of manufacturing drugs and tissues in orbit",
+      "rssDescription": "Science, Volume 393, Issue 6814, Page 854-858, August 2026.",
+      "doi": "10.1126/science.ael8347",
+      "journalContentType": "Feature",
+      "metadataEnrichment": {
+        "provider": "crossref",
+        "status": "enriched",
+        "doi": "10.1126/science.ael8347",
+        "fetchedAt": "2026-08-28T04:11:44.618Z",
+        "abstract": "Maturing space labs and cheaper launches fuel dreams of manufacturing drugs and tissues in orbit",
+        "sourceUrl": "https://api.crossref.org/works/10.1126%2Fscience.ael8347"
+      },
       "discovery": "rss",
       "categoryHints": [
         "science"
       ],
       "topic": "aerospace",
-      "preliminaryScore": 77
+      "preliminaryScore": 85
     },
     {
       "id": "8699c3d2b2140ce2",
@@ -1448,6 +1722,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T15:01:47.000Z",
       "description": "Japan's Yayoi Kusama, one of the world's most celebrated contemporary artists, has died aged 97, her company said on Thursday, triggering tributes from around the world. Eve Jackson takes a look at how the woman dubbed the \"polka dot queen\" became an icon of the art world.",
+      "rssDescription": "Japan's Yayoi Kusama, one of the world's most celebrated contemporary artists, has died aged 97, her company said on Thursday, triggering tributes from around the world. Eve Jackson takes a look at how the woman dubbed the \"polka dot queen\" became an icon of the art world.",
       "discovery": "rss",
       "categoryHints": [
         "business"
@@ -1528,6 +1803,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T13:39:30.000Z",
       "description": "The European games industry generated &euro;30 billion in 2025, with digital purchases accounting for 91% of total revenue, according to Video Games Europe (VGE). Read more",
+      "rssDescription": "The European games industry generated &euro;30 billion in 2025, with digital purchases accounting for 91% of total revenue, according to Video Games Europe (VGE). Read more",
       "discovery": "rss",
       "categoryHints": [
         "games"
@@ -1589,6 +1865,7 @@
       "language": "en",
       "publishedAt": "2026-08-26T23:47:18.000Z",
       "description": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+      "rssDescription": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
       "discovery": "rss",
       "categoryHints": [
         "technology"
@@ -1609,6 +1886,7 @@
       "language": "en",
       "publishedAt": "2026-08-27T13:00:00.000Z",
       "description": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+      "rssDescription": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
       "discovery": "rss",
       "categoryHints": [
         "ai"
@@ -1617,10 +1895,10 @@
       "preliminaryScore": 83
     },
     {
-      "id": "db88b407fc53722b",
-      "title": "Orbital alchemy",
-      "url": "https://www.science.org/doi/abs/10.1126/science.ael8347?af=R",
-      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.ael8347?af=R",
+      "id": "57d19a5643ad120f",
+      "title": "NASA’s Roman telescope readies a sweeping view of the universe",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ael8353?af=R",
+      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.ael8353?af=R",
       "sourceId": "science",
       "sourceName": "Science",
       "domain": "science.org",
@@ -1628,13 +1906,24 @@
       "sourceTier": "B",
       "language": "en",
       "publishedAt": "2026-08-27T06:00:13.000Z",
-      "description": "Science, Volume 393, Issue 6814, Page 854-858, August 2026.",
+      "description": "With Hubble’s sharp vision and a view 100 times larger, the observatory will rapidly scan the cosmos for distant worlds and clues to dark energy",
+      "rssDescription": "Science, Volume 393, Issue 6814, Page 849-850, August 2026.",
+      "doi": "10.1126/science.ael8353",
+      "journalContentType": "In Depth",
+      "metadataEnrichment": {
+        "provider": "crossref",
+        "status": "enriched",
+        "doi": "10.1126/science.ael8353",
+        "fetchedAt": "2026-08-28T04:11:44.935Z",
+        "abstract": "With Hubble’s sharp vision and a view 100 times larger, the observatory will rapidly scan the cosmos for distant worlds and clues to dark energy",
+        "sourceUrl": "https://api.crossref.org/works/10.1126%2Fscience.ael8353"
+      },
       "discovery": "rss",
       "categoryHints": [
         "science"
       ],
       "topic": "aerospace",
-      "preliminaryScore": 77
+      "preliminaryScore": 85
     },
     {
       "id": "ab6d5359f2837bd2",
@@ -1649,184 +1938,25 @@
       "language": "en",
       "publishedAt": "2026-08-27T12:20:00.000Z",
       "description": "The AfD could make history in the German state of Saxony-Anhalt. For many people with a migration background, the September 6 state election raises questions about belonging, security and their future in Germany.",
+      "rssDescription": "The AfD could make history in the German state of Saxony-Anhalt. For many people with a migration background, the September 6 state election raises questions about belonging, security and their future in Germany.",
       "discovery": "rss",
       "categoryHints": [
         "society"
       ],
       "topic": "public-policy",
       "preliminaryScore": 82
-    },
-    {
-      "id": "ed02f99a4b555fbd",
-      "title": "Panic passes Trump tariff refunds back to the Playdate customers who paid them",
-      "url": "https://arstechnica.com/gaming/2026/08/panic-refunds-illegal-tariffs-customers-paid-on-its-playdate-gaming-handheld/",
-      "canonicalUrl": "https://arstechnica.com/gaming/2026/08/panic-refunds-illegal-tariffs-customers-paid-on-its-playdate-gaming-handheld",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "domain": "arstechnica.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-27T14:53:17.000Z",
-      "description": "\"It just felt like the right thing to do.\"",
-      "discovery": "rss",
-      "categoryHints": [
-        "business"
-      ],
-      "topic": "economy-finance",
-      "preliminaryScore": 84
-    },
-    {
-      "id": "668bbcd2092c63dc",
-      "title": "A necroptotic-to-apoptotic signaling axis underlies inflammatory bowel disease",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeh7112?af=R",
-      "canonicalUrl": "https://www.science.org/doi/abs/10.1126/science.aeh7112?af=R",
-      "sourceId": "science",
-      "sourceName": "Science",
-      "domain": "science.org",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-27T07:00:00.000Z",
-      "description": "Science, Volume 393, Issue 6814, August 2026.",
-      "discovery": "rss",
-      "categoryHints": [
-        "health"
-      ],
-      "topic": "health-medicine",
-      "preliminaryScore": 78
-    },
-    {
-      "id": "e5ae3a55c6e37089",
-      "title": "Nepal flash flood: Disaster in a geological battleground zone",
-      "url": "https://www.france24.com/en/video/20260827-nepal-flash-flood-disaster-in-a-geological-battleground-zone",
-      "canonicalUrl": "https://www.france24.com/en/video/20260827-nepal-flash-flood-disaster-in-a-geological-battleground-zone",
-      "sourceId": "france24",
-      "sourceName": "France 24",
-      "domain": "france24.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-27T11:33:52.000Z",
-      "description": "France 24's Leela Jacinto takes a look at how the extreme geography of Nepal and Tibet, dominated by the Himilaya mountains, contributed to the initial confusion over the cause of catastrophic floods that have killed at least 180 people - now believed to be the result of a glacial collapse.",
-      "discovery": "rss",
-      "categoryHints": [
-        "climate"
-      ],
-      "topic": "climate-environment",
-      "preliminaryScore": 81
-    },
-    {
-      "id": "23f00b8a3dc9b462",
-      "title": "Peter Cullen Dies: Voice Of Optimus Prime In &#8216;Transformers&#8217; Was 85",
-      "url": "https://deadline.com/2026/08/peter-cullen-dead-optimus-prime-transformers-1237060853/",
-      "canonicalUrl": "https://deadline.com/2026/08/peter-cullen-dead-optimus-prime-transformers-1237060853",
-      "sourceId": "deadline",
-      "sourceName": "Deadline",
-      "domain": "deadline.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-27T15:04:08.000Z",
-      "description": "Peter Cullen, the Canadian voice actor who voiced Optimus Prime in the original 1980s Transformers animated series, later reprised the role in the film and TV franchises, voiced Eeyore in the Winnie the Pooh franchise and was the announcer for the Smothers Brothers TV show, among scores of others, has died. He was 85. His agent Kevin Motley told [&#8230;]",
-      "discovery": "rss",
-      "categoryHints": [
-        "entertainment"
-      ],
-      "topic": "film-television",
-      "preliminaryScore": 84
-    },
-    {
-      "id": "59c2a49cc127d4ee",
-      "title": "\"All of the industry needs to start to innovate on affordability and efficiency\" - Xbox's Asha Sharma wants change and \"more choice\" for people buying consoles",
-      "url": "https://www.eurogamer.net/xbox-console-affordability-price-asha-sharma",
-      "canonicalUrl": "https://www.eurogamer.net/xbox-console-affordability-price-asha-sharma",
-      "sourceId": "eurogamer",
-      "sourceName": "Eurogamer",
-      "domain": "eurogamer.net",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-27T11:16:24.000Z",
-      "description": "As component prices balloon, the expectation Microsoft will take a different tack with the next generation of consoles has been reinforced by Xbox boss Asha Sharma, who has declared that \"all of the industry needs to start to innovate on affordability and efficiency\". Read more",
-      "discovery": "rss",
-      "categoryHints": [
-        "games"
-      ],
-      "topic": "games-release",
-      "preliminaryScore": 81
-    },
-    {
-      "id": "7bfc5670cbc21b49",
-      "title": "Thieves steal Bronze Age artefacts from Spanish museum in four-minute heist",
-      "url": "https://www.bbc.co.uk/news/articles/ckgw9gw34yqo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckgw9gw34yqo?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-27T12:41:16.000Z",
-      "description": "The Treasure of Villena is a unique trove of almost ten kilos of gold, bowls, bottles and bracelets dating back to the Bronze Age.",
-      "discovery": "rss",
-      "categoryHints": [
-        "culture-sports"
-      ],
-      "topic": "culture-sports",
-      "preliminaryScore": 82
-    },
-    {
-      "id": "c3ef221aed666898",
-      "title": "Teenager Earns &#8216;AGT&#8217; Golden Buzzer &#038; Praise From Chris Cornell&#8217;s Wife for &#8216;Incredible&#8217; Soundgarden&#160;Cover",
-      "url": "https://www.billboard.com/culture/tv-film/agt-golden-buzzer-soundgarden-cover-praise-cornell-wife-watch-1236326257/",
-      "canonicalUrl": "https://www.billboard.com/culture/tv-film/agt-golden-buzzer-soundgarden-cover-praise-cornell-wife-watch-1236326257",
-      "sourceId": "billboard",
-      "sourceName": "Billboard",
-      "domain": "billboard.com",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-27T15:45:02.000Z",
-      "description": "\"YOU DID HIM PROUD!!\" Vicky Cornell wrote on behalf of the late rocker.",
-      "discovery": "rss",
-      "categoryHints": [
-        "world"
-      ],
-      "topic": "general",
-      "preliminaryScore": 85
-    },
-    {
-      "id": "6c41e91493628b45",
-      "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
-      "url": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_campaign=rss&at_medium=RSS",
-      "sourceId": "bbc",
-      "sourceName": "BBC News",
-      "domain": "bbc.co.uk",
-      "sourceType": "independent-media",
-      "sourceTier": "B",
-      "language": "en",
-      "publishedAt": "2026-08-26T22:03:45.000Z",
-      "description": "OpenAI's cyber agents banded together to perform a hack during a security test.",
-      "discovery": "rss",
-      "categoryHints": [
-        "technology"
-      ],
-      "topic": "digital-infrastructure",
-      "preliminaryScore": 70
     }
   ],
   "sourceResults": [
     {
       "sourceId": "abc-au",
-      "status": "ok",
-      "count": 25
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "al-jazeera",
-      "status": "ok",
-      "count": 25
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "ap",
@@ -1836,17 +1966,17 @@
     {
       "sourceId": "ars-technica",
       "status": "ok",
-      "count": 15
+      "count": 13
     },
     {
       "sourceId": "bbc",
       "status": "ok",
-      "count": 44
+      "count": 33
     },
     {
       "sourceId": "billboard",
-      "status": "ok",
-      "count": 6
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "bloomberg",
@@ -1861,18 +1991,18 @@
     },
     {
       "sourceId": "cna",
-      "status": "ok",
-      "count": 20
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "deadline",
-      "status": "ok",
-      "count": 7
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "dw",
       "status": "ok",
-      "count": 20
+      "count": 14
     },
     {
       "sourceId": "esa",
@@ -1892,7 +2022,7 @@
     {
       "sourceId": "france24",
       "status": "ok",
-      "count": 24
+      "count": 12
     },
     {
       "sourceId": "ft",
@@ -1911,8 +2041,8 @@
     },
     {
       "sourceId": "hollywood-reporter",
-      "status": "ok",
-      "count": 8
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "ieee-spectrum",
@@ -1921,8 +2051,8 @@
     },
     {
       "sourceId": "ign",
-      "status": "ok",
-      "count": 14
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "imf",
@@ -1962,8 +2092,8 @@
     },
     {
       "sourceId": "polygon",
-      "status": "ok",
-      "count": 3
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "rest-of-world",
@@ -1997,8 +2127,8 @@
     },
     {
       "sourceId": "the-verge",
-      "status": "ok",
-      "count": 10
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "un-news",
@@ -2012,8 +2142,8 @@
     },
     {
       "sourceId": "variety",
-      "status": "ok",
-      "count": 5
+      "status": "empty",
+      "count": 0
     },
     {
       "sourceId": "who",
@@ -2032,6 +2162,7 @@
     }
   ],
   "notes": [
-    "Recovered local snapshot and merged 50 URL-unique candidates before deduplication; retained 90 balanced candidates."
+    "Crossref Science enrichment: attempted 39, enriched 25, abstract-missing 14, not-found 0, failed 0, no-DOI 0.",
+    "Merged and deduplicated 90 candidates from the previous snapshot."
   ]
 }

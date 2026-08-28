@@ -1,5 +1,7 @@
 import { categoryTargets, importanceWeights, type Edition, type NewsItem } from "../../src/lib/schema";
 import { loadSourceRegistry, sourceIndependenceKey } from "./sources";
+import { canonicalizeUrl } from "./candidates";
+import { extractDoi } from "./crossref";
 
 const sourceRegistry = loadSourceRegistry();
 
@@ -46,6 +48,14 @@ export function compareEditorialRank(left: NewsItem, right: NewsItem): number {
 
 export function applyEditorialControls(edition: Edition): Edition {
   const sorted = edition.items.map(normalizeItem).sort(compareEditorialRank);
+  const journalHighlights = edition.schemaVersion === 4
+    ? edition.journalHighlights.filter((highlight) => highlight.status === "selected")
+    : [];
+  const highlightedCandidateIds = new Set(journalHighlights.map((highlight) => highlight.candidateId).filter(Boolean));
+  const highlightedUrls = new Set(journalHighlights.map((highlight) => {
+    try { return highlight.url ? canonicalizeUrl(highlight.url) : undefined; } catch { return undefined; }
+  }).filter((value): value is string => Boolean(value)));
+  const highlightedDois = new Set(journalHighlights.map((highlight) => extractDoi(highlight.doi, highlight.url)).filter((value): value is string => Boolean(value)));
   const selected: NewsItem[] = [];
   const organizationTotals = new Map<string, number>();
   const organizationCategories = new Map<string, number>();
@@ -54,6 +64,14 @@ export function applyEditorialControls(edition: Edition): Edition {
 
   for (const item of sorted) {
     if (selected.length >= 30) break;
+    const duplicatesHighlight = highlightedCandidateIds.has(item.id)
+      || item.sources.some((source) => {
+        let canonicalUrl: string | undefined;
+        try { canonicalUrl = canonicalizeUrl(source.url); } catch { /* Validation reports malformed URLs. */ }
+        const doi = extractDoi(source.url);
+        return Boolean((canonicalUrl && highlightedUrls.has(canonicalUrl)) || (doi && highlightedDois.has(doi)));
+      });
+    if (duplicatesHighlight) continue;
     const keys = organizationKeys(item);
     if (keys.some((key) => (organizationTotals.get(key) ?? 0) >= 2)) continue;
     if (keys.some((key) => (organizationCategories.get(`${key}:${item.category}`) ?? 0) >= 1)) continue;

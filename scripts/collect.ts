@@ -3,6 +3,8 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { canonicalizeUrl, classifyArticle, deduplicateCandidates, isExcludedCandidate, stableCandidateId } from "./lib/candidates";
 import { fetchText, parseFeed } from "./lib/feed";
+import { enrichScienceCandidates, extractDoi } from "./lib/crossref";
+import { selectJournalReserves } from "./lib/journals";
 import { findAllowedSource, loadSourceRegistry, normalizeDomain, type SourceDefinition } from "./lib/sources";
 import { dateIsInShanghaiDay, previousShanghaiDate, shanghaiDayWindow } from "../src/lib/dates";
 import { rawSnapshotSchema, type RawCandidate } from "../src/lib/schema";
@@ -36,7 +38,7 @@ function scoreCandidate(publishedAt: string, discovery: "rss" | "gdelt", hasDesc
   ));
 }
 
-function toCandidate(entry: { title: string; url: string; publishedAt?: string; updatedAt?: string; description?: string }, source: SourceDefinition, discovery: "rss" | "gdelt", date: string): RawCandidate | undefined {
+function toCandidate(entry: { title: string; url: string; publishedAt?: string; updatedAt?: string; description?: string; doi?: string; contentType?: string }, source: SourceDefinition, discovery: "rss" | "gdelt", date: string): RawCandidate | undefined {
   const publishedAt = isoDate(entry.publishedAt ?? entry.updatedAt);
   const updatedAt = isoDate(entry.updatedAt);
   if (!publishedAt || (!dateIsInShanghaiDay(publishedAt, date) && (!updatedAt || !dateIsInShanghaiDay(updatedAt, date)))) return undefined;
@@ -62,6 +64,9 @@ function toCandidate(entry: { title: string; url: string; publishedAt?: string; 
     publishedAt,
     updatedAt,
     description: entry.description,
+    rssDescription: discovery === "rss" ? entry.description : undefined,
+    doi: extractDoi(entry.doi, entry.url, canonicalUrl),
+    journalContentType: entry.contentType,
     discovery,
     categoryHints: [classification.category],
     topic: classification.topic,
@@ -165,10 +170,12 @@ function sourceCandidateLimit(candidate: RawCandidate): number {
 }
 
 export function selectBalanced(candidates: RawCandidate[], limit = 90): RawCandidate[] {
-  const selected: RawCandidate[] = [];
+  const selected: RawCandidate[] = selectJournalReserves(candidates).slice(0, limit);
+  const selectedUrls = new Set(selected.map((candidate) => candidate.canonicalUrl));
   const sourceCounts = new Map<string, number>();
+  for (const candidate of selected) sourceCounts.set(candidate.sourceId, (sourceCounts.get(candidate.sourceId) ?? 0) + 1);
   const categoryOrder = ["world", "technology", "ai", "science", "society", "business", "health", "climate", "entertainment", "games", "culture-sports"] as const;
-  const queues = new Map(categoryOrder.map((category) => [category, candidates.filter((candidate) => candidate.categoryHints[0] === category)]));
+  const queues = new Map(categoryOrder.map((category) => [category, candidates.filter((candidate) => candidate.categoryHints[0] === category && !selectedUrls.has(candidate.canonicalUrl))]));
 
   while (selected.length < limit) {
     let addedThisRound = 0;
@@ -229,7 +236,18 @@ export async function collect(date: string, output?: string, noGdelt = false) {
   }
   const outputPath = path.resolve(output ?? `data/raw/${date}.json`);
   const existingCandidates = readExistingCandidates(outputPath, date);
-  const candidates = selectBalanced(deduplicateCandidates([...feedResult.candidates, ...gdeltCandidates, ...existingCandidates]));
+  const combined = deduplicateCandidates([...feedResult.candidates, ...gdeltCandidates, ...existingCandidates]);
+  const enrichment = await enrichScienceCandidates(combined, {
+    limit: 40,
+    concurrency: 3,
+    timeoutMs: 10_000,
+    attempts: 2,
+    cachePath: path.resolve(".runtime/crossref-cache.json")
+  });
+  notes.push(
+    `Crossref Science enrichment: attempted ${enrichment.summary.attempted}, enriched ${enrichment.summary.enriched}, abstract-missing ${enrichment.summary.abstractMissing}, not-found ${enrichment.summary.notFound}, failed ${enrichment.summary.failed}, no-DOI ${enrichment.summary.noDoi}.`
+  );
+  const candidates = selectBalanced(enrichment.candidates);
   if (!candidates.length) throw new Error("Collector returned no allowlisted candidates; existing snapshots were left untouched.");
   const { start, end } = shanghaiDayWindow(date);
   const snapshot = rawSnapshotSchema.parse({

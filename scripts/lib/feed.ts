@@ -6,6 +6,8 @@ export type FeedEntry = {
   publishedAt?: string;
   updatedAt?: string;
   description?: string;
+  doi?: string;
+  contentType?: string;
 };
 
 const parser = new XMLParser({
@@ -53,12 +55,15 @@ function normalizeEntry(item: Record<string, unknown>): FeedEntry | undefined {
   const title = text(item.title);
   const url = link(item.link) ?? text(item.guid) ?? text(item.id);
   if (!title || !url || !/^https?:\/\//i.test(url)) return undefined;
+  const rawDoi = text(item["prism:doi"] ?? item.doi ?? item["dc:identifier"]);
   return {
     title,
     url,
     publishedAt: text(item.pubDate ?? item.published ?? item["dc:date"] ?? item.date),
     updatedAt: text(item.updated ?? item["atom:updated"]),
-    description: cleanDescription(item.description ?? item.summary ?? item.content ?? item["content:encoded"])
+    description: cleanDescription(item.description ?? item.summary ?? item.content ?? item["content:encoded"]),
+    doi: rawDoi?.replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "").replace(/^doi:\s*/i, "").trim(),
+    contentType: text(item["dc:type"] ?? item["prism:section"] ?? item["prism:genre"])
   };
 }
 

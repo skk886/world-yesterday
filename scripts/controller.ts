@@ -5,10 +5,11 @@ import { pathToFileURL } from "node:url";
 import { z } from "zod";
 import { collect, selectBalanced } from "./collect";
 import { previousShanghaiDate, formatShanghaiDate } from "../src/lib/dates";
-import { editionSchema, rawSnapshotSchema, type Edition, type RawSnapshot } from "../src/lib/schema";
+import { editionSchema, editionV4Schema, rawSnapshotSchema, type Edition, type RawSnapshot } from "../src/lib/schema";
 import { loadAndValidateEdition } from "./validate";
 import { applyEditorialControls } from "./lib/editorial";
 import { deduplicateCandidates } from "./lib/candidates";
+import { selectJournalReserves } from "./lib/journals";
 
 type Options = {
   dryRun: boolean;
@@ -253,6 +254,9 @@ function failedAttemptMetrics(candidateCount: number, usage: ReturnType<typeof p
 function applyMeasuredUsage(edition: Edition, usage: ReturnType<typeof parseUsage>, candidateCount: number): Edition {
   const verifiedCount = edition.items.filter((item) => item.verificationStatus === "verified").length;
   const pendingCount = edition.items.length - verifiedCount;
+  const selectedJournalHighlights = edition.schemaVersion === 4
+    ? edition.journalHighlights.filter((highlight) => highlight.status === "selected").length
+    : 0;
   return editionSchema.parse({
     ...edition,
     metrics: {
@@ -262,7 +266,7 @@ function applyMeasuredUsage(edition: Edition, usage: ReturnType<typeof parseUsag
       searchGroups: 0,
       verifiedCount,
       pendingCount,
-      rejectedCount: Math.max(0, candidateCount - edition.items.length),
+      rejectedCount: Math.max(0, candidateCount - edition.items.length - selectedJournalHighlights),
       tokenUsage: tokenUsageMetrics(usage)
     }
   });
@@ -302,9 +306,15 @@ export function stripNullObjectFields(value: unknown): unknown {
 
 export function limitSnapshotCandidates(snapshot: RawSnapshot, candidateLimit = 60): RawSnapshot {
   const limit = Math.min(candidateLimit, snapshot.candidates.length);
+  const journalReserves = selectJournalReserves(snapshot.candidates);
+  const reservedUrls = new Set(journalReserves.map((candidate) => candidate.canonicalUrl));
+  const ordered = [
+    ...journalReserves,
+    ...snapshot.candidates.filter((candidate) => !reservedUrls.has(candidate.canonicalUrl))
+  ];
   return rawSnapshotSchema.parse({
     ...snapshot,
-    candidates: snapshot.candidates.slice(0, limit),
+    candidates: ordered.slice(0, limit),
     notes: limit < snapshot.candidates.length
       ? [...snapshot.notes, `Token-controlled submission: ${limit} of ${snapshot.candidates.length} balanced candidates.`]
       : snapshot.notes
@@ -602,7 +612,7 @@ async function main() {
   const eventPath = path.join(runtimeDirectory, `codex-${targetDate}.jsonl`);
   const runId = `${targetDate}-${now.toISOString()}`;
   const zeroUsage = { input: 0, output: 0, total: 0, measured: false };
-  const jsonSchema = z.toJSONSchema(editionSchema, { target: "draft-7" });
+  const jsonSchema = z.toJSONSchema(editionV4Schema, { target: "draft-7" });
   // Responses strict schemas require every property while the public data
   // schema has optional fields. Represent those as nullable for generation;
   // remove nulls before the unchanged runtime Zod validation.
@@ -628,7 +638,7 @@ async function main() {
     }
 
     edition = timedPhaseSync("validate", () => {
-      const rawEdition = editionSchema.parse(stripNullObjectFields(JSON.parse(fs.readFileSync(generatedOutputPath, "utf8"))));
+      const rawEdition = editionV4Schema.parse(stripNullObjectFields(JSON.parse(fs.readFileSync(generatedOutputPath, "utf8"))));
       if (rawEdition.date !== targetDate) throw new Error(`Codex returned ${rawEdition.date}; expected ${targetDate}.`);
       usage = parseUsage(eventPath);
       attemptUsage = options.reuseOutput ? zeroUsage : usage;

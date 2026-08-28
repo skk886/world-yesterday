@@ -11,6 +11,11 @@ describe("RSS and candidate normalization", () => {
     expect(entries[0]).toMatchObject({ title: "Example headline", url: "https://example.com/a", description: "Short deck" });
   });
 
+  it("preserves journal DOI and content-type metadata when the feed supplies it", () => {
+    const entries = parseFeed(`<?xml version="1.0"?><rss version="2.0" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><item><title>Research paper</title><link>https://www.science.org/doi/abs/10.1126/science.test1</link><pubDate>Thu, 27 Aug 2026 06:00:00 GMT</pubDate><prism:doi>10.1126/science.test1</prism:doi><dc:type>Research Article</dc:type><description>Science, Volume 393.</description></item></channel></rss>`);
+    expect(entries[0]).toMatchObject({ doi: "10.1126/science.test1", contentType: "Research Article" });
+  });
+
   it("removes trackers and sorts stable query parameters", () => {
     expect(canonicalizeUrl("https://Example.com/story/?utm_source=x&b=2&a=1#top")).toBe("https://example.com/story?a=1&b=2");
   });

@@ -35,6 +35,7 @@ const rssSourceCount = registry.sources.filter((source) => source.feeds.length >
   <article class="policy">
     <div class="policy__content">
       <h2>发现与证据分开</h2><p>RSS 和 GDELT 帮助发现昨日可能值得关注的事件。热度只决定“检查什么”，不能证明报道为真；GDELT 也从不作为真实性证据。日常自动模式使用白名单发布者提供的 RSS 标题、描述和时间记录，页面上的链接始终指向发布者原始网页。</p>
+      <h2>Science 与 Nature 期刊精选</h2><p>每期固定保留 Science 和 Nature 两个期刊位置，但不占全球新闻排行榜的三十条配额。Science 的官方 RSS 通常只提供标题、卷期和页码，因此采集器按文章 DOI 精确查询 Crossref，补充出版社提交的摘要元数据；Nature 优先使用出版社 RSS 自带的内容简介。Crossref 只补充同一篇文章的元数据，不是第二个独立来源，也不能证明论文结论正确。昨日没有合格新条目或摘要暂不可用时，页面会直接显示相应状态，不重复旧文章，也不根据标题臆测内容。</p>
       <h2>核验标准</h2><p>已核验事件需要两个不同出版集团的独立权威来源，或一个能直接证明自身行为、文件或数据的一手机构。政府或国家媒体可以证明其公开立场；涉及争议事实时，它不能单独构成核验。</p>
       <h2>怎样判断重要</h2>
       <p>本站采用可解释的多指标决策模型（MCDA），不是经过训练的预测模型，也不根据点击量或个人偏好调整。来源等级只用于核验门槛，不会给事件增加重要性分数。控制器按以下五项计算总分并排序：</p>
@@ -81,6 +82,11 @@ const rssSourceCount = registry.sources.filter((source) => source.feeds.length >
           <strong>发现工具</strong>
           <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener noreferrer">GDELT Project <span aria-hidden="true">↗</span></a>
           <p>仅用于发现跨语言热点和报道量，不作为真实性证据，也不计入独立来源数量。</p>
+        </aside>
+        <aside class="discovery-tool">
+          <strong>元数据工具</strong>
+          <a href="https://www.crossref.org/documentation/retrieve-metadata/rest-api/" target="_blank" rel="noopener noreferrer">Crossref REST API <span aria-hidden="true">↗</span></a>
+          <p>仅按 DOI 补充 Science 文章由出版社提交的摘要元数据；不属于消息来源，不计入独立来源数量，也不改变核验等级。</p>
         </aside>
       </section>
     </div>

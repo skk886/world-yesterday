@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { editionSchema, rawSnapshotSchema, type Edition } from "../src/lib/schema";
+import { editionSchema, editionV4Schema, rawSnapshotSchema, type Edition } from "../src/lib/schema";
 import { findAllowedSource, isAllowedUrl, loadSourceRegistry } from "../scripts/lib/sources";
 import { validateEditionSemantics, validateRawSnapshotSemantics } from "../scripts/validate";
 import fs from "node:fs";
@@ -71,6 +71,55 @@ describe("allowlist and semantic publishing gate", () => {
 
   it("accepts a primary source that proves its own announcement", () => {
     expect(validateEditionSemantics(editionWithOneItem())).toEqual({ valid: true, errors: [] });
+  });
+
+  it("requires fixed Science and Nature slots in Schema 4 and rejects ranked duplicates", () => {
+    const legacy = editionWithOneItem();
+    const edition = editionV4Schema.parse({
+      ...legacy,
+      schemaVersion: 4,
+      metrics: { ...legacy.metrics, candidateCount: 2, rejectedCount: 0 },
+      journalHighlights: [
+        {
+          journal: "science",
+          journalName: "Science",
+          status: "selected",
+          candidateId: "0123456789abcdef",
+          originalTitle: "A test Science paper",
+          titles: { zh: "用于验证期刊精选结构的科学论文", en: "A Science paper used to validate Journal Watch" },
+          summaries: {
+            zh: "这段合成摘要只用于确认期刊精选的日期、链接、DOI、来源属性和中英文结构能够在发布前得到验证。",
+            en: "This synthetic journal summary exists only to verify the date, DOI, original link, metadata provenance, bilingual structure, and duplicate protections applied before a Journal Watch entry can be published."
+          },
+          whyItMatters: { zh: "它可以阻止来源混淆或重复内容进入版面。", en: "It prevents provenance confusion and duplicate content from entering the edition." },
+          topic: "life-sciences",
+          doi: "10.1126/science.test1",
+          url: "https://www.science.org/doi/abs/10.1126/science.test1",
+          publishedAt: "2026-08-25T03:00:00Z",
+          metadataSource: "crossref",
+          notice: { zh: "摘要由 DOI 精确匹配的 Crossref 元数据补充。", en: "The abstract was enriched from an exact DOI match in Crossref metadata." }
+        },
+        {
+          journal: "nature",
+          journalName: "Nature",
+          status: "no-update",
+          notice: { zh: "昨日没有新的合格条目。", en: "No eligible new entry was published yesterday." }
+        }
+      ]
+    });
+    expect(validateEditionSemantics(edition)).toEqual({ valid: true, errors: [] });
+
+    edition.items[0].sources.push({
+      name: "Science",
+      url: "https://www.science.org/doi/abs/10.1126/science.test1",
+      domain: "science.org",
+      type: "independent-media",
+      language: "en",
+      publishedAt: "2026-08-25T03:00:00Z"
+    });
+    const duplicate = validateEditionSemantics(edition);
+    expect(duplicate.valid).toBe(false);
+    expect(duplicate.errors.join(" ")).toContain("duplicates a ranked item DOI");
   });
 
   it("rejects an out-of-list citation", () => {

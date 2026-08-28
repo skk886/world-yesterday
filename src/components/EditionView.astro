@@ -1,13 +1,25 @@
 ---
-import type { Edition } from "../lib/schema";
+import type { Edition, JournalHighlight } from "../lib/schema";
 import { categories, categoryLabels } from "../lib/schema";
 import { formatEditionDate } from "../lib/dates";
 import NewsCard from "./NewsCard.astro";
+import JournalWatch from "./JournalWatch.astro";
 type Props = { edition: Edition };
 const { edition } = Astro.props;
 const dateLabel = formatEditionDate(edition.date);
 const verified = edition.items.filter((item) => item.verificationStatus === "verified");
 const pending = edition.items.filter((item) => item.verificationStatus === "pending");
+const legacyJournalHighlights: JournalHighlight[] = [
+  {
+    journal: "science", journalName: "Science", status: "metadata-insufficient",
+    notice: { zh: "该历史日报生成于期刊精选功能上线前，未保存可供回溯生成的完整摘要元数据。", en: "This archived edition predates Journal Watch and does not contain enough stored metadata for a retrospective highlight." }
+  },
+  {
+    journal: "nature", journalName: "Nature", status: "metadata-insufficient",
+    notice: { zh: "该历史日报生成于期刊精选功能上线前，未保存可供回溯生成的完整摘要元数据。", en: "This archived edition predates Journal Watch and does not contain enough stored metadata for a retrospective highlight." }
+  }
+];
+const journalHighlights = edition.schemaVersion === 4 ? edition.journalHighlights : legacyJournalHighlights;
 ---
 
 <header class="edition-hero">
@@ -25,6 +37,7 @@ const pending = edition.items.filter((item) => item.verificationStatus === "pend
     return count ? <button class="filter-button" type="button" data-filter={category} aria-pressed="false">{categoryLabels[category].zh} {count}</button> : null;
   })}
 </div>
+<JournalWatch highlights={journalHighlights} />
 <section aria-labelledby="verified-heading">
   <div class="section-heading"><h2 id="verified-heading">已核验事件</h2><p>Verified events · ranked by impact</p></div>
   <div class="news-list">{verified.map((item) => <NewsCard item={item} />)}</div>

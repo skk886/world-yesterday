@@ -1,10 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { categoryTargets, editionSchema, rawSnapshotSchema, type Edition, type RawSnapshot } from "../src/lib/schema";
+import { categoryTargets, editionSchema, journalIds, rawSnapshotSchema, type Edition, type RawSnapshot } from "../src/lib/schema";
 import { dateIsInShanghaiDay } from "../src/lib/dates";
 import { findAllowedSource, loadSourceRegistry, normalizeDomain, sourceIndependenceKey } from "./lib/sources";
 import { compareEditorialRank, computeImportanceScore, diversityErrors, normalizeOrganizationId } from "./lib/editorial";
+import { canonicalizeUrl } from "./lib/candidates";
+import { extractDoi, normalizeDoi } from "./lib/crossref";
 
 export type ValidationResult = { valid: boolean; errors: string[] };
 
@@ -19,11 +21,14 @@ export function validateEditionSemantics(edition: Edition): ValidationResult {
   const ranks = new Set<number>();
   const pending = edition.items.filter((item) => item.verificationStatus === "pending");
   const verified = edition.items.filter((item) => item.verificationStatus === "verified");
+  const selectedJournalHighlights = edition.schemaVersion === 4
+    ? edition.journalHighlights.filter((highlight) => highlight.status === "selected")
+    : [];
 
   if (pending.length > 15) errors.push(`Single-source items exceed limit: ${pending.length}/15.`);
   if (edition.metrics.pendingCount !== pending.length) errors.push("metrics.pendingCount does not match items.");
   if (edition.metrics.verifiedCount !== verified.length) errors.push("metrics.verifiedCount does not match items.");
-  if (edition.metrics.rejectedCount !== Math.max(0, edition.metrics.candidateCount - edition.items.length)) errors.push("metrics.rejectedCount does not match candidates minus published items.");
+  if (edition.metrics.rejectedCount !== Math.max(0, edition.metrics.candidateCount - edition.items.length - selectedJournalHighlights.length)) errors.push("metrics.rejectedCount does not match candidates minus published items and journal highlights.");
   if (edition.status === "complete" && edition.items.length !== 30) errors.push("A complete edition must contain exactly 30 items.");
   if (edition.status === "partial" && edition.items.length === 30) errors.push("A 30-item edition must use complete status.");
   if (pending.length && verified.length && Math.min(...pending.map((item) => item.rank)) <= Math.max(...verified.map((item) => item.rank))) {
@@ -37,6 +42,68 @@ export function validateEditionSemantics(edition: Edition): ValidationResult {
 
   const tokenUsage = edition.metrics.tokenUsage;
   if (tokenUsage.input + tokenUsage.output !== tokenUsage.total) errors.push("Token input + output must equal total.");
+
+  if (edition.schemaVersion === 4) {
+    const journalNames = { science: "Science", nature: "Nature" } as const;
+    const journalSlots = new Set(edition.journalHighlights.map((highlight) => highlight.journal));
+    for (const journal of journalIds) {
+      if (!journalSlots.has(journal)) errors.push(`Missing journal highlight slot: ${journal}.`);
+    }
+    if (journalSlots.size !== 2) errors.push("Journal highlight slots must contain Science and Nature exactly once.");
+
+    const itemUrls = new Set<string>();
+    const itemDois = new Set<string>();
+    for (const item of edition.items) {
+      for (const source of item.sources) {
+        try { itemUrls.add(canonicalizeUrl(source.url)); } catch { /* URL shape is validated by Zod. */ }
+        const doi = extractDoi(source.url);
+        if (doi) itemDois.add(doi);
+      }
+    }
+
+    for (const highlight of edition.journalHighlights) {
+      if (highlight.journalName !== journalNames[highlight.journal]) errors.push(`${highlight.journal}: journalName is inconsistent.`);
+      if (highlight.status === "selected") {
+        const required = [
+          highlight.candidateId,
+          highlight.originalTitle,
+          highlight.titles?.zh,
+          highlight.titles?.en,
+          highlight.summaries?.zh,
+          highlight.summaries?.en,
+          highlight.whyItMatters?.zh,
+          highlight.whyItMatters?.en,
+          highlight.topic,
+          highlight.url,
+          highlight.publishedAt,
+          highlight.metadataSource
+        ];
+        if (required.some((value) => !value)) errors.push(`${highlight.journal}: selected journal highlight is missing required fields.`);
+        if (highlight.publishedAt && !dateIsInShanghaiDay(highlight.publishedAt, edition.date)) errors.push(`${highlight.journal}: selected highlight is outside ${edition.date}.`);
+        if (highlight.url) {
+          const source = findAllowedSource(highlight.url, sources);
+          if (source?.id !== highlight.journal) errors.push(`${highlight.journal}: highlight URL does not belong to the matching allowlisted journal.`);
+          try {
+            if (itemUrls.has(canonicalizeUrl(highlight.url))) errors.push(`${highlight.journal}: journal highlight duplicates a ranked item URL.`);
+          } catch { /* URL shape is validated by Zod. */ }
+        }
+        const doi = extractDoi(highlight.doi, highlight.url);
+        if (doi && itemDois.has(doi)) errors.push(`${highlight.journal}: journal highlight duplicates a ranked item DOI.`);
+        if (highlight.journal === "science") {
+          if (!highlight.doi || !doi || normalizeDoi(highlight.doi) !== doi) errors.push("science: a selected highlight requires a normalized DOI.");
+          if (highlight.metadataSource !== "crossref") errors.push("science: selected highlight metadataSource must be crossref.");
+        }
+        if (highlight.journal === "nature" && highlight.metadataSource !== "rss") errors.push("nature: selected highlight metadataSource must be rss.");
+        if (highlight.summaries) {
+          if (highlight.summaries.zh.length < 30 || highlight.summaries.zh.length > 160) errors.push(`${highlight.journal}: Chinese journal summary should be 30-160 characters.`);
+          const englishWords = wordCount(highlight.summaries.en);
+          if (englishWords < 25 || englishWords > 130) errors.push(`${highlight.journal}: English journal summary should be 25-130 words.`);
+        }
+      } else if (highlight.status === "no-update" && (highlight.candidateId || highlight.publishedAt)) {
+        errors.push(`${highlight.journal}: no-update slot cannot identify a published candidate.`);
+      }
+    }
+  }
 
   for (const item of edition.items) {
     if (ids.has(item.id)) errors.push(`Duplicate item id: ${item.id}.`);
@@ -119,6 +186,14 @@ export function validateRawSnapshotSemantics(snapshot: RawSnapshot): ValidationR
     if (!dateIsInShanghaiDay(candidate.publishedAt, snapshot.date)
       && !(candidate.updatedAt && dateIsInShanghaiDay(candidate.updatedAt, snapshot.date))) {
       errors.push(`${candidate.id}: raw candidate is outside ${snapshot.date}.`);
+    }
+    if (candidate.metadataEnrichment) {
+      const doi = extractDoi(candidate.doi, candidate.url, candidate.canonicalUrl);
+      if (candidate.sourceId !== "science") errors.push(`${candidate.id}: Crossref enrichment is only allowed for Science RSS candidates.`);
+      if (!doi || normalizeDoi(candidate.metadataEnrichment.doi) !== doi) errors.push(`${candidate.id}: Crossref DOI does not match the candidate DOI.`);
+      if (candidate.metadataEnrichment.status === "enriched" && candidate.description !== candidate.metadataEnrichment.abstract) {
+        errors.push(`${candidate.id}: enriched Science description must equal the sanitized Crossref abstract.`);
+      }
     }
   }
   return { valid: errors.length === 0, errors };

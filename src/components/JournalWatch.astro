@@ -1,0 +1,71 @@
+---
+import type { JournalHighlight } from "../lib/schema";
+
+type Props = { highlights: JournalHighlight[] };
+const { highlights } = Astro.props;
+const statusLabels = {
+  selected: { zh: "昨日精选", en: "Selected" },
+  "no-update": { zh: "昨日无新条目", en: "No new entry yesterday" },
+  "metadata-insufficient": { zh: "元数据暂不完整", en: "Metadata incomplete" }
+} as const;
+const metadataLabels = { rss: "Publisher RSS", crossref: "RSS + Crossref DOI metadata" } as const;
+const formatTime = (value: string) => new Intl.DateTimeFormat("zh-CN", {
+  year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai"
+}).format(new Date(value));
+---
+
+<section class="journal-watch" aria-labelledby="journal-watch-heading">
+  <div class="section-heading journal-watch__heading">
+    <h2 id="journal-watch-heading">期刊精选</h2>
+    <p>Journal Watch · outside the ranked edition</p>
+  </div>
+  <div class="journal-watch__grid">
+    {highlights.map((highlight) => (
+      <article class="journal-card" data-status={highlight.status}>
+        <header class="journal-card__header">
+          <div>
+            <p class="journal-card__label">Journal Watch</p>
+            <h3>{highlight.journalName}</h3>
+          </div>
+          <span class="journal-card__status">
+            {statusLabels[highlight.status].zh}<span lang="en"> / {statusLabels[highlight.status].en}</span>
+          </span>
+        </header>
+
+        {highlight.status === "selected" && highlight.titles && highlight.summaries && highlight.whyItMatters && highlight.url && highlight.publishedAt ? (
+          <>
+            <section class="journal-card__language" lang="zh-CN">
+              <h4>{highlight.titles.zh}</h4>
+              <p>{highlight.summaries.zh}</p>
+              <p class="journal-card__why"><strong>为何重要</strong><br />{highlight.whyItMatters.zh}</p>
+            </section>
+            <section class="journal-card__language journal-card__language--en" lang="en">
+              <h4>{highlight.titles.en}</h4>
+              <p>{highlight.summaries.en}</p>
+              <p class="journal-card__why"><strong>Why it matters</strong><br />{highlight.whyItMatters.en}</p>
+            </section>
+            <footer class="journal-card__footer">
+              <div>
+                <span>{highlight.metadataSource ? metadataLabels[highlight.metadataSource] : "Publisher metadata"}</span>
+                <time datetime={highlight.publishedAt}>{formatTime(highlight.publishedAt)}</time>
+                {highlight.doi && <span>DOI {highlight.doi}</span>}
+              </div>
+              <a href={highlight.url} target="_blank" rel="noopener noreferrer">
+                <span>原文 / Original</span><span aria-hidden="true"> ↗</span>
+              </a>
+            </footer>
+            <p class="journal-card__notice">{highlight.notice.zh}<span lang="en"> · {highlight.notice.en}</span></p>
+          </>
+        ) : (
+          <div class="journal-card__empty">
+            <p>{highlight.notice.zh}</p>
+            <p lang="en">{highlight.notice.en}</p>
+            {highlight.status === "metadata-insufficient" && highlight.url && (
+              <a href={highlight.url} target="_blank" rel="noopener noreferrer">查看期刊记录 / View journal record <span aria-hidden="true">↗</span></a>
+            )}
+          </div>
+        )}
+      </article>
+    ))}
+  </div>
+</section>
