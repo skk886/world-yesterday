@@ -3,14 +3,72 @@ import { z } from "zod";
 import {
   assertRunAllowed,
   chooseTargetDate,
+  limitSnapshotCandidates,
+  mergeRawSnapshots,
+  parseArgs,
+  shouldWaitForCloudSnapshot,
   stripNullObjectFields,
   toCodexOutputSchema,
   type LocalState
 } from "../scripts/controller";
-import { editionSchema } from "../src/lib/schema";
+import { editionSchema, type RawCandidate, type RawSnapshot } from "../src/lib/schema";
 import { applyEditorialControls, computeImportanceScore } from "../scripts/lib/editorial";
 
 describe("catch-up ordering", () => {
+  const makeCandidate = (id: string, score = 60): RawCandidate => ({
+    id,
+    title: `Candidate ${id}`,
+    url: `https://example.com/${id}`,
+    canonicalUrl: `https://example.com/${id}`,
+    sourceId: "example",
+    sourceName: "Example",
+    domain: "example.com",
+    sourceType: "independent-media",
+    sourceTier: "B",
+    language: "en",
+    publishedAt: "2026-08-27T02:00:00Z",
+    discovery: "rss",
+    categoryHints: ["world"],
+    topic: "general",
+    preliminaryScore: score
+  });
+  const makeSnapshot = (candidates: RawCandidate[], collectedAt: string): RawSnapshot => ({
+    schemaVersion: 1,
+    date: "2026-08-27",
+    timezone: "Asia/Shanghai",
+    collectedAt,
+    window: { start: "2026-08-26T16:00:00.000Z", end: "2026-08-27T15:59:59.999Z" },
+    candidates,
+    sourceResults: [{ sourceId: "example", status: "ok", count: candidates.length }],
+    notes: []
+  });
+
+  it("defaults unattended generation to 60 candidates and medium reasoning", () => {
+    expect(parseArgs([])).toEqual(expect.objectContaining({ candidateLimit: 60, reasoningEffort: "medium" }));
+  });
+
+  it("waits for the cloud snapshot until 03:30 Shanghai time", () => {
+    expect(shouldWaitForCloudSnapshot("2026-08-27", "2026-08-27", new Date("2026-08-27T19:29:00Z"))).toBe(true);
+    expect(shouldWaitForCloudSnapshot("2026-08-27", "2026-08-27", new Date("2026-08-27T19:30:00Z"))).toBe(false);
+    expect(shouldWaitForCloudSnapshot("2026-08-26", "2026-08-27", new Date("2026-08-27T18:00:00Z"))).toBe(false);
+  });
+
+  it("merges cloud and recovered snapshots before balanced selection", () => {
+    const cloud = makeSnapshot([makeCandidate("shared", 50), makeCandidate("cloud-only", 70)], "2026-08-28T02:15:00Z");
+    const local = makeSnapshot([makeCandidate("shared", 80), makeCandidate("local-only", 75)], "2026-08-27T16:11:00Z");
+    const merged = mergeRawSnapshots(cloud, local);
+    expect(merged.candidates.map((candidate) => candidate.id).sort()).toEqual(["cloud-only", "local-only", "shared"]);
+    expect(merged.candidates.find((candidate) => candidate.id === "shared")?.preliminaryScore).toBe(80);
+    expect(merged.notes.join(" ")).toMatch(/Recovered local snapshot/);
+  });
+
+  it("submits no more than the default 60 balanced candidates", () => {
+    const snapshot = makeSnapshot(Array.from({ length: 65 }, (_, index) => makeCandidate(`candidate-${index}`, 100 - index)), "2026-08-28T02:15:00Z");
+    const limited = limitSnapshotCandidates(snapshot);
+    expect(limited.candidates).toHaveLength(60);
+    expect(limited.notes.at(-1)).toMatch(/60 of 65/);
+  });
+
   it("publishes the latest complete day before older gaps", () => {
     expect(chooseTargetDate(["2026-08-25", "2026-08-24", "2026-08-23"], ["2026-08-24"], "2026-08-25")).toBe("2026-08-25");
   });

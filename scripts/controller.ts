@@ -3,11 +3,12 @@ import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { z } from "zod";
-import { collect } from "./collect";
+import { collect, selectBalanced } from "./collect";
 import { previousShanghaiDate, formatShanghaiDate } from "../src/lib/dates";
-import { editionSchema, rawSnapshotSchema, type Edition } from "../src/lib/schema";
+import { editionSchema, rawSnapshotSchema, type Edition, type RawSnapshot } from "../src/lib/schema";
 import { loadAndValidateEdition } from "./validate";
 import { applyEditorialControls } from "./lib/editorial";
+import { deduplicateCandidates } from "./lib/candidates";
 
 type Options = {
   dryRun: boolean;
@@ -37,8 +38,15 @@ const root = path.resolve(".");
 const runtimeDirectory = path.join(root, ".runtime");
 const statePath = path.join(root, "data/status/local-state.json");
 
-function parseArgs(argv: string[]): Options {
-  const options: Options = { dryRun: false, publish: false, force: false, reuseOutput: false };
+export function parseArgs(argv: string[]): Options {
+  const options: Options = {
+    dryRun: false,
+    publish: false,
+    force: false,
+    reuseOutput: false,
+    candidateLimit: 60,
+    reasoningEffort: "medium"
+  };
   for (let index = 0; index < argv.length; index += 1) {
     if (argv[index] === "--dry-run") options.dryRun = true;
     else if (argv[index] === "--publish") options.publish = true;
@@ -52,6 +60,37 @@ function parseArgs(argv: string[]): Options {
     throw new Error("--candidate-limit must be an integer from 1 to 90.");
   }
   return options;
+}
+
+export function shouldWaitForCloudSnapshot(targetDate: string, expectedDate: string, now: Date): boolean {
+  if (targetDate !== expectedDate) return false;
+  const shanghai = new Date(now.getTime() + 8 * 60 * 60 * 1000);
+  const minutesAfterMidnight = shanghai.getUTCHours() * 60 + shanghai.getUTCMinutes();
+  return minutesAfterMidnight < 3 * 60 + 30;
+}
+
+async function timedPhase<T>(phase: string, operation: () => Promise<T>): Promise<T> {
+  const startedAt = Date.now();
+  try {
+    const result = await operation();
+    console.log(`[timing] phase=${phase} outcome=ok duration_ms=${Date.now() - startedAt}`);
+    return result;
+  } catch (error) {
+    console.error(`[timing] phase=${phase} outcome=failed duration_ms=${Date.now() - startedAt}`);
+    throw error;
+  }
+}
+
+function timedPhaseSync<T>(phase: string, operation: () => T): T {
+  const startedAt = Date.now();
+  try {
+    const result = operation();
+    console.log(`[timing] phase=${phase} outcome=ok duration_ms=${Date.now() - startedAt}`);
+    return result;
+  } catch (error) {
+    console.error(`[timing] phase=${phase} outcome=failed duration_ms=${Date.now() - startedAt}`);
+    throw error;
+  }
 }
 
 function readState(): LocalState {
@@ -117,7 +156,7 @@ function runCommand(command: string, args: string[], options: { capture?: boolea
 
 function runCodex(prompt: string, schemaPath: string, outputPath: string, eventPath: string, requestedEffort?: string): Promise<void> {
   const executable = process.env.CODEX_EXECUTABLE || "codex";
-  const reasoningEffort = requestedEffort || process.env.CODEX_REASONING_EFFORT || "high";
+  const reasoningEffort = requestedEffort || process.env.CODEX_REASONING_EFFORT || "medium";
   if (!["minimal", "low", "medium", "high", "xhigh"].includes(reasoningEffort)) {
     throw new Error(`Unsupported CODEX_REASONING_EFFORT: ${reasoningEffort}`);
   }
@@ -261,13 +300,22 @@ export function stripNullObjectFields(value: unknown): unknown {
   );
 }
 
-function buildPrompt(date: string, rawPath: string, candidateLimit?: number): string {
+export function limitSnapshotCandidates(snapshot: RawSnapshot, candidateLimit = 60): RawSnapshot {
+  const limit = Math.min(candidateLimit, snapshot.candidates.length);
+  return rawSnapshotSchema.parse({
+    ...snapshot,
+    candidates: snapshot.candidates.slice(0, limit),
+    notes: limit < snapshot.candidates.length
+      ? [...snapshot.notes, `Token-controlled submission: ${limit} of ${snapshot.candidates.length} balanced candidates.`]
+      : snapshot.notes
+  });
+}
+
+function buildPrompt(date: string, rawPath: string, candidateLimit = 60): string {
   const template = fs.readFileSync(path.join(root, "automation/EDITOR_PROMPT.md"), "utf8");
   const registry = fs.readFileSync(path.join(root, "config/sources.json"), "utf8");
   const snapshot = rawSnapshotSchema.parse(JSON.parse(fs.readFileSync(rawPath, "utf8")));
-  const submittedSnapshot = candidateLimit
-    ? { ...snapshot, candidates: snapshot.candidates.slice(0, candidateLimit), notes: [...snapshot.notes, `Token-controlled submission: ${candidateLimit} of ${snapshot.candidates.length} balanced candidates.`] }
-    : snapshot;
+  const submittedSnapshot = limitSnapshotCandidates(snapshot, candidateLimit);
   return `${template.replaceAll("{{DATE}}", date)}\n\n<allowlist_registry>\n${registry}\n</allowlist_registry>\n\n<raw_snapshot>\n${JSON.stringify(submittedSnapshot, null, 2)}\n</raw_snapshot>\n`;
 }
 
@@ -353,10 +401,135 @@ function writeMonthlyUsage(date: string, attempt?: UsageRun): string {
   return outputPath;
 }
 
+function mergeSourceResults(left: RawSnapshot["sourceResults"], right: RawSnapshot["sourceResults"]): RawSnapshot["sourceResults"] {
+  const statusPriority = { "no-feed": 0, empty: 1, failed: 2, ok: 3 } as const;
+  const merged = new Map<string, RawSnapshot["sourceResults"][number]>();
+  for (const result of [...left, ...right]) {
+    const current = merged.get(result.sourceId);
+    if (!current) {
+      merged.set(result.sourceId, { ...result });
+      continue;
+    }
+    const preferred = statusPriority[result.status] > statusPriority[current.status] ? result : current;
+    const errors = [...new Set([current.error, result.error].filter((value): value is string => Boolean(value)))];
+    merged.set(result.sourceId, {
+      sourceId: result.sourceId,
+      status: preferred.status,
+      count: Math.max(current.count, result.count),
+      ...(preferred.status === "failed" && errors.length ? { error: errors.join(" | ") } : {})
+    });
+  }
+  return [...merged.values()].sort((a, b) => a.sourceId.localeCompare(b.sourceId));
+}
+
+export function mergeRawSnapshots(primary: RawSnapshot, recovered: RawSnapshot): RawSnapshot {
+  if (primary.date !== recovered.date) {
+    throw new Error(`Cannot merge raw snapshots for different dates: ${primary.date} and ${recovered.date}.`);
+  }
+  const primaryUrls = new Set(primary.candidates.map((candidate) => candidate.canonicalUrl));
+  const recoveredOnly = recovered.candidates.filter((candidate) => !primaryUrls.has(candidate.canonicalUrl)).length;
+  const candidates = selectBalanced(deduplicateCandidates([...primary.candidates, ...recovered.candidates]), 90);
+  return rawSnapshotSchema.parse({
+    ...primary,
+    collectedAt: new Date(Math.max(new Date(primary.collectedAt).getTime(), new Date(recovered.collectedAt).getTime())).toISOString(),
+    candidates,
+    sourceResults: mergeSourceResults(primary.sourceResults, recovered.sourceResults),
+    notes: [...new Set([
+      ...primary.notes,
+      ...recovered.notes,
+      `Recovered local snapshot and merged ${recoveredOnly} URL-unique candidates before deduplication; retained ${candidates.length} balanced candidates.`
+    ])]
+  });
+}
+
+function writeRawSnapshot(outputPath: string, snapshot: RawSnapshot) {
+  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  const temporaryPath = `${outputPath}.${process.pid}.tmp`;
+  fs.writeFileSync(temporaryPath, `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");
+  if (fs.existsSync(outputPath)) {
+    fs.copyFileSync(temporaryPath, outputPath);
+    fs.rmSync(temporaryPath, { force: true });
+  } else {
+    fs.renameSync(temporaryPath, outputPath);
+  }
+}
+
+export function mergeRawSnapshotFiles(primaryPath: string, recoveryPath: string): RawSnapshot {
+  const primary = rawSnapshotSchema.parse(JSON.parse(fs.readFileSync(primaryPath, "utf8")));
+  const recovered = rawSnapshotSchema.parse(JSON.parse(fs.readFileSync(recoveryPath, "utf8")));
+  const merged = mergeRawSnapshots(primary, recovered);
+  writeRawSnapshot(primaryPath, merged);
+  return merged;
+}
+
+type ArchivedRawSnapshot = {
+  repositoryPath: string;
+  recoveryPath: string;
+};
+
+async function isTrackedAtHead(repositoryPath: string): Promise<boolean> {
+  try {
+    await runCommand("git", ["cat-file", "-e", `HEAD:${repositoryPath}`], { capture: true });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function archiveDirtyRawSnapshots(): Promise<ArchivedRawSnapshot[]> {
+  const status = await runCommand("git", ["status", "--porcelain=v1", "--untracked-files=all", "--", "data/raw"], { capture: true });
+  const dirtyEntries = status.split(/\r?\n/).filter(Boolean).map((line) => ({
+    status: line.slice(0, 2),
+    repositoryPath: line.slice(3).trim().replaceAll("\\", "/")
+  })).filter((entry) => /^data\/raw\/\d{4}-\d{2}-\d{2}\.json$/.test(entry.repositoryPath));
+  if (!dirtyEntries.length) return [];
+
+  const recoveryDirectory = path.join(runtimeDirectory, "recovery");
+  fs.mkdirSync(recoveryDirectory, { recursive: true });
+  const archived: ArchivedRawSnapshot[] = [];
+  for (const [index, entry] of dirtyEntries.entries()) {
+    const sourcePath = path.join(root, ...entry.repositoryPath.split("/"));
+    const recoveryPath = path.join(
+      recoveryDirectory,
+      `${path.basename(entry.repositoryPath, ".json")}-local-${Date.now()}-${index + 1}.json`
+    );
+    rawSnapshotSchema.parse(JSON.parse(fs.readFileSync(sourcePath, "utf8")));
+    fs.copyFileSync(sourcePath, recoveryPath);
+    archived.push({ repositoryPath: entry.repositoryPath, recoveryPath });
+
+    if (await isTrackedAtHead(entry.repositoryPath)) {
+      await runCommand("git", ["restore", "--staged", "--worktree", "--source=HEAD", "--", entry.repositoryPath]);
+    } else {
+      if (entry.status !== "??") await runCommand("git", ["reset", "--", entry.repositoryPath]);
+      fs.rmSync(sourcePath, { force: true });
+    }
+    console.log(`Archived local raw snapshot before sync: ${entry.repositoryPath} -> ${path.relative(root, recoveryPath)}`);
+  }
+  return archived;
+}
+
+function restoreArchivedRawSnapshots(archived: ArchivedRawSnapshot[]) {
+  for (const entry of archived) {
+    const destinationPath = path.join(root, ...entry.repositoryPath.split("/"));
+    const recovered = rawSnapshotSchema.parse(JSON.parse(fs.readFileSync(entry.recoveryPath, "utf8")));
+    const snapshot = fs.existsSync(destinationPath)
+      ? mergeRawSnapshotFiles(destinationPath, entry.recoveryPath)
+      : recovered;
+    if (!fs.existsSync(destinationPath)) writeRawSnapshot(destinationPath, snapshot);
+    console.log(`Restored and merged local raw snapshot: ${entry.repositoryPath} (${snapshot.candidates.length} candidates).`);
+  }
+}
+
 async function synchronizeRepository() {
   await runCommand("git", ["rev-parse", "--is-inside-work-tree"], { capture: true });
-  await runCommand("git", ["pull", "--rebase"]);
-  await runCommand("git", ["push"]);
+  const archived = await archiveDirtyRawSnapshots();
+  try {
+    await runCommand("git", ["pull", "--rebase"]);
+  } catch (error) {
+    restoreArchivedRawSnapshots(archived);
+    throw error;
+  }
+  restoreArchivedRawSnapshots(archived);
 }
 
 async function publishEdition(date: string, rawPath: string, editionPath: string, usagePath: string) {
@@ -384,7 +557,9 @@ async function main() {
   const now = new Date();
   const expectedDate = previousShanghaiDate(now);
   const state = readState();
-  if (options.publish && !options.dryRun) await synchronizeRepository();
+  if (options.publish && !options.dryRun) {
+    await timedPhase("sync", synchronizeRepository);
+  }
 
   let rawDates = listDates(path.join(root, "data/raw"));
   const editionDates = listDates(path.join(root, "data/editions"));
@@ -400,12 +575,16 @@ async function main() {
 
   const rawPath = path.join(root, `data/raw/${targetDate}.json`);
   if (!fs.existsSync(rawPath)) {
+    if (shouldWaitForCloudSnapshot(targetDate, expectedDate, now)) {
+      console.log(`Cloud snapshot for ${targetDate} is not available yet; local fallback starts at 03:30 Asia/Shanghai.`);
+      return;
+    }
     if (options.dryRun) {
       console.log(`[dry-run] Would collect missing raw snapshot for ${targetDate}, then run Codex.`);
       return;
     }
     console.log(`Raw snapshot missing for ${targetDate}; running local deterministic collector.`);
-    await collect(targetDate);
+    await timedPhase("collect", () => collect(targetDate));
     rawDates = listDates(path.join(root, "data/raw"));
   }
   const snapshot = rawSnapshotSchema.parse(JSON.parse(fs.readFileSync(rawPath, "utf8")));
@@ -439,18 +618,27 @@ async function main() {
       }
       console.log(`Reusing existing Codex output for ${targetDate}; no new model call will be made.`);
     } else {
-      await runCodex(buildPrompt(targetDate, rawPath, options.candidateLimit), schemaPath, generatedOutputPath, eventPath, options.reasoningEffort);
+      await timedPhase("codex", () => runCodex(
+        buildPrompt(targetDate, rawPath, options.candidateLimit),
+        schemaPath,
+        generatedOutputPath,
+        eventPath,
+        options.reasoningEffort
+      ));
     }
 
-    const rawEdition = editionSchema.parse(stripNullObjectFields(JSON.parse(fs.readFileSync(generatedOutputPath, "utf8"))));
-    if (rawEdition.date !== targetDate) throw new Error(`Codex returned ${rawEdition.date}; expected ${targetDate}.`);
-    usage = parseUsage(eventPath);
-    attemptUsage = options.reuseOutput ? zeroUsage : usage;
-    if (usage.measured && usage.total > 80_000) throw new Error(`Run used ${usage.total} tokens, exceeding the 80,000 ceiling; edition rejected.`);
-    const controlledEdition = applyEditorialControls(rawEdition);
-    edition = applyMeasuredUsage(controlledEdition, usage, submittedCandidateCount);
-    fs.writeFileSync(outputPath, `${JSON.stringify(edition, null, 2)}\n`, "utf8");
-    loadAndValidateEdition(outputPath);
+    edition = timedPhaseSync("validate", () => {
+      const rawEdition = editionSchema.parse(stripNullObjectFields(JSON.parse(fs.readFileSync(generatedOutputPath, "utf8"))));
+      if (rawEdition.date !== targetDate) throw new Error(`Codex returned ${rawEdition.date}; expected ${targetDate}.`);
+      usage = parseUsage(eventPath);
+      attemptUsage = options.reuseOutput ? zeroUsage : usage;
+      if (usage.measured && usage.total > 80_000) throw new Error(`Run used ${usage.total} tokens, exceeding the 80,000 ceiling; edition rejected.`);
+      const controlledEdition = applyEditorialControls(rawEdition);
+      const measuredEdition = applyMeasuredUsage(controlledEdition, usage, submittedCandidateCount);
+      fs.writeFileSync(outputPath, `${JSON.stringify(measuredEdition, null, 2)}\n`, "utf8");
+      loadAndValidateEdition(outputPath);
+      return measuredEdition;
+    });
   } catch (error) {
     attemptUsage = options.reuseOutput ? zeroUsage : parseUsage(eventPath);
     writeMonthlyUsage(targetDate, {
@@ -473,7 +661,7 @@ async function main() {
   };
   writeMonthlyUsage(targetDate, successfulAttempt);
   try {
-    await runCommand("npm", ["run", "build"]);
+    await timedPhase("build", () => runCommand("npm", ["run", "build"]));
   } catch (error) {
     if (previousEdition === undefined) fs.rmSync(editionPath, { force: true });
     else fs.writeFileSync(editionPath, previousEdition, "utf8");
@@ -485,7 +673,9 @@ async function main() {
     });
     throw error;
   }
-  if (options.publish) await publishEdition(targetDate, rawPath, editionPath, usagePath);
+  if (options.publish) {
+    await timedPhase("push", () => publishEdition(targetDate, rawPath, editionPath, usagePath));
+  }
 
   const completedAt = new Date().toISOString();
   state.runs.push({ date: targetDate, completedAt, tokenTotal: usage.total, published: options.publish });

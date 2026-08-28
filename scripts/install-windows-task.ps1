@@ -4,17 +4,17 @@ param(
 
 $ErrorActionPreference = "Stop"
 $projectRoot = Split-Path -Parent $PSScriptRoot
-$runner = Join-Path $projectRoot "scripts\run-controller.ps1"
-$powerShellPath = (Get-Command powershell.exe).Source
-$arguments = "-NoProfile -NonInteractive -ExecutionPolicy Bypass -File `"$runner`""
+$wrapper = Join-Path $projectRoot "scripts\run-controller-hidden.vbs"
+$wscriptPath = Join-Path $env:WINDIR "System32\wscript.exe"
+$arguments = "//B //NoLogo `"$wrapper`""
 $currentIdentity = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 
-$action = New-ScheduledTaskAction -Execute $powerShellPath -Argument $arguments -WorkingDirectory $projectRoot
+$action = New-ScheduledTaskAction -Execute $wscriptPath -Argument $arguments -WorkingDirectory $projectRoot
 $logonTrigger = New-ScheduledTaskTrigger -AtLogOn -User $currentIdentity
-$repeatTrigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(2) -RepetitionInterval (New-TimeSpan -Minutes 30) -RepetitionDuration (New-TimeSpan -Days 3650)
+$repeatTrigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(2) -RepetitionInterval (New-TimeSpan -Minutes 60) -RepetitionDuration (New-TimeSpan -Days 3650)
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -RunOnlyIfNetworkAvailable -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 2)
 $principal = New-ScheduledTaskPrincipal -UserId $currentIdentity -LogonType Interactive -RunLevel Limited
 
 Register-ScheduledTask -TaskName $TaskName -Action $action -Trigger @($logonTrigger, $repeatTrigger) -Settings $settings -Principal $principal -Description "Generate and publish missing World Yesterday editions after this PC is online." -Force | Out-Null
 Write-Host "Installed scheduled task: $TaskName"
-Write-Host "Runner: $runner"
+Write-Host "Hidden runner: $wrapper"
