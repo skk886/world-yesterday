@@ -1,0 +1,2129 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-08-28",
+  "timezone": "Asia/Shanghai",
+  "collectedAt": "2026-08-29T01:49:11.533Z",
+  "window": {
+    "start": "2026-08-27T16:00:00.000Z",
+    "end": "2026-08-28T15:59:59.999Z"
+  },
+  "candidates": [
+    {
+      "id": "17011c47ffd2264a",
+      "title": "Chinese memory maker YMTC wants to dethrone Samsung and SK hynix by the end of 2027",
+      "url": "https://www.pcgamer.com/hardware/ssds/chinese-memory-maker-ymtc-wants-to-dethrone-samsung-and-sk-hynix-by-the-end-of-2027/",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/ssds/chinese-memory-maker-ymtc-wants-to-dethrone-samsung-and-sk-hynix-by-the-end-of-2027",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T15:54:10.000Z",
+      "description": "YMTC has some big plans.",
+      "rssDescription": "YMTC has some big plans.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "72a757dbc414ad4c",
+      "title": "Rockstar says GTA 6 runs at 30 FPS, while it's reportedly unsure about a 60 FPS performance mode",
+      "url": "https://www.eurogamer.net/gta-6-frame-rate-ps5-xbox-series-x-s",
+      "canonicalUrl": "https://www.eurogamer.net/gta-6-frame-rate-ps5-xbox-series-x-s",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:20:14.000Z",
+      "description": "UPDATE 3.30PM BST: Performance perfectionist Digital Foundry has scrutinised the latest GTA 6 trailer ( which can be downloaded for a closer, purer appraisal) and said that on this evidence it looks like GTA 6 is running at 1440p natively on PS5 and maintains \"a relatively stable and well-paced 30 FPS output with only very occasional single frame drops\". However, the downloadable video being \"a 30 FPS asset\" means there could be more unseen frame drops, apparently. Read more",
+      "rssDescription": "UPDATE 3.30PM BST: Performance perfectionist Digital Foundry has scrutinised the latest GTA 6 trailer ( which can be downloaded for a closer, purer appraisal) and said that on this evidence it looks like GTA 6 is running at 1440p natively on PS5 and maintains \"a relatively stable and well-paced 30 FPS output with only very occasional single frame drops\". However, the downloadable video being \"a 30 FPS asset\" means there could be more unseen frame drops, apparently. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "ef50ad066e690c66",
+      "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
+      "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
+      "canonicalUrl": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T15:42:24.000Z",
+      "description": "Meta fixes AI glasses to stop recording any time users cover up the safety light.",
+      "rssDescription": "Meta fixes AI glasses to stop recording any time users cover up the safety light.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "e6500fe7f5bdb811",
+      "title": "Grants",
+      "url": "https://www.nasa.gov/centers-and-facilities/grants-2/",
+      "canonicalUrl": "https://www.nasa.gov/centers-and-facilities/grants-2",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T15:45:43.000Z",
+      "description": "*Notice* The Payment Management System (PMS) is currently experiencing issues affecting Federal Financial Report (FFR) generation. Impacted NASA grant recipients will not be considered noncompliant. NASA is working with PMS to resolve the issue. Updates will be posted here. Grants Status Requests To submit a request, visit NASA General Information Request Form and complete the [&#8230;]",
+      "rssDescription": "*Notice* The Payment Management System (PMS) is currently experiencing issues affecting Federal Financial Report (FFR) generation. Impacted NASA grant recipients will not be considered noncompliant. NASA is working with PMS to resolve the issue. Updates will be posted here. Grants Status Requests To submit a request, visit NASA General Information Request Form and complete the [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "2f32953961000b67",
+      "title": "Spanish government urges calm after Ceuta anti-migrant protesters clash with police",
+      "url": "https://www.france24.com/en/europe/20260828-spanish-government-urges-calm-anti-migrant-protesters-clash-police-ceuta",
+      "canonicalUrl": "https://www.france24.com/en/europe/20260828-spanish-government-urges-calm-anti-migrant-protesters-clash-police-ceuta",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T14:44:32.000Z",
+      "description": "Spain's left-wing government called for calm in the North African enclave of Ceuta on Friday after protests over security escalated into clashes between locals and police, a month after a mass influx of migrants from Morocco triggered a Europe-wide alert.",
+      "rssDescription": "Spain's left-wing government called for calm in the North African enclave of Ceuta on Friday after protests over security escalated into clashes between locals and police, a month after a mass influx of migrants from Morocco triggered a Europe-wide alert.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "5155736cbc2827be",
+      "title": "Austria: Anger over a business park being built on top of former Nazi camp",
+      "url": "https://www.france24.com/en/austria-anger-over-a-business-park-being-built-on-top-of-former-nazi-camp",
+      "canonicalUrl": "https://www.france24.com/en/austria-anger-over-a-business-park-being-built-on-top-of-former-nazi-camp",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T15:50:44.000Z",
+      "description": "Anger is growing in #Austria over the planned construction of a business park on top of what was a #Nazi concentration camp during the #SecondWorldWar. Around six million #Jewish people were murdered in the Holocaust, around half of them in concentration or extermination camps.",
+      "rssDescription": "Anger is growing in #Austria over the planned construction of a business park on top of what was a #Nazi concentration camp during the #SecondWorldWar. Around six million #Jewish people were murdered in the Holocaust, around half of them in concentration or extermination camps.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "0bb53539c4d0510c",
+      "title": "WHO reports more than 3,200 attacks on Ukraine’s healthcare system since full-scale invasion",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168226",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168226",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:00:00.000Z",
+      "description": "Since the beginning of Russia’s full-scale invasion of Ukraine, 3,205 attacks on healthcare facilities have been carried out, World Health Organization (WHO) Representative for Ukraine Jarno Habicht reported on Friday following fresh overnight strikes.",
+      "rssDescription": "Since the beginning of Russia’s full-scale invasion of Ukraine, 3,205 attacks on healthcare facilities have been carried out, World Health Organization (WHO) Representative for Ukraine Jarno Habicht reported on Friday following fresh overnight strikes.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "bbaa37403151e86c",
+      "title": "Rescuers grapple with mountain of challenges after the Nepal-Tibet floods",
+      "url": "https://www.france24.com/en/asia-pacific/20260828-rescuers-grapple-with-mountain-of-challenges-after-the-nepal-tibet-floods",
+      "canonicalUrl": "https://www.france24.com/en/asia-pacific/20260828-rescuers-grapple-with-mountain-of-challenges-after-the-nepal-tibet-floods",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T14:14:00.000Z",
+      "description": "Emergency services are rushing to find survivors and treat the wounded after a devastating flash flood on the border of Nepal and Tibet on Wednesday killed more than 500 people, with over a thousand still missing. But the remote and rugged terrain, as well as the risk of further flooding from upstream lakes formed by piles of debris, make their work as delicate as it is dangerous.",
+      "rssDescription": "Emergency services are rushing to find survivors and treat the wounded after a devastating flash flood on the border of Nepal and Tibet on Wednesday killed more than 500 people, with over a thousand still missing. But the remote and rugged terrain, as well as the risk of further flooding from upstream lakes formed by piles of debris, make their work as delicate as it is dangerous.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "5c7a0cb58779e3e8",
+      "title": "The iPhone Fold could make concerts even worse",
+      "url": "https://www.theverge.com/podcast/986145/m6-mac-mini-meta-settlement-gta-6-vergecast",
+      "canonicalUrl": "https://www.theverge.com/podcast/986145/m6-mac-mini-meta-settlement-gta-6-vergecast",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T15:26:19.000Z",
+      "updatedAt": "2026-08-28T17:03:26.000Z",
+      "description": "You know the person blocking your view of the concert because their phone is swaying in the air, recording the entire thing? Get ready for the unfolded version of it. This week on The Vergecast, we dive right into the big week of Apple news. First, it's the refreshed Mac Mini and Mac Studio, as [&#8230;]",
+      "rssDescription": "You know the person blocking your view of the concert because their phone is swaying in the air, recording the entire thing? Get ready for the unfolded version of it. This week on The Vergecast, we dive right into the big week of Apple news. First, it's the refreshed Mac Mini and Mac Studio, as [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "9cdb88434cf811dc",
+      "title": "After seeing what GTA 6 does to a PS5 we're even more desperate to see what the PC version has for us",
+      "url": "https://www.pcgamer.com/hardware/after-seeing-what-gta-6-does-to-a-ps5-were-even-more-desperate-to-see-what-the-pc-version-has-for-us/",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/after-seeing-what-gta-6-does-to-a-ps5-were-even-more-desperate-to-see-what-the-pc-version-has-for-us",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:20:10.000Z",
+      "updatedAt": "2026-08-28T18:22:22.000Z",
+      "description": "Looking at the PlayStation 5 capture, we're noodling on just what extra shinies Rockstar might add to the best gaming platform's version.",
+      "rssDescription": "Looking at the PlayStation 5 capture, we're noodling on just what extra shinies Rockstar might add to the best gaming platform's version.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "f4165536feea1f52",
+      "title": "Rwanda genocide: Dutch court sentences man to life in prison",
+      "url": "https://www.dw.com/en/rwanda-genocide-dutch-court-sentences-man-to-life-in-prison/a-78547749?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/rwanda-genocide-dutch-court-sentences-man-to-life-in-prison/a-78547749?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:30:00.000Z",
+      "description": "The Rwandan-born Dutch national was found guilty of involvement in the massacre of around 3,000 Tutsis, including throwing a grenade into a crowd of people sheltering in a football stadium.",
+      "rssDescription": "The Rwandan-born Dutch national was found guilty of involvement in the massacre of around 3,000 Tutsis, including throwing a grenade into a crowd of people sheltering in a football stadium.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "6a155fc46fc5141c",
+      "title": "There is no proof that this video shows a plane crash in Tel Aviv",
+      "url": "https://www.france24.com/en/middle-east/20260828-no-proof-video-shows-plane-crash-tel-aviv",
+      "canonicalUrl": "https://www.france24.com/en/middle-east/20260828-no-proof-video-shows-plane-crash-tel-aviv",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T15:31:19.000Z",
+      "description": "A video showing an airplane rammed into the side of a building has been circulating widely on social media. While social media users are claiming that the video shows a plane that crashed in Tel Aviv after an Iranian attack, its origin remains unknown and its authenticity highly questionable.",
+      "rssDescription": "A video showing an airplane rammed into the side of a building has been circulating widely on social media. While social media users are claiming that the video shows a plane that crashed in Tel Aviv after an Iranian attack, its origin remains unknown and its authenticity highly questionable.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "f9539c41a30039e4",
+      "title": "The Witcher 3: Songs of the Past – Geralt of Rivia returns after a decade in the sun",
+      "url": "https://www.theguardian.com/games/2026/aug/28/the-witcher-3-songs-of-the-past-geralt-of-rivia-returns-after-a-decade-in-the-sun",
+      "canonicalUrl": "https://www.theguardian.com/games/2026/aug/28/the-witcher-3-songs-of-the-past-geralt-of-rivia-returns-after-a-decade-in-the-sun",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:00:00.000Z",
+      "description": "Before The Witcher 4 arrives in 2028, CD Projekt Red is returning us to the world of The Witcher 3 for one last foray. Looks like wind’s still howlin’ The game that graced us with Bathtub Geralt , The Witcher 3: Wild Hunt, arrived more than a decade ago. So it was a touch surprising this summer when developers CD Projekt Red announced a new expansion to the venerable adventure, titled Songs of the Past, for next year. It will release alongside a full remaster of the original game, which will be free for anyone who bought it back in 2015. (The studio is also working on a sequel, The Witcher 4, but that’s not due until 2028.) As it turns out, this is all possible thanks to a partnership with Fool’s Theory, a studio founded by CD Projekt Red veterans, which took on the brunt of the development work. “We’ve had this story in a drawer for many years,” explains Marcin Blacha, VP story director at CD Projekt Red. “Of course, we moved on to Cyberpunk 2077 and now The Witcher 4, as well as our other projects. But because we knew The Witcher 4 would take time, we saw a gap in our release calendar where Songs of the Past could go. Thankfully, we were able to find the right partner to help exe",
+      "rssDescription": "Before The Witcher 4 arrives in 2028, CD Projekt Red is returning us to the world of The Witcher 3 for one last foray. Looks like wind’s still howlin’ The game that graced us with Bathtub Geralt , The Witcher 3: Wild Hunt, arrived more than a decade ago. So it was a touch surprising this summer when developers CD Projekt Red announced a new expansion to the venerable adventure, titled Songs of the Past, for next year. It will release alongside a full remaster of the original game, which will be free for anyone who bought it back in 2015. (The studio is also working on a sequel, The Witcher 4, but that’s not due until 2028.) As it turns out, this is all possible thanks to a partnership with Fool’s Theory, a studio founded by CD Projekt Red veterans, which took on the brunt of the development work. “We’ve had this story in a drawer for many years,” explains Marcin Blacha, VP story director at CD Projekt Red. “Of course, we moved on to Cyberpunk 2077 and now The Witcher 4, as well as our other projects. But because we knew The Witcher 4 would take time, we saw a gap in our release calendar where Songs of the Past could go. Thankfully, we were able to find the right partner to help exe",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "add74748e683c09c",
+      "title": "id Software's former co-owner says they absolutely would've used gen AI back in the day: 'John Carmack would be like making Skynet or something'",
+      "url": "https://www.pcgamer.com/gaming-industry/game-development/id-softwares-former-co-owner-says-they-absolutely-wouldve-used-gen-ai-back-in-the-day-john-carmack-would-be-like-making-skynet-or-something/",
+      "canonicalUrl": "https://www.pcgamer.com/gaming-industry/game-development/id-softwares-former-co-owner-says-they-absolutely-wouldve-used-gen-ai-back-in-the-day-john-carmack-would-be-like-making-skynet-or-something",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:53:23.000Z",
+      "updatedAt": "2026-08-28T23:55:41.000Z",
+      "description": "\"I make this joke that someone needs to come up with the 'Half-Life 2 of AI'.\"",
+      "rssDescription": "\"I make this joke that someone needs to come up with the 'Half-Life 2 of AI'.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "eeca93552d1a5fe6",
+      "title": "Germany: Man gets life in jail for US tourist's rape, murder",
+      "url": "https://www.dw.com/en/germany-man-gets-life-in-jail-for-us-tourist-s-rape-murder/a-78550472?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/germany-man-gets-life-in-jail-for-us-tourist-s-rape-murder/a-78550472?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T15:22:00.000Z",
+      "description": "The crime was unsolved for over three decades before new DNA proof made it possible to arrest and convict the now 81-year-old. His victim, Amy Lopez, was 24 at the time of her murder.",
+      "rssDescription": "The crime was unsolved for over three decades before new DNA proof made it possible to arrest and convict the now 81-year-old. His victim, Amy Lopez, was 24 at the time of her murder.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "life-sciences",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "dd1bcc8617f0d884",
+      "title": "Serbia: Keeping EU, Russia in play ahead of key election",
+      "url": "https://www.dw.com/en/serbia-keeping-eu-russia-in-play-ahead-of-key-election/a-78543495?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/serbia-keeping-eu-russia-in-play-ahead-of-key-election/a-78543495?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:49:00.000Z",
+      "description": "As Serbia heads towards an uncertain election, President Aleksandar Vucic is balancing ties with Russia and EU ambitions. But growing geopolitical tensions and pressure at home are narrowing his room to maneuver.",
+      "rssDescription": "As Serbia heads towards an uncertain election, President Aleksandar Vucic is balancing ties with Russia and EU ambitions. But growing geopolitical tensions and pressure at home are narrowing his room to maneuver.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "0343e995094f8bf8",
+      "title": "GDC Side Quest - Inside Austin Wintory's Collaborative Composing Process",
+      "url": "https://www.gamedeveloper.com/audio/gdc-side-quest-inside-austin-wintory-s-collaborative-composing-process",
+      "canonicalUrl": "https://www.gamedeveloper.com/audio/gdc-side-quest-inside-austin-wintory-s-collaborative-composing-process",
+      "sourceId": "game-developer",
+      "sourceName": "Game Developer",
+      "domain": "gamedeveloper.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T14:15:00.000Z",
+      "description": "This month, celebrated composer Austin Wintory joins content marketing manager Beth Elderkin for a conversation about his creative process.",
+      "rssDescription": "This month, celebrated composer Austin Wintory joins content marketing manager Beth Elderkin for a conversation about his creative process.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "6f1c0a93943eb88b",
+      "title": "Celebrity Hunted showed I can achieve anything after cancer, Amy Dowden says",
+      "url": "https://www.bbc.co.uk/news/articles/c046lng73v4o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c046lng73v4o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T11:36:12.000Z",
+      "description": "The Strictly Come Dancing star appeared on the latest series of the Channel 4 challenge show.",
+      "rssDescription": "The Strictly Come Dancing star appeared on the latest series of the Channel 4 challenge show.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "d8ecd58a3c4d7958",
+      "title": "What 'The Odyssey' can teach us about climate chaos",
+      "url": "https://www.dw.com/en/what-the-odyssey-can-teach-us-about-climate-chaos/a-78545407?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/what-the-odyssey-can-teach-us-about-climate-chaos/a-78545407?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:52:00.000Z",
+      "description": "The Bronze Age collapse may have started with a water crisis. Today’s droughts raise the unsettling question of whether it could happen again.",
+      "rssDescription": "The Bronze Age collapse may have started with a water crisis. Today’s droughts raise the unsettling question of whether it could happen again.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "db02536506613176",
+      "title": "Céline Dion returns to 'second home' Paris ahead of sold-out comeback dates",
+      "url": "https://www.france24.com/en/culture/20260828-c%C3%A9line-dion-returns-to-second-home-paris-ahead-of-sold-out-comeback-dates",
+      "canonicalUrl": "https://www.france24.com/en/culture/20260828-c%C3%A9line-dion-returns-to-second-home-paris-ahead-of-sold-out-comeback-dates",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:41:11.000Z",
+      "description": "Céline Dion blew kisses and made a love-heart shape with her hands as she swept into the French capital on Friday ahead of her first series of concerts since revealing her diagnosis with Stiff Person Syndrome, an incurable autoimmune disorder.",
+      "rssDescription": "Céline Dion blew kisses and made a love-heart shape with her hands as she swept into the French capital on Friday ahead of her first series of concerts since revealing her diagnosis with Stiff Person Syndrome, an incurable autoimmune disorder.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "18b48eefaadb7ee0",
+      "title": "What we know after the big Grand Theft Auto 6 preview",
+      "url": "https://www.bbc.co.uk/news/articles/c3d7exngd5no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c3d7exngd5no?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T11:04:11.000Z",
+      "description": "The official look at the blockbuster video game leaves fans and critics impressed.",
+      "rssDescription": "The official look at the blockbuster video game leaves fans and critics impressed.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-industry",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "f04718ce94ca60ee",
+      "title": "Rockstar has to 'be careful' about what GTA 6 picks to satirize because 'very specific political issues or memes will date fast'",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-to-be-careful-about-what-gta-6-picks-to-satirize-because-very-specific-political-issues-or-memes-will-date-fast/",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-to-be-careful-about-what-gta-6-picks-to-satirize-because-very-specific-political-issues-or-memes-will-date-fast",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T15:27:18.000Z",
+      "updatedAt": "2026-08-28T20:57:42.000Z",
+      "description": "So no Skibidi Toilet? Got it.",
+      "rssDescription": "So no Skibidi Toilet? Got it.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "db70bfe8fd937af2",
+      "title": "The Download: a secretive antiaging drug and joining virtual power plants",
+      "url": "https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "domain": "technologyreview.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:35:27.000Z",
+      "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A startup claims it’s found a drug to make your blood young —Antonio Regalado I knew I’d officially become a “longevity influencer” when a company called Generation Lab offered me the&#8230;",
+      "rssDescription": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A startup claims it’s found a drug to make your blood young —Antonio Regalado I knew I’d officially become a “longevity influencer” when a company called Generation Lab offered me the&#8230;",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "160f3f7c02f192fc",
+      "title": "I went to China to see a different AI future. It looked familiar",
+      "url": "https://restofworld.org/2026/china-us-ai-future/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "canonicalUrl": "https://restofworld.org/2026/china-us-ai-future",
+      "sourceId": "rest-of-world",
+      "sourceName": "Rest of World",
+      "domain": "restofworld.org",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:00:00.000Z",
+      "description": "My trip to China revealed an AI race that looks less like a clash of competing visions, and more like two countries racing toward a similar future.",
+      "rssDescription": "My trip to China revealed an AI race that looks less like a clash of competing visions, and more like two countries racing toward a similar future.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "7f831d3e6ff697e7",
+      "title": "Watch: Stargazers around the world glimpse 'Blood Moon' lunar eclipse",
+      "url": "https://www.bbc.co.uk/news/videos/ce3rykzvevno?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/videos/ce3rykzvevno?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:49:55.000Z",
+      "description": "Some parts of the globe had a chance to see the rare event when the Sun, Earth and Moon line up in the night sky.",
+      "rssDescription": "Some parts of the globe had a chance to see the rare event when the Sun, Earth and Moon line up in the night sky.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "82465d40e84539b5",
+      "title": "India's citizen-led school audits test limits of activism",
+      "url": "https://www.dw.com/en/india-s-citizen-led-school-audits-test-limits-of-activism/a-78545789?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/india-s-citizen-led-school-audits-test-limits-of-activism/a-78545789?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T11:52:00.000Z",
+      "description": "The student-led \"Cockroach\" movement is taking its campaign for accountability to government schools, but the activists' methods are encountering growing resistance from authorities.",
+      "rssDescription": "The student-led \"Cockroach\" movement is taking its campaign for accountability to government schools, but the activists' methods are encountering growing resistance from authorities.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "85dff48e98b6e764",
+      "title": "BBC tracks one week of Israeli settler violence in occupied West Bank",
+      "url": "https://www.bbc.co.uk/news/videos/c3wjq1188g9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/videos/c3wjq1188g9o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T14:06:13.000Z",
+      "description": "The BBC's Lucy Williamson reports on settler attacks on Palestinians, which have been observed over the last week alone.",
+      "rssDescription": "The BBC's Lucy Williamson reports on settler attacks on Palestinians, which have been observed over the last week alone.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "5d7f78016e23b0fd",
+      "title": "RFK Jr. goes full anti-vaccine bananas over two measles deaths—one was a newborn",
+      "url": "https://arstechnica.com/health/2026/08/rfk-jr-spews-anti-vaccine-rubbish-as-newborn-revealed-to-have-died-from-measles/",
+      "canonicalUrl": "https://arstechnica.com/health/2026/08/rfk-jr-spews-anti-vaccine-rubbish-as-newborn-revealed-to-have-died-from-measles",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T16:36:16.000Z",
+      "description": "Kennedy and his allies have a history of downplaying vaccine-preventable deaths.",
+      "rssDescription": "Kennedy and his allies have a history of downplaying vaccine-preventable deaths.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "5ab0173979c38691",
+      "title": "Nepal floods explained: The chain of events behind the disaster",
+      "url": "https://www.france24.com/en/nepal-floods-explained-the-chain-of-events-behind-the-disaster",
+      "canonicalUrl": "https://www.france24.com/en/nepal-floods-explained-the-chain-of-events-behind-the-disaster",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:48:06.000Z",
+      "description": "A glacier broke apart. An ice and rock avalanche followed. Then came an earthquake, before a landslide triggered devastating floods that tore through kilometres of valley. This is what happened along the Nepal-China border, where rescue teams are still trying to recover survivors 48 hours after the catastrophe. FRANCE 24 breaks down the chain of events and the scientific explanations behind the disaster.",
+      "rssDescription": "A glacier broke apart. An ice and rock avalanche followed. Then came an earthquake, before a landslide triggered devastating floods that tore through kilometres of valley. This is what happened along the Nepal-China border, where rescue teams are still trying to recover survivors 48 hours after the catastrophe. FRANCE 24 breaks down the chain of events and the scientific explanations behind the disaster.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "2d4a9052844e0a15",
+      "title": "Rob Reiner’s son Jake gives first interview after parents’ deaths: ‘I will never understand why this happened’",
+      "url": "https://www.theguardian.com/film/2026/aug/28/rob-reiner-son-jake-interview-parents-death",
+      "canonicalUrl": "https://www.theguardian.com/film/2026/aug/28/rob-reiner-son-jake-interview-parents-death",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:20:56.000Z",
+      "description": "Jake says his parents ‘never stopped helping’ his brother Nick, who has pleaded not guilty to murdering both of them at their Los Angeles home Jake Reiner has given his first interview since the killing of his parents, the film-maker Rob Reiner and his wife, Michele Singer Reiner, saying: “I will never understand why this happened.” Reiner, who directed films including The Princess Bride, This Is Spinal Tap and Stand By Me, was found dead alongside Singer Reiner from apparent stab wounds in their home in Los Angeles in December. Continue reading...",
+      "rssDescription": "Jake says his parents ‘never stopped helping’ his brother Nick, who has pleaded not guilty to murdering both of them at their Los Angeles home Jake Reiner has given his first interview since the killing of his parents, the film-maker Rob Reiner and his wife, Michele Singer Reiner, saying: “I will never understand why this happened.” Reiner, who directed films including The Princess Bride, This Is Spinal Tap and Stand By Me, was found dead alongside Singer Reiner from apparent stab wounds in their home in Los Angeles in December. Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "d6e94d35e1298929",
+      "title": "Why Germany's military is betting on gamers",
+      "url": "https://www.dw.com/en/why-germany-s-military-is-betting-on-gamers/a-78536462?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/why-germany-s-military-is-betting-on-gamers/a-78536462?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T10:03:00.000Z",
+      "description": "For the past 10 years, the German armed forces — the Bundeswehr — have been represented at Gamescom, Cologne's video game trade fair. They've been criticized for trying to draw more young people into military careers.",
+      "rssDescription": "For the past 10 years, the German armed forces — the Bundeswehr — have been represented at Gamescom, Cologne's video game trade fair. They've been criticized for trying to draw more young people into military careers.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-industry",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "5cf137f56d25071e",
+      "title": "Looks like you can try DLSS 5 out today yourself",
+      "url": "https://www.pcgamer.com/hardware/graphics-cards/looks-like-you-can-try-dlss-5-out-today-yourself/",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/graphics-cards/looks-like-you-can-try-dlss-5-out-today-yourself",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T10:54:10.000Z",
+      "updatedAt": "2026-08-28T20:57:42.000Z",
+      "description": "Nvidia might also be doing the smart thing a rebranding the whole DLSS 5 pitch as DLSS Neural Rendering",
+      "rssDescription": "Nvidia might also be doing the smart thing a rebranding the whole DLSS 5 pitch as DLSS Neural Rendering",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "d01122ce9c423c1a",
+      "title": "GPS collars making shepherds' lives 'much easier'",
+      "url": "https://www.bbc.co.uk/news/articles/cm2mnjez5gvo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cm2mnjez5gvo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T10:30:44.000Z",
+      "description": "Brothers Josh and Ben Voak are using a GPS technology featured on the TV show Clarkson's Farm.",
+      "rssDescription": "Brothers Josh and Ben Voak are using a GPS technology featured on the TV show Clarkson's Farm.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "0c24a3ca3dcbcabd",
+      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:46:12.000Z",
+      "description": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+      "rssDescription": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "aeb053ced365d0c1",
+      "title": "Ariane 6 launch with MTG-I2 – highlights",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Ariane_6_launch_with_MTG-I2_highlights",
+      "canonicalUrl": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Ariane_6_launch_with_MTG-I2_highlights",
+      "sourceId": "esa",
+      "sourceName": "European Space Agency",
+      "domain": "esa.int",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:20:00.000Z",
+      "description": "Video: 00:04:28 The Meteosat Third Generation -Imager2 (MTG-I2) satellite, has been launched on board an Ariane 6 launcher from Europe’s Spaceport in French Guiana. Liftoff was on 27 August 2026 at 22:11 CEST (17:10 local time). MTG-I2 is part of the MTG constellation for Eumetsat – two are already in orbit – and it will produce images for weather forecasting in Europe in unprecedented detail. This mission provides completely new data products and capabilities for European weather services, especially suited to nowcasting of severe weather events. The MTG-Imager satellites carry two instruments, a Lightning Imager and a Flexible Combined Imager. The Lightning Imager offers completely new capabilities for European meteorological satellites by continuously monitoring for lightning. By doing this from geostationary orbit, at an altitude of about 36 000 km above the equator, it can scan more than 80% of Earth’s surface seen from that viewpoint. The Flexible Combined Imager, on the other hand, builds a picture of fast-evolving weather systems and can be used to issue timely weather warnings. It is particularly relevant for air traffic safety. It is able to scan its view of Earth in just",
+      "rssDescription": "Video: 00:04:28 The Meteosat Third Generation -Imager2 (MTG-I2) satellite, has been launched on board an Ariane 6 launcher from Europe’s Spaceport in French Guiana. Liftoff was on 27 August 2026 at 22:11 CEST (17:10 local time). MTG-I2 is part of the MTG constellation for Eumetsat – two are already in orbit – and it will produce images for weather forecasting in Europe in unprecedented detail. This mission provides completely new data products and capabilities for European weather services, especially suited to nowcasting of severe weather events. The MTG-Imager satellites carry two instruments, a Lightning Imager and a Flexible Combined Imager. The Lightning Imager offers completely new capabilities for European meteorological satellites by continuously monitoring for lightning. By doing this from geostationary orbit, at an altitude of about 36 000 km above the equator, it can scan more than 80% of Earth’s surface seen from that viewpoint. The Flexible Combined Imager, on the other hand, builds a picture of fast-evolving weather systems and can be used to issue timely weather warnings. It is particularly relevant for air traffic safety. It is able to scan its view of Earth in just",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "fa3b223231ac38f9",
+      "title": "Matt Lucas and Hugh Bonneville among actors calling for law on AI voice cloning",
+      "url": "https://www.bbc.co.uk/news/articles/c4gv5gepxnyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c4gv5gepxnyo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T05:11:16.000Z",
+      "description": "The performers are asking the government to give every person in the UK a legal right to own their voice.",
+      "rssDescription": "The performers are asking the government to give every person in the UK a legal right to own their voice.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 76
+    },
+    {
+      "id": "ad2eec02421e4f12",
+      "title": "Panic refunds tariff fees, 1047 Games pivots from Splitgate, and Gamescom Dev grows - Patch Notes #67",
+      "url": "https://www.gamedeveloper.com/business/panic-refunds-tariff-fees-1047-games-pivots-from-splitgate-and-gamescom-dev-grows-patch-notes-67",
+      "canonicalUrl": "https://www.gamedeveloper.com/business/panic-refunds-tariff-fees-1047-games-pivots-from-splitgate-and-gamescom-dev-grows-patch-notes-67",
+      "sourceId": "game-developer",
+      "sourceName": "Game Developer",
+      "domain": "gamedeveloper.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:47:47.000Z",
+      "description": "Plus: No More Room in Hell 2 surpasses 1 million players after exiting a pivotal Early Access period.",
+      "rssDescription": "Plus: No More Room in Hell 2 surpasses 1 million players after exiting a pivotal Early Access period.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "4ef4567d03354d89",
+      "title": "Nepal flood survivors rescued from hydropower tunnel",
+      "url": "https://www.france24.com/en/nepal-flood-survivors-rescued-from-hydropower-tunnel",
+      "canonicalUrl": "https://www.france24.com/en/nepal-flood-survivors-rescued-from-hydropower-tunnel",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:38:01.000Z",
+      "description": "Nepali soldiers rescued around 100 people trapped inside a flooded hydropower tunnel as the death toll from the Nepal-China floods continued to climb, with more than 1,500 people still missing. Rescue efforts were briefly suspended over fears that an overflowing landslide lake could trigger more flooding, while families across the disaster zone continue searching for loved ones.",
+      "rssDescription": "Nepali soldiers rescued around 100 people trapped inside a flooded hydropower tunnel as the death toll from the Nepal-China floods continued to climb, with more than 1,500 people still missing. Rescue efforts were briefly suspended over fears that an overflowing landslide lake could trigger more flooding, while families across the disaster zone continue searching for loved ones.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "3e90174085f2ef9f",
+      "title": "Rock en Seine: Visually impaired spectators enjoy festival with audio description",
+      "url": "https://www.france24.com/en/rock-en-seine-visually-impaired-spectators-enjoy-festival-with-audio-description",
+      "canonicalUrl": "https://www.france24.com/en/rock-en-seine-visually-impaired-spectators-enjoy-festival-with-audio-description",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:02:40.000Z",
+      "description": "At Paris's Rock en Seine, visually impaired festival-goers can enjoy concerts through live audio description. The festival is offering dedicated platforms, as well as headphones and receivers provided by the Valentin Haüy Association, a pioneer in audio description in France. Spectators can experience a concert with audio description each day of the music festival, from August 26 to August 30.",
+      "rssDescription": "At Paris's Rock en Seine, visually impaired festival-goers can enjoy concerts through live audio description. The festival is offering dedicated platforms, as well as headphones and receivers provided by the Valentin Haüy Association, a pioneer in audio description in France. Spectators can experience a concert with audio description each day of the music festival, from August 26 to August 30.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "709861b3591a88d7",
+      "title": "CD Projekt Red has The Witcher 4 running on all target platforms after Cyberpunk 2077 lesson",
+      "url": "https://www.gamedeveloper.com/production/cd-projekt-red-has-the-witcher-4-running-on-all-target-platforms-after-cyberpunk-2077-lesson",
+      "canonicalUrl": "https://www.gamedeveloper.com/production/cd-projekt-red-has-the-witcher-4-running-on-all-target-platforms-after-cyberpunk-2077-lesson",
+      "sourceId": "game-developer",
+      "sourceName": "Game Developer",
+      "domain": "gamedeveloper.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T16:41:50.000Z",
+      "description": "Game Developer spoke to CD Projekt Red co-CEO Michal Nowakowski.",
+      "rssDescription": "Game Developer spoke to CD Projekt Red co-CEO Michal Nowakowski.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "game-development",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "076cf4417b8056f1",
+      "title": "GTA 6 gameplay reveal breakdown: A summary of all the details we spotted",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-gameplay-reveal-details-breakdown/",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-gameplay-reveal-details-breakdown",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T21:23:08.000Z",
+      "updatedAt": "2026-08-28T18:22:22.000Z",
+      "description": "We saw a lot of little tactical maneuvers for perpetrating crimes in disguise and escaping the cops too.",
+      "rssDescription": "We saw a lot of little tactical maneuvers for perpetrating crimes in disguise and escaping the cops too.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "31514331b52a6164",
+      "title": "How to sign up for a virtual power plant—and decide whether you should",
+      "url": "https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "domain": "technologyreview.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:00:00.000Z",
+      "description": "MIT Technology Review’s How To series helps you get things done.&#160; Your thermostat may not look like a power plant. Neither does your electric vehicle, home battery, or HVAC system. But utility and energy companies increasingly want to treat them like one. A virtual power plant, or VPP, is a collection of household devices (such&#8230;",
+      "rssDescription": "MIT Technology Review’s How To series helps you get things done.&#160; Your thermostat may not look like a power plant. Neither does your electric vehicle, home battery, or HVAC system. But utility and energy companies increasingly want to treat them like one. A virtual power plant, or VPP, is a collection of household devices (such&#8230;",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "energy-materials",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "338a4695b54cf24a",
+      "title": "\"Somebody will make the Half-Life 2 of AI\" - after the Rideshare controversy, Saber CCO says something will come along and \"change people's minds\" about gen-AI",
+      "url": "https://www.eurogamer.net/saber-half-life-2-gen-ai-rideshare-controversy",
+      "canonicalUrl": "https://www.eurogamer.net/saber-half-life-2-gen-ai-rideshare-controversy",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T11:04:23.000Z",
+      "description": "Saber Interactive made headlines recently when its boss had an ugly spat with a former employee about the company's use of gen-AI in taxi game Rideshare Stimulator . Matthew Karch, Saber's co-founder and CEO, since apologised, and made sure Rideshare got proper AI disclosure labels on Steam. But a larger question mark over Saber's approach to gen-AI remained. Read more",
+      "rssDescription": "Saber Interactive made headlines recently when its boss had an ugly spat with a former employee about the company's use of gen-AI in taxi game Rideshare Stimulator . Matthew Karch, Saber's co-founder and CEO, since apologised, and made sure Rideshare got proper AI disclosure labels on Steam. But a larger question mark over Saber's approach to gen-AI remained. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "ae1c08973c0e125c",
+      "title": "Risks of child recruitment by armed groups rise in post-quake Colombia",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168224",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168224",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:00:00.000Z",
+      "description": "The recent earthquake in Colombia could increase the risk of child recruitment by armed groups in Chocó and Valle del Cauca, where thousands of children remain out of school in areas already affected by conflict, the UN warned on Friday.",
+      "rssDescription": "The recent earthquake in Colombia could increase the risk of child recruitment by armed groups in Chocó and Valle del Cauca, where thousands of children remain out of school in areas already affected by conflict, the UN warned on Friday.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "earth-science",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "7a99b3c32396cf06",
+      "title": "US to buy thousands of electric shock gloves for ICE agents",
+      "url": "https://www.dw.com/en/us-to-buy-thousands-of-electric-shock-gloves-for-ice-agents/a-78539072?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/us-to-buy-thousands-of-electric-shock-gloves-for-ice-agents/a-78539072?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T02:07:00.000Z",
+      "description": "Rights groups and Democrats are warning that ICE agents are unfit to use the shock gloves responsibly. Since US President Trump's crackdown on immigration, several people have been killed during ICE raids across the US.",
+      "rssDescription": "Rights groups and Democrats are warning that ICE agents are unfit to use the shock gloves responsibly. Since US President Trump's crackdown on immigration, several people have been killed during ICE raids across the US.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 73
+    },
+    {
+      "id": "cbf662590e251dd1",
+      "title": "US-CANADA: Trump signs order renaming Lake Ontario to ‘Lake America’",
+      "url": "https://www.france24.com/en/video/20260828-us-canada-trump-signs-order-renaming-lake-ontario-to-lake-america",
+      "canonicalUrl": "https://www.france24.com/en/video/20260828-us-canada-trump-signs-order-renaming-lake-ontario-to-lake-america",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:16:51.000Z",
+      "description": "US President Donald Trump signed an executive order on August 27 to rename Lake Ontario as 'Lake America', a change he said would take effect immediately. Canadian Prime Minister Mark Carney took to X, writing the Great Lake's name will remain 'now and always'. The order comes after US-Canada trade talks collapsed last week, prompting the two longtime allies to announce tit-for-tat tariffs",
+      "rssDescription": "US President Donald Trump signed an executive order on August 27 to rename Lake Ontario as 'Lake America', a change he said would take effect immediately. Canadian Prime Minister Mark Carney took to X, writing the Great Lake's name will remain 'now and always'. The order comes after US-Canada trade talks collapsed last week, prompting the two longtime allies to announce tit-for-tat tariffs",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "68b79febb5df7337",
+      "title": "Nepal: A newly formed lake is sparking fears of more flooding along the Chinese border",
+      "url": "https://www.france24.com/en/video/20260828-nepal-a-newly-formed-lake-is-sparking-fears-of-more-flooding-along-the-chinese-border",
+      "canonicalUrl": "https://www.france24.com/en/video/20260828-nepal-a-newly-formed-lake-is-sparking-fears-of-more-flooding-along-the-chinese-border",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:36:23.000Z",
+      "description": "Rescue operations are continuing after the devastating Nepal-China floods, but authorities have ordered emergency teams to stay on high alert as a newly formed upstream lake threatens to burst and trigger fresh flooding. Satellite imagery suggests the lake formed in the same area where a glacier collapse on Wednesday unleashed the deadly chain of events. FRANCE 24's Navodita Kumari has the latest from India.",
+      "rssDescription": "Rescue operations are continuing after the devastating Nepal-China floods, but authorities have ordered emergency teams to stay on high alert as a newly formed upstream lake threatens to burst and trigger fresh flooding. Satellite imagery suggests the lake formed in the same area where a glacier collapse on Wednesday unleashed the deadly chain of events. FRANCE 24's Navodita Kumari has the latest from India.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "bb45bbc364323772",
+      "title": "Memo to Ridley Scott: no one needs more Alien: Covenant movies – get the franchise back to stalk’n’slash",
+      "url": "https://www.theguardian.com/film/2026/aug/28/ridley-scott-alien-covenant-follow-up",
+      "canonicalUrl": "https://www.theguardian.com/film/2026/aug/28/ridley-scott-alien-covenant-follow-up",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T11:44:48.000Z",
+      "description": "News that Scott is working on a follow-up to his maligned 2017 film leaves me worried the franchise has run out of shocks If any science-fiction saga looked beyond recovery, it was the Alien franchise. For the 38 years that followed James Cameron’s Aliens, film-makers contrived to find every imaginable way of not making a good Alien film. They tried killing everyone the audience cared about before the opening credits, marooning Sigourney Weaver on a planet populated entirely by bald British character actors , cloning Ripley , pitting xenomorphs against Predators , and sending scientists across the universe to ask an enormous, hairless space bodybuilder why he made them . They even ponied up the thick end of $100m for a film in which Michael Fassbender teaches himself to play the flute . And then in 2024, we got Fede Álvarez’s Alien: Romulus , in which actual xenomorphs chase actual human beings down actual corridors for the clearly defined purposes of either killing them or putting smaller xenomorphs inside them. Better still, a year later we got Noah Hawley’s Alien: Earth , which reminded us that giant, murderous space insects are in fact less awful than tech trillionaires. Contin",
+      "rssDescription": "News that Scott is working on a follow-up to his maligned 2017 film leaves me worried the franchise has run out of shocks If any science-fiction saga looked beyond recovery, it was the Alien franchise. For the 38 years that followed James Cameron’s Aliens, film-makers contrived to find every imaginable way of not making a good Alien film. They tried killing everyone the audience cared about before the opening credits, marooning Sigourney Weaver on a planet populated entirely by bald British character actors , cloning Ripley , pitting xenomorphs against Predators , and sending scientists across the universe to ask an enormous, hairless space bodybuilder why he made them . They even ponied up the thick end of $100m for a film in which Michael Fassbender teaches himself to play the flute . And then in 2024, we got Fede Álvarez’s Alien: Romulus , in which actual xenomorphs chase actual human beings down actual corridors for the clearly defined purposes of either killing them or putting smaller xenomorphs inside them. Better still, a year later we got Noah Hawley’s Alien: Earth , which reminded us that giant, murderous space insects are in fact less awful than tech trillionaires. Contin",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "ed1169308a2cab2f",
+      "title": "Fable director says they aren't 'scared of other big games' except one—it's GTA 6, in case you were living under a rock",
+      "url": "https://www.pcgamer.com/games/rpg/fable-director-says-they-arent-scared-of-other-big-games-except-one-its-gta-6-in-case-you-were-living-under-a-rock/",
+      "canonicalUrl": "https://www.pcgamer.com/games/rpg/fable-director-says-they-arent-scared-of-other-big-games-except-one-its-gta-6-in-case-you-were-living-under-a-rock",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T14:54:03.000Z",
+      "description": "\"There's just one that I'm happy to avoid entirely.\"",
+      "rssDescription": "\"There's just one that I'm happy to avoid entirely.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "b9edf75310ee522d",
+      "title": "Grand Theft Auto 6 reveal live coverage: breaking down the Netflix 'extended look' event",
+      "url": "https://www.pcgamer.com/news/live/grand-theft-auto-6-reveal-live-coverage-breaking-down-the-netflix-extended-look-event/",
+      "canonicalUrl": "https://www.pcgamer.com/news/live/grand-theft-auto-6-reveal-live-coverage-breaking-down-the-netflix-extended-look-event",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T17:30:05.000Z",
+      "updatedAt": "2026-08-28T03:13:15.000Z",
+      "description": "We're cataloging everything we learn about GTA 6 from the Netflix reveal, as well as reactions from around the internet.",
+      "rssDescription": "We're cataloging everything we learn about GTA 6 from the Netflix reveal, as well as reactions from around the internet.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 74
+    },
+    {
+      "id": "06a4d38d1bd65b9b",
+      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+      "canonicalUrl": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T03:14:06.000Z",
+      "updatedAt": "2026-08-28T11:18:29.000Z",
+      "description": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red [&#8230;]",
+      "rssDescription": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "5c8222b7a021f66c",
+      "title": "Observing Samba and Tango’s reentries",
+      "url": "https://www.esa.int/Space_Safety/Space_Debris/Observing_Samba_and_Tango_s_reentries",
+      "canonicalUrl": "https://www.esa.int/Space_Safety/Space_Debris/Observing_Samba_and_Tango_s_reentries",
+      "sourceId": "esa",
+      "sourceName": "European Space Agency",
+      "domain": "esa.int",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:03:00.000Z",
+      "description": "The final two of ESA's pioneering Cluster spacecraft, Samba and Tango, will end their journeys as they burn up in our atmosphere on 31 August and 1 September respectively. Their targeted reentries mark the end of a mission that has transformed our understanding of Earth's magnetic environment. The final moments also offer a rare scientific opportunity for reentry observations from a plane.",
+      "rssDescription": "The final two of ESA's pioneering Cluster spacecraft, Samba and Tango, will end their journeys as they burn up in our atmosphere on 31 August and 1 September respectively. Their targeted reentries mark the end of a mission that has transformed our understanding of Earth's magnetic environment. The final moments also offer a rare scientific opportunity for reentry observations from a plane.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "652851b058ee7dd0",
+      "title": "GOP heads to Supreme Court after losing case over TV election ad prices",
+      "url": "https://arstechnica.com/tech-policy/2026/08/gop-heads-to-supreme-court-after-losing-case-over-tv-election-ad-prices/",
+      "canonicalUrl": "https://arstechnica.com/tech-policy/2026/08/gop-heads-to-supreme-court-after-losing-case-over-tv-election-ad-prices",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T20:06:10.000Z",
+      "description": "GOP campaign committees want quick ruling before election ads ramp up next week.",
+      "rssDescription": "GOP campaign committees want quick ruling before election ads ramp up next week.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "7757cd9de9deed8c",
+      "title": "Spanish union calls for ongoing strike action at Ubisoft Mobile Barcelona",
+      "url": "https://www.gamedeveloper.com/business/spanish-union-calls-for-ongoing-strike-action-at-ubisoft-mobile-barcelona",
+      "canonicalUrl": "https://www.gamedeveloper.com/business/spanish-union-calls-for-ongoing-strike-action-at-ubisoft-mobile-barcelona",
+      "sourceId": "game-developer",
+      "sourceName": "Game Developer",
+      "domain": "gamedeveloper.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:57:07.000Z",
+      "description": "'The strike was communicated to the company in early August; however, the workers' representatives are still awaiting a response.'",
+      "rssDescription": "'The strike was communicated to the company in early August; however, the workers' representatives are still awaiting a response.'",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "344cc0cc7a3f1020",
+      "title": "As the Himalayas melt, deadly floods become the new normal",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168227",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168227",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:00:00.000Z",
+      "description": "A day before a wall of ice, rock and muddy water tore through Himalayan valleys along the Nepal-China border, Dipesh Chapagain was discussing with a colleague just how devastating such a disaster could be.",
+      "rssDescription": "A day before a wall of ice, rock and muddy water tore through Himalayan valleys along the Nepal-China border, Dipesh Chapagain was discussing with a colleague just how devastating such a disaster could be.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "bb5fdfe4059dfd1e",
+      "title": "Star Wars Zero Company understands that Star Wars games should feel less like the movies and more like the toys",
+      "url": "https://www.eurogamer.net/star-wars-zero-company-impressions-toys-movies",
+      "canonicalUrl": "https://www.eurogamer.net/star-wars-zero-company-impressions-toys-movies",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:06:26.000Z",
+      "description": "I'm still early days on Star Wars Zero Company, but I think I'm in love. And this is kind of expected and also kind of strange. It's kind of expected because this is XCOM: Star Wars at first glance, and jeepers I love XCOM. I love moving my little units around, pondering when to advance and when to hang back, and I even love missing a shot that surely was almost a dead cert. Read more",
+      "rssDescription": "I'm still early days on Star Wars Zero Company, but I think I'm in love. And this is kind of expected and also kind of strange. It's kind of expected because this is XCOM: Star Wars at first glance, and jeepers I love XCOM. I love moving my little units around, pondering when to advance and when to hang back, and I even love missing a shot that surely was almost a dead cert. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "09fc5c6decbe4dc3",
+      "title": "Uganda: World's 'youngest monarch' dies aged 34",
+      "url": "https://www.dw.com/en/uganda-world-s-youngest-monarch-dies-aged-34/a-78549208?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/uganda-world-s-youngest-monarch-dies-aged-34/a-78549208?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T14:50:00.000Z",
+      "description": "Oyo Nyimba, once recognized as the world's youngest reigning monarch, has died in his mid-30s. As one of Uganda's traditional monarchs, he took the throne of the Tooro kingdom in 1995, aged just 3.",
+      "rssDescription": "Oyo Nyimba, once recognized as the world's youngest reigning monarch, has died in his mid-30s. As one of Uganda's traditional monarchs, he took the throne of the Tooro kingdom in 1995, aged just 3.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "d8a3ee4ca8b79797",
+      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T23:16:45.000Z",
+      "description": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+      "rssDescription": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 71
+    },
+    {
+      "id": "9e62933cd703489f",
+      "title": "NASA Invites Media to Turkey Artemis Accords Signing Ceremony",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-turkey-artemis-accords-signing-ceremony/",
+      "canonicalUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-turkey-artemis-accords-signing-ceremony",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-27T18:42:38.000Z",
+      "description": "Turkey will sign the Artemis Accords during a ceremony at 2:30 p.m. EDT Monday, Aug. 31, at NASA Headquarters in Washington, becoming the 71st country signatory. NASA Administrator Jared Isaacman will host Turkish Minister of Industry&#160;and Technology&#160;Mehmet Fatih Kacır for the ceremony, together with U.S. Department of State officials. This event is in person only. [&#8230;]",
+      "rssDescription": "Turkey will sign the Artemis Accords during a ceremony at 2:30 p.m. EDT Monday, Aug. 31, at NASA Headquarters in Washington, becoming the 71st country signatory. NASA Administrator Jared Isaacman will host Turkish Minister of Industry&#160;and Technology&#160;Mehmet Fatih Kacır for the ceremony, together with U.S. Department of State officials. This event is in person only. [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "8642d3cbe04c7ae4",
+      "title": "Playdate maker Panic refunds tariff surcharges to customers",
+      "url": "https://www.gamesindustry.biz/playdate-maker-panic-refunds-tariff-surcharges-to-customers",
+      "canonicalUrl": "https://www.gamesindustry.biz/playdate-maker-panic-refunds-tariff-surcharges-to-customers",
+      "sourceId": "gamesindustry",
+      "sourceName": "GamesIndustry.biz",
+      "domain": "gamesindustry.biz",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T18:26:08.000Z",
+      "description": "Playdate maker Panic is refunding tariff surcharges to customers after receiving its own refund from the US government after the Supreme Court ruled that President Trump's tariffs were an unlawful use of emergency powers. Read more",
+      "rssDescription": "Playdate maker Panic is refunding tariff surcharges to customers after receiving its own refund from the US government after the Supreme Court ruled that President Trump's tariffs were an unlawful use of emergency powers. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "f66449765ed75145",
+      "title": "Bank holiday weekend to see more thunderstorms and rain",
+      "url": "https://www.bbc.co.uk/weather/articles/cpq0zqepnrlo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/weather/articles/cpq0zqepnrlo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:42:47.000Z",
+      "description": "The weather will remain unsettled across the next few days with showers, longer spells of rain and thunderstorms all likely at times across the weekend.",
+      "rssDescription": "The weather will remain unsettled across the next few days with showers, longer spells of rain and thunderstorms all likely at times across the weekend.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "f9b419e80b6ef971",
+      "title": "‘Immense impact’ of Nepal flood disaster highlighted as casualties mount",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168221",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168221",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T12:00:00.000Z",
+      "description": "The impact of the deadly flood in Nepal has been described as “immense” as the authorities there confirm that 538 bodies have been recovered from the disaster-stricken area.",
+      "rssDescription": "The impact of the deadly flood in Nepal has been described as “immense” as the authorities there confirm that 538 bodies have been recovered from the disaster-stricken area.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "c2ed7d5d92d07ac0",
+      "title": "Dolly Parton brought divided Americans together. What can we learn from her? | Margaret Sullivan",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/28/dolly-parton-america-divide",
+      "canonicalUrl": "https://www.theguardian.com/commentisfree/2026/aug/28/dolly-parton-america-divide",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:00:54.000Z",
+      "description": "The singer had a serendipitous mixture of humor, humility and humanity. We could all stand to channel it a bit more The moment that the world found out that Dolly Parton had died , I was in a hair salon in the reddest congressional district in New York state. The neighborhood on the shore of Lake Erie where I move every summer voted solidly for Donald Trump in 2024. I often pass a lawn sign that has something misogynistic to say about New York’s Democratic governor, Kathy Hochul, and the mere mention of Kamala Harris’s name can bring derisive jokes. Of course, there certainly are liberals and independents to be found, but on balance the area leans right. Continue reading...",
+      "rssDescription": "The singer had a serendipitous mixture of humor, humility and humanity. We could all stand to channel it a bit more The moment that the world found out that Dolly Parton had died , I was in a hair salon in the reddest congressional district in New York state. The neighborhood on the shore of Lake Erie where I move every summer voted solidly for Donald Trump in 2024. I often pass a lawn sign that has something misogynistic to say about New York’s Democratic governor, Kathy Hochul, and the mere mention of Kamala Harris’s name can bring derisive jokes. Of course, there certainly are liberals and independents to be found, but on balance the area leans right. Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "424e51d6abc08818",
+      "title": "GTA 6 will have a halo effect for the entire industry | Opinion",
+      "url": "https://www.gamesindustry.biz/gta-6-will-have-a-halo-effect-for-the-entire-industry-opinion",
+      "canonicalUrl": "https://www.gamesindustry.biz/gta-6-will-have-a-halo-effect-for-the-entire-industry-opinion",
+      "sourceId": "gamesindustry",
+      "sourceName": "GamesIndustry.biz",
+      "domain": "gamesindustry.biz",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T14:27:12.000Z",
+      "description": "When the hype engine for GTA 6 roared into top gear this week, there was a quietly touching aspect amid the excitement that will stay with me for a while. As the 27 minute long extended look at the game racked up millions of views on YouTube, a theme emerged in the comments. Many of the most upvoted messages were brief tributes to friends and loved ones who adored GTA but had passed away before the game&rsquo;s release &ndash; a surprisingly poignant response to the tongue-in-cheek ultraviolence of the video itself. Read more",
+      "rssDescription": "When the hype engine for GTA 6 roared into top gear this week, there was a quietly touching aspect amid the excitement that will stay with me for a while. As the 27 minute long extended look at the game racked up millions of views on YouTube, a theme emerged in the comments. Many of the most upvoted messages were brief tributes to friends and loved ones who adored GTA but had passed away before the game&rsquo;s release &ndash; a surprisingly poignant response to the tongue-in-cheek ultraviolence of the video itself. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "5956c380babd629b",
+      "title": "Anthropic's new hardware standard lets AI agents control the physical world",
+      "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
+      "canonicalUrl": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T22:15:43.000Z",
+      "description": "Standardized driver interface aims to let devices talk to AI and each other.",
+      "rssDescription": "Standardized driver interface aims to let devices talk to AI and each other.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "2af4c64edc709182",
+      "title": "Civil Servants Sworn in at NASA Ames",
+      "url": "https://www.nasa.gov/image-article/civil-servants-sworn-in-at-nasa-ames/",
+      "canonicalUrl": "https://www.nasa.gov/image-article/civil-servants-sworn-in-at-nasa-ames",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-27T18:02:54.000Z",
+      "description": "New civil servants and guests pose for a group photo with NASA and center leadership in the National Full-Scale Aerodynamics Complex (NFAC) 80-by-120-foot test section, N221 on Aug. 24, 2026. The civil servants were sworn-in the same day in the largest swearing-in ceremony ever hosted at NASA&#8217;s Ames Research Center in California’s Silicon Valley since [&#8230;]",
+      "rssDescription": "New civil servants and guests pose for a group photo with NASA and center leadership in the National Full-Scale Aerodynamics Complex (NFAC) 80-by-120-foot test section, N221 on Aug. 24, 2026. The civil servants were sworn-in the same day in the largest swearing-in ceremony ever hosted at NASA&#8217;s Ames Research Center in California’s Silicon Valley since [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "89da710286bc15fa",
+      "title": "Selena Gomez pushes back against 'frivolous' fraud claims",
+      "url": "https://www.bbc.co.uk/news/articles/cz0z4k28804o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cz0z4k28804o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T05:53:05.000Z",
+      "description": "Selena Gomez's lawyer says the fraud case is \"absurd\" - but it is far from unusual for celebrity family business relationships to go wrong.",
+      "rssDescription": "Selena Gomez's lawyer says the fraud case is \"absurd\" - but it is far from unusual for celebrity family business relationships to go wrong.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "9062a87ff517499d",
+      "title": "'Ran for our lives': Flood survivors recount terrifying escape from Nepal-Tibet disaster",
+      "url": "https://www.france24.com/en/asia-pacific/20260828-ran-for-our-lives-flood-survivors-recount-terrifying-escape-from-nepal-tibet-disaster",
+      "canonicalUrl": "https://www.france24.com/en/asia-pacific/20260828-ran-for-our-lives-flood-survivors-recount-terrifying-escape-from-nepal-tibet-disaster",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T11:55:15.000Z",
+      "description": "Survivors of the catastrophic flash floods in Nepal and Tibet, some still missing friends and family members, shared harrowing accounts of their escape from raging floodwaters that brought devastation to the Himalayan border region, leaving more than 550 people dead and some 1,500 missing.",
+      "rssDescription": "Survivors of the catastrophic flash floods in Nepal and Tibet, some still missing friends and family members, shared harrowing accounts of their escape from raging floodwaters that brought devastation to the Himalayan border region, leaving more than 550 people dead and some 1,500 missing.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "27b70bb54c245642",
+      "title": "How Katseye became the world’s biggest girl group – while falling apart",
+      "url": "https://www.theguardian.com/music/2026/aug/28/katseye-essay-kpop-wild-ep-manon-kpop-hybe-girl-group-pop",
+      "canonicalUrl": "https://www.theguardian.com/music/2026/aug/28/katseye-essay-kpop-wild-ep-manon-kpop-hybe-girl-group-pop",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T09:00:52.000Z",
+      "description": "Their raucous pop music has made Katseye the biggest girl band in two decades. Can they weather toxic fandom, critical pans and a dwindling member count? Before screenings of their new documentary, the members of Katseye appear in a video message to thank fans for their support. Their followers, Eyekons, have played a critical role in their rise to stardom, so it makes sense that Katseye: Wild Hearts , released in global theaters this month, takes a beat to shout out to them. Perhaps more than many other big music groups today, the group’s rise has depended on their relationship with their devotees who ensure that few corners of the world are safe from Katseye mania. Katseye’s multinational members – Daniela, Lara, Manon, Megan, Sophia and Yoonchae – were selected through a combination of fan votes and judge scores on the 2023 YouTube reality competition The Debut: Dream Academy. The joint project between the American record label Geffen Records and Korean entertainment company Hybe aimed to create a global girl group, with hopefuls participating in a rigorous bootcamp to test their singing and dancing skills. The following year, Netflix’s docu-series Pop Star Academy: Katseye – wh",
+      "rssDescription": "Their raucous pop music has made Katseye the biggest girl band in two decades. Can they weather toxic fandom, critical pans and a dwindling member count? Before screenings of their new documentary, the members of Katseye appear in a video message to thank fans for their support. Their followers, Eyekons, have played a critical role in their rise to stardom, so it makes sense that Katseye: Wild Hearts , released in global theaters this month, takes a beat to shout out to them. Perhaps more than many other big music groups today, the group’s rise has depended on their relationship with their devotees who ensure that few corners of the world are safe from Katseye mania. Katseye’s multinational members – Daniela, Lara, Manon, Megan, Sophia and Yoonchae – were selected through a combination of fan votes and judge scores on the 2023 YouTube reality competition The Debut: Dream Academy. The joint project between the American record label Geffen Records and Korean entertainment company Hybe aimed to create a global girl group, with hopefuls participating in a rigorous bootcamp to test their singing and dancing skills. The following year, Netflix’s docu-series Pop Star Academy: Katseye – wh",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "4d9a43f278e72d2c",
+      "title": "All the key details about 'anime GTA' game Ananta",
+      "url": "https://www.pcgamer.com/games/rpg/ananta-guide/",
+      "canonicalUrl": "https://www.pcgamer.com/games/rpg/ananta-guide",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T14:26:26.000Z",
+      "description": "Does whatever a (legally distinct) Spider(-Man) can.",
+      "rssDescription": "Does whatever a (legally distinct) Spider(-Man) can.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "497ac6665ed35087",
+      "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
+      "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+      "canonicalUrl": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T20:52:31.000Z",
+      "description": "xAI accused of training Grok on real and AI-generated child pornography.",
+      "rssDescription": "xAI accused of training Grok on real and AI-generated child pornography.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "332d7137bacfb837",
+      "title": "9 Things to Know About NASA’s Nancy Grace Roman Space Telescope",
+      "url": "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
+      "canonicalUrl": "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "science.nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-27T17:47:11.000Z",
+      "description": "NASA’s Nancy Grace Roman Space Telescope is set to launch at 7:26 a.m. EDT on Sunday, Aug. 30. While you wait to watch the launch, brush up on some key facts about this wide-view mission. To learn more about the Roman mission, visit: https://www.nasa.gov/roman Media contact: Claire AndreoliNASA’s Goddard Space Flight Center, Greenbelt, Md.claire.andreoli@nasa.gov301-286-1940",
+      "rssDescription": "NASA’s Nancy Grace Roman Space Telescope is set to launch at 7:26 a.m. EDT on Sunday, Aug. 30. While you wait to watch the launch, brush up on some key facts about this wide-view mission. To learn more about the Roman mission, visit: https://www.nasa.gov/roman Media contact: Claire AndreoliNASA’s Goddard Space Flight Center, Greenbelt, Md.claire.andreoli@nasa.gov301-286-1940",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "c412d77dc95fb43e",
+      "title": "A startup claims it’s found a drug to make your blood young",
+      "url": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "domain": "technologyreview.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T19:48:13.000Z",
+      "description": "I knew I’d officially become a “longevity influencer” this month when a company called Generation Lab reached out to offer me the chance to write about—and even receive—their new rejuvenation treatment,&#160;an injectable combination of two existing drugs which they call 1 Generation. This wasn’t just any antiaging treatment, either. A company fact sheet says that&#8230;",
+      "rssDescription": "I knew I’d officially become a “longevity influencer” this month when a company called Generation Lab reached out to offer me the chance to write about—and even receive—their new rejuvenation treatment,&#160;an injectable combination of two existing drugs which they call 1 Generation. This wasn’t just any antiaging treatment, either. A company fact sheet says that&#8230;",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "b7a85ae690ef592f",
+      "title": "Nepal and Tibet : around 93,000 people affected, according to the Red Cross",
+      "url": "https://www.france24.com/en/nepal-and-tibet-around-93-000-people-affected-according-to-the-red-cross",
+      "canonicalUrl": "https://www.france24.com/en/nepal-and-tibet-around-93-000-people-affected-according-to-the-red-cross",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T11:42:48.000Z",
+      "description": "The death toll continues to rise in the Nepal and Tibet floods as the situation remains fast-moving. The Red Cross says around 93,000 people have been affected. International aid is arriving from several countries, but rescue efforts have been hampered by the difficulty of coordinating operations in the remote Himalayan terrain. The epicentre of the disaster was only reached 48 hours after the floods began. FRANCE 24's Jamie Smith-Maillet has the latest.",
+      "rssDescription": "The death toll continues to rise in the Nepal and Tibet floods as the situation remains fast-moving. The Red Cross says around 93,000 people have been affected. International aid is arriving from several countries, but rescue efforts have been hampered by the difficulty of coordinating operations in the remote Himalayan terrain. The epicentre of the disaster was only reached 48 hours after the floods began. FRANCE 24's Jamie Smith-Maillet has the latest.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "e71710d1fcc41e28",
+      "title": "‘It’s the story of what happens when the music stops’: bringing tormented jazz legend Bill Evans to life",
+      "url": "https://www.theguardian.com/film/2026/aug/28/tormented-jazz-legend-bill-evans-grant-gee",
+      "canonicalUrl": "https://www.theguardian.com/film/2026/aug/28/tormented-jazz-legend-bill-evans-grant-gee",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T07:00:51.000Z",
+      "description": "Having directed documentaries about David Bowie, Radiohead and Joy Division, Grant Gee takes on a biopic of the turbulent and tragic American pianist In 1997, Grant Gee directed the video for Radiohead’s single No Surprises , a four-minute film that featured Thom Yorke miming the song inside a water-filled diver’s helmet, apparently almost drowning in the process. In the three decades since that promo, Gee has made a host of diverse feature-length films about artists: Radiohead, David Bowie, Joy Division, the Turkish Nobel laureate Orhan Pamuk , the émigré German novelist WG Sebald . They are often impressionistic, dreamlike explorations of art, memory, place and the strange pressures put upon artistic lives. “It’s a narrative form I’ve used again and again,” says Gee. “A character begins in one condition; a crisis slowly develops; the viewer watches that crisis in a forensic yet empathetic way; the crisis passes; the person returns to something like the original state, but transformed. Someone comes very close to drowning, but doesn’t drown. What does that do to them?” Continue reading...",
+      "rssDescription": "Having directed documentaries about David Bowie, Radiohead and Joy Division, Grant Gee takes on a biopic of the turbulent and tragic American pianist In 1997, Grant Gee directed the video for Radiohead’s single No Surprises , a four-minute film that featured Thom Yorke miming the song inside a water-filled diver’s helmet, apparently almost drowning in the process. In the three decades since that promo, Gee has made a host of diverse feature-length films about artists: Radiohead, David Bowie, Joy Division, the Turkish Nobel laureate Orhan Pamuk , the émigré German novelist WG Sebald . They are often impressionistic, dreamlike explorations of art, memory, place and the strange pressures put upon artistic lives. “It’s a narrative form I’ve used again and again,” says Gee. “A character begins in one condition; a crisis slowly develops; the viewer watches that crisis in a forensic yet empathetic way; the crisis passes; the person returns to something like the original state, but transformed. Someone comes very close to drowning, but doesn’t drown. What does that do to them?” Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "13b3ff5e81fe316b",
+      "title": "Two-year curfew lifted in Sudan's capital",
+      "url": "https://www.bbc.co.uk/news/articles/c2076gxr0llo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c2076gxr0llo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T14:18:53.000Z",
+      "description": "The military authorities retook control of the city 18 months ago, but the conflict continues elsewhere.",
+      "rssDescription": "The military authorities retook control of the city 18 months ago, but the conflict continues elsewhere.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "b27c196f94e4b478",
+      "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
+      "url": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
+      "canonicalUrl": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T19:55:22.000Z",
+      "description": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
+      "rssDescription": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "b0947c52f4b44dd2",
+      "title": "The iconic T-38 jets flown by astronauts just got a spiffy new look",
+      "url": "https://arstechnica.com/space/2026/08/nasa-t-38-astronaut-training-jet-gets-new-artemis-look/",
+      "canonicalUrl": "https://arstechnica.com/space/2026/08/nasa-t-38-astronaut-training-jet-gets-new-artemis-look",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T17:26:25.000Z",
+      "description": "\"Everyone wants to take that aircraft up now...\"",
+      "rssDescription": "\"Everyone wants to take that aircraft up now...\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "586ce34de488fdff",
+      "title": "Almost 20 years later, Arkane's founder says he understands why Valve cancelled the Ravenholm game that never was: 'It all came down to the economics'",
+      "url": "https://www.pcgamer.com/games/fps/almost-20-years-later-arkanes-founder-says-he-understands-why-valve-cancelled-the-ravenholm-game-that-never-was-it-all-came-down-to-the-economics/",
+      "canonicalUrl": "https://www.pcgamer.com/games/fps/almost-20-years-later-arkanes-founder-says-he-understands-why-valve-cancelled-the-ravenholm-game-that-never-was-it-all-came-down-to-the-economics",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T15:11:38.000Z",
+      "updatedAt": "2026-08-27T18:25:29.000Z",
+      "description": "\"We grew up and got a little bit more mature about it.\"",
+      "rssDescription": "\"We grew up and got a little bit more mature about it.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "dbe9509f75effdb8",
+      "title": "Nepal-Tibet flood deaths pass 500, thousands still missing",
+      "url": "https://www.dw.com/en/nepal-tibet-flood-deaths-pass-500-thousands-still-missing/a-78539559?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/nepal-tibet-flood-deaths-pass-500-thousands-still-missing/a-78539559?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T11:04:00.000Z",
+      "description": "The Red Cross says more than 93,000 people are affected by the deadly floods and landslides on the China-Nepal border. Rescue efforts were temporarily paused after an overflowing lake threatened to trigger more floods.",
+      "rssDescription": "The Red Cross says more than 93,000 people are affected by the deadly floods and landslides on the China-Nepal border. Rescue efforts were temporarily paused after an overflowing lake threatened to trigger more floods.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "d3004c515d45e90e",
+      "title": "‘I’m an ever-changing vessel’: Erykah Badu on defying definition, life as a birth and death doula and her first album in 11 years",
+      "url": "https://www.theguardian.com/music/2026/aug/28/erykah-badu-before-the-world-blows-interview",
+      "canonicalUrl": "https://www.theguardian.com/music/2026/aug/28/erykah-badu-before-the-world-blows-interview",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T04:00:49.000Z",
+      "description": "Why do the Texan innovator’s records take so long to make? ‘It’s important to gather the data,’ she says: the death, dating and dopamine behind her exquisite comeback alongside the Alchemist Erykah Badu needs the lights down low . The singer, producer, actor and registered doula shuffles into a private room at London’s Soho hotel and quietly asks for some changes to the atmosphere: lights dimmed, soft seat. A green juice would be great. As it turns out, Badu was out last night with Dave Chappelle, sitting with the comedian at a grand piano and playing songs into the wee hours. She looks mischievous when she thinks about the impromptu party, but declines to go into detail about what, exactly, went on. Instead, the 55-year-old smiles at me, eyes wide, her gold teeth glinting in the low light: “Oh yes,” she says slowly and quietly, like some kind of mysterious warlock. “It was a late one …” Continue reading...",
+      "rssDescription": "Why do the Texan innovator’s records take so long to make? ‘It’s important to gather the data,’ she says: the death, dating and dopamine behind her exquisite comeback alongside the Alchemist Erykah Badu needs the lights down low . The singer, producer, actor and registered doula shuffles into a private room at London’s Soho hotel and quietly asks for some changes to the atmosphere: lights dimmed, soft seat. A green juice would be great. As it turns out, Badu was out last night with Dave Chappelle, sitting with the comedian at a grand piano and playing songs into the wee hours. She looks mischievous when she thinks about the impromptu party, but declines to go into detail about what, exactly, went on. Instead, the 55-year-old smiles at me, eyes wide, her gold teeth glinting in the low light: “Oh yes,” she says slowly and quietly, like some kind of mysterious warlock. “It was a late one …” Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "bb909c9b1257787b",
+      "title": "'I'm done. I used up my luck for this timeline': Redditor accidentally saves $5,000 on RTX 5090 Razer Blade 18 thanks to labelling error",
+      "url": "https://www.pcgamer.com/hardware/gaming-laptops/im-done-i-used-up-my-luck-for-this-timeline-redditor-accidentally-saves-usd5-000-on-rtx-5090-razer-blade-18-thanks-to-labelling-error/",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/gaming-laptops/im-done-i-used-up-my-luck-for-this-timeline-redditor-accidentally-saves-usd5-000-on-rtx-5090-razer-blade-18-thanks-to-labelling-error",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T11:51:39.000Z",
+      "updatedAt": "2026-08-28T14:36:17.000Z",
+      "description": "Why can't this kind of thing ever happen to me?",
+      "rssDescription": "Why can't this kind of thing ever happen to me?",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "f6f1d92f2dbd4423",
+      "title": "AI industry says Trump plans to tax chips in the “single dumbest way imaginable”",
+      "url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
+      "canonicalUrl": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T18:57:08.000Z",
+      "description": "Tech industry is perplexed by Trump’s plan to win AI race by taxing data centers.",
+      "rssDescription": "Tech industry is perplexed by Trump’s plan to win AI race by taxing data centers.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "1a6b921ff561ca7d",
+      "title": "Watch: Why rescuers fear new barrier lake could cause another Nepal-Tibet flood",
+      "url": "https://www.bbc.co.uk/news/videos/cj06j16vpr5o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cj06j16vpr5o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T10:35:06.000Z",
+      "description": "Laura Bicker explains how a lake which formed after the recent landslide near the Nepal-Tibet border is raising fears of a second flood.",
+      "rssDescription": "Laura Bicker explains how a lake which formed after the recent landslide near the Nepal-Tibet border is raising fears of a second flood.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "1cf556d8626fc47e",
+      "title": "Dolly Parton’s sister reveals singer offered to test experimental cancer drugs before she died",
+      "url": "https://www.theguardian.com/music/2026/aug/28/dolly-parton-sister-stella-tribute-act-of-kindness-cancer-drugs",
+      "canonicalUrl": "https://www.theguardian.com/music/2026/aug/28/dolly-parton-sister-stella-tribute-act-of-kindness-cancer-drugs",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T02:48:26.000Z",
+      "description": "‘My sister was always thinking of others,’ Parton’s younger sister Stella wrote in a Facebook tribute Dolly Parton’s younger sister Stella Parton has shared a moving tribute to the late country music singer on Thursday, revealing that Dolly offered to receive experimental cancer drugs “in the hope of helping others in the future” – an act of kindness and generosity that extended until the end of her life. “My sister was one of the most generous, thoughtful and kind people I’ve ever known,” Stella wrote in a tribute shared on Facebook on Thursday. “What the world saw is exactly who she was.” Continue reading...",
+      "rssDescription": "‘My sister was always thinking of others,’ Parton’s younger sister Stella wrote in a Facebook tribute Dolly Parton’s younger sister Stella Parton has shared a moving tribute to the late country music singer on Thursday, revealing that Dolly offered to receive experimental cancer drugs “in the hope of helping others in the future” – an act of kindness and generosity that extended until the end of her life. “My sister was one of the most generous, thoughtful and kind people I’ve ever known,” Stella wrote in a tribute shared on Facebook on Thursday. “What the world saw is exactly who she was.” Continue reading...",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 74
+    },
+    {
+      "id": "ddfb8369f99c1c3a",
+      "title": "Africa's aging autocrats fight to stay in power",
+      "url": "https://www.dw.com/en/africa-s-aging-autocrats-fight-to-stay-in-power/a-78487210?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/africa-s-aging-autocrats-fight-to-stay-in-power/a-78487210?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T14:02:00.000Z",
+      "description": "As some of Africa's longest-serving leaders grow older, they are using different tactics to extend their rule. But age, succession battles and public pressure pose new challenges.",
+      "rssDescription": "As some of Africa's longest-serving leaders grow older, they are using different tactics to extend their rule. But age, succession battles and public pressure pose new challenges.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "5c0b792c21c1cd64",
+      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T17:43:24.000Z",
+      "description": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+      "rssDescription": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "219317a975c7be06",
+      "title": "The Forested Floodplains of Congaree National Park",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-forested-floodplains-of-congaree-national-park/",
+      "canonicalUrl": "https://science.nasa.gov/earth/earth-observatory/the-forested-floodplains-of-congaree-national-park",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "science.nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T04:01:00.000Z",
+      "description": "The meandering Congaree River sustains towering forest ecosystems and fashions oxbow lakes as it shifts across its floodplain.",
+      "rssDescription": "The meandering Congaree River sustains towering forest ecosystems and fashions oxbow lakes as it shifts across its floodplain.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "a60dd9adae3a3480",
+      "title": "The spells Practical Magic 2 stars wish they could cast",
+      "url": "https://www.bbc.co.uk/news/videos/c3v4lrp951xo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/videos/c3v4lrp951xo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-27T17:11:07.000Z",
+      "description": "The film Practical Magic 2 is having its UK premiere in London. It re-unites actors Sandra Bullock and Nicole Kidman in some of their best-known roles.",
+      "rssDescription": "The film Practical Magic 2 is having its UK premiere in London. It re-unites actors Sandra Bullock and Nicole Kidman in some of their best-known roles.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "a8c554c45fdd5cfc",
+      "title": "Pulsar's new mouse is sliced in half to make it genuinely 'crazy-light'",
+      "url": "https://www.pcgamer.com/hardware/gaming-mice/pulsars-new-mouse-is-sliced-in-half-to-make-it-genuinely-crazy-light/",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/gaming-mice/pulsars-new-mouse-is-sliced-in-half-to-make-it-genuinely-crazy-light",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:56:54.000Z",
+      "description": "'I swear it came like that,' I say as I chew through half a mouse.",
+      "rssDescription": "'I swear it came like that,' I say as I chew through half a mouse.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 83
+    }
+  ],
+  "sourceResults": [
+    {
+      "sourceId": "abc-au",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "al-jazeera",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "ap",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "ars-technica",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "sourceId": "bbc",
+      "status": "ok",
+      "count": 33
+    },
+    {
+      "sourceId": "billboard",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "bloomberg",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "cbc",
+      "status": "failed",
+      "count": 0,
+      "error": "https://www.cbc.ca/cmlink/rss-world: The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "cna",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "deadline",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "dw",
+      "status": "ok",
+      "count": 15
+    },
+    {
+      "sourceId": "esa",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "sourceId": "eu-commission",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "eurogamer",
+      "status": "ok",
+      "count": 13
+    },
+    {
+      "sourceId": "france24",
+      "status": "ok",
+      "count": 16
+    },
+    {
+      "sourceId": "ft",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "game-developer",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "sourceId": "gamesindustry",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "sourceId": "hollywood-reporter",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "ieee-spectrum",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "ign",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "imf",
+      "status": "failed",
+      "count": 0,
+      "error": "https://www.imf.org/en/News/RSS?Language=ENG: 403 Forbidden"
+    },
+    {
+      "sourceId": "mit-technology-review",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "sourceId": "nasa",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "sourceId": "nature",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "nhk",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "oecd",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "pc-gamer",
+      "status": "ok",
+      "count": 28
+    },
+    {
+      "sourceId": "polygon",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "rest-of-world",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "sourceId": "reuters",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "science",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "tass",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "techcrunch",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "sourceId": "the-guardian",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "sourceId": "the-verge",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "sourceId": "un-news",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "sourceId": "us-sec",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "variety",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "who",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "world-bank",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "xinhua",
+      "status": "no-feed",
+      "count": 0
+    }
+  ],
+  "notes": [
+    "Crossref Science enrichment: attempted 0, enriched 0, abstract-missing 0, not-found 0, failed 0, no-DOI 0."
+  ]
+}
