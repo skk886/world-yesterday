@@ -1,0 +1,2125 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-08-29",
+  "timezone": "Asia/Shanghai",
+  "collectedAt": "2026-08-29T21:03:11.280Z",
+  "window": {
+    "start": "2026-08-28T16:00:00.000Z",
+    "end": "2026-08-29T15:59:59.999Z"
+  },
+  "candidates": [
+    {
+      "id": "742d0191c3cf13d5",
+      "title": "India news: PM Modi in Uzbekistan on way to SCO summit",
+      "url": "https://www.dw.com/en/india-news-pm-modi-in-uzbekistan-on-way-to-sco-summit/live-78554796?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/india-news-pm-modi-in-uzbekistan-on-way-to-sco-summit/live-78554796?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T15:34:00.000Z",
+      "description": "Indian Prime Minister Narendra Modi is in Uzbekistan for a two-day state visit, after which he will go to Kyrgyzstan for the SCO Summit. Meanwhile, hundreds of Indians are still missing in Nepal. DW has more.",
+      "rssDescription": "Indian Prime Minister Narendra Modi is in Uzbekistan for a two-day state visit, after which he will go to Kyrgyzstan for the SCO Summit. Meanwhile, hundreds of Indians are still missing in Nepal. DW has more.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "5fefc4f7d6f6ca68",
+      "title": "The Pokémon Company Looks to Smart Device Integrations as Future Targets",
+      "url": "https://www.ign.com/articles/the-pokemon-company-looks-to-smart-device-integrations-as-future-targets",
+      "canonicalUrl": "https://www.ign.com/articles/the-pokemon-company-looks-to-smart-device-integrations-as-future-targets",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T00:55:25.000Z",
+      "description": "President and CEO of The Pokémon Company, Tsunekazu Ishihara, shared a small bit of insight about the company’s possible future plans with wearable technology during a panel discussion at the inaugural PokémonXP.",
+      "rssDescription": "President and CEO of The Pokémon Company, Tsunekazu Ishihara, shared a small bit of insight about the company’s possible future plans with wearable technology during a panel discussion at the inaugural PokémonXP.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "ec3126d6bd370413",
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T13:00:00.000Z",
+      "description": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "rssDescription": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "b6e02f0129ed1233",
+      "title": "NASA&#8217;s Artemis II Crew Receives Congressional Space Medal of Honor",
+      "url": "https://www.nasa.gov/image-article/nasas-artemis-ii-crew-receives-congressional-space-medal-of-honor/",
+      "canonicalUrl": "https://www.nasa.gov/image-article/nasas-artemis-ii-crew-receives-congressional-space-medal-of-honor",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T22:21:31.000Z",
+      "description": "From left to right: NASA astronauts Victor Glover and Christina Koch, CSA (Canadian Space Agency) astronaut Jeremy Hansen, and NASA astronaut Reid Wiseman receive the Congressional Space Medal of Honor from President Donald J. Trump on Aug. 28, 2026, for their service during the Artemis II mission. The Congressional Space Medal of Honor was authorized [&#8230;]",
+      "rssDescription": "From left to right: NASA astronauts Victor Glover and Christina Koch, CSA (Canadian Space Agency) astronaut Jeremy Hansen, and NASA astronaut Reid Wiseman receive the Congressional Space Medal of Honor from President Donald J. Trump on Aug. 28, 2026, for their service during the Artemis II mission. The Congressional Space Medal of Honor was authorized [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "9fbc23732e5ddd11",
+      "title": "One Nation secures historic victory in Secret Harbour by-election",
+      "url": "https://www.abc.net.au/news/2026-08-30/one-nation-claims-win-secret-harbour-by-election/107094074",
+      "canonicalUrl": "https://www.abc.net.au/news/2026-08-30/one-nation-claims-win-secret-harbour-by-election/107094074",
+      "sourceId": "abc-au",
+      "sourceName": "ABC News Australia",
+      "domain": "abc.net.au",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:20:20.000Z",
+      "description": "One Nation scores a historic win in Western Australia, securing its first lower house seat in the state.",
+      "rssDescription": "One Nation scores a historic win in Western Australia, securing its first lower house seat in the state.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "879d93d01ba55fc3",
+      "title": "Temasek backs SIA&#039;s Air India investment amid growing scrutiny",
+      "url": "https://www.channelnewsasia.com/business/temasek-sia-air-india-investment-6349216",
+      "canonicalUrl": "https://www.channelnewsasia.com/business/temasek-sia-air-india-investment-6349216",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:31:00.000Z",
+      "description": "Air India&#039;s request for about US$1.5 billion in fresh equity from owners Tata Sons and SIA has drawn questions about the Singapore carrier&#039;s decision to invest in it.",
+      "rssDescription": "Air India&#039;s request for about US$1.5 billion in fresh equity from owners Tata Sons and SIA has drawn questions about the Singapore carrier&#039;s decision to invest in it.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "6eebd64fba104d57",
+      "title": "Israeli attacks in Gaza kill four people, hit hospital supply warehouse",
+      "url": "https://www.aljazeera.com/news/2026/8/29/israeli-attacks-across-gaza-kill-two-people-hit-hospital-supply-warehouse?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/8/29/israeli-attacks-across-gaza-kill-two-people-hit-hospital-supply-warehouse?traffic_source=rss",
+      "sourceId": "al-jazeera",
+      "sourceName": "Al Jazeera",
+      "domain": "aljazeera.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T15:25:43.000Z",
+      "description": "Gaza’s Health Ministry reports rising casualties amid escalated Israeli attacks, with victims trapped under rubble.",
+      "rssDescription": "Gaza’s Health Ministry reports rising casualties amid escalated Israeli attacks, with victims trapped under rubble.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "71fe5095c630f4d1",
+      "title": "‘Extremely risky operations’: Rescuers work amid threat of river banks bursting",
+      "url": "https://www.france24.com/en/extremely-risky-operations-rescuers-work-amid-threat-of-river-banks-bursting",
+      "canonicalUrl": "https://www.france24.com/en/extremely-risky-operations-rescuers-work-amid-threat-of-river-banks-bursting",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T15:22:32.000Z",
+      "description": "Nearly 3,000 people remained missing on Saturday, while 682 deaths had been confirmed after flash floods and landslides hit the Nepal-Tibet border. Rescue operations remain risky as a lake formed upstream by the floods threatens to burst its banks. FRANCE 24's Shahzaib Wahlah reports.",
+      "rssDescription": "Nearly 3,000 people remained missing on Saturday, while 682 deaths had been confirmed after flash floods and landslides hit the Nepal-Tibet border. Rescue operations remain risky as a lake formed upstream by the floods threatens to burst its banks. FRANCE 24's Shahzaib Wahlah reports.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "01fc466366c6969e",
+      "title": "'I am sure of myself': A look back at Dolly Parton's unspoken feminist legacy",
+      "url": "https://www.france24.com/en/americas/20260829-i-am-sure-of-myself-a-look-back-at-dolly-parton-s-unspoken-feminist-legacy",
+      "canonicalUrl": "https://www.france24.com/en/americas/20260829-i-am-sure-of-myself-a-look-back-at-dolly-parton-s-unspoken-feminist-legacy",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T15:57:29.000Z",
+      "description": "Beloved country star Dolly Parton was many things to her fans, including an actor, singer, philanthropist and entrepreneur. But after her death on Tuesday at the age of 80, some admirers are remembering her as something she never overtly claimed: feminist icon.",
+      "rssDescription": "Beloved country star Dolly Parton was many things to her fans, including an actor, singer, philanthropist and entrepreneur. But after her death on Tuesday at the age of 80, some admirers are remembering her as something she never overtly claimed: feminist icon.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "5be24e68625c9777",
+      "title": "We Played State of Decay 3 and It's in Good Shape Despite the Xbox Upheaval | gamescom 2026",
+      "url": "https://www.ign.com/articles/we-played-state-of-decay-3-and-its-in-good-shape-despite-the-xbox-upheaval",
+      "canonicalUrl": "https://www.ign.com/articles/we-played-state-of-decay-3-and-its-in-good-shape-despite-the-xbox-upheaval",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T15:57:55.000Z",
+      "description": "State of Decay 3 seems to be showing promise after playing an action-packed 30 minutes of an early alpha build.",
+      "rssDescription": "State of Decay 3 seems to be showing promise after playing an action-packed 30 minutes of an early alpha build.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "fd4d7dc4d978ec2a",
+      "title": "TCU vs. UNC: Where to Watch the 2026 College Football Season Opener Online",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-tcu-vs-unc-college-football-streams-free-aug-29-2026-1236684631/",
+      "canonicalUrl": "https://www.hollywoodreporter.com/tv/tv-news/watch-tcu-vs-unc-college-football-streams-free-aug-29-2026-1236684631",
+      "sourceId": "hollywood-reporter",
+      "sourceName": "The Hollywood Reporter",
+      "domain": "hollywoodreporter.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T13:30:00.000Z",
+      "description": "NCAA football is back. Here's how to livestream the Aug. 29 game between the North Carolina Tar Heels and TCU Horned Frogs.",
+      "rssDescription": "NCAA football is back. Here's how to livestream the Aug. 29 game between the North Carolina Tar Heels and TCU Horned Frogs.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "0914f5e1ed997e94",
+      "title": "Iran war reaches 6-month mark: Conflict cost $1,100 per US taxpayer",
+      "url": "https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer",
+      "canonicalUrl": "https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T15:24:38.000Z",
+      "description": "After six months of war, Iran’s leadership has coalesced around a hard core of military generals and clerics long entrenched in the ruling theocracy. They are ready for a potentially long confrontation with the US and determined to prevent any unrest at home. It’s a far cry from US President Donald Trump’s initial hopes of toppling the Islamic Republic and his subsequent claims that “regime change” had brought more compromising officials to the fore. In an analysis, FRANCE 24's Philip Turle said the war had so far cost around 1,100 US dollars for each US taxpayer.",
+      "rssDescription": "After six months of war, Iran’s leadership has coalesced around a hard core of military generals and clerics long entrenched in the ruling theocracy. They are ready for a potentially long confrontation with the US and determined to prevent any unrest at home. It’s a far cry from US President Donald Trump’s initial hopes of toppling the Islamic Republic and his subsequent claims that “regime change” had brought more compromising officials to the fore. In an analysis, FRANCE 24's Philip Turle said the war had so far cost around 1,100 US dollars for each US taxpayer.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "50e4068084867852",
+      "title": "Bland or badass? The internet is split on GTA 6's Jason, and so is PC Gamer",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/bland-or-badass-the-internet-is-split-on-gta-6s-jason-and-so-is-pc-gamer/",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/bland-or-badass-the-internet-is-split-on-gta-6s-jason-and-so-is-pc-gamer",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T20:16:05.000Z",
+      "updatedAt": "2026-08-28T23:55:41.000Z",
+      "description": "Everyone's got an opinion, including us.",
+      "rssDescription": "Everyone's got an opinion, including us.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "23a558f5f2dfe929",
+      "title": "'Claude Strife': DLSS 5 has escaped into the wild, and things are immediately weird",
+      "url": "https://www.pcgamer.com/software/ai/claude-strife-dlss-5-has-escaped-into-the-wild-and-things-are-immediately-weird/",
+      "canonicalUrl": "https://www.pcgamer.com/software/ai/claude-strife-dlss-5-has-escaped-into-the-wild-and-things-are-immediately-weird",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T00:40:26.000Z",
+      "updatedAt": "2026-08-29T01:07:43.000Z",
+      "description": "The controversial generative AI tech can look alright when used subtly, but the 'AI look' seems to be inescapable.",
+      "rssDescription": "The controversial generative AI tech can look alright when used subtly, but the 'AI look' seems to be inescapable.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 73
+    },
+    {
+      "id": "985160e795d23fd0",
+      "title": "NASA Awards First Prize in Phase 2 of Agency&#8217;s LunaRecycle Challenge",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/centennial-challenges/nasa-awards-first-prize-in-phase-2-of-agencys-lunarecycle-challenge/",
+      "canonicalUrl": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/centennial-challenges/nasa-awards-first-prize-in-phase-2-of-agencys-lunarecycle-challenge",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T20:30:52.000Z",
+      "description": "NASA&#160;named&#160;a team from the&#160;Massachusetts Institute of Technology&#160;(MIT)&#160;as the&#160;first prize&#160;winner&#160;for&#160;Phase 2&#160;of the&#160;agency’s&#160;LunaRecycle&#160;Challenge, which&#160;focused on&#160;developing&#160;solutions for&#160;reducing waste&#160;during missions to the Moon or deep space by&#160;recycling common materials,&#160;like fabrics, plastics, foam, and metals.&#160; The&#160;Composites for Extraterrestrial Recycling&#160;By&#160;Engineering the Reuse and Upcycling of&#160;Zotek&#160;(CERBERUZ) team,&#160;comprised&#160;of&#160;undergraduate,&#160;graduate,&#160;and&#160;doctoral&#160;students at&#160;MIT,&#160;received a total of $775,000 in&#160;awards.&#160;&#160; The technology grinds mixed trash into a fine powder, [&#8230;]",
+      "rssDescription": "NASA&#160;named&#160;a team from the&#160;Massachusetts Institute of Technology&#160;(MIT)&#160;as the&#160;first prize&#160;winner&#160;for&#160;Phase 2&#160;of the&#160;agency’s&#160;LunaRecycle&#160;Challenge, which&#160;focused on&#160;developing&#160;solutions for&#160;reducing waste&#160;during missions to the Moon or deep space by&#160;recycling common materials,&#160;like fabrics, plastics, foam, and metals.&#160; The&#160;Composites for Extraterrestrial Recycling&#160;By&#160;Engineering the Reuse and Upcycling of&#160;Zotek&#160;(CERBERUZ) team,&#160;comprised&#160;of&#160;undergraduate,&#160;graduate,&#160;and&#160;doctoral&#160;students at&#160;MIT,&#160;received a total of $775,000 in&#160;awards.&#160;&#160; The technology grinds mixed trash into a fine powder, [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "e2191c8d122fa329",
+      "title": "&#039;Why are you trying so hard?&#039; A Primary 1 dropout&#039;s gritty journey to becoming a trainee teacher",
+      "url": "https://www.channelnewsasia.com/today/up-close/primary-school-dropout-timeline-isolation-bullying-6345081",
+      "canonicalUrl": "https://www.channelnewsasia.com/today/up-close/primary-school-dropout-timeline-isolation-bullying-6345081",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T13:30:00.000Z",
+      "description": "After dropping out of primary school aged seven, Mr Presslee Chng endured years of social isolation and bullying. He tells CNA TODAY about his long and bumpy road back to school, the teachers who propped him up along the way, and his dream to pay it forward as a teacher himself.&nbsp;",
+      "rssDescription": "After dropping out of primary school aged seven, Mr Presslee Chng endured years of social isolation and bullying. He tells CNA TODAY about his long and bumpy road back to school, the teachers who propped him up along the way, and his dream to pay it forward as a teacher himself.&nbsp;",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "d687156010d4ac68",
+      "title": "Israeli settlers surround Palestinian home in occupied West Bank’s Qusra",
+      "url": "https://www.aljazeera.com/news/2026/8/29/israeli-settlers-surround-palestinian-home-in-occupied-west-banks-qusra?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/8/29/israeli-settlers-surround-palestinian-home-in-occupied-west-banks-qusra?traffic_source=rss",
+      "sourceId": "al-jazeera",
+      "sourceName": "Al Jazeera",
+      "domain": "aljazeera.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T13:11:41.000Z",
+      "description": "At least four people trapped inside the house, as earlier siege on Palestinian families has continued for three weeks.",
+      "rssDescription": "At least four people trapped inside the house, as earlier siege on Palestinian families has continued for three weeks.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "15f2c618644702be",
+      "title": "Everything Coming to Netflix in September",
+      "url": "https://www.ign.com/articles/whats-new-on-netflix-september-2026",
+      "canonicalUrl": "https://www.ign.com/articles/whats-new-on-netflix-september-2026",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T13:00:00.000Z",
+      "description": "Welcome in the fall with the xenomorph, some T-virus zombies, Bruce the shark, and more... all on Netflix",
+      "rssDescription": "Welcome in the fall with the xenomorph, some T-virus zombies, Bruce the shark, and more... all on Netflix",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "31b5f04c112945a0",
+      "title": "The race to stop England running out of water",
+      "url": "https://www.bbc.co.uk/news/articles/clyrv84yd9ko?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/clyrv84yd9ko?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:50:35.000Z",
+      "description": "Who is to blame for the summer drought, and can England future-proof its water supplies?",
+      "rssDescription": "Who is to blame for the summer drought, and can England future-proof its water supplies?",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "e65ed71e3814e4f6",
+      "title": "&#8216;Spider-Man&#8217; Nearing $900M; &#8216;Coyote Vs. Acme&#8217; Solid $14M Debut &#038; &#8216;A&#8217; CinemaScore, &#8216;Dog Stars&#8217; Going To The Dogs &#8211; Box Office Update",
+      "url": "https://deadline.com/2026/08/box-office-coyote-vs-acme-dog-stars-spider-man-1237061934/",
+      "canonicalUrl": "https://deadline.com/2026/08/box-office-coyote-vs-acme-dog-stars-spider-man-1237061934",
+      "sourceId": "deadline",
+      "sourceName": "Deadline",
+      "domain": "deadline.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T15:46:00.000Z",
+      "description": "SATURDAY AM WRITETHRU after Friday afternoon post: It&#8217;s Spidey&#8217;s world, and Jacob Elordi and Wile E. Coyote are just living in it. But let&#8217;s not ignore the pace we&#8217;re seeing on Ketchup Entertainment&#8217;s release of the abandoned Warner Bros Looney Tunes title, Coyote Vs. Acme, which is eyeing third place now with $14M. Coyote vs. [&#8230;]",
+      "rssDescription": "SATURDAY AM WRITETHRU after Friday afternoon post: It&#8217;s Spidey&#8217;s world, and Jacob Elordi and Wile E. Coyote are just living in it. But let&#8217;s not ignore the pace we&#8217;re seeing on Ketchup Entertainment&#8217;s release of the abandoned Warner Bros Looney Tunes title, Coyote Vs. Acme, which is eyeing third place now with $14M. Coyote vs. [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "201edce2b6d85701",
+      "title": "Xbox CEO Says Project Helix Includes a 'Family of Devices'",
+      "url": "https://www.ign.com/articles/xbox-ceo-says-project-helix-includes-a-family-of-devices",
+      "canonicalUrl": "https://www.ign.com/articles/xbox-ceo-says-project-helix-includes-a-family-of-devices",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T23:40:19.000Z",
+      "description": "Xbox CEO Asha Sharma has suggested Project Helix will encompass more than one device, saying that Microsoft has been working on \"a great family of devices.\"",
+      "rssDescription": "Xbox CEO Asha Sharma has suggested Project Helix will encompass more than one device, saying that Microsoft has been working on \"a great family of devices.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "0adc1de37728334e",
+      "title": "Here&#8217;s How to Watch the 2026-2027 NCAA College Football Season Live Online",
+      "url": "https://variety.com/2026/shopping/news/how-to-watch-college-football-season-online-free-1235703850/",
+      "canonicalUrl": "https://variety.com/2026/shopping/news/how-to-watch-college-football-season-online-free-1235703850",
+      "sourceId": "variety",
+      "sourceName": "Variety",
+      "domain": "variety.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T12:45:16.000Z",
+      "description": "The new season is finally here! The 2026-2027 NCAA College Football season officially kicks off with its first big weekend of games starting on Saturday, Aug. 23. Starting on Saturday, Aug. 29, The first game of the season is North Carolina Tar Heels vs. TCU Horned Frogs at Aviva Stadium in Dublin, Ireland, with a [&#8230;]",
+      "rssDescription": "The new season is finally here! The 2026-2027 NCAA College Football season officially kicks off with its first big weekend of games starting on Saturday, Aug. 23. Starting on Saturday, Aug. 29, The first game of the season is North Carolina Tar Heels vs. TCU Horned Frogs at Aviva Stadium in Dublin, Ireland, with a [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "8c32e4379920c3c3",
+      "title": "I played just an hour of Total War: Warhammer 40,000 and it was the highlight of my year",
+      "url": "https://www.pcgamer.com/games/strategy/i-played-just-one-hour-of-total-war-warhammer-40-000-and-it-was-the-highlight-of-my-year/",
+      "canonicalUrl": "https://www.pcgamer.com/games/strategy/i-played-just-one-hour-of-total-war-warhammer-40-000-and-it-was-the-highlight-of-my-year",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T13:34:03.000Z",
+      "updatedAt": "2026-08-29T16:30:04.000Z",
+      "description": "Living the grimdark dream.",
+      "rssDescription": "Living the grimdark dream.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "d30f6208e592d2eb",
+      "title": "Berlin is being blackmailed by hackers, mayor says",
+      "url": "https://www.bbc.co.uk/news/articles/cm2q7gv3l5qo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cm2q7gv3l5qo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T21:29:01.000Z",
+      "description": "Kai Wegner says the German capital and city-state would not cave in to a ransom demand for data stolen in a cyber-attack.",
+      "rssDescription": "Kai Wegner says the German capital and city-state would not cave in to a ransom demand for data stolen in a cyber-attack.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "add74748e683c09c",
+      "title": "id Software's former co-owner says they absolutely would've used gen AI back in the day: 'John Carmack would be like making Skynet or something'",
+      "url": "https://www.pcgamer.com/gaming-industry/game-development/id-softwares-former-co-owner-says-they-absolutely-wouldve-used-gen-ai-back-in-the-day-john-carmack-would-be-like-making-skynet-or-something/",
+      "canonicalUrl": "https://www.pcgamer.com/gaming-industry/game-development/id-softwares-former-co-owner-says-they-absolutely-wouldve-used-gen-ai-back-in-the-day-john-carmack-would-be-like-making-skynet-or-something",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:53:23.000Z",
+      "updatedAt": "2026-08-28T23:55:41.000Z",
+      "description": "\"I make this joke that someone needs to come up with the 'Half-Life 2 of AI'.\"",
+      "rssDescription": "\"I make this joke that someone needs to come up with the 'Half-Life 2 of AI'.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "e01d0f3bb830162c",
+      "title": "President Honors NASA’s Artemis II Crew with Highest US Space Award",
+      "url": "https://www.nasa.gov/news-release/president-honors-nasas-artemis-ii-crew-with-highest-us-space-award/",
+      "canonicalUrl": "https://www.nasa.gov/news-release/president-honors-nasas-artemis-ii-crew-with-highest-us-space-award",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T17:37:01.000Z",
+      "description": "President Donald J. Trump awarded NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen with the Congressional Space Medal of Honor Friday for their service during the Artemis II mission. He presented the awards during a ceremony at NASA’s Johnson Space Center in Houston, honoring the first [&#8230;]",
+      "rssDescription": "President Donald J. Trump awarded NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen with the Congressional Space Medal of Honor Friday for their service during the Artemis II mission. He presented the awards during a ceremony at NASA’s Johnson Space Center in Houston, honoring the first [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "bcf26f7bbb6e1d6f",
+      "title": "I took 10 weeks of parental leave but couldn&#039;t fully leave work behind",
+      "url": "https://www.channelnewsasia.com/today/voices/paternity-leave-childcare-father-fatherhood-workplace-work-life-balance-6344816",
+      "canonicalUrl": "https://www.channelnewsasia.com/today/voices/paternity-leave-childcare-father-fatherhood-workplace-work-life-balance-6344816",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T13:30:00.000Z",
+      "description": "For dads to be engaged caregivers, support cannot end with granting them time away from work, father-of-two Xander Ong says.&nbsp;",
+      "rssDescription": "For dads to be engaged caregivers, support cannot end with granting them time away from work, father-of-two Xander Ong says.&nbsp;",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "02e629aafbe1db96",
+      "title": "Playdate maker Panic is passing tariff refunds on to customers",
+      "url": "https://www.eurogamer.net/panic-playdate-tariff-refunds-customers",
+      "canonicalUrl": "https://www.eurogamer.net/panic-playdate-tariff-refunds-customers",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T10:51:33.000Z",
+      "description": "Panic, maker of the crank-powered handheld Playdate , is forwarding Supreme Court-ordered tariff refunds back to customers. Read more",
+      "rssDescription": "Panic, maker of the crank-powered handheld Playdate , is forwarding Supreme Court-ordered tariff refunds back to customers. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "999317521e971593",
+      "title": "Several killed in Israeli strikes on Gaza and West Bank",
+      "url": "https://www.france24.com/en/several-killed-in-israeli-strikes-on-gaza-and-west-bank",
+      "canonicalUrl": "https://www.france24.com/en/several-killed-in-israeli-strikes-on-gaza-and-west-bank",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T10:34:58.000Z",
+      "description": "Israeli strikes in Gaza have killed five people, local hospital officials said Friday. Two brothers and another relative died in a strike on the family’s home outside Khan Younis, officials at Nasser Hospital said. Two separate Israeli strikes killed one person each in Gaza City, according to health officials at Shifa hospital.",
+      "rssDescription": "Israeli strikes in Gaza have killed five people, local hospital officials said Friday. Two brothers and another relative died in a strike on the family’s home outside Khan Younis, officials at Nasser Hospital said. Two separate Israeli strikes killed one person each in Gaza City, according to health officials at Shifa hospital.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "2f00c550afbf9670",
+      "title": "Death toll from Nepal-Tibet floods rises to over 600",
+      "url": "https://www.dw.com/en/death-toll-from-nepal-tibet-floods-rises-to-over-600/a-78555290?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/death-toll-from-nepal-tibet-floods-rises-to-over-600/a-78555290?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:32:00.000Z",
+      "description": "Heavy rain is complicating an already difficult rescue effort, as hundreds remain missing three days after deadly flash floods hit the Nepal-Tibet border region.",
+      "rssDescription": "Heavy rain is complicating an already difficult rescue effort, as hundreds remain missing three days after deadly flash floods hit the Nepal-Tibet border region.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "63a6205275594f8e",
+      "title": "Charli xcx Makes a Striking Statement With Reading Festival Headline Set: 5 Best&#160;Moments",
+      "url": "https://www.billboard.com/lists/charli-xcx-reading-festival-2026-best-moments/",
+      "canonicalUrl": "https://www.billboard.com/lists/charli-xcx-reading-festival-2026-best-moments",
+      "sourceId": "billboard",
+      "sourceName": "Billboard",
+      "domain": "billboard.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T15:13:32.000Z",
+      "description": "Charli gave her first U.K. performance since the release of her eighth studio album Music, Fashion, Film .",
+      "rssDescription": "Charli gave her first U.K. performance since the release of her eighth studio album Music, Fashion, Film .",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "b7176f501527f63f",
+      "title": "Xbox CEO calls Project Helix a ‘family of devices’",
+      "url": "https://www.theverge.com/games/986337/xbox-ceo-asha-sharma-project-helix-family-of-devices",
+      "canonicalUrl": "https://www.theverge.com/games/986337/xbox-ceo-asha-sharma-project-helix-family-of-devices",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T22:03:13.000Z",
+      "updatedAt": "2026-08-28T22:39:11.000Z",
+      "description": "According to Xbox CEO Asha Sharma, Project Helix, which she announced in March as a codename for Microsoft's \"next generation console\" - phrasing that seemingly implied a singular device - will actually be a \"family\" of devices.\" \"We've been hard at work on a great next generation and a great family of devices for Helix, [&#8230;]",
+      "rssDescription": "According to Xbox CEO Asha Sharma, Project Helix, which she announced in March as a codename for Microsoft's \"next generation console\" - phrasing that seemingly implied a singular device - will actually be a \"family\" of devices.\" \"We've been hard at work on a great next generation and a great family of devices for Helix, [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "bf52b0fa6e554315",
+      "title": "Court rules Kalshi sports bets aren't \"swaps,\" just gambling with a different name",
+      "url": "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/",
+      "canonicalUrl": "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T22:14:52.000Z",
+      "description": "Kalshi can't evade Nevada gambling laws by calling bets \"swaps,\" judges rule.",
+      "rssDescription": "Kalshi can't evade Nevada gambling laws by calling bets \"swaps,\" judges rule.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "825e4c824c427f45",
+      "title": "Rockstar considered having four protagonists in Grand Theft Auto 6, but the studio 'worried about diluting the amount of player time' with each character",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-considered-having-four-protagonists-in-grand-theft-auto-6-but-the-studio-worried-about-diluting-the-amount-of-player-time-with-each-character/",
+      "canonicalUrl": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-considered-having-four-protagonists-in-grand-theft-auto-6-but-the-studio-worried-about-diluting-the-amount-of-player-time-with-each-character",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T13:13:58.000Z",
+      "updatedAt": "2026-08-29T16:07:21.000Z",
+      "description": "\"How do we follow up three characters? Is it four characters now?\"",
+      "rssDescription": "\"How do we follow up three characters? Is it four characters now?\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "4ed9a280c24da513",
+      "title": "Musicians-turned-detectives are hunting for AI grifters",
+      "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "canonicalUrl": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T12:00:00.000Z",
+      "updatedAt": "2026-08-28T19:10:32.000Z",
+      "description": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology [&#8230;]",
+      "rssDescription": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "d0e5614bdcb44a1f",
+      "title": "Google further buries search results under AI mode",
+      "url": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+      "canonicalUrl": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T22:48:11.000Z",
+      "updatedAt": "2026-08-28T22:48:11.000Z",
+      "description": "Google is now automatically expanding its AI search summaries at the top of the results page for some searches, as reported by Search Engine Roundtable. The change, when it kicks in, pushes the typical list of links from a search much farther down Google's results page; instead of seeing part of an AI Overview with [&#8230;]",
+      "rssDescription": "Google is now automatically expanding its AI search summaries at the top of the results page for some searches, as reported by Search Engine Roundtable. The change, when it kicks in, pushes the typical list of links from a search much farther down Google's results page; instead of seeing part of an AI Overview with [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 71
+    },
+    {
+      "id": "65f4de4411178b39",
+      "title": "Serbia keeps EU, Russia in play ahead of key election",
+      "url": "https://www.dw.com/en/serbia-keeps-eu-russia-in-play-ahead-of-key-election/a-78543495?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/serbia-keeps-eu-russia-in-play-ahead-of-key-election/a-78543495?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T07:19:00.000Z",
+      "description": "As Serbia heads toward an uncertain election, President Aleksandar Vucic is balancing ties with Russia and EU ambitions. But growing geopolitical tensions and pressure at home are narrowing his room to maneuver.",
+      "rssDescription": "As Serbia heads toward an uncertain election, President Aleksandar Vucic is balancing ties with Russia and EU ambitions. But growing geopolitical tensions and pressure at home are narrowing his room to maneuver.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "9fb3edfbe1d62b42",
+      "title": "Strong winds and thunderstorms kick off the bank holiday weekend",
+      "url": "https://www.bbc.co.uk/weather/articles/c1l6g7gqm37o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/weather/articles/c1l6g7gqm37o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T10:51:21.000Z",
+      "description": "Cooler and showery conditions will continue across the weekend and into Monday, bringing a record-breaking summer to a rather damp close as Matt Taylor explains.",
+      "rssDescription": "Cooler and showery conditions will continue across the weekend and into Monday, bringing a record-breaking summer to a rather damp close as Matt Taylor explains.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "0e46c455b5900f19",
+      "title": "Dutch health institute issues 'red alert' over Trump-shaped ecstasy pills",
+      "url": "https://www.bbc.co.uk/news/articles/cy8z9084d00o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cy8z9084d00o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T08:48:34.000Z",
+      "description": "The drugs have a delayed effect which \"increases the risk of overdose\", the health institute says.",
+      "rssDescription": "The drugs have a delayed effect which \"increases the risk of overdose\", the health institute says.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "58c55377d6ad8557",
+      "title": "Rescue operations ongoing as death toll continues to rise",
+      "url": "https://www.france24.com/en/rescue-operations-ongoing-as-death-toll-continues-to-rise",
+      "canonicalUrl": "https://www.france24.com/en/rescue-operations-ongoing-as-death-toll-continues-to-rise",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T12:37:17.000Z",
+      "description": "Most arrive with nothing except the clothes they are wearing. As rescue efforts in communities buried by catastrophic flash floods along the border between Nepal and China entered their fourth day Saturday, authorities continued finding survivors and transporting them to safety. At relief centers, as some arrive, families wait anxiously for news of their loved ones as the death toll and the number of people unaccounted for continued to rise.",
+      "rssDescription": "Most arrive with nothing except the clothes they are wearing. As rescue efforts in communities buried by catastrophic flash floods along the border between Nepal and China entered their fourth day Saturday, authorities continued finding survivors and transporting them to safety. At relief centers, as some arrive, families wait anxiously for news of their loved ones as the death toll and the number of people unaccounted for continued to rise.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "41db0ef3024cb39d",
+      "title": "Alma Har’el&#8217;s Family Drama &#8216;Wet&#8217; Heading To TIFF Market With 193; A-List Cast Circling",
+      "url": "https://deadline.com/2026/08/alma-harel-wet-movie-tiff-market-a-list-cast-circling-1237062594/",
+      "canonicalUrl": "https://deadline.com/2026/08/alma-harel-wet-movie-tiff-market-a-list-cast-circling-1237062594",
+      "sourceId": "deadline",
+      "sourceName": "Deadline",
+      "domain": "deadline.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:17:50.000Z",
+      "description": "Honey Boy director Alma Har’el’s next project Wet is heading to the TIFF market with Patrick Wachsberger&#8217;s 193 and is attracting what could be a killer cast. News of the project broke online last month via Page Six who reported that Oscar winner Javier Bardem was in talks. Bardem remains in early talks for the [&#8230;]",
+      "rssDescription": "Honey Boy director Alma Har’el’s next project Wet is heading to the TIFF market with Patrick Wachsberger&#8217;s 193 and is attracting what could be a killer cast. News of the project broke online last month via Page Six who reported that Oscar winner Javier Bardem was in talks. Bardem remains in early talks for the [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "9cdb88434cf811dc",
+      "title": "After seeing what GTA 6 does to a PS5 we're even more desperate to see what the PC version has for us",
+      "url": "https://www.pcgamer.com/hardware/after-seeing-what-gta-6-does-to-a-ps5-were-even-more-desperate-to-see-what-the-pc-version-has-for-us/",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/after-seeing-what-gta-6-does-to-a-ps5-were-even-more-desperate-to-see-what-the-pc-version-has-for-us",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T13:20:10.000Z",
+      "updatedAt": "2026-08-28T18:22:22.000Z",
+      "description": "Looking at the PlayStation 5 capture, we're noodling on just what extra shinies Rockstar might add to the best gaming platform's version.",
+      "rssDescription": "Looking at the PlayStation 5 capture, we're noodling on just what extra shinies Rockstar might add to the best gaming platform's version.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "58c8421d06ab2bf0",
+      "title": "Austria museum heist: Thieves snatch diamond necklace",
+      "url": "https://www.dw.com/en/austria-museum-heist-thieves-snatch-diamond-necklace/a-78552889?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/austria-museum-heist-thieves-snatch-diamond-necklace/a-78552889?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T20:32:00.000Z",
+      "description": "The stolen necklace, studded with 673 precious stones, belonged to Egypt's Queen Nazli. It was being displayed as part of the museum's exhibition for designs by France's Van Cleef and Arpels.",
+      "rssDescription": "The stolen necklace, studded with 673 precious stones, belonged to Egypt's Queen Nazli. It was being displayed as part of the museum's exhibition for designs by France's Van Cleef and Arpels.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "e7a0c037ecfc8e66",
+      "title": "Pokémon TCG Pocket adds a game-changing new kind of card this October",
+      "url": "https://www.polygon.com/pokemon-tcg-pocket-dual-type-cards/",
+      "canonicalUrl": "https://www.polygon.com/pokemon-tcg-pocket-dual-type-cards",
+      "sourceId": "polygon",
+      "sourceName": "Polygon",
+      "domain": "polygon.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T15:16:36.000Z",
+      "description": "Dual-type cards are finally making their way into Pokémon TCG Pocket this October, starting with a Mega Mewtwo X ex card",
+      "rssDescription": "Dual-type cards are finally making their way into Pokémon TCG Pocket this October, starting with a Mega Mewtwo X ex card",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "1bdef960944d20b7",
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T20:24:11.000Z",
+      "description": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+      "rssDescription": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "689b23efc3cd0f9e",
+      "title": "Iceland holds knife-edge referendum on EU membership talks",
+      "url": "https://www.dw.com/en/iceland-holds-knife-edge-referendum-on-eu-membership-talks/a-78554025?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/iceland-holds-knife-edge-referendum-on-eu-membership-talks/a-78554025?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T06:35:00.000Z",
+      "description": "The Nordic nation shelved earlier plans to join the EU over fishing rights, but geopolitics, including Trump's threat to seize Greenland, has prompted a rethink.",
+      "rssDescription": "The Nordic nation shelved earlier plans to join the EU over fishing rights, but geopolitics, including Trump's threat to seize Greenland, has prompted a rethink.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "66bdd6a894a77205",
+      "title": "Pokémon Tales: The Misadventures of Sirfetch'd & Pichu gets first trailer",
+      "url": "https://www.eurogamer.net/pokemon-tales-sirfetchd-pichu-trailer-disney-plus",
+      "canonicalUrl": "https://www.eurogamer.net/pokemon-tales-sirfetchd-pichu-trailer-disney-plus",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T09:55:50.000Z",
+      "description": "The Pok&eacute;mon Company International and Aardman have released the first teaser trailer for Pok&eacute;mon Tales: The Misadventures of Sirfetch'd & Pichu, a new stop-motion series set in the Galar region. Read more",
+      "rssDescription": "The Pok&eacute;mon Company International and Aardman have released the first teaser trailer for Pok&eacute;mon Tales: The Misadventures of Sirfetch'd & Pichu, a new stop-motion series set in the Galar region. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "55005e6f13526e98",
+      "title": "Canada poaches dozens of top US researchers for its universities",
+      "url": "https://www.bbc.co.uk/news/articles/c209gd5jnq1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c209gd5jnq1o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T23:47:38.000Z",
+      "description": "Researchers in fields like climate and medicine are being lured north by new research funding.",
+      "rssDescription": "Researchers in fields like climate and medicine are being lured north by new research funding.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 71
+    },
+    {
+      "id": "db6798aa1af5060b",
+      "title": "Nepali army uses helicopters to rescue flood survivors",
+      "url": "https://www.france24.com/en/nepali-army-uses-helicopters-to-rescue-flood-survivors",
+      "canonicalUrl": "https://www.france24.com/en/nepali-army-uses-helicopters-to-rescue-flood-survivors",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T10:32:27.000Z",
+      "description": "With roads damaged by the deadly floods, the Nepali army is using helicopters to carry out rescue operations and transport survivors to safety. Meanwhile, skies remain overcast, with more rain expected in the coming hours, raising concerns about further flooding. FRANCE 24's Shahzaib Wahlah reports.",
+      "rssDescription": "With roads damaged by the deadly floods, the Nepali army is using helicopters to carry out rescue operations and transport survivors to safety. Meanwhile, skies remain overcast, with more rain expected in the coming hours, raising concerns about further flooding. FRANCE 24's Shahzaib Wahlah reports.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "88caa7f0f0deec3b",
+      "title": "Juanes, Alejandro Sanz &#038; More Launch Marea Viva to Rebuild Chocó After Earthquake &#038; More Uplifting&#160;Moments",
+      "url": "https://www.billboard.com/music/latin/juanes-choco-relief-juan-gabriel-tribute-mon-laferte-tour-1236327727/",
+      "canonicalUrl": "https://www.billboard.com/music/latin/juanes-choco-relief-juan-gabriel-tribute-mon-laferte-tour-1236327727",
+      "sourceId": "billboard",
+      "sourceName": "Billboard",
+      "domain": "billboard.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:00:00.000Z",
+      "description": "Plus, Amazon Music honors Juan Gabriel’s legacy, and Eladio Carrión earns the Hispanic Heritage Foundation’s Inspira Award.",
+      "rssDescription": "Plus, Amazon Music honors Juan Gabriel’s legacy, and Eladio Carrión earns the Hispanic Heritage Foundation’s Inspira Award.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "685cba932f60a84c",
+      "title": "Thieves steal 600-diamond necklace from Vienna museum in broad daylight",
+      "url": "https://www.bbc.co.uk/news/articles/cqxvwpe0plro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cqxvwpe0plro?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T17:29:16.000Z",
+      "description": "Police are hunting two suspects they believe bought a ticket for the exhibition to get at the jewellery.",
+      "rssDescription": "Police are hunting two suspects they believe bought a ticket for the exhibition to get at the jewellery.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "da482769f4976808",
+      "title": "Here&#8217;s How to Watch Moses Itauma vs. Filip Hrgovic Boxing Pay-Per-View Live Online",
+      "url": "https://variety.com/2026/shopping/news/how-to-watch-moses-vs-hrgovic-boxing-ppv-live-online-1236845973/",
+      "canonicalUrl": "https://variety.com/2026/shopping/news/how-to-watch-moses-vs-hrgovic-boxing-ppv-live-online-1236845973",
+      "sourceId": "variety",
+      "sourceName": "Variety",
+      "domain": "variety.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T15:00:00.000Z",
+      "description": "The best boxers in the world travel to London this weekend, where English fighter Moses Itauma (14-0-0) takes on Albanian Filip Hrgovic (20-2-0) in the heavyweight title main event on Saturday, Aug. 29. For Queensberry Promotions, the Itauma vs. Hrgovic pay-per-view event takes place at The O2 Arena in London, England. Coverage and prelims begin [&#8230;]",
+      "rssDescription": "The best boxers in the world travel to London this weekend, where English fighter Moses Itauma (14-0-0) takes on Albanian Filip Hrgovic (20-2-0) in the heavyweight title main event on Saturday, Aug. 29. For Queensberry Promotions, the Itauma vs. Hrgovic pay-per-view event takes place at The O2 Arena in London, England. Coverage and prelims begin [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "14adab6546acabca",
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T19:30:38.000Z",
+      "description": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "rssDescription": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "446406ebfd5f58e8",
+      "title": "Milo Yiannopoulos in ICE Custody After Feud-Fueled Tip-Off",
+      "url": "https://www.hollywoodreporter.com/news/general-news/milo-yiannopoulos-ice-custody-tip-off-1236684770/",
+      "canonicalUrl": "https://www.hollywoodreporter.com/news/general-news/milo-yiannopoulos-ice-custody-tip-off-1236684770",
+      "sourceId": "hollywood-reporter",
+      "sourceName": "The Hollywood Reporter",
+      "domain": "hollywoodreporter.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T03:44:05.000Z",
+      "description": "Laura Loomer, whom the far-right provocateur waged a vicious campaign against last year, says she reported the political operative's immigration status",
+      "rssDescription": "Laura Loomer, whom the far-right provocateur waged a vicious campaign against last year, says she reported the political operative's immigration status",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "31c1b36cac9fb8f2",
+      "title": "Iceland votes on whether to resume EU membership negotiations",
+      "url": "https://www.france24.com/en/iceland-votes-on-whether-to-resume-eu-membership-negotiations",
+      "canonicalUrl": "https://www.france24.com/en/iceland-votes-on-whether-to-resume-eu-membership-negotiations",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T08:57:53.000Z",
+      "description": "Icelanders go to the polls on Saturday in a referendum on whether to resume membership negotiations with the European Union, in a tight race that will be closely watched in Brussels. The country of just under 400,000 people applied to join the EU in the wake of a 2009 financial crisis that devastated its economy. The membership talks were suspended in 2013 when a eurosceptic government came to power.",
+      "rssDescription": "Icelanders go to the polls on Saturday in a referendum on whether to resume membership negotiations with the European Union, in a tight race that will be closely watched in Brussels. The country of just under 400,000 people applied to join the EU in the wake of a 2009 financial crisis that devastated its economy. The membership talks were suspended in 2013 when a eurosceptic government came to power.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "509d1e9aa3ef8a4a",
+      "title": "\"RFK Jr. has lied to the Senate\": Lawmakers call for criminal probe, ouster",
+      "url": "https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster/",
+      "canonicalUrl": "https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T21:17:38.000Z",
+      "description": "RFK Jr. went to Samoa to spread vaccine fears. The measles outbreak after killed 83.",
+      "rssDescription": "RFK Jr. went to Samoa to spread vaccine fears. The measles outbreak after killed 83.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "2034486870f799f5",
+      "title": "Nepal army races to rescue more than 100 trapped in hydropower tunnel after floods",
+      "url": "https://www.france24.com/en/nepal-army-races-to-rescue-more-than-100-trapped-in-hydropower-tunnel-after-floods",
+      "canonicalUrl": "https://www.france24.com/en/nepal-army-races-to-rescue-more-than-100-trapped-in-hydropower-tunnel-after-floods",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T08:50:06.000Z",
+      "description": "Nepali army rescue teams were using drilling equipment on Saturday seeking to rescue more than 100 people trapped inside a hydropower tunnel, three days after devastating floods struck the site.",
+      "rssDescription": "Nepali army rescue teams were using drilling equipment on Saturday seeking to rescue more than 100 people trapped inside a hydropower tunnel, three days after devastating floods struck the site.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "2bf7e08a1a7f4708",
+      "title": "Niger's junta says 'regaining control' after clashes in capital",
+      "url": "https://www.france24.com/en/niger-s-junta-says-regaining-control-after-clashes-in-capital",
+      "canonicalUrl": "https://www.france24.com/en/niger-s-junta-says-regaining-control-after-clashes-in-capital",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T12:33:03.000Z",
+      "description": "Niger's ​defense ​ministry said the armed forces were ​progressively ‌retaking ⁠control ‌of sites targeted in ⁠an overnight attack on ​the ‌capital Niamey, according to a ‌statement read ​on state television, which resumed broadcasting ​on ​Saturday after ​temporarily going ​offline.",
+      "rssDescription": "Niger's ​defense ​ministry said the armed forces were ​progressively ‌retaking ⁠control ‌of sites targeted in ⁠an overnight attack on ​the ‌capital Niamey, according to a ‌statement read ​on state television, which resumed broadcasting ​on ​Saturday after ​temporarily going ​offline.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "e77f44c413f1c06f",
+      "title": "London Science Museum cuts links with BP after decades of partnership",
+      "url": "https://www.theguardian.com/culture/2026/aug/28/london-science-museum-cuts-links-with-bp-after-decades-of-partnership",
+      "canonicalUrl": "https://www.theguardian.com/culture/2026/aug/28/london-science-museum-cuts-links-with-bp-after-decades-of-partnership",
+      "sourceId": "the-guardian",
+      "sourceName": "The Guardian",
+      "domain": "theguardian.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T17:15:00.000Z",
+      "description": "Discovered through GDELT global coverage.",
+      "discovery": "gdelt",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 62
+    },
+    {
+      "id": "b2b9b8de3eade3ab",
+      "title": "Russian strike on ammunition depot near Kyiv kills dozens",
+      "url": "https://www.dw.com/en/russian-strike-on-ammunition-depot-near-kyiv-kills-dozens/a-78556008?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/russian-strike-on-ammunition-depot-near-kyiv-kills-dozens/a-78556008?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:57:00.000Z",
+      "description": "Hundreds were also forced to flee after a Russian attack near Ukraine's capital, Kyiv, sparked a huge fire and explosions. The strike was the second to hit an arms depot near Kyiv in less than two months.",
+      "rssDescription": "Hundreds were also forced to flee after a Russian attack near Ukraine's capital, Kyiv, sparked a huge fire and explosions. The strike was the second to hit an arms depot near Kyiv in less than two months.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "7bbb293c57c5ff6b",
+      "title": "Open-weight AI companies are the Valley&#8217;s hottest acquisition targets",
+      "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T18:19:40.000Z",
+      "description": "There's a lot of capital pouring into the business of giving models away.",
+      "rssDescription": "There's a lot of capital pouring into the business of giving models away.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "4e62406df321be54",
+      "title": "US arrests far-right provocateur Milo Yiannopoulos",
+      "url": "https://www.dw.com/en/us-arrests-far-right-provocateur-milo-yiannopoulos/a-78553559?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/us-arrests-far-right-provocateur-milo-yiannopoulos/a-78553559?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T21:45:00.000Z",
+      "description": "Yiannopoulos, a far-right commentator, was an early supporter of Donald Trump and his immigration crackdown, but they have since fallen out. DHS said he was an \"illegal alien\" who overstayed his visit in the US.",
+      "rssDescription": "Yiannopoulos, a far-right commentator, was an early supporter of Donald Trump and his immigration crackdown, but they have since fallen out. DHS said he was an \"illegal alien\" who overstayed his visit in the US.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "4ec96c361c4fa7ee",
+      "title": "Inside &#8216;The Great British Bake Off&#8217; Bun Fight: How Sky &#038; Love Productions Came To Blows Over The UK&#8217;s Biggest Cooking Series",
+      "url": "https://deadline.com/2026/08/inside-great-british-bake-off-fight-sky-love-productions-1237062324/",
+      "canonicalUrl": "https://deadline.com/2026/08/inside-great-british-bake-off-fight-sky-love-productions-1237062324",
+      "sourceId": "deadline",
+      "sourceName": "Deadline",
+      "domain": "deadline.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T08:07:58.000Z",
+      "description": "EXCLUSIVE: In an op-ed during the Edinburgh TV Festival this week, Sky’s content chief Cecile Frot-Coutaz extolled the virtues of UK public service broadcasting as the Comcast-owned company finalizes its takeover of ITV. “Our ambition is to keep investing in brilliant British storytelling for generations to come,” she intoned in Broadcast. But away from the [&#8230;]",
+      "rssDescription": "EXCLUSIVE: In an op-ed during the Edinburgh TV Festival this week, Sky’s content chief Cecile Frot-Coutaz extolled the virtues of UK public service broadcasting as the Comcast-owned company finalizes its takeover of ITV. “Our ambition is to keep investing in brilliant British storytelling for generations to come,” she intoned in Broadcast. But away from the [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 78
+    },
+    {
+      "id": "ba6b8aafc13c8c6d",
+      "title": "Footage of Tibet floods isn't being shown in China - and we know little about victims there",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T03:54:11.000Z",
+      "description": "Some of the most dramatic footage from the deadly flash flooding is hidden from public view in China.",
+      "rssDescription": "Some of the most dramatic footage from the deadly flash flooding is hidden from public view in China.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "830452b4658f7316",
+      "title": "Ed Sheeran Reacts to Being Mocked in New &#8216;Ali G&#8217;&#160;Trailer",
+      "url": "https://www.billboard.com/music/pop/ed-sheeran-ali-g-trailer-1236328081/",
+      "canonicalUrl": "https://www.billboard.com/music/pop/ed-sheeran-ali-g-trailer-1236328081",
+      "sourceId": "billboard",
+      "sourceName": "Billboard",
+      "domain": "billboard.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T06:52:03.000Z",
+      "description": "Sacha Baron Cohen's comeback trailer named the singer alongside COVID and war as reasons the world got worse.",
+      "rssDescription": "Sacha Baron Cohen's comeback trailer named the singer alongside COVID and war as reasons the world got worse.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "1c88634aec405bce",
+      "title": "Tyler, The Creator, Turnstile and Clipse Conquer London’s All Points East: 7 Best&#160;Moments",
+      "url": "https://www.billboard.com/lists/tyler-the-creator-best-moments-all-points-east/",
+      "canonicalUrl": "https://www.billboard.com/lists/tyler-the-creator-best-moments-all-points-east",
+      "sourceId": "billboard",
+      "sourceName": "Billboard",
+      "domain": "billboard.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:55:48.000Z",
+      "description": "The show was the first of two headline performances at London's All Points East festival",
+      "rssDescription": "The show was the first of two headline performances at London's All Points East festival",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "9e7a53ba79682aa8",
+      "title": "Spain asks EU's Frontex for help in processing Ceuta migrants",
+      "url": "https://www.dw.com/en/spain-asks-eu-s-frontex-for-help-in-processing-ceuta-migrants/a-78553545?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/spain-asks-eu-s-frontex-for-help-in-processing-ceuta-migrants/a-78553545?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T21:23:00.000Z",
+      "description": "Of the over 70,000 migrants who illegally crossed into Ceuta from Morocco in late July, some 5,000 still remain in the Spanish exclave. Ceuta residents have been angrily protesting their continued presence.",
+      "rssDescription": "Of the over 70,000 migrants who illegally crossed into Ceuta from Morocco in late July, some 5,000 still remain in the Spanish exclave. Ceuta residents have been angrily protesting their continued presence.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "3f30a61fc087c738",
+      "title": "Icelanders vote in tight referendum on restarting EU membership talks",
+      "url": "https://www.france24.com/en/europe/20260829-icelanders-vote-in-referendum-on-whether-to-resume-eu-membership-talks",
+      "canonicalUrl": "https://www.france24.com/en/europe/20260829-icelanders-vote-in-referendum-on-whether-to-resume-eu-membership-talks",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T06:56:50.000Z",
+      "description": "Iceland will vote Saturday in a tight referendum on whether to reopen membership negotiations with the European Union. Reykjavik applied for EU membership in 2009, following a financial crisis that devastated its economy, but a eurosceptic government suspended the process in 2013.",
+      "rssDescription": "Iceland will vote Saturday in a tight referendum on whether to reopen membership negotiations with the European Union. Reykjavik applied for EU membership in 2009, following a financial crisis that devastated its economy, but a eurosceptic government suspended the process in 2013.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "79088a3d237e53bd",
+      "title": "97-year-old woman rescued after Nepali floods looked like 'a warrior'",
+      "url": "https://www.bbc.co.uk/news/videos/cj64kgrpgjdo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cj64kgrpgjdo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T21:17:54.000Z",
+      "description": "A 97-year-old woman, Guna Maya Bohara, survived the flash floods and was rescued using an excavator.",
+      "rssDescription": "A 97-year-old woman, Guna Maya Bohara, survived the flash floods and was rescued using an excavator.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "47f496ceba6ee4d7",
+      "title": "Bill Maher Pays Tribute to Dolly Parton With Nipple Joke",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/bill-maher-dolly-parton-death-tribute-1236684800/",
+      "canonicalUrl": "https://www.hollywoodreporter.com/tv/tv-news/bill-maher-dolly-parton-death-tribute-1236684800",
+      "sourceId": "hollywood-reporter",
+      "sourceName": "The Hollywood Reporter",
+      "domain": "hollywoodreporter.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T05:33:39.000Z",
+      "description": "Another tribute, like Maher's, that drew negative attention was that of Ricky Schroder, who portrayed Parton's father in two biopic movies based on her childhood.",
+      "rssDescription": "Another tribute, like Maher's, that drew negative attention was that of Ricky Schroder, who portrayed Parton's father in two biopic movies based on her childhood.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 76
+    },
+    {
+      "id": "a043318b0db132bc",
+      "title": "Kyiv warehouse explosion kills 37 in third night of aerial assault",
+      "url": "https://www.abc.net.au/news/2026-08-30/ukraine-russia-kyiv-warehouse-explosion-drone/107094102",
+      "canonicalUrl": "https://www.abc.net.au/news/2026-08-30/ukraine-russia-kyiv-warehouse-explosion-drone/107094102",
+      "sourceId": "abc-au",
+      "sourceName": "ABC News Australia",
+      "domain": "abc.net.au",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:42:29.000Z",
+      "description": "A Russian drone strike on the warehouse in Kyiv sparked a detonation, prompting local residents to be evacuated.",
+      "rssDescription": "A Russian drone strike on the warehouse in Kyiv sparked a detonation, prompting local residents to be evacuated.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "41514161fffd8555",
+      "title": "California Tries Offering Hollywood New Perks to Make Up for Catch in $750 Million Incentive Program",
+      "url": "https://www.hollywoodreporter.com/business/business-news/california-budget-trailer-bill-hollywood-tax-credit-issue-1236678209/",
+      "canonicalUrl": "https://www.hollywoodreporter.com/business/business-news/california-budget-trailer-bill-hollywood-tax-credit-issue-1236678209",
+      "sourceId": "hollywood-reporter",
+      "sourceName": "The Hollywood Reporter",
+      "domain": "hollywoodreporter.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T01:23:53.000Z",
+      "description": "The legislation introduced Friday proposes to exempt indie productions from business tax credit caps and allow productions to monetize their refunds faster.",
+      "rssDescription": "The legislation introduced Friday proposes to exempt indie productions from business tax credit caps and allow productions to monetize their refunds faster.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 73
+    },
+    {
+      "id": "6159dec04bec762b",
+      "title": "'Our parents were crossing the border an hour before the flood hit'",
+      "url": "https://www.bbc.co.uk/news/articles/cn5dzldq1pzo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cn5dzldq1pzo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T17:59:31.000Z",
+      "description": "Authorities say nearly 2,000 people are missing, including more than 100 Americans and Canadians, as families await word on loved ones after the Nepal flash floods.",
+      "rssDescription": "Authorities say nearly 2,000 people are missing, including more than 100 Americans and Canadians, as families await word on loved ones after the Nepal flash floods.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "2537fe733975b598",
+      "title": "Olivia Rodrigo&#8217;s Inaugural Daisy Chain Fields Will Be a Showing of Unity — Even for Photographers",
+      "url": "https://www.hollywoodreporter.com/music/music-news/olivia-rodrigo-daisy-chain-fields-festival-staff-photos-1236684785/",
+      "canonicalUrl": "https://www.hollywoodreporter.com/music/music-news/olivia-rodrigo-daisy-chain-fields-festival-staff-photos-1236684785",
+      "sourceId": "hollywood-reporter",
+      "sourceName": "The Hollywood Reporter",
+      "domain": "hollywoodreporter.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T04:12:18.000Z",
+      "description": "THR hears the female forward music festival is expected to be shot largely by female photographers.",
+      "rssDescription": "THR hears the female forward music festival is expected to be shot largely by female photographers.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "1ffaff1ffb283244",
+      "title": "Man United vs Ipswich Town: Premier League – preview, team news, prediction",
+      "url": "https://www.aljazeera.com/sports/2026/8/29/man-united-vs-ipswich-town-premier-league-preview-team-news-prediction?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/sports/2026/8/29/man-united-vs-ipswich-town-premier-league-preview-team-news-prediction?traffic_source=rss",
+      "sourceId": "al-jazeera",
+      "sourceName": "Al Jazeera",
+      "domain": "aljazeera.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:33:45.000Z",
+      "description": "United put in a sorry display as they lost 2-0 to Hull last weekend, while newly promoted Ipswich beat Sunderland 2-1.",
+      "rssDescription": "United put in a sorry display as they lost 2-0 to Hull last weekend, while newly promoted Ipswich beat Sunderland 2-1.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "e2f5193147fbd1fa",
+      "title": "What tariffs will really cost Canadians and Americans",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z4dv6vn2o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cx2z4dv6vn2o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T00:15:19.000Z",
+      "description": "Households and businesses have become used to tariffs impacting the cost of living for more than year now, so what will change now?",
+      "rssDescription": "Households and businesses have become used to tariffs impacting the cost of living for more than year now, so what will change now?",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "1f3e59acefbbc3c1",
+      "title": "🔴 Nepal-Tibet floods live: Death toll passes 600, nearly 3,000 people missing",
+      "url": "https://www.france24.com/en/asia-pacific/20260829-nepal-tibet-floods-live-death-toll-passes-600-nearly-2-500-people-still-missing",
+      "canonicalUrl": "https://www.france24.com/en/asia-pacific/20260829-nepal-tibet-floods-live-death-toll-passes-600-nearly-2-500-people-still-missing",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T05:38:21.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "96c35badfca514f7",
+      "title": "&#8216;Real Time&#8217;: Bill Maher Goes For A Boob Joke With Dolly Parton Tribute",
+      "url": "https://deadline.com/2026/08/real-time-bill-maher-boob-joke-dolly-parton-tribute-1237062527/",
+      "canonicalUrl": "https://deadline.com/2026/08/real-time-bill-maher-boob-joke-dolly-parton-tribute-1237062527",
+      "sourceId": "deadline",
+      "sourceName": "Deadline",
+      "domain": "deadline.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T03:31:02.000Z",
+      "description": "As Dolly Parton leaves behind an untouchable legacy, Bill Maher went for an easy boob joke in his on-air tribute. On Friday&#8217;s episode of Real Time, the comedian mentioned the 11x Grammy-winning Queen of Country&#8217;s death at age 80 this week in his opening monologue, before making a quip about her signature busty appearance. &#8220;All [&#8230;]",
+      "rssDescription": "As Dolly Parton leaves behind an untouchable legacy, Bill Maher went for an easy boob joke in his on-air tribute. On Friday&#8217;s episode of Real Time, the comedian mentioned the 11x Grammy-winning Queen of Country&#8217;s death at age 80 this week in his opening monologue, before making a quip about her signature busty appearance. &#8220;All [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "6c7abe4064fa6d7a",
+      "title": "GTA 6's gameplay reveal pulled in 3.97 million peak viewers, overwhelming Twitch and Netflix in the process",
+      "url": "https://www.eurogamer.net/gta-6-gameplay-reveal-streaming-viewership-record-twitch-netflix",
+      "canonicalUrl": "https://www.eurogamer.net/gta-6-gameplay-reveal-streaming-viewership-record-twitch-netflix",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:25:56.000Z",
+      "description": "Reaction streams to Grand Theft Auto 6 's first gameplay presentation peaked at 3,970,738 viewers across livestreaming platforms, making it the biggest gaming stream of 2026 so far. Read more",
+      "rssDescription": "Reaction streams to Grand Theft Auto 6 's first gameplay presentation peaked at 3,970,738 viewers across livestreaming platforms, making it the biggest gaming stream of 2026 so far. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "8185bebc881e883e",
+      "title": "President Trump Signs Executive Order to Create US Space Academy",
+      "url": "https://www.nasa.gov/news-release/president-trump-signs-executive-order-to-create-us-space-academy/",
+      "canonicalUrl": "https://www.nasa.gov/news-release/president-trump-signs-executive-order-to-create-us-space-academy",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-28T17:21:04.000Z",
+      "description": "To strengthen the nation’s space workforce and develop the next generation of space leaders, President Donald J. Trump signed an Executive Order on Friday to establish the nation’s first U.S. Space Academy. The order highlights how space is a critical domain for American national security, economic growth, scientific discovery, and technological innovation. The proposed academy [&#8230;]",
+      "rssDescription": "To strengthen the nation’s space workforce and develop the next generation of space leaders, President Donald J. Trump signed an Executive Order on Friday to establish the nation’s first U.S. Space Academy. The order highlights how space is a critical domain for American national security, economic growth, scientific discovery, and technological innovation. The proposed academy [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "5c487b4db9672732",
+      "title": "Satellite images reveal scale of flood devastation in Nepal villages",
+      "url": "https://www.bbc.co.uk/news/articles/cd68vpjv21do?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cd68vpjv21do?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T17:36:54.000Z",
+      "description": "Before-and-after images show villages, bridges and a key Nepal-Tibet border crossing washed away by devastating floodwaters.",
+      "rssDescription": "Before-and-after images show villages, bridges and a key Nepal-Tibet border crossing washed away by devastating floodwaters.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "68466f6064ac79c9",
+      "title": "Young Thug&#8217;s YSL Records Surprise-Drops &#8216;Slime Language 3&#8217; Double&#160;Album",
+      "url": "https://www.billboard.com/music/rb-hip-hop/young-thug-ysl-slime-language-3-double-album-surprise-1236328050/",
+      "canonicalUrl": "https://www.billboard.com/music/rb-hip-hop/young-thug-ysl-slime-language-3-double-album-surprise-1236328050",
+      "sourceId": "billboard",
+      "sourceName": "Billboard",
+      "domain": "billboard.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T01:00:47.000Z",
+      "description": "The 41-track project, released late Friday, includes appearances from Lil Baby, Travis Scott, Future, Yeat, Trippie Redd, Cash Cobain &#38; more.",
+      "rssDescription": "The 41-track project, released late Friday, includes appearances from Lil Baby, Travis Scott, Future, Yeat, Trippie Redd, Cash Cobain &#38; more.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 73
+    },
+    {
+      "id": "4c7da772e7655a76",
+      "title": "Liverpool net late in Forest draw to avoid Anfield debut defeat for Iraola",
+      "url": "https://www.aljazeera.com/sports/2026/8/29/liverpool-draw-with-nottingham-forest-after-twice-coming-from-behind-in-epl?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/sports/2026/8/29/liverpool-draw-with-nottingham-forest-after-twice-coming-from-behind-in-epl?traffic_source=rss",
+      "sourceId": "al-jazeera",
+      "sourceName": "Al Jazeera",
+      "domain": "aljazeera.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:19:23.000Z",
+      "description": "Victor Munoz scores late goal to secure 2-2 draw for Liverpool after Nottingham Forest scare in Premier League.",
+      "rssDescription": "Victor Munoz scores late goal to secure 2-2 draw for Liverpool after Nottingham Forest scare in Premier League.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "3513ddbcfac81029",
+      "title": "Jelly Roll Clarifies Political Views, Regrets Not Taking &#8220;Opportunity to Speak Up&#8221; at Grammys",
+      "url": "https://www.hollywoodreporter.com/music/music-news/jelly-roll-clarifies-political-views-after-grammys-1236684749/",
+      "canonicalUrl": "https://www.hollywoodreporter.com/music/music-news/jelly-roll-clarifies-political-views-after-grammys-1236684749",
+      "sourceId": "hollywood-reporter",
+      "sourceName": "The Hollywood Reporter",
+      "domain": "hollywoodreporter.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T00:42:48.000Z",
+      "description": "The singer-songwriter opened up about his beliefs during his final night guest hosting 'Jimmy Kimmel Live!' after a Trump joke he made earlier in the week sparked backlash from conservatives.",
+      "rssDescription": "The singer-songwriter opened up about his beliefs during his final night guest hosting 'Jimmy Kimmel Live!' after a Trump joke he made earlier in the week sparked backlash from conservatives.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "aeedba455df0c83e",
+      "title": "People stranded for days on dilapidated Nigerian highway",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/people-stranded-for-days-on-dilapidated-nigerian-highway?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/8/29/people-stranded-for-days-on-dilapidated-nigerian-highway?traffic_source=rss",
+      "sourceId": "al-jazeera",
+      "sourceName": "Al Jazeera",
+      "domain": "aljazeera.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T14:01:46.000Z",
+      "description": "Al Jazeera asked people on the Benin-Agbor-Asaba road how they view this infrastructure crisis.",
+      "rssDescription": "Al Jazeera asked people on the Benin-Agbor-Asaba road how they view this infrastructure crisis.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "dec4520c981e77ab",
+      "title": "Cardi B Says &#8216;AH HA&#8217; Music Video Cost More Than $1M, Claims She Was &#8216;Overcharged&#8217; by NYPD for Permits: &#8216;They Was Doing Too&#160;Much&#8217;",
+      "url": "https://www.billboard.com/music/rb-hip-hop/cardi-b-ah-ha-music-video-1-million-nypd-permits-1236328019/",
+      "canonicalUrl": "https://www.billboard.com/music/rb-hip-hop/cardi-b-ah-ha-music-video-1-million-nypd-permits-1236328019",
+      "sourceId": "billboard",
+      "sourceName": "Billboard",
+      "domain": "billboard.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T00:21:28.000Z",
+      "description": "Cardi shot the twerk-filled visual in Brooklyn.",
+      "rssDescription": "Cardi shot the twerk-filled visual in Brooklyn.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "ef7479b2be5d5513",
+      "title": "Situation in Niger 'not stabilised yet' as security forces deploy around airport",
+      "url": "https://www.france24.com/en/situation-in-niger-not-stabilised-yet-as-security-forces-deploy-around-airport",
+      "canonicalUrl": "https://www.france24.com/en/situation-in-niger-not-stabilised-yet-as-security-forces-deploy-around-airport",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T13:59:17.000Z",
+      "description": "A group of soldiers in Niger rebelled against officers at a key military base and fired at sensitive locations in the capital, Niamey, in an apparent mutiny marked by gunfire and explosions, authorities said Saturday, in what was seen as a major threat to the country's struggling junta. FRANCE 24's Wassim Nasr brings you this analysis.",
+      "rssDescription": "A group of soldiers in Niger rebelled against officers at a key military base and fired at sensitive locations in the capital, Niamey, in an apparent mutiny marked by gunfire and explosions, authorities said Saturday, in what was seen as a major threat to the country's struggling junta. FRANCE 24's Wassim Nasr brings you this analysis.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "conflict-security",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "ad929ab7c2ee8a36",
+      "title": "Zach Cregger's Resident Evil on Track to Have Biggest Opening Weekend of Any RE Movie in History",
+      "url": "https://www.ign.com/articles/zach-creggers-resident-evil-on-track-to-have-biggest-opening-weekend-of-any-re-movie-in-history",
+      "canonicalUrl": "https://www.ign.com/articles/zach-creggers-resident-evil-on-track-to-have-biggest-opening-weekend-of-any-re-movie-in-history",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T00:01:27.000Z",
+      "description": "Zach Cregger’s Resident Evil movie is on track to have the most profitable opening weekend out of any film adaptation of Capcom’s flagship horror franchise.",
+      "rssDescription": "Zach Cregger’s Resident Evil movie is on track to have the most profitable opening weekend out of any film adaptation of Capcom’s flagship horror franchise.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "9f86a146e20c49a7",
+      "title": "Deadly strike on Kyiv warehouse prompts evacuations",
+      "url": "https://www.bbc.co.uk/news/videos/cy8z979y9e4o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cy8z979y9e4o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T13:55:55.000Z",
+      "description": "Ukraine correspondent Dan Johnson reports from Kyiv after the deadly strike, which authorities said killed more than 30 people.",
+      "rssDescription": "Ukraine correspondent Dan Johnson reports from Kyiv after the deadly strike, which authorities said killed more than 30 people.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "2dcffae55848c077",
+      "title": "The Founders of Hooters Are Making a Buddy-Comedy Movie About the Restaurant Chain's Origin Story",
+      "url": "https://www.ign.com/articles/the-founders-of-hooters-are-making-a-buddy-comedy-movie-about-the-restaurant-chains-origin-story",
+      "canonicalUrl": "https://www.ign.com/articles/the-founders-of-hooters-are-making-a-buddy-comedy-movie-about-the-restaurant-chains-origin-story",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-28T23:00:13.000Z",
+      "description": "Yep, you read that right. Hooters: The Movie is in the early stages of pre-production, and some of the chain’s original founders are directly involved.",
+      "rssDescription": "Yep, you read that right. Hooters: The Movie is in the early stages of pre-production, and some of the chain’s original founders are directly involved.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 71
+    }
+  ],
+  "sourceResults": [
+    {
+      "sourceId": "abc-au",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "sourceId": "al-jazeera",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "sourceId": "ap",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "ars-technica",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "sourceId": "bbc",
+      "status": "ok",
+      "count": 29
+    },
+    {
+      "sourceId": "billboard",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "sourceId": "bloomberg",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "cbc",
+      "status": "failed",
+      "count": 0,
+      "error": "https://www.cbc.ca/cmlink/rss-world: The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "cna",
+      "status": "ok",
+      "count": 11
+    },
+    {
+      "sourceId": "deadline",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "sourceId": "dw",
+      "status": "ok",
+      "count": 16
+    },
+    {
+      "sourceId": "esa",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "eu-commission",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "eurogamer",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "sourceId": "france24",
+      "status": "ok",
+      "count": 22
+    },
+    {
+      "sourceId": "ft",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "game-developer",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "gamesindustry",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "hollywood-reporter",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "sourceId": "ieee-spectrum",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "ign",
+      "status": "ok",
+      "count": 13
+    },
+    {
+      "sourceId": "imf",
+      "status": "failed",
+      "count": 0,
+      "error": "https://www.imf.org/en/News/RSS?Language=ENG: 403 Forbidden"
+    },
+    {
+      "sourceId": "mit-technology-review",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "nasa",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "sourceId": "nature",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "nhk",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "oecd",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "pc-gamer",
+      "status": "ok",
+      "count": 16
+    },
+    {
+      "sourceId": "polygon",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "sourceId": "rest-of-world",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "reuters",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "science",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "tass",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "techcrunch",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "sourceId": "the-guardian",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "the-verge",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "sourceId": "un-news",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "us-sec",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "variety",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "sourceId": "who",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "world-bank",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "xinhua",
+      "status": "no-feed",
+      "count": 0
+    }
+  ],
+  "notes": [
+    "Crossref Science enrichment: attempted 0, enriched 0, abstract-missing 0, not-found 0, failed 0, no-DOI 0."
+  ]
+}
