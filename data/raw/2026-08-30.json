@@ -1,0 +1,2119 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-08-30",
+  "timezone": "Asia/Shanghai",
+  "collectedAt": "2026-08-30T21:19:32.005Z",
+  "window": {
+    "start": "2026-08-29T16:00:00.000Z",
+    "end": "2026-08-30T15:59:59.999Z"
+  },
+  "candidates": [
+    {
+      "id": "f09895fa1bb70467",
+      "title": "Lift-off! NASA launches Roman Space Telescope to tackle dark-energy mysteries",
+      "url": "https://www.nature.com/articles/d41586-026-02727-7",
+      "canonicalUrl": "https://www.nature.com/articles/d41586-026-02727-7",
+      "sourceId": "nature",
+      "sourceName": "Nature",
+      "domain": "nature.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "description": "Nature, Published online: 30 August 2026; doi:10.1038/d41586-026-02727-7 The space observatory will have an expansive view of the Universe as well as sharp resolution.",
+      "rssDescription": "Nature, Published online: 30 August 2026; doi:10.1038/d41586-026-02727-7 The space observatory will have an expansive view of the Universe as well as sharp resolution.",
+      "doi": "10.1038/d41586-026-02727-7",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "4e61eee0b5ce4a3f",
+      "title": "10 Action Series to Watch If You Love Prime Video's Reacher",
+      "url": "https://www.polygon.com/reacher-action-series-to-watch-streaming/",
+      "canonicalUrl": "https://www.polygon.com/reacher-action-series-to-watch-streaming",
+      "sourceId": "polygon",
+      "sourceName": "Polygon",
+      "domain": "polygon.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:47:58.000Z",
+      "description": "From off-grid survivalists to globe-trotting operatives, these series deliver brutal showdowns and cunning investigations.",
+      "rssDescription": "From off-grid survivalists to globe-trotting operatives, these series deliver brutal showdowns and cunning investigations.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "49adf2046003b266",
+      "title": "Inside Meta’s push to put robots to work in data centers",
+      "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+      "canonicalUrl": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "domain": "arstechnica.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T11:03:47.000Z",
+      "description": "The company is testing robots on tasks that can performed by technicians.",
+      "rssDescription": "The company is testing robots on tasks that can performed by technicians.",
+      "discovery": "rss",
+      "categoryHints": [
+        "technology"
+      ],
+      "topic": "digital-infrastructure",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "6bfed2ab471f8cf4",
+      "title": "Texas Governor Abbott blocks funding for more Flock cameras",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+      "canonicalUrl": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:35:10.000Z",
+      "updatedAt": "2026-08-30T16:14:46.000Z",
+      "description": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, [&#8230;]",
+      "rssDescription": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "73c1983bd2721bf1",
+      "title": "Ribbon-Cutting Event for NASA Deep Space Network’s Deep Space Station 23",
+      "url": "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23/",
+      "canonicalUrl": "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "science.nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:57:59.000Z",
+      "description": "Description Leadership from NASA Headquarters, the Jet Propulsion Laboratory, and the Deep Space Network (DSN) stand in front of the recently completed Deep Space Station 23 antenna at the Deep Space Network’s Goldstone complex near Barstow, California, on Aug. 25, 2026. From left: Germaine Aziz (project manager, DSN Aperture Enhancement Project, JPL); Bradford Arnold (manager, […]",
+      "rssDescription": "Description Leadership from NASA Headquarters, the Jet Propulsion Laboratory, and the Deep Space Network (DSN) stand in front of the recently completed Deep Space Station 23 antenna at the Deep Space Network’s Goldstone complex near Barstow, California, on Aug. 25, 2026. From left: Germaine Aziz (project manager, DSN Aperture Enhancement Project, JPL); Bradford Arnold (manager, […]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "3d0ddbd90e45b13b",
+      "title": "Germany's Christian Churches take a stand against far right",
+      "url": "https://www.dw.com/en/germany-s-christian-churches-take-a-stand-against-far-right/a-78482465?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/germany-s-christian-churches-take-a-stand-against-far-right/a-78482465?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:56:00.000Z",
+      "description": "The AfD in Saxony-Anhalt has embarked on a confrontational course toward the churches. Representatives of the Catholic and Protestant churches are responding with a mix of anxiety and resolve.",
+      "rssDescription": "The AfD in Saxony-Anhalt has embarked on a confrontational course toward the churches. Representatives of the Catholic and Protestant churches are responding with a mix of anxiety and resolve.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "de351b2ef1ca5361",
+      "title": "Iceland rejects EU accession talks",
+      "url": "https://www.france24.com/en/video/20260830-iceland-rejects-eu-accession-talks",
+      "canonicalUrl": "https://www.france24.com/en/video/20260830-iceland-rejects-eu-accession-talks",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:53:41.000Z",
+      "description": "Iceland has voted against resuming membership talks with the European Union. The “No” camp won with nearly 53% of the vote, while just over 47% backed the “Yes” side, with only 9,500 votes separating the two. The Nordic island nation is already part of the EU’s single market and the Schengen area, but EU membership would bring it into the bloc’s customs union and pave the way for adopting the euro.",
+      "rssDescription": "Iceland has voted against resuming membership talks with the European Union. The “No” camp won with nearly 53% of the vote, while just over 47% backed the “Yes” side, with only 9,500 votes separating the two. The Nordic island nation is already part of the EU’s single market and the Schengen area, but EU membership would bring it into the bloc’s customs union and pave the way for adopting the euro.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "500546f52de29583",
+      "title": "Cyprus: Ferry capsizes with hundreds on board",
+      "url": "https://www.france24.com/en/video/20260830-cyprus-ferry-capsizes-with-hundreds-of-board",
+      "canonicalUrl": "https://www.france24.com/en/video/20260830-cyprus-ferry-capsizes-with-hundreds-of-board",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T13:13:28.000Z",
+      "description": "Authorities say at least six people have died after a catamaran-style ferry carrying 267 passengers and crew capsized off the coast of northern Cyprus. The Turkish ambassador to Nicosia said 172 people had been rescued, with some taken to hospital, while 89 remain missing. The death toll has since risen to seven, according to the latest figures. France 24 correspondent Jasper Mortimer reports the latest from Ankara, Turkey.",
+      "rssDescription": "Authorities say at least six people have died after a catamaran-style ferry carrying 267 passengers and crew capsized off the coast of northern Cyprus. The Turkish ambassador to Nicosia said 172 people had been rescued, with some taken to hospital, while 89 remain missing. The death toll has since risen to seven, according to the latest figures. France 24 correspondent Jasper Mortimer reports the latest from Ankara, Turkey.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "6e7418132498b105",
+      "title": "Week in pictures: devastating floods in Nepal, death of Dolly Parton and a tornado in France",
+      "url": "https://www.france24.com/en/asia-pacific/20260830-week-in-pictures-devastating-floods-in-nepal-death-of-dolly-parton-and-a-tornado-in-france",
+      "canonicalUrl": "https://www.france24.com/en/asia-pacific/20260830-week-in-pictures-devastating-floods-in-nepal-death-of-dolly-parton-and-a-tornado-in-france",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:47:03.000Z",
+      "description": "A look back at some of the week's key news stories and the most striking images: a devastating flood tears through Nepal and Tibet, the death of global icon Dolly Parton, a tornado devastates a village in southern France and the Humanoid Robot World Games in China offers a peek at the future.",
+      "rssDescription": "A look back at some of the week's key news stories and the most striking images: a devastating flood tears through Nepal and Tibet, the death of global icon Dolly Parton, a tornado devastates a village in southern France and the Humanoid Robot World Games in China offers a peek at the future.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "b57d1305a2a5a9df",
+      "title": "Niger junta puts down mutiny with help from Russia's Africa Corps",
+      "url": "https://www.france24.com/en/africa/20260830-niger-junta-aided-by-russian-paramilitary-forces-regains-control-after-mutiny",
+      "canonicalUrl": "https://www.france24.com/en/africa/20260830-niger-junta-aided-by-russian-paramilitary-forces-regains-control-after-mutiny",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:20:01.000Z",
+      "description": "Life returned to normal in Niger's capital on Sunday, a day after mutineers stormed the presidential palace and a military base at Niamey's main airport, resisting forces loyal to the ruling junta until Russia’s Africa Corps intervened. State TV reported that dozens of soldiers were killed or arrested, with some paraded in front of cameras live on television.",
+      "rssDescription": "Life returned to normal in Niger's capital on Sunday, a day after mutineers stormed the presidential palace and a military base at Niamey's main airport, resisting forces loyal to the ruling junta until Russia’s Africa Corps intervened. State TV reported that dozens of soldiers were killed or arrested, with some paraded in front of cameras live on television.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "ac65821816193abb",
+      "title": "The Witcher 4 Will Still Get A Physical Release, Even Though It's Launching In 2028",
+      "url": "https://www.polygon.com/the-witcher-4-physical-release/",
+      "canonicalUrl": "https://www.polygon.com/the-witcher-4-physical-release",
+      "sourceId": "polygon",
+      "sourceName": "Polygon",
+      "domain": "polygon.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:25:13.000Z",
+      "description": "CD Projekt is planning a The Witcher 4 physical release, even though it admits it has \"no influence\" over PS5 and Xbox disc production",
+      "rssDescription": "CD Projekt is planning a The Witcher 4 physical release, even though it admits it has \"no influence\" over PS5 and Xbox disc production",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "381a40d9cafc03b4",
+      "title": "Here&#8217;s How to Watch the 2026 Little League World Series Championship Game Live Online",
+      "url": "https://variety.com/2026/shopping/news/how-to-watch-little-league-world-series-online-livestream-free-1236487338/",
+      "canonicalUrl": "https://variety.com/2026/shopping/news/how-to-watch-little-league-world-series-online-livestream-free-1236487338",
+      "sourceId": "variety",
+      "sourceName": "Variety",
+      "domain": "variety.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:00:07.000Z",
+      "description": "The 2026 Little League World Series Championship Game features Nevada vs. Curaçao on Sunday, Aug. 30 at 3 p.m. ET/12 p.m. PT on ESPN. Games take place at Lamade Stadium in South Williamsport, Pennsylvania. With the start of the Little League World Series Championship Game, it’s likely games may features a few celebrities in attendance [&#8230;]",
+      "rssDescription": "The 2026 Little League World Series Championship Game features Nevada vs. Curaçao on Sunday, Aug. 30 at 3 p.m. ET/12 p.m. PT on ESPN. Games take place at Lamade Stadium in South Williamsport, Pennsylvania. With the start of the Little League World Series Championship Game, it’s likely games may features a few celebrities in attendance [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "55274b426c19d8ae",
+      "title": "Every Song That Topped the U.K. Chart for 8 or More Weeks, But Didn&#8217;t Make the Top 10 on the Hot&#160;100",
+      "url": "https://www.billboard.com/lists/songs-that-were-big-uk-hits-but-not-in-the-u-s/",
+      "canonicalUrl": "https://www.billboard.com/lists/songs-that-were-big-uk-hits-but-not-in-the-u-s",
+      "sourceId": "billboard",
+      "sourceName": "Billboard",
+      "domain": "billboard.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:36:27.000Z",
+      "description": "\"Rein Me In” by Sam Fender and Olivia Dean is the first single to log 23 weeks at No. 1 in the U.K. It hasn't even made the top 40 on the Hot 100, but it's closing in.",
+      "rssDescription": "\"Rein Me In” by Sam Fender and Olivia Dean is the first single to log 23 weeks at No. 1 in the U.K. It hasn't even made the top 40 on the Hot 100, but it's closing in.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "94f975fe60b3d278",
+      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:00:00.000Z",
+      "description": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+      "rssDescription": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "6bbfa26cc1e09771",
+      "title": "NASA launches new space telescope",
+      "url": "https://www.france24.com/en/video/20260830-nasa-launches-new-space-telescope",
+      "canonicalUrl": "https://www.france24.com/en/video/20260830-nasa-launches-new-space-telescope",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:55:58.000Z",
+      "description": "NASA has successfully launched its newest space telescope from the Kennedy Space Center in Florida. The telescope reached orbit just 10 minutes after liftoff and is now beginning its mission to shed light on some of the universe’s biggest unsolved mysteries. Named after astronomer Nancy Grace Roman, the telescope is being hailed by scientists as a “discovery machine.”",
+      "rssDescription": "NASA has successfully launched its newest space telescope from the Kennedy Space Center in Florida. The telescope reached orbit just 10 minutes after liftoff and is now beginning its mission to shed light on some of the universe’s biggest unsolved mysteries. Named after astronomer Nancy Grace Roman, the telescope is being hailed by scientists as a “discovery machine.”",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "73c0491ad05bf288",
+      "title": "French LGBTQ rights leader hospitalised after ‘despicable homophobic attack’ in Paris",
+      "url": "https://www.france24.com/en/france/20260830-french-lgbtq-activist-hospitalised-after-despicable-homophobic-attack-in-paris",
+      "canonicalUrl": "https://www.france24.com/en/france/20260830-french-lgbtq-activist-hospitalised-after-despicable-homophobic-attack-in-paris",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:41:50.000Z",
+      "description": "Pierre Picave, a French police officer and head of an LGBTQ rights association, was hospitalised after a nighttime attack in the Marais district in central Paris, prosecutors said Sunday. Paris Mayor Emmanuel Grégoire denounced the \"despicable homophobic attack\".The suspected attacker has been taken into custody.",
+      "rssDescription": "Pierre Picave, a French police officer and head of an LGBTQ rights association, was hospitalised after a nighttime attack in the Marais district in central Paris, prosecutors said Sunday. Paris Mayor Emmanuel Grégoire denounced the \"despicable homophobic attack\".The suspected attacker has been taken into custody.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "93852cc0d607e57c",
+      "title": "French Presidential campaign heats up",
+      "url": "https://www.france24.com/en/french-presidential-campaign-heats-up",
+      "canonicalUrl": "https://www.france24.com/en/french-presidential-campaign-heats-up",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T08:55:13.000Z",
+      "description": "There are just eight months to go before France’s presidential election, with the first round scheduled for April 18. The campaign is slowly heating up, with several political gatherings taking place this weekend. The Socialist Party wrapped up a two-day gathering on Saturday with a speech from party leader Olivier Faure, who has yet to officially announce his candidacy. Meanwhile, far-right figure Jordan Bardella made a campaign stop at a fair in the Champagne region. This comes after a first debate earlier this week between seven of the leading candidates, organised by business leaders. For an analysis of the current state of the race, we’re joined by Renaud Foucart, a Senior Lecturer in Economics at Lancaster University and one of our go-to analysts on French politics.",
+      "rssDescription": "There are just eight months to go before France’s presidential election, with the first round scheduled for April 18. The campaign is slowly heating up, with several political gatherings taking place this weekend. The Socialist Party wrapped up a two-day gathering on Saturday with a speech from party leader Olivier Faure, who has yet to officially announce his candidacy. Meanwhile, far-right figure Jordan Bardella made a campaign stop at a fair in the Champagne region. This comes after a first debate earlier this week between seven of the leading candidates, organised by business leaders. For an analysis of the current state of the race, we’re joined by Renaud Foucart, a Senior Lecturer in Economics at Lancaster University and one of our go-to analysts on French politics.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "8ab9d00f43294a3b",
+      "title": "Ferry carrying more than 260 people capsizes off northern Cyprus",
+      "url": "https://www.france24.com/en/ferry-carrying-more-than-260-people-capsizes-off-northern-cyprus",
+      "canonicalUrl": "https://www.france24.com/en/ferry-carrying-more-than-260-people-capsizes-off-northern-cyprus",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T12:27:59.000Z",
+      "description": "Authorities say several people have died after a ferry accident off the coast of northern Cyprus. The catamaran-style vessel was carrying nearly 270 passengers and crew when it capsized. Turkey’s ambassador to Nicosia said many of those on board were rescued, while some were taken to hospital. France 24 correspondent Nathalie Savaricas reports the latest.",
+      "rssDescription": "Authorities say several people have died after a ferry accident off the coast of northern Cyprus. The catamaran-style vessel was carrying nearly 270 passengers and crew when it capsized. Turkey’s ambassador to Nicosia said many of those on board were rescued, while some were taken to hospital. France 24 correspondent Nathalie Savaricas reports the latest.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "c75de8c1080db682",
+      "title": "Nepal: Hopes fade for thousands still missing",
+      "url": "https://www.france24.com/en/nepal-hopes-fade-for-thousands-still-missing",
+      "canonicalUrl": "https://www.france24.com/en/nepal-hopes-fade-for-thousands-still-missing",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T13:11:20.000Z",
+      "description": "Four days have passed since catastrophic floods killed more than 750 people. More than 3,000 people are still missing, and hopes of finding survivors are fading. The situation remains concerning, with more heavy rain and flooding expected across the region. France 24 correspondent Shahzaib Wahlah brings us the latest.",
+      "rssDescription": "Four days have passed since catastrophic floods killed more than 750 people. More than 3,000 people are still missing, and hopes of finding survivors are fading. The situation remains concerning, with more heavy rain and flooding expected across the region. France 24 correspondent Shahzaib Wahlah brings us the latest.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "e65ed71e3814e4f6",
+      "title": "Dog Eats Dog At Box Office As &#8216;Coyote Vs. Acme&#8217; Prevails At No. 2 With $15M+, &#8216;Dog Stars&#8217; Tanks; Spidey Swings Closer To $900M &#8211; Box Office Update",
+      "url": "https://deadline.com/2026/08/box-office-coyote-vs-acme-dog-stars-spider-man-1237061934/",
+      "canonicalUrl": "https://deadline.com/2026/08/box-office-coyote-vs-acme-dog-stars-spider-man-1237061934",
+      "sourceId": "deadline",
+      "sourceName": "Deadline",
+      "domain": "deadline.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:18:00.000Z",
+      "description": "SUNDAY AM: Ketchup Entertainment&#8217;s theatrical rescue of Warner Bros Animation&#8217;s Coyote vs. Acme hit its forecast with a very solid $15.4M opening in what is now the No. 2 film at the weekend box office, which was ruled again by Sony/Marvel Studios&#8217; Spider-Man: Brand New Day&#8216;s $22.2M fifth frame. Even more amazing is that Coyote [&#8230;]",
+      "rssDescription": "SUNDAY AM: Ketchup Entertainment&#8217;s theatrical rescue of Warner Bros Animation&#8217;s Coyote vs. Acme hit its forecast with a very solid $15.4M opening in what is now the No. 2 film at the weekend box office, which was ruled again by Sony/Marvel Studios&#8217; Spider-Man: Brand New Day&#8216;s $22.2M fifth frame. Even more amazing is that Coyote [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "3e326b14d936d837",
+      "title": "PSA: Nintendo Switch 2 Gets a $50 Price Increase on Tuesday",
+      "url": "https://www.ign.com/articles/nintendo-switch-2-50-price-increase-2026",
+      "canonicalUrl": "https://www.ign.com/articles/nintendo-switch-2-50-price-increase-2026",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T13:30:00.000Z",
+      "description": "Nintendo is raising the price of the Switch 2 to $500 on September 1, meaning this is your last chance to get one before the hike.",
+      "rssDescription": "Nintendo is raising the price of the Switch 2 to $500 on September 1, meaning this is your last chance to get one before the hike.",
+      "discovery": "rss",
+      "categoryHints": [
+        "games"
+      ],
+      "topic": "games-release",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "6f343a95f089cbe2",
+      "title": "Where to Watch the 2026 U.S. Open Tennis Tournament Online",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-us-open-tennis-2026-streaming-free-schedule-1236685010/",
+      "canonicalUrl": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-us-open-tennis-2026-streaming-free-schedule-1236685010",
+      "sourceId": "hollywood-reporter",
+      "sourceName": "The Hollywood Reporter",
+      "domain": "hollywoodreporter.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T03:40:18.000Z",
+      "description": "The main singles draws begin Sunday. Aug. 30.",
+      "rssDescription": "The main singles draws begin Sunday. Aug. 30.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "f523dd6c5c717248",
+      "title": "Olivia Rodrigo’s Daisy Chain Fields Donation Reaches $20 Million After Melinda French Gates&#160;Match",
+      "url": "https://www.billboard.com/music/music-news/olivia-rodrigo-daisy-chain-fields-donation-melinda-gates-1236328282/",
+      "canonicalUrl": "https://www.billboard.com/music/music-news/olivia-rodrigo-daisy-chain-fields-donation-melinda-gates-1236328282",
+      "sourceId": "billboard",
+      "sourceName": "Billboard",
+      "domain": "billboard.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:35:24.000Z",
+      "description": "\"What Daisy Chain Fields sets in motion will last far beyond a single night,\" the philanthropist said.",
+      "rssDescription": "\"What Daisy Chain Fields sets in motion will last far beyond a single night,\" the philanthropist said.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "61a255f3d3089b09",
+      "title": "Rockstar confirms GTA 6 won't have microtransactions or generative AI at launch",
+      "url": "https://www.eurogamer.net/gta-6-microtransactions-generative-ai-rockstar",
+      "canonicalUrl": "https://www.eurogamer.net/gta-6-microtransactions-generative-ai-rockstar",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T10:48:08.000Z",
+      "description": "Rockstar has confirmed Grand Theft Auto 6 will launch without microtransactions or generative AI. Read more",
+      "rssDescription": "Rockstar has confirmed Grand Theft Auto 6 will launch without microtransactions or generative AI. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "8c929fcb1af2f36b",
+      "title": "NASA Deep Space Network’s New Goldstone Antenna Goes Online",
+      "url": "https://science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online/",
+      "canonicalUrl": "https://science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "science.nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:53:08.000Z",
+      "description": "Description Long shadows are cast by the recently completed Deep Space Station 23 at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026. A 34-meter (114-foot) multifrequency beam-waveguide antenna, DSS-23 will boost the DSN’s capacity and enhance NASA’s deep space communications capabilities for decades to come. NASA leadership and personnel as well […]",
+      "rssDescription": "Description Long shadows are cast by the recently completed Deep Space Station 23 at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026. A 34-meter (114-foot) multifrequency beam-waveguide antenna, DSS-23 will boost the DSN’s capacity and enhance NASA’s deep space communications capabilities for decades to come. NASA leadership and personnel as well […]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "7084600842618334",
+      "title": "France: Far-right and far-left lead polls",
+      "url": "https://www.france24.com/en/france-far-right-and-far-left-lead-polls",
+      "canonicalUrl": "https://www.france24.com/en/france-far-right-and-far-left-lead-polls",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:44:38.000Z",
+      "description": "On April 18 and May 2 next year, France will vote to elect a new president to replace Emmanuel Macron. The outgoing president, who has served two terms, cannot run again, while the latest opinion polls are predicting a victory for Marine Le Pen of the far-right National Rally. Although the election is still more than seven months away, several potential candidates have already thrown their hats into the ring and announced their candidacies, including far-left candidate Jean-Luc Mélenchon and former centre-right Prime Minister Édouard Philippe. But do any of them stand a chance of beating the far right? France 24 International Affairs editor Philip Turle shares further insights.",
+      "rssDescription": "On April 18 and May 2 next year, France will vote to elect a new president to replace Emmanuel Macron. The outgoing president, who has served two terms, cannot run again, while the latest opinion polls are predicting a victory for Marine Le Pen of the far-right National Rally. Although the election is still more than seven months away, several potential candidates have already thrown their hats into the ring and announced their candidacies, including far-left candidate Jean-Luc Mélenchon and former centre-right Prime Minister Édouard Philippe. But do any of them stand a chance of beating the far right? France 24 International Affairs editor Philip Turle shares further insights.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "9047d612386b9992",
+      "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T04:01:02.000Z",
+      "description": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
+      "rssDescription": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "19b14e275677de00",
+      "title": "Nepal: Thousands still missing as death toll rises",
+      "url": "https://www.france24.com/en/nepal-thousands-still-missing-as-death-toll-rises",
+      "canonicalUrl": "https://www.france24.com/en/nepal-thousands-still-missing-as-death-toll-rises",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T10:04:27.000Z",
+      "description": "Nepalese authorities announced on Sunday that the provisional death toll from the devastating floods had risen to more than 730, with nearly 2,500 people still missing. Among the thousands of people missing is the husband of a 22-year-old woman, who is still waiting for him to return. Like tens of thousands of Nepalese people in recent days, she went to one of the country’s medical centres to find out whether her husband was among those whose bodies had been recovered in recent days. Caitlin Brown reports.",
+      "rssDescription": "Nepalese authorities announced on Sunday that the provisional death toll from the devastating floods had risen to more than 730, with nearly 2,500 people still missing. Among the thousands of people missing is the husband of a 22-year-old woman, who is still waiting for him to return. Like tens of thousands of Nepalese people in recent days, she went to one of the country’s medical centres to find out whether her husband was among those whose bodies had been recovered in recent days. Caitlin Brown reports.",
+      "discovery": "rss",
+      "categoryHints": [
+        "health"
+      ],
+      "topic": "health-medicine",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "bf2b04c1f94524fc",
+      "title": "Nepal: Glacial collapse leaves 3,000 missing",
+      "url": "https://www.france24.com/en/nepal-glacial-collapse-leaves-3-000-missing",
+      "canonicalUrl": "https://www.france24.com/en/nepal-glacial-collapse-leaves-3-000-missing",
+      "sourceId": "france24",
+      "sourceName": "France 24",
+      "domain": "france24.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T09:16:08.000Z",
+      "description": "Rescue and relief efforts in Nepal and Tibet have been hampered this Sunday by heavy rain and rising river levels. The latest figures following Wednesday’s flash floods put the death toll at 750, while more than 3,000 people remain missing. Nepal’s disaster authorities are urging rescue teams to “exercise caution”, warning that bad weather, swollen rivers and the threat of further flooding could hamper operations. Shazab Wahlah reports from the town of Bidur.",
+      "rssDescription": "Rescue and relief efforts in Nepal and Tibet have been hampered this Sunday by heavy rain and rising river levels. The latest figures following Wednesday’s flash floods put the death toll at 750, while more than 3,000 people remain missing. Nepal’s disaster authorities are urging rescue teams to “exercise caution”, warning that bad weather, swollen rivers and the threat of further flooding could hamper operations. Shazab Wahlah reports from the town of Bidur.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "a115b12f9ce9efb7",
+      "title": "Laura Dern Set to Honor George Clooney During Venice Film Festival Opening Ceremony",
+      "url": "https://variety.com/2026/film/festivals/laura-dern-george-clooney-venice-golden-lion-lifetime-1236846829/",
+      "canonicalUrl": "https://variety.com/2026/film/festivals/laura-dern-george-clooney-venice-golden-lion-lifetime-1236846829",
+      "sourceId": "variety",
+      "sourceName": "Variety",
+      "domain": "variety.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T13:48:56.000Z",
+      "description": "Laura Dern is set to give the Laudatio speech honoring&#160;George Clooney at Venice Film Festival where, as previously announced, he will be honored on Wed., Sept. 2, with a Golden Lion for Lifetime Achievement. Clooney – who is one of only three people to have been nominated in six different Oscar categories throughout his career [&#8230;]",
+      "rssDescription": "Laura Dern is set to give the Laudatio speech honoring&#160;George Clooney at Venice Film Festival where, as previously announced, he will be honored on Wed., Sept. 2, with a Golden Lion for Lifetime Achievement. Clooney – who is one of only three people to have been nominated in six different Oscar categories throughout his career [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "338b11ae852bd68b",
+      "title": "Where to Watch the 2026 College Football Season Online",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-college-football-streams-2026-ncaa-free-live-1236684734/",
+      "canonicalUrl": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-college-football-streams-2026-ncaa-free-live-1236684734",
+      "sourceId": "hollywood-reporter",
+      "sourceName": "The Hollywood Reporter",
+      "domain": "hollywoodreporter.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T23:47:01.000Z",
+      "description": "A full breakdown of the networks and streaming services broadcasting NCAA football.",
+      "rssDescription": "A full breakdown of the networks and streaming services broadcasting NCAA football.",
+      "discovery": "rss",
+      "categoryHints": [
+        "culture-sports"
+      ],
+      "topic": "culture-sports",
+      "preliminaryScore": 71
+    },
+    {
+      "id": "80dfb74493272315",
+      "title": "The highly customisable Corsair Frame 4000X promised it would be my dream PC case, but I'm not completely convinced",
+      "url": "https://www.pcgamer.com/hardware/pc-cases/the-highly-customisable-corsair-frame-4000x-promised-it-would-be-my-dream-pc-case-but-im-not-completely-convinced/",
+      "canonicalUrl": "https://www.pcgamer.com/hardware/pc-cases/the-highly-customisable-corsair-frame-4000x-promised-it-would-be-my-dream-pc-case-but-im-not-completely-convinced",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:00:00.000Z",
+      "updatedAt": "2026-08-30T16:50:31.000Z",
+      "description": "It's definitely got plenty of parts to pick from, but does it all come together?",
+      "rssDescription": "It's definitely got plenty of parts to pick from, but does it all come together?",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "ffa4280e74656837",
+      "title": "What are the rules about AI ads in municipal campaigns ?",
+      "url": "https://www.cbc.ca/news/canada/sudbury/ontario-municipal-elections-2026-ai-artificial-intelligence-political-advertising-9.7323178",
+      "canonicalUrl": "https://www.cbc.ca/news/canada/sudbury/ontario-municipal-elections-2026-ai-artificial-intelligence-political-advertising-9.7323178",
+      "sourceId": "cbc",
+      "sourceName": "CBC News",
+      "domain": "cbc.ca",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:00:00.000Z",
+      "description": "Discovered through GDELT global coverage.",
+      "discovery": "gdelt",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "3d9f59c719d9a8d0",
+      "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
+      "url": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
+      "canonicalUrl": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-30T13:18:06.000Z",
+      "description": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT Sunday aboard a SpaceX Falcon Heavy rocket from Launch Complex 39A at the agency’s Kennedy Space Center in Florida. Roman pairs a large field of [&#8230;]",
+      "rssDescription": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT Sunday aboard a SpaceX Falcon Heavy rocket from Launch Complex 39A at the agency’s Kennedy Space Center in Florida. Roman pairs a large field of [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "aerospace",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "b7a9a025f2aed71d",
+      "title": "Guinea-Bissau votes to reshape presidency",
+      "url": "https://www.dw.com/en/guinea-bissau-votes-to-reshape-presidency/a-78562523?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/guinea-bissau-votes-to-reshape-presidency/a-78562523?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T12:01:00.000Z",
+      "description": "The West African nation's military government wants to amend the constitution to give more powers to the president. The junta, which seized power last year, says it will hold elections in December.",
+      "rssDescription": "The West African nation's military government wants to amend the constitution to give more powers to the president. The junta, which seized power last year, says it will hold elections in December.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "c68e0c05abd3d34d",
+      "title": "PSA: Swap the radial ability menu in Star Wars Zero Company for more of a trad XCOM-style experience",
+      "url": "https://www.pcgamer.com/games/strategy/psa-swap-the-radial-ability-menu-in-star-wars-zero-company-for-more-of-a-trad-xcom-style-experience/",
+      "canonicalUrl": "https://www.pcgamer.com/games/strategy/psa-swap-the-radial-ability-menu-in-star-wars-zero-company-for-more-of-a-trad-xcom-style-experience",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T00:06:05.000Z",
+      "description": "It's the Runa-approved way to play.",
+      "rssDescription": "It's the Runa-approved way to play.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "8c4d8cdf639e72e3",
+      "title": "Nepal issues fresh flood warning as 3,000 still missing",
+      "url": "https://www.dw.com/en/nepal-issues-fresh-flood-warning-as-3-000-still-missing/a-78561068?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/nepal-issues-fresh-flood-warning-as-3-000-still-missing/a-78561068?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T06:59:00.000Z",
+      "description": "Rescuers are trying to reach dozens of hydropower workers trapped in flooded tunnels, but have been hampered by further rainfall.",
+      "rssDescription": "Rescuers are trying to reach dozens of hydropower workers trapped in flooded tunnels, but have been hampered by further rainfall.",
+      "discovery": "rss",
+      "categoryHints": [
+        "climate"
+      ],
+      "topic": "climate-environment",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "f593ff968abe8d62",
+      "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "canonicalUrl": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T18:19:53.000Z",
+      "updatedAt": "2026-08-30T13:00:30.000Z",
+      "description": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, [&#8230;]",
+      "rssDescription": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "25400c5ede17a159",
+      "title": "I want MMOs to waste our time again",
+      "url": "https://www.pcgamer.com/games/mmo/i-want-mmos-to-waste-our-time-again/",
+      "canonicalUrl": "https://www.pcgamer.com/games/mmo/i-want-mmos-to-waste-our-time-again",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T16:00:00.000Z",
+      "updatedAt": "2026-08-30T19:20:12.000Z",
+      "description": "I've accomplished very little on a Star Wars Galaxies private server, and I wouldn't want it any other way.",
+      "rssDescription": "I've accomplished very little on a Star Wars Galaxies private server, and I wouldn't want it any other way.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 85
+    },
+    {
+      "id": "c2c59eb0b3a2ac47",
+      "title": "GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says",
+      "url": "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says",
+      "canonicalUrl": "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T22:16:08.000Z",
+      "description": "Rockstar Games has said Grand Theft Auto 6 will have no microtransactions or generative AI when it launches in November.",
+      "rssDescription": "Rockstar Games has said Grand Theft Auto 6 will have no microtransactions or generative AI when it launches in November.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "ca9b7b4af641ee94",
+      "title": "Nature reserves spot rare species during heatwaves",
+      "url": "https://www.bbc.co.uk/news/articles/cpve2123v71o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cpve2123v71o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T05:08:05.000Z",
+      "description": "A wildlife trust says unusually hot weather and increased monitoring has led to interesting finds.",
+      "rssDescription": "A wildlife trust says unusually hot weather and increased monitoring has led to interesting finds.",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "life-sciences",
+      "preliminaryScore": 76
+    },
+    {
+      "id": "82465d40e84539b5",
+      "title": "India's citizen-led school audits test limits of activism",
+      "url": "https://www.dw.com/en/india-s-citizen-led-school-audits-test-limits-of-activism/a-78545789?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/india-s-citizen-led-school-audits-test-limits-of-activism/a-78545789?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T09:04:00.000Z",
+      "description": "The student-led \"Cockroach\" movement is taking its campaign for accountability to government schools, but the activists' methods are encountering growing resistance from authorities.",
+      "rssDescription": "The student-led \"Cockroach\" movement is taking its campaign for accountability to government schools, but the activists' methods are encountering growing resistance from authorities.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "b35bb1ef5dd1e729",
+      "title": "Israeli settlers attack Palestinian homes in West Bank",
+      "url": "https://www.dw.com/en/israeli-settlers-attack-palestinian-homes-in-west-bank/a-78560116?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/israeli-settlers-attack-palestinian-homes-in-west-bank/a-78560116?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T19:56:00.000Z",
+      "description": "Masked Israeli settlers launched their first major attack since initiating a siege in the village of Qusra earlier this month. Saturday's attacks were met with rare criticism from Prime Minister Benjamin Netanyahu.",
+      "rssDescription": "Masked Israeli settlers launched their first major attack since initiating a siege in the village of Qusra earlier this month. Saturday's attacks were met with rare criticism from Prime Minister Benjamin Netanyahu.",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "78122b07712ecd77",
+      "title": "Olivia Rodrigo&#8217;s Daisy Chain Fields Music Festival Proves There Is Hope For Us All: 13 Best&#160;Moments",
+      "url": "https://www.billboard.com/lists/olivia-rodrigo-daisy-chain-fields-music-festival-recap/",
+      "canonicalUrl": "https://www.billboard.com/lists/olivia-rodrigo-daisy-chain-fields-music-festival-recap",
+      "sourceId": "billboard",
+      "sourceName": "Billboard",
+      "domain": "billboard.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T11:16:53.000Z",
+      "description": "Inside the inaugural all-women festival founded and headlined by the pop superstar.",
+      "rssDescription": "Inside the inaugural all-women festival founded and headlined by the pop superstar.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "bb1a53536c803672",
+      "title": "Persona 6 Release Window Teased in Sega's Physical Release Reveal",
+      "url": "https://www.polygon.com/persona-6-physical-release-date-window/",
+      "canonicalUrl": "https://www.polygon.com/persona-6-physical-release-date-window",
+      "sourceId": "polygon",
+      "sourceName": "Polygon",
+      "domain": "polygon.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:15:14.000Z",
+      "description": "Sega has updated the Persona 6 announcement page and revealed some interesting details about its release.",
+      "rssDescription": "Sega has updated the Persona 6 announcement page and revealed some interesting details about its release.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "0877131e98944a7d",
+      "title": "A native port of Donkey Kong 64 is finally playable on PC thanks to a team of programmers who boast that 'no generative AI [was] used at any point in the process'",
+      "url": "https://www.pcgamer.com/games/action/donkey-kong-64-is-finally-playable-on-pc-thanks-to-a-team-of-programmers-who-boast-that-no-generative-ai-was-used-at-any-point-in-the-process/",
+      "canonicalUrl": "https://www.pcgamer.com/games/action/donkey-kong-64-is-finally-playable-on-pc-thanks-to-a-team-of-programmers-who-boast-that-no-generative-ai-was-used-at-any-point-in-the-process",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T21:51:34.000Z",
+      "updatedAt": "2026-08-29T22:01:34.000Z",
+      "description": "The unofficial native port of the classic Nintendo platformer runs on modern hardware.",
+      "rssDescription": "The unofficial native port of the classic Nintendo platformer runs on modern hardware.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "5406998a9847a616",
+      "title": "They fell in love - then had to check they weren't brother and sister",
+      "url": "https://www.bbc.co.uk/news/articles/c8en3n29wdro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c8en3n29wdro?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T23:03:51.000Z",
+      "description": "A French couple - both conceived by sperm donors - wanted children. But with home DNA tests illegal, how could they be sure they were not related?",
+      "rssDescription": "A French couple - both conceived by sperm donors - wanted children. But with home DNA tests illegal, how could they be sure they were not related?",
+      "discovery": "rss",
+      "categoryHints": [
+        "science"
+      ],
+      "topic": "life-sciences",
+      "preliminaryScore": 71
+    },
+    {
+      "id": "cfb2b2192fa2309f",
+      "title": "Manhunt underway after woman killed in Swiss rave shooting",
+      "url": "https://www.dw.com/en/manhunt-underway-after-woman-killed-in-swiss-rave-shooting/a-78561106?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/manhunt-underway-after-woman-killed-in-swiss-rave-shooting/a-78561106?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T08:59:00.000Z",
+      "description": "The shooting at a rave in the northern Swiss town of Aarau, near Zürich, left at least one person dead and five wounded. Police said they were still searching for the perpetrator or perpetrators.",
+      "rssDescription": "The shooting at a rave in the northern Swiss town of Aarau, near Zürich, left at least one person dead and five wounded. Police said they were still searching for the perpetrator or perpetrators.",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "67047c67c0489b78",
+      "title": "Russian-American heads Trump's planned Caucasus trade route",
+      "url": "https://www.dw.com/en/russian-american-heads-trump-s-planned-caucasus-trade-route/a-78547064?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/russian-american-heads-trump-s-planned-caucasus-trade-route/a-78547064?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T16:20:00.000Z",
+      "description": "A Russian-born businessman heads the investment fund financing the so-called \"Trump Route,\" a planned corridor through Armenia linking Azerbaijan with Nakhchivan. Who is Konstantin Sokolov, and what role does he play?",
+      "rssDescription": "A Russian-born businessman heads the investment fund financing the so-called \"Trump Route,\" a planned corridor through Armenia linking Azerbaijan with Nakhchivan. Who is Konstantin Sokolov, and what role does he play?",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 65
+    },
+    {
+      "id": "65438a201e51079f",
+      "title": "Activision serves cease and desist to infamous Call of Duty cheat maker—and films the whole thing: 'We will find you'",
+      "url": "https://www.pcgamer.com/games/call-of-duty/activision-serves-cease-and-desist-to-infamous-call-of-duty-cheat-maker-and-films-the-whole-thing-we-will-find-you/",
+      "canonicalUrl": "https://www.pcgamer.com/games/call-of-duty/activision-serves-cease-and-desist-to-infamous-call-of-duty-cheat-maker-and-films-the-whole-thing-we-will-find-you",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T10:05:20.000Z",
+      "updatedAt": "2026-08-30T10:05:34.000Z",
+      "description": "The publisher says it has disrupted 375 reseller operations so far.",
+      "rssDescription": "The publisher says it has disrupted 375 reseller operations so far.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "3c7947841832d127",
+      "title": "EU wants drones to spray pesticides — but it could backfire",
+      "url": "https://www.dw.com/en/eu-wants-drones-to-spray-pesticides-but-it-could-backfire/a-78557154?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/eu-wants-drones-to-spray-pesticides-but-it-could-backfire/a-78557154?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:11:00.000Z",
+      "description": "The EU wants to lift a decades-old ban on spraying pesticides from the air, allowing drones to be used for greater precision. But experts warn the plan could lead to even more pesticides being used in agriculture.",
+      "rssDescription": "The EU wants to lift a decades-old ban on spraying pesticides from the air, allowing drones to be used for greater precision. But experts warn the plan could lead to even more pesticides being used in agriculture.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "0a6f07cbdcc6e807",
+      "title": "&#8220;We&#8217;re not doing 30 bets a year&#8221;: Vijay Pande on betting small after running $4 billion at a16z",
+      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T17:36:47.000Z",
+      "description": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thinks open, shared datasets (not walled-off ones) are what will actually let AI transform medicine.",
+      "rssDescription": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thinks open, shared datasets (not walled-off ones) are what will actually let AI transform medicine.",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 66
+    },
+    {
+      "id": "ba931cbc7c43f49f",
+      "title": "Alt-right troll Milo Yiannopoulos has been deported",
+      "url": "https://www.theverge.com/policy/986456/milo-yiannopoulos-deported-ice",
+      "canonicalUrl": "https://www.theverge.com/policy/986456/milo-yiannopoulos-deported-ice",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T19:49:59.000Z",
+      "updatedAt": "2026-08-29T19:49:59.000Z",
+      "description": "Alt-right troll Milo Yiannopoulos was arrested by ICE on Thursday, and today the Department of Homeland Security confirmed to Reuters and the Washington Post that he had been deported to the UK. Yiannopoulos came to the US legally in 2019, but overstayed his visa. After he failed to appear in court for an immigration hearing, [&#8230;]",
+      "rssDescription": "Alt-right troll Milo Yiannopoulos was arrested by ICE on Thursday, and today the Department of Homeland Security confirmed to Reuters and the Washington Post that he had been deported to the UK. Yiannopoulos came to the US legally in 2019, but overstayed his visa. After he failed to appear in court for an immigration hearing, [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 68
+    },
+    {
+      "id": "a8afe307152a06cc",
+      "title": "The Pokémon Company on PokémonXP's Lottery System, Long Lines, and Limited Access to Workshops",
+      "url": "https://www.ign.com/articles/the-pokmon-company-on-pokmonxps-lottery-system-long-lines-and-limited-access-to-workshops",
+      "canonicalUrl": "https://www.ign.com/articles/the-pokmon-company-on-pokmonxps-lottery-system-long-lines-and-limited-access-to-workshops",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T02:42:39.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "business"
+      ],
+      "topic": "economy-finance",
+      "preliminaryScore": 64
+    },
+    {
+      "id": "1164db7bb756a711",
+      "title": "Peter Cullen, voice of Optimus Prime in The Transformers, dies aged 85",
+      "url": "https://www.pcgamer.com/movies-tv/peter-cullen-voice-of-optimus-prime-in-the-transformers-dies-aged-85/",
+      "canonicalUrl": "https://www.pcgamer.com/movies-tv/peter-cullen-voice-of-optimus-prime-in-the-transformers-dies-aged-85",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T04:46:46.000Z",
+      "description": "The prolific voice actor also appeared in Knight Rider, Gremlins, King Kong, Crystal Crisis, and plenty more.",
+      "rssDescription": "The prolific voice actor also appeared in Knight Rider, Gremlins, King Kong, Crystal Crisis, and plenty more.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 76
+    },
+    {
+      "id": "8cf00bdda69d24bf",
+      "title": "Hearts2Hearts’ ‘ICONIC HEART’ Records Highest First-Week Sales Among 5th-Gen K-Pop Girl Group Japanese&#160;Debuts",
+      "url": "https://www.billboard.com/music/chart-beat/hearts2hearts-iconic-heart-billboard-japan-chart-debut-1236327893/",
+      "canonicalUrl": "https://www.billboard.com/music/chart-beat/hearts2hearts-iconic-heart-billboard-japan-chart-debut-1236327893",
+      "sourceId": "billboard",
+      "sourceName": "Billboard",
+      "domain": "billboard.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:00:00.000Z",
+      "description": "The title track \"ICONIC HEART\" also entered the Billboard Japan Hot 100 at No. 2.",
+      "rssDescription": "The title track \"ICONIC HEART\" also entered the Billboard Japan Hot 100 at No. 2.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "d9a617119e6a4544",
+      "title": "China’s robots race ahead",
+      "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "canonicalUrl": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T12:00:00.000Z",
+      "updatedAt": "2026-08-28T17:20:08.000Z",
+      "description": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on falling robots and the US-China AI race, follow Robert Hart. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started I've admitted my fondness for [&#8230;]",
+      "rssDescription": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on falling robots and the US-China AI race, follow Robert Hart. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started I've admitted my fondness for [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "ai"
+      ],
+      "topic": "artificial-intelligence",
+      "preliminaryScore": 65
+    },
+    {
+      "id": "5131761d4eb1b870",
+      "title": "Right-wing commentator Milo Yiannopoulos deported from US to UK",
+      "url": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T17:52:42.000Z",
+      "description": "The self-styled provocateur had been detained by Immigration and Customs Enforcement (ICE).",
+      "rssDescription": "The self-styled provocateur had been detained by Immigration and Customs Enforcement (ICE).",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "52b3fbba0cdb78b7",
+      "title": "Leanne Morgan Had To Give LA Writers &#8220;Grace&#8221; To Capture Her Southern Voice: &#8220;They&#8217;re In A Bubble Out There&#8221;",
+      "url": "https://deadline.com/2026/08/leanne-morgan-give-la-writers-grace-capture-southern-voice-1237062743/",
+      "canonicalUrl": "https://deadline.com/2026/08/leanne-morgan-give-la-writers-grace-capture-southern-voice-1237062743",
+      "sourceId": "deadline",
+      "sourceName": "Deadline",
+      "domain": "deadline.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T03:25:43.000Z",
+      "description": "With Season 2 of her namesake series now available to stream on Netflix, Leanne Morgan is praising her writers for capturing her Southern voice. The Leanne star recently discussed the culture shock of relocating from Tennessee to Los Angeles to film the sitcom, noting that she was worried her writers room would &#8220;stereotype the South [&#8230;]",
+      "rssDescription": "With Season 2 of her namesake series now available to stream on Netflix, Leanne Morgan is praising her writers for capturing her Southern voice. The Leanne star recently discussed the culture shock of relocating from Tennessee to Los Angeles to film the sitcom, noting that she was worried her writers room would &#8220;stereotype the South [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "1e24eb296528e760",
+      "title": "Panorama Showcasing the 34-Meter Antennas of the DSN’s Goldstone Complex",
+      "url": "https://science.nasa.gov/photojournal/panorama-showcasing-the-34-meter-antennas-of-the-dsns-goldstone-complex/",
+      "canonicalUrl": "https://science.nasa.gov/photojournal/panorama-showcasing-the-34-meter-antennas-of-the-dsns-goldstone-complex",
+      "sourceId": "nasa",
+      "sourceName": "NASA",
+      "domain": "science.nasa.gov",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:47:12.000Z",
+      "description": "Description Five antennas soak in the summer sun at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026. The recently completed Deep Space Station 23, a 34-meter (114-foot) beam-waveguide antenna, can be seen to the right of the frame in the foreground. The other three 34-meter antennas are, from left, DSS-26, DSS-25, and […]",
+      "rssDescription": "Description Five antennas soak in the summer sun at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026. The recently completed Deep Space Station 23, a 34-meter (114-foot) beam-waveguide antenna, can be seen to the right of the frame in the foreground. The other three 34-meter antennas are, from left, DSS-26, DSS-25, and […]",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "4d2b2c93b7f6f324",
+      "title": "Saxony-Anhalt election: Why the AfD is so strong",
+      "url": "https://www.dw.com/en/saxony-anhalt-election-why-the-afd-is-so-strong/a-78482588?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/saxony-anhalt-election-why-the-afd-is-so-strong/a-78482588?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T16:17:00.000Z",
+      "description": "The AfD is polling above 40% ahead of Saxony-Anhalt's election on September 6. What is driving support for the far right in this predominantly rural eastern German state?",
+      "rssDescription": "The AfD is polling above 40% ahead of Saxony-Anhalt's election on September 6. What is driving support for the far right in this predominantly rural eastern German state?",
+      "discovery": "rss",
+      "categoryHints": [
+        "society"
+      ],
+      "topic": "public-policy",
+      "preliminaryScore": 65
+    },
+    {
+      "id": "fd61937444637402",
+      "title": "Harry Styles Jokes About Taylor Swift&#8217;s Wedding During Madison Square Garden Concert",
+      "url": "https://www.hollywoodreporter.com/music/music-news/harry-styles-taylor-swift-wedding-madison-square-garden-1236685019/",
+      "canonicalUrl": "https://www.hollywoodreporter.com/music/music-news/harry-styles-taylor-swift-wedding-madison-square-garden-1236685019",
+      "sourceId": "hollywood-reporter",
+      "sourceName": "The Hollywood Reporter",
+      "domain": "hollywoodreporter.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T02:49:00.000Z",
+      "description": "“We’re at Madison Square Garden, home of the world champion New York Knicks! And they also do weddings,\" the Grammy winner said during his Aug. 29 show.",
+      "rssDescription": "“We’re at Madison Square Garden, home of the world champion New York Knicks! And they also do weddings,\" the Grammy winner said during his Aug. 29 show.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 74
+    },
+    {
+      "id": "5619d4ada0ae84e9",
+      "title": "Canada installs large Lake Ontario sign in latest jab at US",
+      "url": "https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:25:43.000Z",
+      "description": "Ontario Premier Doug Ford unveiled a billboard on Canada's shoreline with the message: \"Lake Ontario. Now and Always.\"",
+      "rssDescription": "Ontario Premier Doug Ford unveiled a billboard on Canada's shoreline with the message: \"Lake Ontario. Now and Always.\"",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "7fd1321a39ebfe62",
+      "title": "Jelly Roll Slams Politicians On Both Sides For &#8220;Sh*t Job,&#8221; Addresses 2024 Trump Photo: &#8220;A Handshake Is Not An Endorsement&#8221;",
+      "url": "https://deadline.com/2026/08/jelly-roll-slams-politicians-sht-job-2024-trump-photo-1237062738/",
+      "canonicalUrl": "https://deadline.com/2026/08/jelly-roll-slams-politicians-sht-job-2024-trump-photo-1237062738",
+      "sourceId": "deadline",
+      "sourceName": "Deadline",
+      "domain": "deadline.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T02:47:35.000Z",
+      "description": "After Jelly Roll avoided discussing his politics at the Grammy Awards in February, he peeled off the band-aid this week with a heartfelt speech. During his final night as Jimmy Kimmel Live! guest host on Friday, the 3x Grammy winner opened up about watching &#8220;people decide who I am, what I am, what I believe, [&#8230;]",
+      "rssDescription": "After Jelly Roll avoided discussing his politics at the Grammy Awards in February, he peeled off the band-aid this week with a heartfelt speech. During his final night as Jimmy Kimmel Live! guest host on Friday, the 3x Grammy winner opened up about watching &#8220;people decide who I am, what I am, what I believe, [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 74
+    },
+    {
+      "id": "be7b4c5fb10602f7",
+      "title": "Nepal-Tibet disaster: Death toll nears 800; more than 3,000 missing",
+      "url": "https://www.channelnewsasia.com/asia/nepal-tibet-disaster-death-toll-nears-800-more-3000-missing-6350506",
+      "canonicalUrl": "https://www.channelnewsasia.com/asia/nepal-tibet-disaster-death-toll-nears-800-more-3000-missing-6350506",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:24:00.000Z",
+      "description": "On the fifth day of rescue efforts, 2,502 people in Nepal are still missing while 546 people in China&#039;s Tibet remain unaccounted for.",
+      "rssDescription": "On the fifth day of rescue efforts, 2,502 people in Nepal are still missing while 546 people in China&#039;s Tibet remain unaccounted for.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "353876f61a6ac8cc",
+      "title": "Tom Hardy&#8217;s Debut Rap Album Features Busta Rhymes, Method Man &#038; A Bane Cameo",
+      "url": "https://deadline.com/2026/08/tom-hardy-debut-rap-album-busta-rhymes-method-man-bane-1237062711/",
+      "canonicalUrl": "https://deadline.com/2026/08/tom-hardy-debut-rap-album-busta-rhymes-method-man-bane-1237062711",
+      "sourceId": "deadline",
+      "sourceName": "Deadline",
+      "domain": "deadline.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T23:51:46.000Z",
+      "description": "After years of sharing his talent on the big screen as Tom Hardy, Frankie Pulitzer has officially arrived to drop some bangers. On Friday, the Oscar nominee&#8217;s rap persona released his 15-track debut album Czarface Meets Frankie Pulitzer, made in collaboration with hip-hop collective Czarface, and featuring appearances from Busta Rhymes, Method Man and EL-P, [&#8230;]",
+      "rssDescription": "After years of sharing his talent on the big screen as Tom Hardy, Frankie Pulitzer has officially arrived to drop some bangers. On Friday, the Oscar nominee&#8217;s rap persona released his 15-track debut album Czarface Meets Frankie Pulitzer, made in collaboration with hip-hop collective Czarface, and featuring appearances from Busta Rhymes, Method Man and EL-P, [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 72
+    },
+    {
+      "id": "7301690891251059",
+      "title": "This newly-announced FPS will let you blast through the worlds of Medieval Europe's weirdest artist, and I really hope it includes the 500-year-old butt song from hell",
+      "url": "https://www.pcgamer.com/games/fps/this-newly-announced-fps-will-let-you-blast-through-the-worlds-of-medieval-europes-weirdest-artist-and-i-really-hope-it-includes-the-500-year-old-butt-song-from-hell/",
+      "canonicalUrl": "https://www.pcgamer.com/games/fps/this-newly-announced-fps-will-let-you-blast-through-the-worlds-of-medieval-europes-weirdest-artist-and-i-really-hope-it-includes-the-500-year-old-butt-song-from-hell",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T13:32:48.000Z",
+      "updatedAt": "2026-08-30T15:15:33.000Z",
+      "description": "Hieronymus invites you to step into artworks like The Garden of Earthly Delights.",
+      "rssDescription": "Hieronymus invites you to step into artworks like The Garden of Earthly Delights.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 84
+    },
+    {
+      "id": "1baf8919bdbb3f20",
+      "title": "&#8216;Ali G: Who Iz I?&#8217; Sparks Calls For Theater Boycott, Trailer Slammed Over Racist Stereotypes",
+      "url": "https://deadline.com/2026/08/ali-g-who-iz-i-trailer-theater-boycott-racist-caricature-1237062699/",
+      "canonicalUrl": "https://deadline.com/2026/08/ali-g-who-iz-i-trailer-theater-boycott-racist-caricature-1237062699",
+      "sourceId": "deadline",
+      "sourceName": "Deadline",
+      "domain": "deadline.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T21:45:48.000Z",
+      "description": "Sacha Baron Cohen&#8217;s attempt to brush off an old character with Ali G: Who Iz I? is not going over without controversy. Following the release of the trailer for the Amazon MGM Studios sequel, an email campaign began on watchdog site NewsCord, sending more than 40,000 emails urging theaters to &#8220;leave the film off its [&#8230;]",
+      "rssDescription": "Sacha Baron Cohen&#8217;s attempt to brush off an old character with Ali G: Who Iz I? is not going over without controversy. Following the release of the trailer for the Amazon MGM Studios sequel, an email campaign began on watchdog site NewsCord, sending more than 40,000 emails urging theaters to &#8220;leave the film off its [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "7c62d47bbc83753a",
+      "title": "Phasmophobia's second Quality of Life update adds Restricted maps, VR fixes, and much creepier deaths",
+      "url": "https://www.eurogamer.net/phasmophobia-quality-of-life-update-2-restricted-maps-vr",
+      "canonicalUrl": "https://www.eurogamer.net/phasmophobia-quality-of-life-update-2-restricted-maps-vr",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T13:47:47.000Z",
+      "description": "Kinetic Games has released Phasmophobia 's second Quality of Life update, adding a raft of new Restricted maps, streamlined Evidence collection, VR fixes, and considerably more ways to die. Read more",
+      "rssDescription": "Kinetic Games has released Phasmophobia 's second Quality of Life update, adding a raft of new Restricted maps, streamlined Evidence collection, VR fixes, and considerably more ways to die. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 83
+    },
+    {
+      "id": "c814ad604b71034c",
+      "title": "Sony Music, Warner sue Anthropic, alleging a &#8220;brazen campaign&#8221; of intellectual property theft",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "canonicalUrl": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "domain": "techcrunch.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T18:41:59.000Z",
+      "description": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+      "rssDescription": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "music-entertainment",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "c33883ca44a0158f",
+      "title": "Grab Philips Shavers at a Steep Discount at Amazon Right Now",
+      "url": "https://www.ign.com/articles/best-philips-electric-shaver-deals",
+      "canonicalUrl": "https://www.ign.com/articles/best-philips-electric-shaver-deals",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T12:00:00.000Z",
+      "description": "Save hundreds on Philips Shavers, including the Prestige Ultra model which is now better than half price.",
+      "rssDescription": "Save hundreds on Philips Shavers, including the Prestige Ultra model which is now better than half price.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "e92c3a74790258f0",
+      "title": "Anne Hathaway Cast Opposite Tom Cruise in Days of Thunder Sequel",
+      "url": "https://www.ign.com/articles/anne-hathaway-tom-cruise-days-of-thunder-sequel-plot-release-date",
+      "canonicalUrl": "https://www.ign.com/articles/anne-hathaway-tom-cruise-days-of-thunder-sequel-plot-release-date",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T18:35:07.000Z",
+      "description": "Anne Hathaway will star opposite Tom Cruise in the sequel to Days of Thunder. The Oscar-winning star of The Odyssey and The End of Oak Street will play a team owner and engineer in the sequel, due out summer 2028.",
+      "rssDescription": "Anne Hathaway will star opposite Tom Cruise in the sequel to Days of Thunder. The Oscar-winning star of The Odyssey and The End of Oak Street will play a team owner and engineer in the sequel, due out summer 2028.",
+      "discovery": "rss",
+      "categoryHints": [
+        "entertainment"
+      ],
+      "topic": "film-television",
+      "preliminaryScore": 67
+    },
+    {
+      "id": "d6a522a4c1943476",
+      "title": "‘The lake is our life’: Protecting a shared lifeline in Uganda",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168228",
+      "canonicalUrl": "https://news.un.org/feed/view/en/story/2026/08/1168228",
+      "sourceId": "un-news",
+      "sourceName": "UN News",
+      "domain": "news.un.org",
+      "sourceType": "primary",
+      "sourceTier": "A",
+      "language": "en",
+      "publishedAt": "2026-08-30T12:00:00.000Z",
+      "description": "On the shores of Nkondo, in Uganda’s Kikuube district, the day begins before sunrise. Fishers enter the lake to fish, while families around Lake Albert rely on its waters for food, income and daily survival.",
+      "rssDescription": "On the shores of Nkondo, in Uganda’s Kikuube district, the day begins before sunrise. Fishers enter the lake to fish, while families around Lake Albert rely on its waters for food, income and daily survival.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 82
+    },
+    {
+      "id": "7491ccd5d57f7cff",
+      "title": "Multiple developers report equipment stolen from their Gamescom booths",
+      "url": "https://www.eurogamer.net/gamescom-2026-exhibitors-equipment-stolen-overnight",
+      "canonicalUrl": "https://www.eurogamer.net/gamescom-2026-exhibitors-equipment-stolen-overnight",
+      "sourceId": "eurogamer",
+      "sourceName": "Eurogamer",
+      "domain": "eurogamer.net",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T11:38:43.000Z",
+      "description": "Multiple exhibitors at Gamescom have reported thefts of laptops and other equipment from their booths in Cologne, with one indie developer saying the loss has effectively ended his show early. Read more",
+      "rssDescription": "Multiple exhibitors at Gamescom have reported thefts of laptops and other equipment from their booths in Cologne, with one indie developer saying the loss has effectively ended his show early. Read more",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "f0f9568bd0b33f06",
+      "title": "Ferry carrying over 260 people capsizes off Cyprus",
+      "url": "https://www.dw.com/en/ferry-carrying-over-260-people-capsizes-off-cyprus/a-78562769?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/ferry-carrying-over-260-people-capsizes-off-cyprus/a-78562769?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T11:32:00.000Z",
+      "description": "Several people have died after a passenger ⁠boat carrying more than 260 people capsized off ‌northern Cyprus. ‌",
+      "rssDescription": "Several people have died after a passenger ⁠boat carrying more than 260 people capsized off ‌northern Cyprus. ‌",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 81
+    },
+    {
+      "id": "f0f61102e84a3ae0",
+      "title": "Iceland voters reject EU accession talks",
+      "url": "https://www.dw.com/en/iceland-voters-reject-eu-accession-talks/a-78560633?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/iceland-voters-reject-eu-accession-talks/a-78560633?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T10:21:00.000Z",
+      "description": "A nationwide referendum failed to win enough support to restart negotiations on European Union membership, despite geopolitical tensions in the North Atlantic.",
+      "rssDescription": "A nationwide referendum failed to win enough support to restart negotiations on European Union membership, despite geopolitical tensions in the North Atlantic.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 80
+    },
+    {
+      "id": "74ab737c6c6ed426",
+      "title": "4 Penny Coffins Lets You Play 19th-Century Detective – Or a 10-Foot Demon Ripping Friends in Half",
+      "url": "https://www.ign.com/articles/4-penny-coffins-preview-jack-the-ripper",
+      "canonicalUrl": "https://www.ign.com/articles/4-penny-coffins-preview-jack-the-ripper",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T09:08:15.000Z",
+      "description": "Other Ocean’s 4 Penny Coffins blends Among Us with Jack the Ripper in an 1888 Whitechapel social investigation game featuring 8-player and solo modes.",
+      "rssDescription": "Other Ocean’s 4 Penny Coffins blends Among Us with Jack the Ripper in an 1888 Whitechapel social investigation game featuring 8-player and solo modes.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "9ed7094b206cf50a",
+      "title": "Greece, Turkey clash over protected Aegean marine areas",
+      "url": "https://www.dw.com/en/greece-turkey-clash-over-protected-aegean-marine-areas/a-78550021?maca=en-rss-en-top-1022-rdf",
+      "canonicalUrl": "https://www.dw.com/en/greece-turkey-clash-over-protected-aegean-marine-areas/a-78550021?maca=en-rss-en-top-1022-rdf",
+      "sourceId": "dw",
+      "sourceName": "Deutsche Welle",
+      "domain": "dw.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T09:07:00.000Z",
+      "description": "Turkey has announced the creation of two protected zones in a disputed area of the Aegean Sea, sparking an angry reaction from Greece. Does this mark a new chapter in a long-running dispute between the two countries?",
+      "rssDescription": "Turkey has announced the creation of two protected zones in a disputed area of the Aegean Sea, sparking an angry reaction from Greece. Does this mark a new chapter in a long-running dispute between the two countries?",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 79
+    },
+    {
+      "id": "81e728b96fe241a4",
+      "title": "Charity thanks inmates for work to save hedgehogs",
+      "url": "https://www.bbc.co.uk/news/articles/cly4v6qr5e9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cly4v6qr5e9o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T06:12:56.000Z",
+      "description": "Prisoners in HMP La Moye make feeding and nesting boxes for Jersey Hedgehog Preservation Group.",
+      "rssDescription": "Prisoners in HMP La Moye make feeding and nesting boxes for Jersey Hedgehog Preservation Group.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 77
+    },
+    {
+      "id": "4549d2c9f915a003",
+      "title": "WhatsApp chat used to launder cash for crime and extremism",
+      "url": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T04:59:56.000Z",
+      "description": "The WhatsApp money launderers arranged cash transfers in the UK and around the world with no paper trail.",
+      "rssDescription": "The WhatsApp money launderers arranged cash transfers in the UK and around the world with no paper trail.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 76
+    },
+    {
+      "id": "fbac2ae07bfab119",
+      "title": "Mas wins Vuelta stage nine to keep red jersey",
+      "url": "https://www.channelnewsasia.com/sport/mas-wins-vuelta-stage-nine-keep-red-jersey-6350596",
+      "canonicalUrl": "https://www.channelnewsasia.com/sport/mas-wins-vuelta-stage-nine-keep-red-jersey-6350596",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:51:17.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "127894c9abf96480",
+      "title": "Everything Coming to Disney+ in September",
+      "url": "https://www.ign.com/articles/whats-new-on-disney-plus-september-2026",
+      "canonicalUrl": "https://www.ign.com/articles/whats-new-on-disney-plus-september-2026",
+      "sourceId": "ign",
+      "sourceName": "IGN",
+      "domain": "ign.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:30:00.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "a3249e364b0665db",
+      "title": "Melinda French Gates Doubles Olivia Rodrigo&#8217;s Daisy Chain Fields Donation Sum Bringing Total to $20 Million",
+      "url": "https://www.hollywoodreporter.com/music/music-news/olivia-rodrigo-daisy-chain-fields-20m-melinda-gates-1236685002/",
+      "canonicalUrl": "https://www.hollywoodreporter.com/music/music-news/olivia-rodrigo-daisy-chain-fields-20m-melinda-gates-1236685002",
+      "sourceId": "hollywood-reporter",
+      "sourceName": "The Hollywood Reporter",
+      "domain": "hollywoodreporter.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T04:12:53.000Z",
+      "description": "The philanthropist matched the $10 million that Rodrigo announced the festival had raised in support of women-focused organizations on Friday.",
+      "rssDescription": "The philanthropist matched the $10 million that Rodrigo announced the festival had raised in support of women-focused organizations on Friday.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 75
+    },
+    {
+      "id": "8fe6036bc38eadc3",
+      "title": "Pegula cruises, Krejcikova crashes out as US Open begins",
+      "url": "https://www.channelnewsasia.com/sport/pegula-cruises-krejcikova-crashes-out-us-open-begins-6350581",
+      "canonicalUrl": "https://www.channelnewsasia.com/sport/pegula-cruises-krejcikova-crashes-out-us-open-begins-6350581",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:16:58.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 74
+    },
+    {
+      "id": "99a24dfa215fbcce",
+      "title": "Alonso&#039;s vibrant Chelsea beat Brighton, Fernandes hits hat-trick for Man Utd",
+      "url": "https://www.channelnewsasia.com/sport/alonsos-vibrant-chelsea-beat-brighton-fernandes-hits-hat-trick-man-utd-6350576",
+      "canonicalUrl": "https://www.channelnewsasia.com/sport/alonsos-vibrant-chelsea-beat-brighton-fernandes-hits-hat-trick-man-utd-6350576",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T15:10:10.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 74
+    },
+    {
+      "id": "fff1365bee13aba2",
+      "title": "Rashford to make first Man United start since 2024 against Ipswich",
+      "url": "https://www.channelnewsasia.com/sport/rashford-make-first-man-united-start-2024-against-ipswich-6350546",
+      "canonicalUrl": "https://www.channelnewsasia.com/sport/rashford-make-first-man-united-start-2024-against-ipswich-6350546",
+      "sourceId": "cna",
+      "sourceName": "Channel NewsAsia",
+      "domain": "channelnewsasia.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-30T14:53:08.000Z",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 74
+    },
+    {
+      "id": "b99470fb84d1061a",
+      "title": "I've been to Gamescom six times - here's what excited me this year",
+      "url": "https://www.bbc.co.uk/news/articles/cew92lp2g45o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cew92lp2g45o?at_campaign=rss&at_medium=RSS",
+      "sourceId": "bbc",
+      "sourceName": "BBC News",
+      "domain": "bbc.co.uk",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T23:02:28.000Z",
+      "description": "The BBC's Laura Cress gets a first look at the biggest games in Cologne from Witcher 3 to Alien: Isolation 2.",
+      "rssDescription": "The BBC's Laura Cress gets a first look at the biggest games in Cologne from Witcher 3 to Alien: Isolation 2.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 71
+    },
+    {
+      "id": "1e2630688b8e35f1",
+      "title": "Modern gamers spoiled by Steam will never understand the joy of a MegaPak",
+      "url": "https://www.pcgamer.com/games/modern-gamers-spoiled-by-steam-will-never-understand-the-joy-of-a-megapak/",
+      "canonicalUrl": "https://www.pcgamer.com/games/modern-gamers-spoiled-by-steam-will-never-understand-the-joy-of-a-megapak",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T17:00:00.000Z",
+      "updatedAt": "2026-08-29T21:44:24.000Z",
+      "description": "A requiem for the early days of budget PC gaming.",
+      "rssDescription": "A requiem for the early days of budget PC gaming.",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 70
+    },
+    {
+      "id": "94db180b35f01cb4",
+      "title": "Vicariously hike the Appalachian in the gorgeous A Trail Tale",
+      "url": "https://www.theverge.com/entertainment/986461/hike-appalachian-trail-pixel-art-a-trail-tale",
+      "canonicalUrl": "https://www.theverge.com/entertainment/986461/hike-appalachian-trail-pixel-art-a-trail-tale",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "domain": "theverge.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T20:59:26.000Z",
+      "updatedAt": "2026-08-29T20:59:26.000Z",
+      "description": "I used to be an avid hiker and would try to go backpacking a few times a year. I always dreamed of thru-hiking the Appalachian Trail, but life kind of got in the way. (Turns out jobs, wives, and children aren't thrilled with the idea of you disappearing for three months.) But I've been longing [&#8230;]",
+      "rssDescription": "I used to be an avid hiker and would try to go backpacking a few times a year. I always dreamed of thru-hiking the Appalachian Trail, but life kind of got in the way. (Turns out jobs, wives, and children aren't thrilled with the idea of you disappearing for three months.) But I've been longing [&#8230;]",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 69
+    },
+    {
+      "id": "111cf1a20e655c2f",
+      "title": "Elden Ring players are hard at work putting the new Tarnished Edition DLC's gear to the test",
+      "url": "https://www.pcgamer.com/games/rpg/elden-ring-players-are-hard-at-work-putting-the-new-tarnished-edition-dlcs-new-gear-to-the-test/",
+      "canonicalUrl": "https://www.pcgamer.com/games/rpg/elden-ring-players-are-hard-at-work-putting-the-new-tarnished-edition-dlcs-new-gear-to-the-test",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "domain": "pcgamer.com",
+      "sourceType": "independent-media",
+      "sourceTier": "B",
+      "language": "en",
+      "publishedAt": "2026-08-29T20:17:04.000Z",
+      "updatedAt": "2026-08-29T20:18:08.000Z",
+      "description": "Some poor bosses are getting \"the Matador treatment\".",
+      "rssDescription": "Some poor bosses are getting \"the Matador treatment\".",
+      "discovery": "rss",
+      "categoryHints": [
+        "world"
+      ],
+      "topic": "general",
+      "preliminaryScore": 69
+    }
+  ],
+  "sourceResults": [
+    {
+      "sourceId": "abc-au",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "al-jazeera",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "ap",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "ars-technica",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "sourceId": "bbc",
+      "status": "ok",
+      "count": 13
+    },
+    {
+      "sourceId": "billboard",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "sourceId": "bloomberg",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "cbc",
+      "status": "failed",
+      "count": 0,
+      "error": "https://www.cbc.ca/cmlink/rss-world: The operation was aborted due to timeout"
+    },
+    {
+      "sourceId": "cna",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "sourceId": "deadline",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "sourceId": "dw",
+      "status": "ok",
+      "count": 15
+    },
+    {
+      "sourceId": "esa",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "eu-commission",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "eurogamer",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "sourceId": "france24",
+      "status": "ok",
+      "count": 22
+    },
+    {
+      "sourceId": "ft",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "game-developer",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "gamesindustry",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "hollywood-reporter",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "sourceId": "ieee-spectrum",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "ign",
+      "status": "ok",
+      "count": 11
+    },
+    {
+      "sourceId": "imf",
+      "status": "failed",
+      "count": 0,
+      "error": "https://www.imf.org/en/News/RSS?Language=ENG: 403 Forbidden"
+    },
+    {
+      "sourceId": "mit-technology-review",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "nasa",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "sourceId": "nature",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "sourceId": "nhk",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "oecd",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "pc-gamer",
+      "status": "ok",
+      "count": 13
+    },
+    {
+      "sourceId": "polygon",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "sourceId": "rest-of-world",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "reuters",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "science",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "tass",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "techcrunch",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "sourceId": "the-guardian",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "the-verge",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "sourceId": "un-news",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "sourceId": "us-sec",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "variety",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "sourceId": "who",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "sourceId": "world-bank",
+      "status": "no-feed",
+      "count": 0
+    },
+    {
+      "sourceId": "xinhua",
+      "status": "no-feed",
+      "count": 0
+    }
+  ],
+  "notes": [
+    "Crossref Science enrichment: attempted 0, enriched 0, abstract-missing 0, not-found 0, failed 0, no-DOI 0."
+  ]
+}
