@@ -1,0 +1,1192 @@
+{
+  "schemaVersion": 4,
+  "siteName": "昨日世界 / World Yesterday",
+  "date": "2026-08-31",
+  "generatedAt": "2026-09-01T00:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "status": "partial",
+  "items": [
+    {
+      "id": "us-iran-conflict-flare-up",
+      "category": "world",
+      "rank": 1,
+      "titles": {
+        "zh": "美国与伊朗冲突再度升级，地区目标遭袭",
+        "en": "US-Iran Conflict Escalates Again with Regional Strikes"
+      },
+      "originalTitle": "Latest flare-up between US and Iran bring conflict's lull to an end",
+      "summaries": {
+        "zh": "法国国际广播与德国之声报道，美国袭击伊朗境内目标后，伊朗革命卫队对约旦和阿联酋发动报复性打击。此前停火并未终止零星袭击，霍尔木兹海峡局势继续影响石油市场。",
+        "en": "France 24 and Deutsche Welle reported a renewed escalation after US strikes on targets in Iran. Iran’s Revolutionary Guards subsequently carried out retaliatory strikes in Jordan and the United Arab Emirates, according to DW. The renewed fighting ended a relative lull, while continued insecurity around the Strait of Hormuz maintained pressure on regional security and global oil markets."
+      },
+      "whyItMatters": {
+        "zh": "冲突扩展至更多国家，增加地区战争升级和全球能源供应受扰的风险。",
+        "en": "Strikes reaching additional countries raise the risks of regional escalation and disruption to global energy supplies."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/latest-flare-up-between-us-and-iran-bring-conflict-s-lull-to-an-end",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:33:57+00:00"
+        },
+        {
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-retaliates-condemns-us-strikes-on-larak-island/live-78566992?maca=en-rss-en-top-1022-rdf",
+          "domain": "dw.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T12:47:00+00:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-31T12:47:00+00:00",
+      "updatedAt": "2026-08-31T15:33:57+00:00",
+      "regions": [
+        "Iran",
+        "United States",
+        "Jordan",
+        "United Arab Emirates",
+        "Middle East"
+      ],
+      "topic": "conflict-security",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 91,
+        "consequenceSeverity": 94,
+        "systemicSignificance": 90,
+        "independentCoverage": 84,
+        "yesterdayNovelty": 89
+      },
+      "impactScore": 90
+    },
+    {
+      "id": "nepal-flood-death-toll-and-relief-crisis",
+      "category": "climate",
+      "rank": 2,
+      "titles": {
+        "zh": "尼泊尔洪灾死亡人数升至903人，救援受阻",
+        "en": "Nepal Flood Death Toll Reaches 903 as Access Challenges Mount"
+      },
+      "originalTitle": "Nepal flooding deaths surpass 900 as needs climb",
+      "summaries": {
+        "zh": "联合国称尼泊尔洪灾确认死亡人数已升至903人，仍有逾4200人失踪。道路阻断妨碍救援与物资输送，卫星影像正协助判断北部灾区的淹没范围。",
+        "en": "The United Nations said Nepal’s catastrophic floods had killed 903 people, with more than 4,200 still missing. Blocked highways were preventing rescuers and humanitarian teams from reaching some of the worst-hit communities. Separate reporting described survivors seeking shelter and food, while ESA said satellite imagery was being used to reveal the extent of inundation and support the emergency response."
+      },
+      "whyItMatters": {
+        "zh": "巨大的伤亡、失踪规模和交通中断意味着灾害正迅速演变为长期人道危机。",
+        "en": "The scale of deaths, disappearances and disrupted access points to a prolonged humanitarian emergency."
+      },
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/feed/view/en/story/2026/08/1168233",
+          "domain": "news.un.org",
+          "type": "primary",
+          "language": "en",
+          "publishedAt": "2026-08-31T12:00:00+00:00"
+        },
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/video/20260831-nepal-deadly-floods-france-24-report-%E2%80%93-on-the-ground-with-survivors",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:12:43+00:00"
+        },
+        {
+          "name": "European Space Agency",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Nepal_flash_flood_imaged_by_satellites",
+          "domain": "esa.int",
+          "type": "primary",
+          "language": "en",
+          "publishedAt": "2026-08-31T11:57:00+00:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-31T11:57:00+00:00",
+      "updatedAt": "2026-08-31T15:12:43+00:00",
+      "regions": [
+        "Nepal",
+        "South Asia"
+      ],
+      "topic": "climate-environment",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 84,
+        "consequenceSeverity": 96,
+        "systemicSignificance": 80,
+        "independentCoverage": 91,
+        "yesterdayNovelty": 94
+      },
+      "impactScore": 88
+    },
+    {
+      "id": "roman-space-telescope-mission-begins",
+      "category": "science",
+      "rank": 3,
+      "titles": {
+        "zh": "罗曼空间望远镜升空，开启大范围红外巡天",
+        "en": "Roman Space Telescope Launches to Begin Wide-Field Infrared Survey"
+      },
+      "originalTitle": "NASA’s Nancy Grace Roman Space Telescope Launches",
+      "summaries": {
+        "zh": "美国航天局的南希·格蕾丝·罗曼空间望远镜于8月30日搭乘猎鹰重型火箭升空。它将以远大于哈勃的视场调查数十亿颗恒星和星系，研究暗能量、暗物质及系外行星。",
+        "en": "NASA’s Nancy Grace Roman Space Telescope launched aboard a SpaceX Falcon Heavy rocket on August 30, beginning a mission to survey the visible and near-infrared sky. NASA, ESA and Ars Technica described its unusually wide field of view and planned studies of billions of stars and galaxies, dark energy, dark matter and the diversity of exoplanets."
+      },
+      "whyItMatters": {
+        "zh": "罗曼望远镜的大视场巡天能力可能显著扩大对宇宙结构和系外行星的统计研究。",
+        "en": "Roman’s wide-field surveys could transform statistical studies of cosmic structure and exoplanet populations."
+      },
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/image-article/nasas-nancy-grace-roman-space-telescope-launches/",
+          "domain": "nasa.gov",
+          "type": "primary",
+          "language": "en",
+          "publishedAt": "2026-08-31T14:10:31+00:00"
+        },
+        {
+          "name": "European Space Agency",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Roman_lifts_off_on_a_mission_to_survey_the_infrared_sky",
+          "domain": "esa.int",
+          "type": "primary",
+          "language": "en",
+          "publishedAt": "2026-08-31T07:00:00+00:00"
+        },
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/08/nasas-next-great-observatory-begins-mission-to-widen-our-view-of-the-universe/",
+          "domain": "arstechnica.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T13:01:09+00:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "eventAt": "2026-08-30T11:26:00+00:00",
+      "publishedAt": "2026-08-31T07:00:00+00:00",
+      "updatedAt": "2026-08-31T14:10:31+00:00",
+      "regions": [
+        "United States",
+        "Europe",
+        "Space"
+      ],
+      "topic": "aerospace",
+      "subjectOrganization": {
+        "id": "nasa",
+        "name": "NASA"
+      },
+      "importanceFactors": {
+        "impactBreadth": 76,
+        "consequenceSeverity": 67,
+        "systemicSignificance": 94,
+        "independentCoverage": 90,
+        "yesterdayNovelty": 91
+      },
+      "impactScore": 81
+    },
+    {
+      "id": "northern-cyprus-ferry-sinking",
+      "category": "world",
+      "rank": 4,
+      "titles": {
+        "zh": "北塞浦路斯客轮沉没，多人死亡或失踪",
+        "en": "Passenger Ferry Sinks off Northern Cyprus, Leaving Dead and Missing"
+      },
+      "originalTitle": "In Northern Cyprus, families wait for news of passengers from sunk ferry",
+      "summaries": {
+        "zh": "法国24台与英国广播公司报道，一艘载有数百人的客轮在北塞浦路斯凯里尼亚港附近倾覆并沉没。两家媒体的早期数字略有差异，但均确认已有人员死亡，约二十多人仍然失踪。",
+        "en": "France 24 and the BBC reported that a passenger ferry carrying hundreds of people capsized and sank near Kyrenia in northern Cyprus. Their early casualty figures differed slightly, but both confirmed deaths and roughly two dozen people still missing. Families were awaiting information as search efforts continued, and the operator established a hotline for passengers’ relatives."
+      },
+      "whyItMatters": {
+        "zh": "大量乘客失踪使事故成为紧迫的搜救事件，并将引发对客运安全的审查。",
+        "en": "The number of missing passengers makes this an urgent rescue operation and raises questions about ferry safety."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/in-northern-cyprus-families-wait-for-news-of-passengers-from-sunk-ferry",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:04:02+00:00"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T14:50:36+00:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-31T14:50:36+00:00",
+      "updatedAt": "2026-08-31T15:04:02+00:00",
+      "regions": [
+        "Northern Cyprus",
+        "Cyprus",
+        "Eastern Mediterranean"
+      ],
+      "topic": "general",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 54,
+        "consequenceSeverity": 83,
+        "systemicSignificance": 48,
+        "independentCoverage": 85,
+        "yesterdayNovelty": 91
+      },
+      "impactScore": 68
+    },
+    {
+      "id": "lionel-messi-international-retirement",
+      "category": "culture-sports",
+      "rank": 5,
+      "titles": {
+        "zh": "梅西宣布退出阿根廷国家队",
+        "en": "Lionel Messi Retires from Argentina’s National Team"
+      },
+      "originalTitle": "'It hurts': Lionel Messi retires from Argentina national team after 21 years",
+      "summaries": {
+        "zh": "莱昂内尔·梅西宣布结束长达21年的阿根廷国家队生涯，表示这一决定令人痛苦，但退役时机已经到来。法国24台、德国之声和英国广播公司分别报道并确认了这一消息。",
+        "en": "Lionel Messi announced his retirement from international football after 21 years with Argentina. France 24, Deutsche Welle and the BBC independently reported the decision, with Messi saying it was painful but that the time had come. His departure closes one of international football’s most prominent careers after Argentina reached a second consecutive World Cup final in July."
+      },
+      "whyItMatters": {
+        "zh": "梅西的退出标志着阿根廷国家队一个时代结束，并将重塑球队未来阵容。",
+        "en": "Messi’s departure ends an era for Argentina and forces a major transition in the national team."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/sport/20260831-lionel-messi-retires-from-argentina-national-team-after-21-years",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:30:55+00:00"
+        },
+        {
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/lionel-messi-announces-retirement-from-international-football/a-78579502?maca=en-rss-en-top-1022-rdf",
+          "domain": "dw.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:30:00+00:00"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:18:39+00:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-31T15:18:39+00:00",
+      "updatedAt": "2026-08-31T15:30:55+00:00",
+      "regions": [
+        "Argentina",
+        "Global"
+      ],
+      "topic": "culture-sports",
+      "subjectOrganization": {
+        "id": "argentina-national-football-team",
+        "name": "Argentina national football team"
+      },
+      "importanceFactors": {
+        "impactBreadth": 70,
+        "consequenceSeverity": 37,
+        "systemicSignificance": 46,
+        "independentCoverage": 94,
+        "yesterdayNovelty": 96
+      },
+      "impactScore": 63
+    },
+    {
+      "id": "lake-ontario-map-renaming-dispute",
+      "category": "society",
+      "rank": 6,
+      "titles": {
+        "zh": "谷歌地图将安大略湖改名，美国政府敦促苹果跟进",
+        "en": "Google Maps Renames Lake Ontario as US Government Presses Apple"
+      },
+      "originalTitle": "Google Maps renames \"Lake Ontario\" to \"Lake America\" even faster than US government",
+      "summaries": {
+        "zh": "谷歌地图已面向美国用户将“安大略湖”改为“美利坚湖”，而美国政府正式地图尚未完成更改。英国广播公司另称，特朗普政府正敦促苹果地图跟进，MapQuest则表示不会改名。",
+        "en": "Ars Technica reported that Google Maps had renamed Lake Ontario as “Lake America” for US users before official US government maps made the change. The BBC separately reported that President Donald Trump was pressing Apple to adopt the new name. MapQuest said it would not follow, illustrating how political naming decisions are propagating unevenly across major mapping platforms."
+      },
+      "whyItMatters": {
+        "zh": "数字地图平台的命名选择会把政治主张直接嵌入数百万用户依赖的基础信息服务。",
+        "en": "Mapping platforms can embed political claims directly into information infrastructure used by millions of people."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/08/google-maps-renames-lake-ontario-to-lake-america-even-faster-than-us-government/",
+          "domain": "arstechnica.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:33:32+00:00"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c2l80eq5lxno?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:00:11+00:00"
+        }
+      ],
+      "verificationStatus": "verified",
+      "publishedAt": "2026-08-31T15:00:11+00:00",
+      "updatedAt": "2026-08-31T15:33:32+00:00",
+      "regions": [
+        "United States",
+        "Canada"
+      ],
+      "topic": "public-policy",
+      "subjectOrganization": {
+        "id": "google",
+        "name": "Google"
+      },
+      "importanceFactors": {
+        "impactBreadth": 65,
+        "consequenceSeverity": 32,
+        "systemicSignificance": 62,
+        "independentCoverage": 84,
+        "yesterdayNovelty": 88
+      },
+      "impactScore": 61
+    },
+    {
+      "id": "eu-platforms-dsa-stricter-rules",
+      "category": "technology",
+      "rank": 7,
+      "titles": {
+        "zh": "欧盟将ChatGPT、Reddit和Roblox纳入更严格平台规则",
+        "en": "EU Subjects ChatGPT, Reddit and Roblox to Stricter Platform Rules"
+      },
+      "originalTitle": "EU puts ChatGPT, Reddit and Roblox under stricter rules",
+      "summaries": {
+        "zh": "德国之声报道称，ChatGPT、Reddit和Roblox在欧洲的月均用户均已超过4500万，因此将受《数字服务法》更严格的平台义务约束。该门槛会带来更高的风险管理与监管责任。",
+        "en": "Deutsche Welle reported that ChatGPT, Reddit and Roblox each now exceed 45 million average monthly users in Europe, bringing them under stricter obligations in the EU’s Digital Services Act. Crossing that threshold can expand requirements concerning platform risks and regulatory oversight. The snapshot contains no European Commission record or second independent report confirming the designations."
+      },
+      "whyItMatters": {
+        "zh": "新规将直接影响大型聊天、社交和游戏平台在欧洲的风险治理方式。",
+        "en": "The designations would directly affect how major chat, social and gaming platforms manage risks in Europe."
+      },
+      "sources": [
+        {
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-puts-chatgpt-reddit-and-roblox-under-stricter-rules/a-78577019?maca=en-rss-en-top-1022-rdf",
+          "domain": "dw.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T13:36:00+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前仅有德国之声这一家允许来源；缺少欧盟委员会原始公告或第二个独立出版集团的确认。",
+        "en": "Only Deutsche Welle is available in the snapshot; an original European Commission notice or confirmation from a second independent publisher group is missing."
+      },
+      "publishedAt": "2026-08-31T13:36:00+00:00",
+      "updatedAt": "2026-08-31T13:36:00+00:00",
+      "regions": [
+        "European Union"
+      ],
+      "topic": "digital-infrastructure",
+      "subjectOrganization": {
+        "id": "european-union",
+        "name": "European Union"
+      },
+      "importanceFactors": {
+        "impactBreadth": 84,
+        "consequenceSeverity": 69,
+        "systemicSignificance": 86,
+        "independentCoverage": 24,
+        "yesterdayNovelty": 91
+      },
+      "impactScore": 72
+    },
+    {
+      "id": "nvidia-mediatek-investment",
+      "category": "ai",
+      "rank": 8,
+      "titles": {
+        "zh": "英伟达据报向联发科投资35亿美元",
+        "en": "Nvidia Reportedly Invests $3.5 Billion in MediaTek"
+      },
+      "originalTitle": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "summaries": {
+        "zh": "TechCrunch报道称，英伟达向台湾芯片制造商联发科投资35亿美元。报道认为，这笔交易旨在帮助英伟达在大型科技公司自研人工智能芯片之际，继续保持其在AI基础设施中的关键地位。",
+        "en": "TechCrunch reported that Nvidia is investing $3.5 billion in Taiwanese chipmaker MediaTek. The report interprets the deal as part of Nvidia’s effort to remain central to AI infrastructure while large technology companies increasingly develop their own chips. The supplied snapshot includes neither a company announcement nor an independent report from another eligible publisher group confirming the transaction."
+      },
+      "whyItMatters": {
+        "zh": "如此规模的投资可能重塑AI芯片供应关系，并扩大英伟达在计算生态中的影响力。",
+        "en": "An investment of this size could reshape AI chip supply relationships and extend Nvidia’s influence across computing infrastructure."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+          "domain": "techcrunch.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:15:25+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前只有TechCrunch的允许来源报道；缺少英伟达或联发科公告，以及第二个独立出版集团的确认。",
+        "en": "Only TechCrunch reports the transaction; company announcements from Nvidia or MediaTek and confirmation from a second independent publisher group are missing."
+      },
+      "publishedAt": "2026-08-31T15:15:25+00:00",
+      "updatedAt": "2026-08-31T15:15:25+00:00",
+      "regions": [
+        "United States",
+        "Taiwan",
+        "Global"
+      ],
+      "topic": "artificial-intelligence",
+      "subjectOrganization": {
+        "id": "nvidia",
+        "name": "Nvidia"
+      },
+      "importanceFactors": {
+        "impactBreadth": 79,
+        "consequenceSeverity": 69,
+        "systemicSignificance": 81,
+        "independentCoverage": 21,
+        "yesterdayNovelty": 88
+      },
+      "impactScore": 69
+    },
+    {
+      "id": "canada-us-tariff-sovereignty-dispute",
+      "category": "business",
+      "rank": 9,
+      "titles": {
+        "zh": "加拿大拒绝追随美国对华关税，面临新进口惩罚",
+        "en": "Canada Faces New US Import Penalties in Tariff Sovereignty Dispute"
+      },
+      "originalTitle": "Tariffs spat: Carney bets Canada can defy Trump",
+      "summaries": {
+        "zh": "德国之声报道称，加拿大总理马克·卡尼拒绝仿照美国对中国加征关税后，加拿大面临新的美国进口惩罚。争端已超出双边贸易摩擦，成为其他国家观察经济主权与对美关系的案例。",
+        "en": "Deutsche Welle reported that Canada faces new US import penalties after Prime Minister Mark Carney refused to match American tariffs on China. The dispute is becoming a test of whether a close US trading partner can preserve an independent trade policy under pressure from Washington. The snapshot provides no government document or second eligible independent report confirming the new penalties."
+      },
+      "whyItMatters": {
+        "zh": "美加贸易摩擦可能扰乱跨境供应链，并影响其他国家如何回应美国关税压力。",
+        "en": "US-Canada trade friction could disrupt cross-border supply chains and shape how other governments respond to tariff pressure."
+      },
+      "sources": [
+        {
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/tariffs-spat-carney-bets-canada-can-defy-trump/a-78542754?maca=en-rss-en-top-1022-rdf",
+          "domain": "dw.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T13:38:00+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前仅有德国之声报道；缺少美加政府文件或第二个独立出版集团对新惩罚措施的确认。",
+        "en": "Only Deutsche Welle reports the development; US or Canadian government records and confirmation from a second independent publisher group are missing."
+      },
+      "publishedAt": "2026-08-31T13:38:00+00:00",
+      "updatedAt": "2026-08-31T13:38:00+00:00",
+      "regions": [
+        "Canada",
+        "United States",
+        "China"
+      ],
+      "topic": "economy-finance",
+      "subjectOrganization": {
+        "id": "government-of-canada",
+        "name": "Government of Canada"
+      },
+      "importanceFactors": {
+        "impactBreadth": 77,
+        "consequenceSeverity": 68,
+        "systemicSignificance": 77,
+        "independentCoverage": 20,
+        "yesterdayNovelty": 76
+      },
+      "impactScore": 66
+    },
+    {
+      "id": "france-fast-fashion-levy-begins",
+      "category": "society",
+      "rank": 10,
+      "titles": {
+        "zh": "法国开始对超快时尚商品征收惩罚性费用",
+        "en": "France Begins Levy on Ultra-Fast Fashion Products"
+      },
+      "originalTitle": "France targets Shein and Temu with new fast fashion levy",
+      "summaries": {
+        "zh": "法国24台报道称，法国本周开始对超快时尚平台销售的廉价服装征收惩罚性费用，到2030年每件最高接近20欧元。政策针对服装环境成本，但H&M和Zara等品牌不在同一范围内。",
+        "en": "France 24 reported that France is beginning a penalty on cheaply produced clothing sold by ultra-fast-fashion retailers, with the charge set to rise to nearly €20 per item by 2030. The measure targets platforms including Shein, Temu and AliExpress and follows legislation addressing disposable fashion’s environmental costs, while conventional rivals such as H&M and Zara are exempt."
+      },
+      "whyItMatters": {
+        "zh": "该政策把快时尚的环境成本转化为商品费用，可能改变平台定价和跨境零售。",
+        "en": "Pricing fast fashion’s environmental cost could reshape platform pricing and cross-border retail competition."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/france/20260831-france-targets-shein-and-temu-with-new-fast-fashion-levy",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:55:12+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前只有法国24台的允许来源报道；缺少法国政府文件或第二个独立出版集团的确认。",
+        "en": "The snapshot contains only the France 24 report; a French government document or confirmation from a second independent publisher group is missing."
+      },
+      "publishedAt": "2026-08-31T15:55:12+00:00",
+      "updatedAt": "2026-08-31T15:55:12+00:00",
+      "regions": [
+        "France",
+        "European Union"
+      ],
+      "topic": "public-policy",
+      "subjectOrganization": {
+        "id": "government-of-france",
+        "name": "Government of France"
+      },
+      "importanceFactors": {
+        "impactBreadth": 70,
+        "consequenceSeverity": 57,
+        "systemicSignificance": 75,
+        "independentCoverage": 22,
+        "yesterdayNovelty": 88
+      },
+      "impactScore": 62
+    },
+    {
+      "id": "us-barriers-chinese-drones-robots",
+      "category": "technology",
+      "rank": 11,
+      "titles": {
+        "zh": "美国扩大无人机与机器人进口壁垒，中国规模优势仍在",
+        "en": "US Expands Barriers to Foreign Drones and Robots as China Retains Scale"
+      },
+      "originalTitle": "The US is building barriers around drones and robots, but China has scale to get around them",
+      "summaries": {
+        "zh": "TechCrunch报道称，美国正进一步排除外国制造的无人机和机器人，但中国制造业的规模可能使竞争转向其他市场，而非消除其全球优势。报道将政策壁垒与供应链规模之间的张力置于核心。",
+        "en": "TechCrunch reported that the United States is expanding barriers against foreign-made drones and robots. It argues that China’s manufacturing scale may redirect global competition toward other markets rather than eliminate Chinese suppliers’ advantages. The report highlights a growing divide between US security and industrial policy and the scale economics of global hardware supply chains."
+      },
+      "whyItMatters": {
+        "zh": "相关壁垒可能重组无人机和机器人供应链，却未必削弱中国厂商的全球规模优势。",
+        "en": "The barriers could reorganize drone and robotics supply chains without necessarily erasing Chinese manufacturers’ global scale advantage."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+          "domain": "techcrunch.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T02:34:00+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前只有TechCrunch的允许来源；缺少具体美国政策文件或第二个独立出版集团的确认。",
+        "en": "Only TechCrunch is available; specific US policy documents or confirmation from a second independent publisher group are missing."
+      },
+      "publishedAt": "2026-08-31T02:34:00+00:00",
+      "updatedAt": "2026-08-31T02:34:00+00:00",
+      "regions": [
+        "United States",
+        "China",
+        "Global"
+      ],
+      "topic": "digital-infrastructure",
+      "subjectOrganization": {
+        "id": "government-of-the-united-states",
+        "name": "Government of the United States"
+      },
+      "importanceFactors": {
+        "impactBreadth": 73,
+        "consequenceSeverity": 60,
+        "systemicSignificance": 75,
+        "independentCoverage": 18,
+        "yesterdayNovelty": 65
+      },
+      "impactScore": 61
+    },
+    {
+      "id": "iceland-rejects-resuming-eu-talks",
+      "category": "world",
+      "rank": 12,
+      "titles": {
+        "zh": "冰岛公投否决重启加入欧盟谈判",
+        "en": "Iceland Votes Against Restarting EU Membership Talks"
+      },
+      "originalTitle": "As Icelanders say no to resuming EU talks, what issues weighed in the election?",
+      "summaries": {
+        "zh": "法国24台报道称，冰岛选民在公投中否决重新启动加入欧盟的谈判。争论集中于地缘政治稳定、国家主权以及对重要渔业资源的控制；冰岛此前的入盟谈判已被疑欧政府终止。",
+        "en": "France 24 reported that Icelandic voters rejected restarting negotiations to join the European Union. The referendum weighed arguments about geopolitical stability against national sovereignty and control over Iceland’s economically important fisheries. Iceland had opened membership talks after the 2008 financial crisis, but a Eurosceptic government later ended them. No second eligible source appears in the snapshot."
+      },
+      "whyItMatters": {
+        "zh": "结果延续冰岛与欧盟的制度距离，并保留其对渔业政策的自主控制。",
+        "en": "The result preserves Iceland’s institutional distance from the EU and its independent control over fisheries policy."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/as-icelanders-say-no-to-resuming-eu-talks-what-issues-weighed-in-the-election",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:26:50+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前仅有法国24台这一家允许来源；缺少冰岛选举机构结果或第二个独立出版集团的确认。",
+        "en": "Only France 24 is represented; an Icelandic election authority result or confirmation from a second independent publisher group is missing."
+      },
+      "publishedAt": "2026-08-31T15:26:50+00:00",
+      "updatedAt": "2026-08-31T15:26:50+00:00",
+      "regions": [
+        "Iceland",
+        "European Union"
+      ],
+      "topic": "public-policy",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 61,
+        "consequenceSeverity": 61,
+        "systemicSignificance": 78,
+        "independentCoverage": 20,
+        "yesterdayNovelty": 90
+      },
+      "impactScore": 61
+    },
+    {
+      "id": "algeria-death-penalty-arson-proposal",
+      "category": "climate",
+      "rank": 13,
+      "titles": {
+        "zh": "阿尔及利亚总统拟对森林纵火者适用死刑",
+        "en": "Algerian President Seeks Death Penalty for Forest Arsonists"
+      },
+      "originalTitle": "Algeria president seeks death penalty for arsonists after deadly forest fires",
+      "summaries": {
+        "zh": "英国广播公司报道称，阿尔及利亚总统特本在全国记录约100起森林火灾后，表示不排除人为纵火，并寻求对纵火者适用死刑。目前快照没有提供调查结论，火灾是否由人为造成仍未确定。",
+        "en": "The BBC reported that Algerian President Abdelmadjid Tebboune is seeking the death penalty for arsonists after roughly 100 wildfires were recorded. Tebboune said foul play had not been ruled out, but the supplied evidence does not establish that arson caused the fires. The snapshot includes no Algerian government record or second independent report confirming the proposed legal change."
+      },
+      "whyItMatters": {
+        "zh": "将极端刑罚引入灾害应对会带来重大法律后果，而火灾原因仍需可靠调查。",
+        "en": "Introducing an extreme criminal penalty into disaster policy carries major legal consequences while the fires’ causes remain unproven."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvgy41lwe0jo?at_campaign=rss&at_medium=RSS",
+          "domain": "bbc.co.uk",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T08:13:40+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前只有英国广播公司的允许来源；缺少阿尔及利亚政府文件或第二个独立出版集团的确认，纵火原因也尚未证实。",
+        "en": "Only the BBC is available; an Algerian government document or second independent report is missing, and the alleged arson cause remains unconfirmed."
+      },
+      "publishedAt": "2026-08-31T08:13:40+00:00",
+      "updatedAt": "2026-08-31T08:13:40+00:00",
+      "regions": [
+        "Algeria",
+        "North Africa"
+      ],
+      "topic": "climate-environment",
+      "subjectOrganization": {
+        "id": "government-of-algeria",
+        "name": "Government of Algeria"
+      },
+      "importanceFactors": {
+        "impactBreadth": 52,
+        "consequenceSeverity": 76,
+        "systemicSignificance": 68,
+        "independentCoverage": 18,
+        "yesterdayNovelty": 77
+      },
+      "impactScore": 59
+    },
+    {
+      "id": "debian-allows-responsible-ai-contributions",
+      "category": "ai",
+      "rank": 14,
+      "titles": {
+        "zh": "Debian决定不禁止AI生成代码贡献",
+        "en": "Debian Declines to Ban AI-Assisted Code Contributions"
+      },
+      "originalTitle": "Debian won’t ban AI code from its Linux distribution",
+      "summaries": {
+        "zh": "The Verge报道称，Debian投票允许开发者在代码开发、维护和文档工作中使用人工智能工具。新政策认为负责任使用可以提高效率，但AI生成内容仍须遵守项目现有的质量与贡献标准。",
+        "en": "The Verge reported that Debian voted to permit developers to use AI tools in development, maintenance and documentation. Its new policy says responsible AI use can improve productivity while keeping AI-assisted contributions subject to the project’s existing standards rather than creating a separate exemption or prohibition. The snapshot does not contain Debian’s own policy text or independent corroboration."
+      },
+      "whyItMatters": {
+        "zh": "Debian的选择可能影响大型开源项目如何在贡献责任与AI生产力之间划定边界。",
+        "en": "Debian’s approach could influence how major open-source projects balance contributor accountability with AI-assisted productivity."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+          "domain": "theverge.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:34:58+00:00",
+          "updatedAt": "2026-08-31T15:38:13+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前只有The Verge的允许来源；缺少Debian正式决议文本或第二个独立出版集团的确认。",
+        "en": "Only The Verge is available; Debian’s formal resolution or confirmation from a second independent publisher group is missing."
+      },
+      "publishedAt": "2026-08-31T15:34:58+00:00",
+      "updatedAt": "2026-08-31T15:38:13+00:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "artificial-intelligence",
+      "subjectOrganization": {
+        "id": "debian",
+        "name": "Debian"
+      },
+      "importanceFactors": {
+        "impactBreadth": 67,
+        "consequenceSeverity": 48,
+        "systemicSignificance": 72,
+        "independentCoverage": 19,
+        "yesterdayNovelty": 87
+      },
+      "impactScore": 58
+    },
+    {
+      "id": "bepicolombo-mercury-arrival-milestone",
+      "category": "science",
+      "rank": 15,
+      "titles": {
+        "zh": "贝皮科伦坡准备进入水星抵达阶段",
+        "en": "BepiColombo Prepares for Critical Mercury Arrival Milestone"
+      },
+      "originalTitle": "Media briefing: BepiColombo's next milestone towards Mercury",
+      "summaries": {
+        "zh": "欧洲航天局举行简报会，介绍贝皮科伦坡任务计划于9月3日分离水星转移模块的复杂操作。该步骤将启动水星抵达阶段，为11月入轨和12月分离两颗科学轨道器做准备。",
+        "en": "ESA briefed journalists on BepiColombo’s planned September 3 separation of its Mercury Transfer Module, a critical step marking the start of the spacecraft’s Mercury arrival phase. The agency also outlined operational challenges before orbit insertion in November and separation of the ESA and JAXA science orbiters in December. The snapshot contains only ESA’s primary account of its planned mission operations."
+      },
+      "whyItMatters": {
+        "zh": "关键分离操作将决定这项复杂水星任务能否顺利进入科学观测阶段。",
+        "en": "The separation maneuver is pivotal to moving one of the most complex Mercury missions into scientific operations."
+      },
+      "sources": [
+        {
+          "name": "European Space Agency",
+          "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
+          "domain": "esa.int",
+          "type": "primary",
+          "language": "en",
+          "publishedAt": "2026-08-31T14:00:00+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "欧洲航天局直接确认了自身任务计划，但关键分离操作尚未发生，且快照中没有独立媒体确认最新任务状态。",
+        "en": "ESA directly confirms its mission plan, but the critical separation has not yet occurred and the snapshot contains no independent confirmation of the latest mission status."
+      },
+      "eventAt": "2026-09-03T00:00:00+00:00",
+      "publishedAt": "2026-08-31T14:00:00+00:00",
+      "updatedAt": "2026-08-31T14:00:00+00:00",
+      "regions": [
+        "Europe",
+        "Japan",
+        "Mercury"
+      ],
+      "topic": "aerospace",
+      "subjectOrganization": {
+        "id": "european-space-agency",
+        "name": "European Space Agency"
+      },
+      "importanceFactors": {
+        "impactBreadth": 53,
+        "consequenceSeverity": 58,
+        "systemicSignificance": 79,
+        "independentCoverage": 16,
+        "yesterdayNovelty": 76
+      },
+      "impactScore": 56
+    },
+    {
+      "id": "spacex-gas-turbine-pollution-concerns",
+      "category": "health",
+      "rank": 16,
+      "titles": {
+        "zh": "SpaceX自建燃气轮机供应链引发污染担忧",
+        "en": "SpaceX Gas-Turbine Expansion Plan Raises Pollution Concerns"
+      },
+      "originalTitle": "Musk’s faster path to more gas turbines comes with pollution problem",
+      "summaries": {
+        "zh": "TechCrunch报道称，SpaceX正在建设一座内部铸造厂，以自行生产燃气轮机叶片并加快燃气发电部署。报道同时指出，类似轮机已在多地引发诉讼和健康研究，污染影响仍是关键风险。",
+        "en": "TechCrunch reported that SpaceX is developing an in-house foundry to cast turbine blades, which Elon Musk says could bring gas-fired power online 18 months faster than competing approaches. The report cautions that greater reliance on gas turbines carries pollution concerns already associated with lawsuits and health studies elsewhere. No company filing or second independent report is included in the snapshot."
+      },
+      "whyItMatters": {
+        "zh": "快速扩张燃气发电可能增加周边社区的空气污染和健康负担。",
+        "en": "Rapid expansion of gas-fired generation could increase air-pollution exposure and health burdens in nearby communities."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+          "domain": "techcrunch.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-30T16:54:25+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前只有TechCrunch的允许来源；缺少SpaceX原始文件、排放数据或第二个独立出版集团的确认。",
+        "en": "Only TechCrunch is available; SpaceX documentation, emissions data or confirmation from a second independent publisher group is missing."
+      },
+      "publishedAt": "2026-08-30T16:54:25+00:00",
+      "updatedAt": "2026-08-30T16:54:25+00:00",
+      "regions": [
+        "United States"
+      ],
+      "topic": "health-medicine",
+      "subjectOrganization": {
+        "id": "spacex",
+        "name": "SpaceX"
+      },
+      "importanceFactors": {
+        "impactBreadth": 56,
+        "consequenceSeverity": 66,
+        "systemicSignificance": 62,
+        "independentCoverage": 17,
+        "yesterdayNovelty": 57
+      },
+      "impactScore": 54
+    },
+    {
+      "id": "france-presidential-field-fragmentation",
+      "category": "society",
+      "rank": 17,
+      "titles": {
+        "zh": "法国大选临近，中左翼筹备初选整合候选人",
+        "en": "French Parties Seek to Consolidate Candidates Before Presidential Election"
+      },
+      "originalTitle": "France's politicians look to close gap with far right ahead of key election",
+      "summaries": {
+        "zh": "法国24台报道称，距法国总统选举约八个月，各党派正在加快确定候选人。社会党与公共广场党计划于10月举行初选，以避免中左翼选票分散；中间派和中右翼也面临合作压力。",
+        "en": "France 24 reported that French parties are accelerating preparations with about eight months remaining before the presidential election. The Socialists and Place Publique plan an October primary to select a single candidate and limit vote fragmentation. Centrist and centre-right figures are also weighing rivalry against coordination as parties seek to narrow the gap with the far right."
+      },
+      "whyItMatters": {
+        "zh": "候选人整合方式可能决定法国大选的第二轮格局及主要政策选择。",
+        "en": "How parties consolidate their candidates could determine the runoff field and France’s subsequent policy direction."
+      },
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/france-s-politicians-look-to-close-gap-with-far-right-ahead-of-key-election",
+          "domain": "france24.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T14:55:04+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前只有法国24台的允许来源；缺少相关政党正式安排或第二个独立出版集团的确认。",
+        "en": "Only France 24 is available; formal party announcements or confirmation from a second independent publisher group are missing."
+      },
+      "publishedAt": "2026-08-31T14:55:04+00:00",
+      "updatedAt": "2026-08-31T14:55:04+00:00",
+      "regions": [
+        "France"
+      ],
+      "topic": "public-policy",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 59,
+        "consequenceSeverity": 54,
+        "systemicSignificance": 68,
+        "independentCoverage": 17,
+        "yesterdayNovelty": 55
+      },
+      "impactScore": 53
+    },
+    {
+      "id": "steam-data-exposure-report",
+      "category": "games",
+      "rank": 18,
+      "titles": {
+        "zh": "Steam据报因公开端点泄露13TB数据",
+        "en": "Steam Reportedly Exposes 13 TB of Data Through Public Endpoint"
+      },
+      "originalTitle": "Report: 13TB of Steam data leaked after users access 'publicly accessible endpoint'",
+      "summaries": {
+        "zh": "Game Developer报道称，用户通过一个可公开访问的端点取得约13TB的Steam数据，其中据称包括尚未发布的Valve游戏测试版本、截图，以及其他发行商的内容。泄露规模和数据范围尚未独立确认。",
+        "en": "Game Developer reported that users accessed approximately 13 TB of Steam data through a publicly accessible endpoint. The material reportedly includes beta builds and screenshots from unreleased Valve titles, along with content belonging to publishers such as EA and WB Games. The snapshot contains no statement from Valve, technical incident record or second independent report confirming the claimed volume and contents."
+      },
+      "whyItMatters": {
+        "zh": "若规模属实，此次暴露将影响多家发行商的未发布资产与平台安全信任。",
+        "en": "If confirmed at the reported scale, the exposure would affect unreleased assets from multiple publishers and trust in platform security."
+      },
+      "sources": [
+        {
+          "name": "Game Developer",
+          "url": "https://www.gamedeveloper.com/pc/report-13tb-of-steam-data-leaked-after-users-access-publicly-accessible-endpoint-",
+          "domain": "gamedeveloper.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T15:07:37+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前只有Game Developer的单一报告；缺少Valve公告、技术证据或第二个独立出版集团的确认。",
+        "en": "Only Game Developer reports the incident; a Valve statement, technical evidence or confirmation from a second independent publisher group is missing."
+      },
+      "publishedAt": "2026-08-31T15:07:37+00:00",
+      "updatedAt": "2026-08-31T15:07:37+00:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "games-industry",
+      "subjectOrganization": {
+        "id": "valve",
+        "name": "Valve"
+      },
+      "importanceFactors": {
+        "impactBreadth": 54,
+        "consequenceSeverity": 59,
+        "systemicSignificance": 49,
+        "independentCoverage": 15,
+        "yesterdayNovelty": 82
+      },
+      "impactScore": 51
+    },
+    {
+      "id": "research-lab-archetypes-ai-use",
+      "category": "ai",
+      "rank": 19,
+      "titles": {
+        "zh": "白皮书提出四类实验室模式以指导AI使用",
+        "en": "White Paper Proposes Four Laboratory Archetypes for Using AI"
+      },
+      "originalTitle": "What’s your lab’s archetype? The answer could inform how you use AI",
+      "summaries": {
+        "zh": "《自然》报道，一份白皮书将研究团队概括为四种优先模式，并认为不同类型的实验室应以不同方式采用人工智能。这一框架旨在帮助团队根据研究目标和组织特点选择AI使用策略。",
+        "en": "Nature reported that a white paper describes four priority-based archetypes for research groups, each associated with a different approach to using artificial intelligence. The framework is presented as a way for laboratories to align AI adoption with their working priorities and organizational characteristics. The RSS snapshot provides no underlying white paper, methods or independent assessment of the proposed framework."
+      },
+      "whyItMatters": {
+        "zh": "若框架经验证，它可帮助研究团队避免以单一模式部署AI并改善组织决策。",
+        "en": "If validated, the framework could help laboratories avoid one-size-fits-all AI adoption and make better organizational decisions."
+      },
+      "sources": [
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-02543-z",
+          "domain": "nature.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T00:00:00+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前只有《自然》的RSS描述；缺少白皮书全文、方法信息或第二个独立出版集团的评价。",
+        "en": "Only Nature’s RSS description is available; the underlying white paper, methodological detail and assessment from a second independent publisher group are missing."
+      },
+      "publishedAt": "2026-08-31T00:00:00+00:00",
+      "updatedAt": "2026-08-31T00:00:00+00:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "artificial-intelligence",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 58,
+        "consequenceSeverity": 38,
+        "systemicSignificance": 66,
+        "independentCoverage": 16,
+        "yesterdayNovelty": 72
+      },
+      "impactScore": 50
+    },
+    {
+      "id": "indian-ocean-sea-cucumber-smuggling",
+      "category": "business",
+      "rank": 20,
+      "titles": {
+        "zh": "印度洋海参走私形成数百万美元黑市",
+        "en": "Sea Cucumber Smuggling Fuels a Multimillion-Dollar Indian Ocean Market"
+      },
+      "originalTitle": "Inside the sea cucumber smuggling boom",
+      "summaries": {
+        "zh": "德国之声报道称，印度洋地区的海参走私正在扩大，形成价值数百万美元的地下市场。高额需求推动这种不起眼的海洋动物进入跨境非法贸易，但快照未提供涉案规模、执法数据或其他来源确认。",
+        "en": "Deutsche Welle reported that sea cucumber smuggling is expanding across the Indian Ocean into a multimillion-dollar black market. The trade turns a little-noticed marine animal into a valuable cross-border commodity and suggests growing pressure on coastal resources and enforcement systems. The brief RSS description does not provide quantified seizures, ecological estimates or corroboration from another eligible publisher."
+      },
+      "whyItMatters": {
+        "zh": "不断扩张的非法贸易可能同时损害海洋生态、沿海生计和区域执法能力。",
+        "en": "An expanding illicit trade could damage marine ecosystems, coastal livelihoods and regional enforcement capacity."
+      },
+      "sources": [
+        {
+          "name": "Deutsche Welle",
+          "url": "https://www.dw.com/en/inside-the-sea-cucumber-smuggling-boom/a-78005662?maca=en-rss-en-top-1022-rdf",
+          "domain": "dw.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-31T10:50:00+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前仅有德国之声的简短RSS描述；缺少执法机构数据或第二个独立出版集团的确认。",
+        "en": "Only Deutsche Welle’s brief RSS description is available; enforcement data or confirmation from a second independent publisher group is missing."
+      },
+      "publishedAt": "2026-08-31T10:50:00+00:00",
+      "updatedAt": "2026-08-31T10:50:00+00:00",
+      "regions": [
+        "Indian Ocean"
+      ],
+      "topic": "economy-finance",
+      "subjectOrganization": null,
+      "importanceFactors": {
+        "impactBreadth": 48,
+        "consequenceSeverity": 54,
+        "systemicSignificance": 51,
+        "independentCoverage": 16,
+        "yesterdayNovelty": 57
+      },
+      "impactScore": 46
+    },
+    {
+      "id": "activision-cheat-maker-cease-and-desist",
+      "category": "games",
+      "rank": 21,
+      "titles": {
+        "zh": "动视向《使命召唤》外挂制作者发出停止侵权函",
+        "en": "Activision Serves Call of Duty Cheat Maker with Cease-and-Desist Notice"
+      },
+      "originalTitle": "Activision serves cease and desist to infamous Call of Duty cheat maker—and films the whole thing: 'We will find you'",
+      "summaries": {
+        "zh": "PC Gamer报道称，动视向一名《使命召唤》外挂制作者当面送达停止侵权函，并拍摄了送达过程。该公司称已破坏375个外挂转售业务，但快照没有提供法律文件或独立来源核实这一数字。",
+        "en": "PC Gamer reported that Activision personally served a cease-and-desist notice on a Call of Duty cheat maker and filmed the delivery. The publisher says its enforcement campaign has disrupted 375 reseller operations. The snapshot does not include the legal notice, an Activision announcement or reporting from another eligible publisher group to verify the broader enforcement claim."
+      },
+      "whyItMatters": {
+        "zh": "公开而强硬的法律执法可能改变大型游戏发行商打击外挂产业的策略。",
+        "en": "A highly public legal action could influence how major game publishers pursue commercial cheat operations."
+      },
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "url": "https://www.pcgamer.com/games/call-of-duty/activision-serves-cease-and-desist-to-infamous-call-of-duty-cheat-maker-and-films-the-whole-thing-we-will-find-you/",
+          "domain": "pcgamer.com",
+          "type": "independent-media",
+          "language": "en",
+          "publishedAt": "2026-08-30T10:05:20+00:00",
+          "updatedAt": "2026-08-31T13:49:01+00:00"
+        }
+      ],
+      "verificationStatus": "pending",
+      "pendingReason": {
+        "zh": "目前只有PC Gamer的允许来源；缺少停止侵权函、动视正式公告或第二个独立出版集团的确认。",
+        "en": "Only PC Gamer is available; the cease-and-desist document, an Activision announcement or confirmation from a second independent publisher group is missing."
+      },
+      "publishedAt": "2026-08-30T10:05:20+00:00",
+      "updatedAt": "2026-08-31T13:49:01+00:00",
+      "regions": [
+        "Global"
+      ],
+      "topic": "games-industry",
+      "subjectOrganization": {
+        "id": "activision",
+        "name": "Activision"
+      },
+      "importanceFactors": {
+        "impactBreadth": 43,
+        "consequenceSeverity": 39,
+        "systemicSignificance": 45,
+        "independentCoverage": 15,
+        "yesterdayNovelty": 69
+      },
+      "impactScore": 41
+    }
+  ],
+  "metrics": {
+    "candidateCount": 60,
+    "pagesOpened": 0,
+    "searchGroups": 0,
+    "verifiedCount": 6,
+    "pendingCount": 15,
+    "rejectedCount": 38,
+    "tokenUsage": {
+      "measured": true,
+      "candidateJudgment": 7151,
+      "verification": 28604,
+      "bilingualGeneration": 14302,
+      "contentChecks": 7151,
+      "repairReserve": 0,
+      "input": 42767,
+      "output": 14440,
+      "total": 57207
+    }
+  },
+  "journalHighlights": [
+    {
+      "journal": "science",
+      "journalName": "Science",
+      "status": "no-update",
+      "notice": {
+        "zh": "Science RSS已成功检查，但目标日期内没有候选条目。",
+        "en": "The Science RSS feed was successfully checked, but it contained no target-date candidate."
+      }
+    },
+    {
+      "journal": "nature",
+      "journalName": "Nature",
+      "status": "selected",
+      "candidateId": "ce61f397debc1662",
+      "originalTitle": "Scale of snakebites estimated globally",
+      "titles": {
+        "zh": "模型估算全球蛇咬伤及相关死亡规模",
+        "en": "Global Modelling Estimates the Burden of Snakebites and Associated Deaths"
+      },
+      "summaries": {
+        "zh": "研究利用现有数据和建模方法估算全球蛇咬伤发生率及相关死亡，为识别疾病负担和制定公共卫生干预措施提供新的量化依据。",
+        "en": "A study highlighted by Nature uses available data and modelling to estimate the worldwide incidence of snakebites and associated deaths. The resulting estimates are intended to supply information needed for public-health efforts addressing snakebite, a burden that is difficult to measure consistently across affected regions. The supplied RSS description does not provide numerical results or detailed methods."
+      },
+      "whyItMatters": {
+        "zh": "更可靠的全球负担估计可帮助卫生机构确定抗蛇毒血清、预防和救治资源的优先地区。",
+        "en": "Better global burden estimates can help health systems prioritize antivenom, prevention and treatment resources."
+      },
+      "topic": "health-medicine",
+      "doi": "10.1038/d41586-026-02642-x",
+      "url": "https://www.nature.com/articles/d41586-026-02642-x",
+      "publishedAt": "2026-08-31T00:00:00+00:00",
+      "metadataSource": "rss",
+      "notice": {
+        "zh": "本条依据Nature RSS提供的标题、DOI、日期和实质性描述编写。",
+        "en": "This selection uses the title, DOI, date and substantive description supplied by the Nature RSS feed."
+      }
+    }
+  ]
+}

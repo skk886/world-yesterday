@@ -1,21 +1,42 @@
 {
   "schemaVersion": 2,
   "month": "2026-08",
-  "generatedAt": "2026-08-28T04:16:31.127Z",
+  "generatedAt": "2026-09-01T11:11:00.909Z",
   "totals": {
-    "editions": 2,
-    "candidates": 105,
+    "editions": 3,
+    "candidates": 165,
     "pagesOpened": 0,
     "searchGroups": 0,
-    "verified": 13,
-    "pending": 27,
-    "rejected": 63,
-    "tokens": 265150,
-    "currentEditionTokens": 103149,
-    "measuredRuns": 5,
-    "runs": 6
+    "verified": 19,
+    "pending": 42,
+    "rejected": 101,
+    "tokens": 322357,
+    "currentEditionTokens": 160356,
+    "measuredRuns": 6,
+    "runs": 7
   },
   "editions": [
+    {
+      "date": "2026-08-31",
+      "status": "partial",
+      "candidateCount": 60,
+      "pagesOpened": 0,
+      "searchGroups": 0,
+      "verifiedCount": 6,
+      "pendingCount": 15,
+      "rejectedCount": 38,
+      "tokenUsage": {
+        "measured": true,
+        "candidateJudgment": 7151,
+        "verification": 28604,
+        "bilingualGeneration": 14302,
+        "contentChecks": 7151,
+        "repairReserve": 0,
+        "input": 42767,
+        "output": 14440,
+        "total": 57207
+      }
+    },
     {
       "date": "2026-08-27",
       "status": "partial",
@@ -208,6 +229,31 @@
           "input": 42768,
           "output": 12900,
           "total": 55668
+        }
+      }
+    },
+    {
+      "runId": "2026-08-31-2026-09-01T11:04:30.096Z",
+      "date": "2026-08-31",
+      "completedAt": "2026-09-01T11:11:00.902Z",
+      "outcome": "published",
+      "metrics": {
+        "candidateCount": 60,
+        "pagesOpened": 0,
+        "searchGroups": 0,
+        "verifiedCount": 6,
+        "pendingCount": 15,
+        "rejectedCount": 38,
+        "tokenUsage": {
+          "measured": true,
+          "candidateJudgment": 7151,
+          "verification": 28604,
+          "bilingualGeneration": 14302,
+          "contentChecks": 7151,
+          "repairReserve": 0,
+          "input": 42767,
+          "output": 14440,
+          "total": 57207
         }
       }
     }
