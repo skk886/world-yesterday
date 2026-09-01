@@ -1,9 +1,6 @@
 name: Collect daily candidates
 
 on:
-  schedule:
-    # 02:30 Asia/Shanghai. GitHub schedules use UTC and may start late.
-    - cron: "30 18 * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -51,4 +48,3 @@ jobs:
             git commit -m "data: collect candidates ${SNAPSHOT_DATE:-manual}"
             git push
           fi
-

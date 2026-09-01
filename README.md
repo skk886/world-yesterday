@@ -1,14 +1,20 @@
 # 昨日世界 / World Yesterday
 
-一个 PC 优先、公开只读的双语世界新闻日报。GitHub Actions 每天保存白名单候选，本机登录并联网后由 Codex CLI 生成最近一个完整自然日的日报；通过来源、结构和构建校验后才提交并由 GitHub Pages 发布。
+> **项目状态：已停止更新并下线。** 本项目自 2026-09-01 起无限期冻结，最后一期为 2026-08-31。仓库、历史日报和全部生成框架继续保留，但采集与部署均不会自动运行。
 
-## 运行链路
+一个 PC 优先、公开只读的双语世界新闻日报。项目因当前维护决定停止继续更新；以下代码和说明作为可恢复的历史实现保留。
 
-1. `collect.yml` 在北京时间 02:30（UTC 18:30）抓取 RSS 与 GDELT，最多保留 90 个白名单候选。此步不调用模型。
-2. Windows 任务在用户登录后启动，并每 60 分钟通过隐藏包装器调用 `scripts/run-controller.ps1`。
+## 保留的运行链路
+
+1. `collect.yml` 仅在 GitHub Actions 中手动触发，抓取指定日期的 RSS 与 GDELT，最多保留 90 个白名单候选。此步不调用模型。
+2. Windows 计划任务当前不应安装；如恢复持续更新，可在用户登录后每 60 分钟通过隐藏包装器调用 `scripts/run-controller.ps1`。
 3. 控制器先处理北京时间“昨日”，之后按从新到旧补缺；每个开机自然日最多 2 期，两期之间至少 90 分钟。
 4. Codex 只可读取工作区，返回符合固定 JSON Schema 的日报。语义验证、`astro build` 全部通过后，控制器才提交并推送。
-5. Pages 工作流重新执行测试、类型检查、验证和构建，再发布 `dist/`。
+5. Pages 工作流仅在 GitHub Actions 中手动触发，重新执行测试、类型检查、验证和构建，再发布 `dist/`。
+
+## 恢复方式
+
+如需临时恢复网站，在 GitHub Actions 中手动运行 **Validate and deploy site**；成功部署会重新发布 GitHub Pages。需要补充候选时，再手动运行 **Collect daily candidates**。只有决定恢复每日更新时，才应重新加入工作流自动触发并安装 `WorldYesterday-CatchUp` 计划任务。
 
 ## 本机首次设置
 
